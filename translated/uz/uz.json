@@ -1,0 +1,126 @@
+{
+  "amts": {
+    "additionalFilterOperations": {
+      "equal": "Равно",
+      "like": "test",
+      "notEqual": "test"
+    },
+    "additionalFilters": {
+      "carClass": "test"
+    },
+    "payloads": {
+    },
+    "resultsView": {
+    },
+    "speedPrecisions": {
+    },
+    "tableHeaders": {
+    }
+  },
+  "climateControlPage": {
+    "tableHeaders": {
+    }
+  },
+  "common": {
+    "buttons": {
+    },
+    "colors": {
+    },
+    "filters": {
+    },
+    "geolocation": {
+    },
+    "moveSuffix": {
+    },
+    "network": {
+    },
+    "sizeSuffix": {
+    },
+    "speedSuffix": {
+    },
+    "tableHeaders": {
+    },
+    "timeSuffix": {
+    },
+    "weekDays": {
+    }
+  },
+  "convertersPage": {
+    "digitalPatrolForm": {
+    },
+    "duploForm": {
+    },
+    "krisForm": {
+    }
+  },
+  "datePage": {
+  },
+  "errors": {
+    "violations": {
+    }
+  },
+  "gpsPage": {
+  },
+  "homePage": {
+    "duploDialog": {
+    },
+    "information": {
+    },
+    "trafficLanes": {
+    }
+  },
+  "menu": {
+    "groups": {
+    }
+  },
+  "metrology": {
+  },
+  "msksoPage": {
+    "msksoConfigList": {
+    }
+  },
+  "networksPage": {
+    "bridgesList": {
+    },
+    "diagnosticForm": {
+    },
+    "openVpn": {
+    },
+    "tabs": {
+    },
+    "vlan": {
+    }
+  },
+  "parkingPage": {
+  },
+  "pedestriansPage": {
+    "detectVerbosity": {
+    }
+  },
+  "peersPage": {
+  },
+  "schedulesPage": {
+    "dayTypes": {
+    }
+  },
+  "systemPage": {
+    "cleanerTab": {
+    },
+    "systemTab": {
+    },
+    "tabs": {
+    },
+    "updateTab": {
+    }
+  },
+  "usersPage": {
+  },
+  "videoArchivePage": {
+  },
+  "violationTypes": {
+  },
+  "violationsPage": {
+    "violationStatuses": {
+    }
+  }
+}
