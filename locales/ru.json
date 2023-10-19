@@ -1,17 +1,17 @@
 {
   "amts": {
     "additionalFilterOperations": {
-      "equal": "Равно",
+      "equal": "Равно тест",
       "like": "Как",
       "notEqual": "Не равно"
     },
     "additionalFilters": {
-      "carClass": "Категория ТС",
-      "country": "Страна ГРЗ",
+      "carClass": "тест ",
+      "country": "тест",
       "direction": "Направление движения"
     },
     "payloads": {
-      "other": "Иное",
+      "other": "тест",
       "planks": "Доски",
       "tanks": "Цистерна",
       "wood": "Лес",
