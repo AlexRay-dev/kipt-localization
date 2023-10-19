@@ -45,6 +45,7 @@
       "payload": "Тип груза",
       "place": "Место фиксации"
     },
+    "test": "",
     "viewType": "Вид выдачи"
   },
   "climateControlPage": {

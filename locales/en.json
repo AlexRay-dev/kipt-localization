@@ -45,6 +45,7 @@
       "payload": "Payload",
       "place": "Fixation place"
     },
+    "test": "",
     "viewType": "View type"
   },
   "climateControlPage": {

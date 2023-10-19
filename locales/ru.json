@@ -1,17 +1,17 @@
 {
   "amts": {
     "additionalFilterOperations": {
-      "equal": "Равно тест",
+      "equal": "Равно",
       "like": "Как",
       "notEqual": "Не равно"
     },
     "additionalFilters": {
-      "carClass": "тест ",
-      "country": "тест",
+      "carClass": "Категория ТС",
+      "country": "Страна ГРЗ",
       "direction": "Направление движения"
     },
     "payloads": {
-      "other": "тест",
+      "other": "Иное",
       "planks": "Доски",
       "tanks": "Цистерна",
       "wood": "Лес",
@@ -45,6 +45,7 @@
       "payload": "Тип груза",
       "place": "Место фиксации"
     },
+    "test": "тест2",
     "viewType": "Вид выдачи"
   },
   "climateControlPage": {
