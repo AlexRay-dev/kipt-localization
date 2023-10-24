@@ -47,13 +47,6 @@
     },
     "viewType": "Berish turi"
   },
-  "amtsServerPage": {
-    "addAdditionalPtServer": "Добавить дополнительный сервер ПТ",
-    "additionalPtServersTitle": "Дополнительные сервера ПТ",
-    "deleteAdditionalPtServer": "Удалить дополнительный сервер ПТ",
-    "mainPtServerTitle": "Основной сервер ПТ",
-    "transferData": "Передавать данные"
-  },
   "climateControlPage": {
     "Toffmax": "Harorat bo'yicha o'chirishning yuqori chegarasi",
     "Toffmin": "Harorat bo'yicha o'chirishning quyi chegarasi",
@@ -105,7 +98,6 @@
     "buttons": {
       "add": "Qo'shish",
       "apply": "Qo'llash",
-      "cansel": "отменить",
       "check": "Tekshirish",
       "close": "Yopish",
       "confirm": "Tasdiqlash",
@@ -343,6 +335,8 @@
     "clearLog": "Logni tozalash",
     "deviance": "Joylashuvni aniqlashdagi xatolik nisbati, m",
     "factoryReset": "Priyomnikni zavod sozlamalariga qaytarish",
+    "fixedCoordinateMode": "Ruxsat etilgan koordinata rejimi",
+    "fixedCoords": "Ruxsat etilgan koordinata rejimi",
     "gpsLog": "GPS ma'lumotlar logi",
     "logEnable": "GPS ma'lumotlarini loglash",
     "numberOfMeasurements": "O'lchovlar soni",
@@ -356,7 +350,6 @@
       "amtTotalFailed": "Xatolarga yo'l qo'yib o'tgan transport vositalarining umumiy soni",
       "amtTotalQueued": "Navbatda turgan transport vositalarining umumiy soni",
       "amtTotalSuccess": "Muvaffaqiyatli jo'natilgan transport vositalarining umumiy soni",
-      "date": "Дата",
       "errors": "Xatolar",
       "inQueue": "Navbatda",
       "successful": "Muvaffaqiyatli",
@@ -434,13 +427,6 @@
     "pointC": "C nuqta",
     "pointD": "D nuqta",
     "squareStep": "Kvadrat oraliq"
-  },
-  "monitoringPage": {
-    "counterDirection": "Встречное направление",
-    "favorableDirection": "Попутное направление",
-    "speedOnControlZone": "Скорость в зоне контроля",
-    "speedOnSite": "Скорость на участке",
-    "title": "Мониторинг прошедших ТС"
   },
   "msksoPage": {
     "communicationInterface": "Aloqa interfeysi",
@@ -560,7 +546,6 @@
     "connectVideoArchive": "Video arxivini ulash",
     "peerListRefreshed": "Bog'liq komplekslar ro'yxati yangilandi",
     "peerName": "Bog'liq kompleksning nomi (berilgan KIPT ichida unikal bo'lishi kerak)",
-    "peerRemoveConfirm": "Подтвердите удаление связанного комплекса",
     "recognitionChannelsCount": "Aniqlash kanallari soni",
     "synchronized": "Sinxronlangan"
   },
