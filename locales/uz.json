@@ -45,8 +45,14 @@
       "payload": "Тип груза",
       "place": "Место фиксации"
     },
-    "test": "тест22",
     "viewType": "Вид выдачи"
+  },
+  "amtsServerPage": {
+    "addAdditionalPtServer": "Добавить дополнительный сервер ПТ",
+    "additionalPtServersTitle": "Дополнительные сервера ПТ",
+    "deleteAdditionalPtServer": "Удалить дополнительный сервер ПТ",
+    "mainPtServerTitle": "Основной сервер ПТ",
+    "transferData": "Передавать данные"
   },
   "climateControlPage": {
     "Toffmax": "Верхний предел отключения по температуре",
@@ -99,6 +105,7 @@
     "buttons": {
       "add": "Добавить",
       "apply": "Применить",
+      "cansel": "отменить",
       "check": "Проверить",
       "close": "Закрыть",
       "confirm": "Подтверждение",
@@ -191,7 +198,7 @@
       "ping": "Пинг",
       "static": "Статический",
       "subnetMask": "Маска подсети",
-      "url": "URL для передачи данных",
+      "url": "URL для передачи данных | URL",
       "vlan": "VLAN"
     },
     "no": "Нет",
@@ -336,8 +343,6 @@
     "clearLog": "Очистить лог",
     "deviance": "Погрешность определения местоположения, м",
     "factoryReset": "Сброс приёмника на заводские настройки",
-    "fixedCoordinateMode": "Режим фиксированных координат",
-    "fixedCoords": "Режим фиксированных координат",
     "gpsLog": "Лог данных GPS",
     "logEnable": "Логировать данные GPS",
     "numberOfMeasurements": "Количество измерений",
@@ -429,6 +434,13 @@
     "pointC": "Точка C",
     "pointD": "Точка D",
     "squareStep": "Шаг квадрата"
+  },
+  "monitoringPage": {
+    "counterDirection": "Встречное направление",
+    "favorableDirection": "Попутное направление",
+    "speedOnControlZone": "Скорость в зоне контроля",
+    "speedOnSite": "Скорость на участке",
+    "title": "Мониторинг прошедших ТС"
   },
   "msksoPage": {
     "communicationInterface": "Интерфейс связи",
@@ -548,6 +560,7 @@
     "connectVideoArchive": "Подключить видеоархив",
     "peerListRefreshed": "Список связанных комплексов обновлён",
     "peerName": "Имя связанного комплекса (дожно быть уникальным в пределах данного КИПТ)",
+    "peerRemoveConfirm": "Подтвердите удаление связанного комплекса",
     "recognitionChannelsCount": "Кол-во каналов распознавания",
     "synchronized": "Синхронизирован"
   },
