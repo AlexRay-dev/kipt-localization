@@ -144,6 +144,7 @@
     "commonSettings": "Общие настройки",
     "complex": "Комплекс",
     "copyToClipboard": "Копировать в буфер обмена",
+    "count": "шт | штук",
     "date": "Дата",
     "deviceId": "ID устройства",
     "direction": "Направление",
@@ -203,6 +204,7 @@
     },
     "no": "Нет",
     "noSearchResults": "Нет результатов поиска",
+    "none": "отсутствует | отсутствуют",
     "off": "Выкл | выключен",
     "offset": "Отклонение",
     "on": "Вкл | включен",
@@ -424,7 +426,7 @@
     "violations": "Нарушения"
   },
   "metrology": {
-    "autoCalibration": "Автокалибровка",
+    "autoCalibration": "Запустить автокалибровку",
     "compute": "Расчитать",
     "enterCoordinates": "Ввод координат",
     "installationHeight": "Высота установки",
