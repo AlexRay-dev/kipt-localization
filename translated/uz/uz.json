@@ -47,17 +47,6 @@
     },
     "viewType": "Berish turi"
   },
-  "channelAlignmentPage": {
-    "compute": "Hisoblash",
-    "enterCoordinates": "Koordinatalarni kiritish",
-    "installationHeight": "O'rnatish balandligi",
-    "metrologistPassword": "Metrolog paroli",
-    "pointA": "A nuqta",
-    "pointB": "B nuqta",
-    "pointC": "C nuqta",
-    "pointD": "D nuqta",
-    "squareStep": "Kvadrat oraliq"
-  },
   "climateControlPage": {
     "Toffmax": "Harorat bo'yicha o'chirishning yuqori chegarasi",
     "Toffmin": "Harorat bo'yicha o'chirishning quyi chegarasi",
@@ -147,11 +136,9 @@
     "commonSettings": "Umumiy sozlamalar",
     "complex": "Kompleks",
     "copyToClipboard": "Buferga nusxalash",
-    "dataTypes": {},
     "date": "Sana",
     "deviceId": "Uskuna identifikatori",
     "direction": "Yo'nalish",
-    "directions": {},
     "disableFixation": "Qotirishni o'chirish",
     "doYouReallyWantToDelete": "Rostdan ham o'chirishni istaysizmi",
     "enableFixation": "Qotirishni yoqish",
@@ -169,6 +156,14 @@
     "fps": "k/s",
     "freezeFrames": "Kadrni to'xtatish",
     "full": "To'liq",
+    "geolocation": {
+      "dateTimeUTC": "Sana/Vaqt (UTC)",
+      "latLon": "Kenglik, uzunlik",
+      "latitude": "Kenglik",
+      "longitude": "Uzunlik",
+      "realLatitude": "Haqiqiy kenglik",
+      "realLongitude": "Haqiqiy uzunlik"
+    },
     "group": "Guruh",
     "image": "Rasm",
     "lpn": "DRB",
@@ -182,7 +177,7 @@
     "name": "Nomi",
     "network": {
       "address": "Tarmoq manzili",
-      "bridgeName": "Ko'prik nomi",
+      "bridgeName": "ko'prik nomi",
       "deviceName": "Qurilma nomi",
       "dhcp": "DHCP",
       "dnsServers": "DNS serverlar",
@@ -191,7 +186,7 @@
       "link": "Havola",
       "mac": "MAC",
       "netMask": "Maska",
-      "networkBridge": "Tarmoq ko'prigi",
+      "networkBridge": "tarmoq ko'prigi",
       "ping": "Ping",
       "static": "Statik",
       "subnetMask": "Quyi tarmoq maskasi",
@@ -243,6 +238,7 @@
     "time": "Vaqt",
     "timeSuffix": {
       "hours": "s",
+      "microSec": "mks",
       "ms": "ms",
       "sec": "sek"
     },
@@ -250,7 +246,6 @@
     "title": "Nomi",
     "turn": "O'zgartirish",
     "type": "Turi",
-    "units": {},
     "userName": "Foydalanuvchi nomi",
     "value": "Ma'nosi",
     "video": "Video",
@@ -270,16 +265,6 @@
     },
     "yes": "Ha",
     "zoom": "Yaqinlashtirish"
-  },
-  "configEditor": {},
-  "controlZonesPage": {
-    "globalSettings": {},
-    "grzRecognition": {},
-    "laneSettings": {},
-    "mskso": {},
-    "violations": {
-      "movingCargoExceeding2": {}
-    }
   },
   "convertersPage": {
     "addConverter": "Konverterni qo'shish",
@@ -341,13 +326,10 @@
     "syncSource": "Sinxronizatsiyalash manbasi",
     "timeZone": "Vaqt zonasi"
   },
-  "errorPages": {
-    "forbidden": {},
-    "login": {},
-    "notFound": {}
-  },
   "errors": {
-    "За указанную дату нарушения не найдены": "Belgilangan sanada qoidabuzarliklar topilmadi"
+    "violations": {
+      "За указанную дату нарушения не найдены": "Belgilangan sanada qoidabuzarliklar topilmadi"
+    }
   },
   "gpsPage": {
     "clearLog": "Logni tozalash",
@@ -395,19 +377,17 @@
       "oppositeDirection": "Qarshi",
       "recognitionChannel": "Aniqlash kanali",
       "sameDirection": "Yo'l bo'ylab",
-      "tcToday": "TV bugun",
+      "tcToday": "TV Bugun",
       "tcYesterday": "TV Kecha",
       "title": "Yo'l chiziqlari",
-      "violationsToday": "Bugun qoidabuzarliklar",
-      "violationsYesterday": "Kecha qoidabuzarliklar",
+      "violationsToday": "Bugun Qoidabuzarliklar",
+      "violationsYesterday": "Kecha Qoidabuzarliklar",
       "warnings": "Ogohlantirishlar"
     }
   },
-  "imagesPage": {},
   "menu": {
     "amts": "O'tgan transport vositalari",
     "amtsServer": "PT serveri",
-    "channelAlignmentPage": "Metrologiya",
     "channelsAlignment": "Kanallarni sozlash",
     "climate": "Harorat nazorati",
     "controlZones": "Boshqaruv zonalari",
@@ -422,6 +402,7 @@
     },
     "home": "Bosh sahifa",
     "images": "Rasmlar",
+    "metrology": "Metrologiya",
     "monitoring": "Monitoring",
     "mskso": "MSKSO",
     "networks": "Tarmoq sozlamalari",
@@ -435,16 +416,18 @@
     "videoSources": "Video manbalar",
     "violations": "Qoidabuzarliklar"
   },
-  "metrologyPage": {
-    "recognitionChannels": {
-      "table": {},
-      "verificationRecognitionChannel": {}
-    },
-    "speedMeasurementError": {},
-    "tools": {},
-    "verification": {}
+  "metrology": {
+    "autoCalibration": "Avtokalibrovka",
+    "compute": "Hisoblash",
+    "enterCoordinates": "Koordinatalarni kiritish",
+    "installationHeight": "O'rnatish balandligi",
+    "metrologistPassword": "Metrolog paroli",
+    "pointA": "A nuqta",
+    "pointB": "B nuqta",
+    "pointC": "C nuqta",
+    "pointD": "D nuqta",
+    "squareStep": "Kvadrat oraliq"
   },
-  "monitoringPage": {},
   "msksoPage": {
     "communicationInterface": "Aloqa interfeysi",
     "msksoConfigList": {
@@ -460,7 +443,6 @@
     "serialPort": "Ketma-ket port"
   },
   "networksPage": {
-    "addressType": "Manzil turi",
     "bridgesList": {
       "editNetworkBridge": "Tarmoq ko'prigini tahrirlash"
     },
@@ -485,6 +467,7 @@
       "vlan": "VLAN"
     },
     "vlan": {
+      "addressType": "Manzil turi",
       "dhcp": "DHCP",
       "static": "Statik",
       "title": "VLAN ro'yxati",
@@ -585,16 +568,16 @@
     "scheduleAddedSaveSettings": "Jadval qo'shilgan. Sozlamalarni saqlash",
     "scheduleCheck": "Jadvalni tekshirish"
   },
-  "signPage": {},
   "systemPage": {
     "cleanerTab": {
       "absolutePath": "Mutlaq yo'l",
       "actions": "Amallar",
       "addNewDirectory": "Yangi direktoriya qo'shish",
       "clearingPriority": "Tozalash ustuvorligi",
+      "confirmRemoval": "O'chirishni tasdiqlash",
       "deleteDirectory": "Direktoriyani o'chirish",
       "displayName": "Ko'rsatiladigan nom",
-      "editDirectory": "Direktoriyani tahrirlash \"{name}\"",
+      "editDirectory": "Direktoriyani tahrirlash",
       "hoursShort": "s",
       "maxSizeDirectory": "Direktoriyaning maks. hajmi",
       "maxTotalSizeFolders": "Direktoriyaning umumiy hajmi",
@@ -622,6 +605,7 @@
       "rebootComputingModule": "Hisoblash modulini qayta ishga tushirish",
       "saveLocationComputingModule": "Hisoblash modulining joylashuv manzilini saqlash",
       "saveNumberOfRecognitionChannels": "Foydalaniladigan aniqlash kanallari sonini saqlash",
+      "saveSettings": "Sozlamalarni saqlash",
       "serial": "Seriya raqami",
       "systemInfo": "Tizim haqida ma'lumot",
       "systemManagement": "Tizim boshqaruvi",
@@ -655,7 +639,6 @@
     "newPassword": "Yangi parol*",
     "usersList": "Foydalanuvchilar ro'yxati"
   },
-  "validations": {},
   "videoArchivePage": {
     "addImage": "Rasmni qo'shish",
     "downloadStillFrame": "Stop-kadrni yuklab olish",
@@ -663,25 +646,14 @@
     "overlayImage": "Rasmni qo'yish",
     "videoSource": "Video manbasi"
   },
-  "videoSourcePage": {
-    "genicamCameras": {},
-    "rtspClients": {},
-    "rtspServers": {}
-  },
   "violationTypes": {
     "all": "Hamma turlar",
     "averageSpeed": "O'rtacha tezlik",
     "belt": "Kamar",
     "busLane": "MTS chizig'i",
     "busyIntersection": "Band kesishma",
-    "enforcementTypes": {
-      "inAPopulatedAreaOutsideTheSignsCoverageArea": 1
-    },
     "garbage": "Hududning ifloslanishi",
     "headlights": "Faralar",
-    "list": {
-      "999": {}
-    },
     "maneuver": "Manyovr",
     "minimalDistance": "Minimal masofa",
     "minimalSpeed": "Minimal tezlik",
@@ -702,7 +674,6 @@
   },
   "violationsPage": {
     "downloadMaterial": "Materialni yuklab olish",
-    "imgxFileNames": {},
     "photoVideoViolationMaterials": "Qoidabuzarlikning foto/video materiallari",
     "unknownArticle": "Noma'lum maqola",
     "violationPlace": "Qoidabuzarlikning joyi",

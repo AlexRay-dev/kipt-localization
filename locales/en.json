@@ -45,26 +45,8 @@
       "payload": "Payload",
       "place": "Fixation place"
     },
+    "test": "",
     "viewType": "View type"
-  },
-  "amtsServerPage": {
-    "addAdditionalPtServer": "Add additional PT server",
-    "additionalPtServersTitle": "Additional PT servers",
-    "deleteAdditionalPtServer": "Delete additional PT server",
-    "mainPtServerTitle": "Main PT server",
-    "transferData": "Transfer data"
-  },
-  "channelAlignmentPage": {
-    "autoCalibration": "Start auto calibration",
-    "compute": "Compute",
-    "enterCoordinates": "Enter coordinates",
-    "installationHeight": "Installation height",
-    "metrologistPassword": "Metrologist password",
-    "pointA": "Point A",
-    "pointB": "Point B",
-    "pointC": "Point C",
-    "pointD": "Point D",
-    "squareStep": "Square step"
   },
   "climateControlPage": {
     "Toffmax": "Upper limit of temperature shutdown",
@@ -105,56 +87,30 @@
   },
   "common": {
     "actions": "Actions",
-    "adding": "Adding",
     "additionalFilters": "Additional filters",
-    "additionalInformation": "Add. information",
     "additionalSettings": "Additional settings",
     "address": "Address",
-    "alias": "Alias",
     "amts": "Passing transport",
-    "any": "Any",
     "available": "Available",
     "availablePages": "Available pages",
     "averageSpeed": "Average speed",
-    "background": "Background",
     "brand": "Brand",
     "brightness": "Brightness",
     "buttons": {
       "add": "Add",
       "apply": "Apply",
-      "applyFormChanges": "Apply changes for form",
-      "block": "Block",
-      "calculate": "Calculate",
-      "cancel": "cancel",
-      "changePassword": "Change password",
-      "changesApplied": "Changes were successfully applied",
       "check": "Check",
-      "chooseFile": "Choose File",
       "close": "Close",
       "confirm": "Confirm",
-      "confirmItemRemoval": "Confirm item removal | Confirm deletion \"{name}\"",
-      "createImage": "Create an image",
-      "decrease": "Decrease",
       "delete": "Delete",
       "download": "Download",
       "edit": "Edit",
-      "enableIlluminator": "Enable IR illuminator",
-      "exit": "Exit",
-      "hide": "Hide",
-      "install": "Install",
-      "list": "List",
-      "login": "Log in",
-      "measure": "Measure",
       "pause": "Pause",
       "play": "Play",
       "refresh": "Refresh",
-      "refreshImage": "Refresh image",
-      "resetValue": "Reset value",
       "save": "Save",
-      "saveImage": "Save image",
       "saveSettings": "Save settings",
       "search": "Search",
-      "setValue": "Set value",
       "settings": "Settings",
       "showComments": "Show comments",
       "showImage": "Show image",
@@ -162,14 +118,8 @@
       "showXML": "Show XML",
       "skipBackward": "Skip backward",
       "skipForward": "Skip forward",
-      "stop": "Stop",
       "submit": "Submit",
-      "turnOffIlluminator": "Turn off IR illuminator",
-      "unblock": "Unblock",
-      "upload": "Upload",
-      "uploadImage": "Upload image",
-      "useOldWebUI": "Use old Web UI",
-      "watchVideo": "Watch video"
+      "upload": "Upload"
     },
     "camera": "Camera",
     "cameraControlFunctionsActiveOnlyIfThereIsVideo": "The camera control functions are active only if there is a video",
@@ -186,64 +136,38 @@
     "comment": "Comment | Comments",
     "commonSettings": "Common settings",
     "complex": "Complex",
-    "coordinates": "Ccoordinates",
     "copyToClipboard": "Copy to clipboard",
-    "count": "pc | things",
-    "darkTheme": "Dark theme",
-    "dataTypes": {
-      "array": "Array",
-      "boolean": "Boolean",
-      "number": "Number",
-      "rectangle": "Rectangle",
-      "string": "String"
-    },
     "date": "Date",
-    "dateTimeUTC": "Date, time (UTC)",
-    "detailedInformation": "Detailed information",
     "deviceId": "Device ID",
     "direction": "Direction",
-    "directions": {
-      "left": "Left",
-      "right": "Right"
-    },
-    "directly": "Directly",
     "disableFixation": "Disable fixation",
     "doYouReallyWantToDelete": "Do you really want to delete",
-    "editing": "Editing",
     "enableFixation": "Enable fixation",
     "endPeriod": "End period",
     "endTime": "End time",
-    "enforcementTypes": "Enforcement types",
     "error": "Error",
     "errorCode": "Error code",
     "field": "Field",
-    "filesHaveBeenUploadedSuccessfully": "The files have been uploaded successfully",
     "filters": {
       "page": "Page",
       "perPage": "Per page"
     },
-    "fixationHasBeenDisabled": "Fixation has been disabled",
-    "fixationHasBeenEnabled": "Fixation has been enabled",
-    "flow": "Flow",
     "focalLength": "Focal length",
     "format": "Format",
     "fps": "fps",
     "freezeFrames": "Freeze frames",
     "full": "Full",
-    "geolocation": "Geolocation",
+    "geolocation": {
+      "dateTimeUTC": "Date/Time (UTC)",
+      "latLon": "Latitude, longitude",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "realLatitude": "Real latitude",
+      "realLongitude": "Real longitude"
+    },
     "group": "Group",
-    "height": "Height",
-    "identifier": "Identifier",
     "image": "Image",
-    "imageUpload": "Uploading an image",
-    "key": "Key",
-    "latLon": "Latitude/Longitude",
-    "latitude": "Latitude",
-    "left": "Left",
-    "lightTheme": "Light theme",
-    "longitude": "Longitude",
     "lpn": "LPN",
-    "markup": "Markup",
     "measurer": "Measurer",
     "mode": "Mode",
     "model": "Model",
@@ -254,8 +178,8 @@
     "name": "Name",
     "network": {
       "address": "Network address",
-      "bridgeName": "Bridge name",
-      "deviceName": "Device name",
+      "bridgeName": "bridge name",
+      "deviceName": "deviceName",
       "dhcp": "DHCP",
       "dnsServers": "DNS servers",
       "gateway": "Gateway",
@@ -263,21 +187,15 @@
       "link": "Link",
       "mac": "MAC",
       "netMask": "Net mask",
-      "networkBridge": "Network bridge",
+      "networkBridge": "network bridge",
       "ping": "Ping",
-      "sourceUrl": "Source URL",
       "static": "Static",
       "subnetMask": "Subnet mask",
-      "url": "URL to send | URL",
+      "url": "URL to send",
       "vlan": "VLAN"
     },
     "no": "No",
-    "noData": "No data",
     "noSearchResults": "No search results",
-    "none": "none",
-    "notAvailable": "Not available",
-    "notConfigured": "Not configured",
-    "notifications": "Notifications",
     "off": "off | switched off",
     "offset": "Offset",
     "on": "on | switched on",
@@ -286,14 +204,10 @@
     "password": "Password",
     "peer": "Peer | Peers",
     "quality": "Quality",
-    "realLatitude": "Real latitude",
-    "realLongitude": "Real longitude",
-    "right": "Right",
     "rtspClients": "RTSP clients",
     "schedule": "Schedule | Schedules",
     "serialNumber": "Serial number",
     "set": "Set",
-    "settingsSaved": "Settings saved",
     "sharpness": "Sharpness",
     "shutter": "Shutter",
     "size": "Size",
@@ -303,7 +217,6 @@
       "Mb": "MB"
     },
     "snapshot": "Snapshot",
-    "source": "Source",
     "specificDate": "Specific date",
     "speed": "Speed",
     "speedLimit": "Speed limit",
@@ -320,18 +233,13 @@
     "tableHeaders": {
       "dateTime": "Date/time",
       "event": "Event",
-      "imageName": "Image name",
-      "miniature": "Miniature",
-      "name": "Name",
-      "sourceName": "Source name",
       "time": "Time"
     },
-    "thickness": "Thickness",
     "tilt": "Tilt",
     "time": "Time",
     "timeSuffix": {
       "hours": "h",
-      "microSec": "mks",
+      "microSec": "microsecond",
       "ms": "ms",
       "sec": "sec"
     },
@@ -339,23 +247,13 @@
     "title": "Title",
     "turn": "Turn",
     "type": "Type",
-    "uTurn": "U-turn",
-    "undefined": "Undefined",
-    "units": {
-      "millimeters": "millimeters | mm"
-    },
-    "unsavedChangesAlert": "ATTENTION! There are unsaved settings changes",
-    "useConfirmation": "Use confirmation",
     "userName": "Username",
     "value": "Value",
-    "valueType": "Value type",
     "video": "Video",
-    "videoInput": "Video input",
     "view": "View",
     "viewImage": "View image",
     "violationType": "Violation type",
     "violations": "Violations",
-    "violationsTypes": "Types of violations",
     "wXh": "WxH",
     "weekDays": {
       "friday": "Friday",
@@ -366,181 +264,8 @@
       "tuesday": "Tuesday",
       "wednesday": "Wednesday"
     },
-    "width": "Width",
     "yes": "Yes",
     "zoom": "Zoom"
-  },
-  "configEditor": {
-    "fileSaved": "The file is saved\nDo not forget to save the settings in the \"System\" tab"
-  },
-  "controlZonesPage": {
-    "GRZrecognition": "GRZ recognition",
-    "MaximumNumberOfLanes": "Maximum number of lanes",
-    "additionalChannelSettings": "Additional channel settings",
-    "additionalData": "Additional data",
-    "aliasRemovingConfirm": "Confirm alias deletion: \"{name}\"",
-    "area": "Area",
-    "bottomBorderFixation": "The bottom border of fixation",
-    "channelName": "Channel name",
-    "channelSettings": "Channel settings",
-    "defaultVehicleDirection": "Default vehicle direction",
-    "doNotFixRouteVehicles": "Do not fix route vehicles",
-    "doNotFixTheSpeedAfter": "Do not fix the speed after",
-    "endPhaseTimeLag": "The time until the end of the phase when the violation is not fixed",
-    "entryLine": "Entry line",
-    "fixationDisabled": "Fixation disabled",
-    "generalStop": "General stop",
-    "globalSettings": {
-      "additionalGlobalSettings": "Additional global settings",
-      "globalSettings": "Global Settings",
-      "oncomingDirection": "Oncoming (towards the camera)",
-      "relatedDirection": "Related (from camera)"
-    },
-    "grzRecognition": {
-      "asyddIntegration": "Integration with automated traffic control system",
-      "detectionWithoutGuardrail": "Detection of vehicles without a guardrail",
-      "dynamicSizeGrz": "Dynamic size of GRZ",
-      "firstPassingPassengers": "The first is for passing passengers, the last is for oncoming ones",
-      "firstRecognized": "First recognition",
-      "frameRate": "Recognition frame rate",
-      "grzForMaterial": "GRZ for material",
-      "largestGrz": "The largest GRZ",
-      "lastRecognized": "Last recognized",
-      "maxGrzWidth": "Max. GRZ width",
-      "minGrzReliability": "Min. reliability of GRZ recognition",
-      "minGrzWidth": "Min. GRZ width",
-      "minNumberOfRecognitions": "Min. number of recognitions",
-      "numberOfFramesForLeaving": "Number of frames for leaving a fixed number",
-      "numberOfFramesForRoomCare": "Number of frames for room care",
-      "recognize2ndFrame": "Recognize every 2nd frame",
-      "recognize3ndFrame": "Recognize every 3rd frame",
-      "recognizeAllFrames": "Recognize all frames",
-      "useNeuralNetworkDetector": "Use a neural network detector",
-      "useNeuralNetworkRecognitionGrz": "Use neural network recognition of GRZ",
-      "vehicleDetectorThreshold": "Vehicle detector threshold"
-    },
-    "identifiers": "Identifiers",
-    "ignoreRepeats": "Ignore repeats",
-    "ignoreZeroSpeed": "Ignore violations with zero speed",
-    "imageAliases": "Image aliases",
-    "laneSettings": {
-      "addLane": "Add a lane",
-      "deleteLane": "Delete lane",
-      "deleteLaneConfirm": "Confirm lane deletion: №{name}",
-      "disablePt": "Disable PT",
-      "settingsTitle": "Lane Settings",
-      "trafficLanes": "Traffic lanes"
-    },
-    "location": "Location",
-    "lpnSimilarity": "LPN similarity*",
-    "maxPhaseLength": "Max. length of the prohibiting phase",
-    "minConfidence": "Min. confidence",
-    "minDistance": "Min. trajectory length",
-    "minSpeedLimit": "Minimum speed limit",
-    "minStoppingTime": "Min. stopping time",
-    "mskso": {
-      "arrowInput": "Arrow input",
-      "recordViolation": "Record a violation only when the arrow is red and not lit",
-      "redInput": "Red input",
-      "yellowInput": "Yellow input"
-    },
-    "networkDetermination": "Neural network determination of vehicle class",
-    "noConfiguredChannels": "There are no configured channels on the connected complex",
-    "okato": "OKATO",
-    "oncoming": "Oncoming",
-    "oncomingBuses": "Oncoming buses",
-    "oncomingTrucks": "Oncoming trucks",
-    "onlyStoplineTime": "The time until the end of the phase when the violation is treated only as a stop line",
-    "outputLine": "Output line",
-    "overSpeed": "Over speed",
-    "parking328": "Parking 3.28",
-    "parkingAtIntersection": "Parking at the intersection",
-    "parkingOnSiteForCrippled": "Parking on site for the crippled",
-    "passing": "Passing",
-    "passingBuses": "Passing buses",
-    "passingTrucks": "Passing trucks",
-    "plotForTheResolution": "Plot for the resolution",
-    "prohibitedChannels": "Prohibited channels",
-    "recognitionArea": "Recognition area",
-    "recognitionChannelSettings": "Recognition channel settings",
-    "repeatsTimeout": "Repeats timeout",
-    "roadwayCrossingLine": "Roadway crossing line",
-    "savePhotos": "Save overview photos of vehicles with turboprop engines",
-    "speedLimitOnDistance": "Speed limit on distance",
-    "speedThreshold": "Speed threshold",
-    "speedingAtADistance": "Speeding at a distance",
-    "stop327": "Stop 3.27",
-    "stopAtPublicTransportStop": "Stop at a public transport stop",
-    "stopAtRailwayCrossing": "Stop at the railway crossing",
-    "stopInSecondRow": "Stop in the 2nd row",
-    "stopOnLaneForFixedRouteVehicles": "Stop on the lane for fixed-route vehicles",
-    "stopOnSidewalk": "Stop on the sidewalk",
-    "stopOnTramTracks": "A stop on the tram tracks",
-    "stopPedestrianCrossing": "Stop at a pedestrian crossing",
-    "tenzoM": "Tenzo-M",
-    "timeLag": "Time lag",
-    "topBorderFixation": "The top border of the fixation",
-    "useCarClass": "Use car class",
-    "usePeer": "Use peer",
-    "vehicleDetectorMarkings": "Vehicle detector markings",
-    "videoSourceAliases": "Video source aliases",
-    "violationClassifyAlgorithm": "Violation classify algorithm",
-    "violationTypeSettings": "Violation type settings",
-    "violations": {
-      "allowedDirectionMovement": "Allowed direction of movement",
-      "atRailway": "At the railway crossing",
-      "bandSelectionAlgorithm": "Band selection algorithm",
-      "bicyclePathMovement": "Movement on the bicycle path",
-      "bothDirections": "Both directions",
-      "byMotionSpeed": "By motion speed, pix/frame",
-      "crossingStopLine": "Crossing the stop line",
-      "forbiddenDirection": "Forbidden direction of movement",
-      "fromTVSensorParallel": "from the TV sensor (parallel)",
-      "goStraight": "Go straight",
-      "intersectionOrControlled": "At an intersection or controlled crossing point",
-      "lastRecognizedGrz": "Last recognized GRZ",
-      "leftCameraView": "On the left as seen from the camera",
-      "lineOfIntersection": "Along the line of intersection of the IF",
-      "maneuverTime": "Maneuver time",
-      "maxManeuverTime": "Maximum maneuver time",
-      "maxPermissibleWeightRestrictions": "Maximum permissible weight restrictions (sign 3.1)",
-      "minDistance": "Minimum distance",
-      "minManeuverTime": "Minimum maneuver time",
-      "minSpeed": "Minimum speed",
-      "movingCargoBeyondSecondLane": "Moving cargo vehicles beyond the second lane",
-      "movingCargoExceeding2": {
-        "5TonsLeftLane": "Moving cargo vehicles with a gross weight exceeding 2.5 tons in the left lane"
-      },
-      "noPassingZone": "No passing zone",
-      "oneWayTraffic": "One-way traffic",
-      "outsideNoPassingZone": "Outside the no passing zone",
-      "pedestrianPathwayMovement": "Movement on the pedestrian pathway",
-      "pedestrianZoneMovement": "Movement in the pedestrian zone",
-      "positionNoLeftSign": "Position on traffic control signal without left turn sign",
-      "positionNoRightSign": "Position on traffic control signal without right turn sign",
-      "positionNoUTurnSign": "Position on traffic control signal without U-turn sign",
-      "prohibitedDirections": "Prohibited directions | Prohibited direction",
-      "railwayCrossing": "Railway crossing",
-      "rightCameraView": "On the right as seen from the camera",
-      "rightProhibited": "Turning right is prohibited",
-      "safetyIsland": "Safety island",
-      "sameDirectionMovement": "Movement under \"brick\" in the same direction",
-      "sameDirectionMovementNoTaxis": "Movement under \"brick\" in the same direction (except taxis)",
-      "settingsTitle": "Violation settings",
-      "sidewalkMovement": "Movement on the sidewalk",
-      "signLeftProhibited": "Sign \"Turning left is prohibited\"",
-      "signRightProhibited": "Sign \"Turning right is prohibited\" ",
-      "solidMarkingsLeft": "Solid markings on the left",
-      "solidMarkingsRight": "Solid markings on the right",
-      "toTVSensorOncoming": "to the TV sensor (oncoming)",
-      "tramTracksDirection": "Direction of movement on tram tracks",
-      "truckMovementProhibited": "Movement of trucks is prohibited (sign 3.4)",
-      "turningLeftProhibited": "Turning left is prohibited",
-      "uTurnNoGoStraight": "U-turn under no go straight sign",
-      "uTurnProhibited": "U-turn is prohibited",
-      "useRelatedComplexes": "Use related complexes",
-      "withoutMarkings": "At an intersection or controlled crossing point without markings"
-    }
   },
   "convertersPage": {
     "addConverter": "Add converter",
@@ -570,8 +295,6 @@
       "violationsDisabled": "Disable violations transfer",
       "violationsTimeout": "Upload violations timeout"
     },
-    "duploServicesStatusRefreshed": "Services status refreshed",
-    "instance": "Instance",
     "isActive": "Is active",
     "isLoaded": "Is loaded",
     "krisForm": {
@@ -592,7 +315,6 @@
     "restartDuploServices": "Restart Duplo services",
     "saveConverterSettings": "Save converters settings",
     "serviceName": "Service name",
-    "thereMustBeAtLeastOneValue": "There must be at least 1 value",
     "transferSettings": "Transfer settings"
   },
   "datePage": {
@@ -605,32 +327,17 @@
     "syncSource": "Synchronization source",
     "timeZone": "Time Zone"
   },
-  "errorPages": {
-    "forbidden": {
-      "exit": "Log out of your account",
-      "title": "You do not have enough rights to view the page"
-    },
-    "login": {
-      "title": "You are not authorized! 🔐 "
-    },
-    "notFound": {
-      "backHome": "Back to home",
-      "subtitle": "Oops! 😖 The requested URL was not found on this server.",
-      "title": "Page Not Found"
-    }
-  },
   "errors": {
-    "errorCode": "Error code",
-    "errorText": "Error text",
-    "За указанную дату нарушения не найдены": "No violations were found for the specified date",
-    "Пользователь не может заблокировать собственную учетную запись": "The user cannot block his own account",
-    "Файл с правами не найден": "File with permissions not found",
-    "Файл успешно сохранён": "File saved successfully"
+    "violations": {
+      "За указанную дату нарушения не найдены": "No violations were found for the specified date"
+    }
   },
   "gpsPage": {
     "clearLog": "Clear log",
     "deviance": "GPS deviance, m",
     "factoryReset": "Factory reset",
+    "fixedCoordinateMode": "Fixed coordinate mode",
+    "fixedCoords": "Fixed coordinates mode",
     "gpsLog": "GPS log",
     "logEnable": "Log enable",
     "numberOfMeasurements": "Number of measurements",
@@ -645,9 +352,8 @@
       "amtTotalQueued": "Total AMT in queue",
       "amtTotalSuccess": "Total AMT successfully sent",
       "date": "Date",
-      "duplo": "Duplo 2",
       "errors": "Errors",
-      "inQueue": "In queue",
+      "inQueue": "In Queue",
       "successful": "Successful",
       "title": "Detailed statistics of sending materials to the ''Duplo 2'' service",
       "violationTotalFailed": "Total violations with errors",
@@ -667,30 +373,19 @@
       "cameraId": "Camera ID",
       "direction": "Direction",
       "indexNumber": "№ i.n.",
-      "installationPlace": "Installation place",
+      "installationPlace": "Installation Place",
       "kiptId": "Kipt ID",
       "objectId": "Object ID",
-      "oppositeDirection": "Opposite direction",
-      "recognitionChannel": "Recognition channel",
+      "oppositeDirection": "Opposite Direction",
+      "recognitionChannel": "Recognition Channel",
       "sameDirection": "Passing traffic",
-      "tcToday": "Vehicles today",
-      "tcYesterday": "Vehicles yesterday",
-      "title": "Traffic lanes",
-      "violationsToday": "Violations today",
-      "violationsYesterday": "Violations yesterday",
+      "tcToday": "TC Today",
+      "tcYesterday": "TC Yesterday",
+      "title": "Traffic Lanes",
+      "violationsToday": "Violations Today",
+      "violationsYesterday": "Violations Yesterday",
       "warnings": "Warnings"
     }
-  },
-  "imagesPage": {
-    "fillColor": "Fill color",
-    "imageCreate": "Creating an image",
-    "line": "Line",
-    "lineThickness": "Line thickness",
-    "polygon": "Polygon",
-    "rectangle": "Rectangle",
-    "selectBackground": "Select a background",
-    "strokeColor": "Stroke color",
-    "title": "Images"
   },
   "menu": {
     "amts": "Passing transport",
@@ -700,7 +395,6 @@
     "controlZones": "Control zones",
     "converters": "Converters",
     "dateTime": "Date/Time",
-    "eds": "EDS",
     "gps": "GLONASS/GPS",
     "groups": {
       "azimuthSettings": "Azimuth software settings",
@@ -724,83 +418,17 @@
     "videoSources": "Video sources",
     "violations": "Violations"
   },
-  "metrologyPage": {
-    "recognitionChannels": {
-      "distanceMeasurementSettings": "Distance Measurement Settings",
-      "table": {
-        "avgSpeedMeasurement": "Average speed measurement",
-        "calibrationDone": "Calibration done",
-        "channelId": "Channel ID",
-        "distance": "Distance",
-        "inputChannelDirection": "Input channel direction",
-        "linkedComplex": "Linked complex",
-        "oppositeDirection": "Opposite direction",
-        "outputChannelDirection": "Output channel direction",
-        "sameDirection": "Same direction",
-        "sectionLength": "Section length",
-        "verification": "Verification"
-      },
-      "title": "Recognition channels",
-      "verificationRecognitionChannel": {
-        "absImmersion": "Abs. immersion, km/h",
-        "cameraVerification": "Camera verification",
-        "deleteLine": "Delete line",
-        "distanceControlAlert": "To measure distance in the control area and L1 distance measurement - Fill in the \"LPN\" field",
-        "distanceControlTitle": "Distance measurement in the control area",
-        "endInterval": "End interval",
-        "lastMeasurement": "Last measurement",
-        "measureL1": "Measure L1",
-        "measuredLength": "Measured segment length, mm",
-        "measuredSpeed": "Measured speed",
-        "measurementL1Title": "L1 distance measurement",
-        "measurementType": "Meas. type",
-        "noData": "No data available",
-        "radarVerification": "Radar verification",
-        "relError": "Rel. error., %",
-        "speedonSimulator": "Speed on simulator",
-        "startInterval": "Start interval",
-        "startMeasurement": "Start measurements",
-        "stopMeasurement": "Stop measurements",
-        "title": "Live video",
-        "verificationMode": "Verification mode"
-      }
-    },
-    "speedMeasurementError": {
-      "absoluteError": "Absolute error",
-      "gpsSpeed": "Speed, GPS",
-      "kiptSpeed": "Speed, VM",
-      "relativeError": "Relative error"
-    },
-    "tools": {
-      "calculateError": "Incorrect data for calculation",
-      "calculationOfSpeedMeasurementErrorButton": "Calculation of speed measurement error",
-      "changeMetrologyPasswordTitle": "Metrology Password Change",
-      "confirmPassword": "Confirm New Metrology Password",
-      "currentPassword": "Current Metrology Password",
-      "deCalculationButton": "DE calculator",
-      "deCalculationTitle": "DE calculation",
-      "fileInputLabel": "Select .nme files",
-      "hideReport": "Hide report",
-      "inaccuracyCalculationTitle": "Inaccuracy calculation",
-      "metrologyPasswordButton": "Change metrologist password",
-      "newPassword": "New Metrology Password",
-      "roundToInputLabel": "Decimal places",
-      "showMap": "Show map",
-      "showReport": "Show report",
-      "title": "Tools"
-    },
-    "verification": {
-      "certificateNumberInputLabel": "Certificate №",
-      "validUntilDateInputLabel": "Valid until",
-      "verificationCertificateTitle": "Calibration certificate"
-    }
-  },
-  "monitoringPage": {
-    "counterDirection": "Directions for passing",
-    "favorableDirection": "Favorable direction",
-    "speedOnControlZone": "Speed in control zone",
-    "speedOnSite": "Speed on site",
-    "title": "Monitoring of past vehicles"
+  "metrology": {
+    "autoCalibration": "Autocalibration",
+    "compute": "Compute",
+    "enterCoordinates": "Enter coordinates",
+    "installationHeight": "Installation height",
+    "metrologistPassword": "Metrologist password",
+    "pointA": "Point A",
+    "pointB": "Point B",
+    "pointC": "Point C",
+    "pointD": "Point D",
+    "squareStep": "Square step"
   },
   "msksoPage": {
     "communicationInterface": "Communication interface",
@@ -817,9 +445,6 @@
     "serialPort": "Serial port"
   },
   "networksPage": {
-    "adapter": "Network adapter",
-    "addDnsServer": "Add DNS server",
-    "addressType": "Address type",
     "bridgesList": {
       "editNetworkBridge": "Редактирование сетевого моста"
     },
@@ -830,14 +455,12 @@
       "title": "Network diagnostics",
       "tracepath": "Tracepath"
     },
-    "networkSettingsAreSaved": "Network settings are saved",
-    "networkSettingsHaveBeenApplied": "network settings have been applied",
     "openVpn": {
       "certificate": "Certificate",
       "configFile": "Configuration file",
       "connectionName": "Connection name",
       "keyFile": "Key file",
-      "title": "OpenVPN settings"
+      "title": "OpenVPN Settings"
     },
     "tabs": {
       "networkBridges": "Network bridges",
@@ -845,28 +468,24 @@
       "openVpn": "OpenVPN",
       "vlan": "VLAN"
     },
-    "unusedNetworkAdapters": "Unused network adapters",
     "vlan": {
+      "addressType": "Address type",
       "dhcp": "DHCP",
       "static": "Static",
-      "title": "VLAN list",
+      "title": "VLAN List",
       "vidVlanId": "VID (VLAN ID)"
     }
   },
   "parkingPage": {
-    "addArea": "Add area",
     "addPreset": "Add preset",
     "addZone": "Add zone",
     "deletePreset": "Delete preset",
     "deleteZone": "Delete zone",
-    "doSurveyPhoto": "Do survey photo",
     "editZone": "Edit zone",
     "getCameraPosition": "Get current camera position",
-    "presetSettings": "Preset settings",
     "presetsList": "Presets list",
     "setPreset": "Set preset",
     "startPan": "Start pan",
-    "surveyZoom": "Survey zoom",
     "zoneEnd": "Zone end",
     "zoneSettings": "Zone settings",
     "zoneStart": "Zone start",
@@ -895,12 +514,12 @@
     "maxPedAngle": "Max pedestrians angle",
     "maxPedestrianHeight": "Max pedestrian height",
     "moveMaxThreshold": "Move max threshold",
-    "moveMinThreshold": "Move min threshold",
+    "moveMinThreshold": "Move min treshold",
     "opticalFlowLevels": "Optical flow levels",
     "opticalFlowResizeFactor": "Optical flow resize factor",
     "opticalFlowWinSize": "Optical flow window size",
     "pathToSavedFiles": "Path to saved files",
-    "pedestrianCrossingBorder": "Pedestrians crossing border",
+    "pedestrianCrossingBorder": "Pedestrains crossing border",
     "pedestrianDetection": "Pedestrian detection",
     "pedestriansDetectorChannelSettings": "Pedestrians detector channel settings",
     "pedestriansThreshold": "Pedestrian threshold",
@@ -922,7 +541,6 @@
     "zoneWidth": "Zone width"
   },
   "peersPage": {
-    "addPeer": "Add peer",
     "checkTime": "Last check time",
     "complexDeleted": "Complex deleted",
     "complexSaved": "Complex saved",
@@ -930,7 +548,6 @@
     "connectVideoArchive": "Connect video archive",
     "peerListRefreshed": "Peer list refreshed",
     "peerName": "Peer name (must be unique on this KIPT)",
-    "peerRemoveConfirm": "Confirm deletion of the associated complex",
     "recognitionChannelsCount": "Recognition channels count",
     "synchronized": "Synchronized"
   },
@@ -951,89 +568,65 @@
     "ignoreRule": "Ignore rule",
     "rule": "Rule | Rules",
     "scheduleAddedSaveSettings": "Schedule added. Don't forget save settings",
-    "scheduleCheck": "Schedule check",
-    "schedulesSavedSaveSettings": "Schedules are saved. Don't forget to save the settings in the \"System\" tab",
-    "violationsWillBeRecordedAtTheSelectedTime": "Violations will be recorded at the selected time",
-    "violationsWillNotBeRecordedAtTheSelectedTime": "Violations will not be recorded at the selected time"
-  },
-  "signPage": {
-    "certificateRequest": "Certificate request",
-    "country": "Country",
-    "createCertificateRequest": "Create a certificate request",
-    "dataForCreatingCertificateRequest": "Data for creating a certificate request",
-    "downloadCertificateRequest": "Download certificate request",
-    "inn": "INN",
-    "installCertificate": "Install certificate",
-    "installationAddress": "Installation address",
-    "locality": "Locality",
-    "noCertificateRequest": "No certificate request",
-    "ogrn": "OGRN",
-    "organization": "Organization",
-    "region": "Region",
-    "subjectsName": "Subject's name",
-    "theCertificateIsInstalled": "The certificate is installed",
-    "theRequestWasSuccessfullyCreated": "The request was successfully created"
+    "scheduleCheck": "Schedule check"
   },
   "systemPage": {
     "cleanerTab": {
-      "absolutePath": "Absolute path",
+      "absolutePath": "Absolute Path",
       "actions": "Actions",
       "addNewDirectory": "Add New Directory",
-      "clearingPriority": "Clearing priority",
-      "confirmRemoval": "Confirm deletion of \"{name}\" directory",
+      "clearingPriority": "Clearing Priority",
+      "confirmRemoval": "Confirm removal of",
       "deleteDirectory": "Delete Directory",
-      "displayName": "Display name",
-      "editDirectory": "Edit Directory \"{name}\"",
+      "displayName": "Display Name",
+      "editDirectory": "Edit Directory",
       "hoursShort": "h",
-      "maxSizeDirectory": "Max. directory size",
-      "maxTotalSizeFolders": "Max. total size of directories",
-      "minSizeDirectory": "Min. directory size",
+      "maxSizeDirectory": "Max. Directory Size",
+      "maxTotalSizeFolders": "Max. Total Size of Directories",
+      "minSizeDirectory": "Min. Directory Size",
       "save": "Save",
       "saveCleanerSettings": "Save Cleaner Settings",
-      "storagePeriod": "Storage period",
-      "totalSizeDirectories": "Total size of directories"
+      "storagePeriod": "Storage Period",
+      "totalSizeDirectories": "Total Size of Directories"
     },
     "systemTab": {
-      "archiveWithModulesIsUploaded": "The archive with the modules is uploaded",
       "availableRAM": "Available RAM",
-      "computingModuleHasBeenSentForReboot": "The computing module has been sent for reboot",
       "configuration": "Configuration",
       "created": "created",
-      "dataPartition": "Data partition",
-      "fileName": "File name",
-      "freeDiskSpace": "Free disk space",
-      "identificationData": "Identification data of metrologically significant software",
-      "locationComputingModule": "Location of computing module",
-      "locationComputingModuleSaved": "Location of computing module saved",
-      "maxRecognitionChannels": "Max recognition channels",
+      "dataPartition": "Data Partition",
+      "fileName": "File Name",
+      "freeDiskSpace": "Free Disk Space",
+      "identificationData": "Identification Data of Metrologically Significant Software",
+      "locationComputingModule": "Location of Computing Module",
+      "maxRecognitionChannels": "Max Recognition Channels",
       "mounted": "mounted",
       "notExist": "DOES NOT EXIST",
       "notMounted": "NOT MOUNTED",
-      "numberOfChannelsUsedHasBeenChanged": "The number of channels used has been changed",
       "numberOfRecognitionChannelsUsed": "Number of recognition channels used",
-      "protectionKeySerial": "Protection key serial number",
-      "rebootComputingModule": "Reboot computing module",
-      "saveLocationComputingModule": "Save location of computing module",
+      "protectionKeySerial": "Protection Key Serial Number",
+      "rebootComputingModule": "Reboot Computing Module",
+      "saveLocationComputingModule": "Save Location of Computing Module",
       "saveNumberOfRecognitionChannels": "Save used number of recognition channels",
+      "saveSettings": "Save Settings",
       "serial": "Serial number",
-      "systemInfo": "System information",
+      "systemInfo": "System Information",
       "systemManagement": "System management",
-      "totalDiskSpace": "Total disk space",
+      "totalDiskSpace": "Total Disk Space",
       "totalRAM": "Total RAM",
       "version": "Version"
     },
     "tabs": {
-      "cleanerSettings": "Cleaner settings",
+      "cleanerSettings": "Cleaner Settings",
       "system": "System",
-      "updateSoftware": "Software update"
+      "updateSoftware": "Software Update"
     },
     "updateTab": {
       "architecture": "Architecture",
       "chooseModuleArchive": "Choose module archive",
-      "installedModules": "Installed modules",
-      "moduleArchiveUpload": "Module archive upload",
-      "moduleVersion": "Module version",
-      "osVersion": "OS version",
+      "installedModules": "Installed Modules",
+      "moduleArchiveUpload": "Module Archive Upload",
+      "moduleVersion": "Module Version",
+      "osVersion": "OS Version",
       "serialNumber": "Serial No."
     }
   },
@@ -1046,29 +639,9 @@
     "confirmDeleteUser": "Confirm delete user",
     "confirmPassword": "Confirm*",
     "groupName": "Group",
-    "locked": "Locked",
     "newPassword": "New password*",
-    "permissionsSaved": "The list of available user pages is saved",
-    "userAdded": "User {userLogin} successfully added",
     "userName": "User name",
-    "userPasswordChanged": "User {userLogin} password has been changed",
-    "userSaved": "User {userLogin} saved",
-    "usersList": "Users",
-    "usersSaved": "Users are saved"
-  },
-  "validations": {
-    "confirmPassword": "Password mismatch",
-    "integer": "The field must contain only integers",
-    "ipAddress": "Enter the correct IP address",
-    "maxLength": "The field must not exceed {max} characters",
-    "maxValue": "The number cannot be greater than {max}",
-    "minLength": "The field must not be less than {min} characters",
-    "minSizeOfDirectory": "Min. directory size cannot be greater than the maximum",
-    "minValue": "The number cannot be less than {min}",
-    "numeric": "The field must contain only numbers",
-    "required": "Required field",
-    "uniqueHost": "Host must be unique",
-    "uniqueLogin": "This login is already taken"
+    "usersList": "Users"
   },
   "videoArchivePage": {
     "addImage": "Add an image",
@@ -1077,1001 +650,14 @@
     "overlayImage": "Overlay image",
     "videoSource": "Video source"
   },
-  "videoSourcePage": {
-    "genicamCameras": {
-      "addGenicam": "Adding a Genicam source",
-      "brightness": "Brightness",
-      "brightnessControl": "Brightness control",
-      "editGenicam": "Editing Genicam source",
-      "excerpt": "Excerpt",
-      "fromLastFrame": "From last frame, sec",
-      "gain": "Gain",
-      "horizontalOffset": "Horizontal offset",
-      "leftOffset": "Left offset",
-      "maxGain": "Max. gain",
-      "maxHoldingTime": "Max. holding time",
-      "powerSupply": "IR illuminator power supply",
-      "removeConfirm": "Confirm camera deletion: \"{name}\"",
-      "sensorSerialNumber": "TV sensor serial number",
-      "timeStampCorrection": "Time stamp correction",
-      "title": "Genicam TV sensors",
-      "topOffset": "Top offset",
-      "verticalOffset": "Vertical offset",
-      "videoInput": "Video input"
-    },
-    "rtspClients": {
-      "cameraButtonTitle": "Show all still images",
-      "fromLastUpdate": "From the last updates, sec",
-      "packagesAccepted": "Packages accepted",
-      "portOfUnpacker": "UDP port of the unpacker",
-      "ptzProtocol": "PTZ protocol",
-      "removeConfirm": "Confirm deleting the RTSP client: \"{name}\"",
-      "rtspClientAdd": "Adding a new RTSP client",
-      "rtspClientEdit": "Editing RTSP client: \"{name}\"",
-      "sourceTemplate": "Source template",
-      "synchronizeStream": "Synchronize the stream according to the VM clock",
-      "timeDeviation": "Time deviation, sec",
-      "title": "RTSP clients | RTSP client",
-      "unpackStream": "Unpack stream for processing",
-      "videoInputNumber": "№ of free video input for unpacking",
-      "viewStillImage": "View still image | View all still images"
-    },
-    "rtspServers": {
-      "addServer": "Adding a new RTSP server",
-      "editServer": "Editing an RTSP server: \"{name}\"",
-      "gamma": "Gamma",
-      "maxGamma": "Max. gamma",
-      "minGamma": "Min. gamma",
-      "pedestrianDetector": "Pedestrian detector",
-      "removeConfirm": "Confirm deletion of the RTSP server: \"{name}\"",
-      "sample": "Sample",
-      "streamName": "Stream name",
-      "title": "RTSP servers"
-    }
-  },
   "violationTypes": {
     "all": "All types",
     "averageSpeed": "Average speed",
     "belt": "Belt",
     "busLane": "Bus lane",
-    "busyIntersection": "Busy intersection",
-    "enforcementTypes": {
-      "inAPopulatedAreaOutsideTheSignsCoverageArea": "In a populated area, outside the sign's coverage area",
-      "inAPopulatedAreaWithinTheSignsCoverageArea": "In a populated area, within the sign's coverage area",
-      "inAResidentialArea": "In a residential area",
-      "outsideThePopulatedAreaOutsideTheSignsCoverageArea": "Outside the populated area, outside the sign's coverage area",
-      "outsideThePopulatedAreaWithinTheSignsCoverageArea": "Outside the populated area, within the sign's coverage area",
-      "routeVehicleLane": "Route vehicle lane"
-    },
+    "busyIntersection": "Busy Intersection",
     "garbage": "Pollution of the territory",
     "headlights": "Headlights",
-    "list": {
-      "0": {
-        "article": " 12.12 pt. 1",
-        "display_name": "Red",
-        "gost_name": "C12. Driving on a red traffic light signal"
-      },
-      "1": {
-        "article": " 12.9 pt. 1",
-        "display_name": "Speed 11-20",
-        "gost_name": "C1.1. Violation of the prescribed speed limit"
-      },
-      "2": {
-        "article": " 12.9 pt. 2",
-        "display_name": "Speed 21-40",
-        "gost_name": "C1.1. Violation of the prescribed speed limit"
-      },
-      "3": {
-        "article": " 12.9 pt. 3",
-        "display_name": "Speed 41-60",
-        "gost_name": "C1.1. Violation of the prescribed speed limit"
-      },
-      "4": {
-        "article": " 12.9 pt. 4",
-        "display_name": "Speed 61-80",
-        "gost_name": "C1.1. Violation of the prescribed speed limit"
-      },
-      "5": {
-        "article": " 12.16 pt. 1",
-        "display_name": "Parking time",
-        "gost_name": "C11. Violation of the requirements of road signs and road markings"
-      },
-      "6": {
-        "article": " ",
-        "display_name": "Tram tracks",
-        "gost_name": "C11. Violation of the requirements of road signs and road markings"
-      },
-      "7": {
-        "article": " 12.17 pt. 1.1",
-        "display_name": "Bus lane",
-        "gost_name": "C6. Driving in a lane designated for public transport vehicles"
-      },
-      "9": {
-        "article": " 12.16 pt. 4",
-        "display_name": "Stopping",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
-      "10": {
-        "article": " 12.12 pt. 2",
-        "display_name": "Stop line",
-        "gost_name": "C13. Crossing the stop line on a red traffic light signal"
-      },
-      "11": {
-        "article": " 12.16 pt. 1",
-        "display_name": "Driving in lanes (sign 5.15.2)",
-        "gost_name": "C11. Violation of the requirements of road signs and road markings"
-      },
-      "12": {
-        "article": " 12.14 pt. 1.1",
-        "display_name": "Position on emergency shoulder",
-        "gost_name": "C11. Violation of the requirements of road signs and road markings"
-      },
-      "13": {
-        "article": " 12.16 pt. 1",
-        "display_name": "Driving in lanes (sign 5.15.1)",
-        "gost_name": "C11. Violation of the requirements of road signs and road markings"
-      },
-      "14": {
-        "article": " 12.19 pt. 1",
-        "display_name": "General stopping",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
-      "15": {
-        "article": " 12.19 pt. 2",
-        "display_name": "Disabled parking",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
-      "16": {
-        "article": " 12.19 part 3",
-        "display_name": "Parking on PP",
-        "gost_name": "C2. Violation of established rules for parking or stopping vehicles"
-      },
-      "17": {
-        "article": " 12.19 part 3",
-        "display_name": "Parking on sidewalk",
-        "gost_name": "C2. Violation of established rules for parking or stopping vehicles"
-      },
-      "18": {
-        "article": " 12.19 part 3.1",
-        "display_name": "Parking at a bus stop",
-        "gost_name": "C2. Violation of established rules for parking or stopping vehicles"
-      },
-      "19": {
-        "article": " 12.19 part 3.2",
-        "display_name": "Parking on TP",
-        "gost_name": "C2. Violation of established rules for parking or stopping vehicles"
-      },
-      "20": {
-        "article": " 12.19 part 3.2",
-        "display_name": "Parking in the second row",
-        "gost_name": "C2. Violation of established rules for parking or stopping vehicles"
-      },
-      "21": {
-        "article": " 12.19 part 1",
-        "display_name": "Parking",
-        "gost_name": "C2. Violation of established rules for parking or stopping vehicles"
-      },
-      "22": {
-        "article": 12.18,
-        "display_name": "Failure to give way to pedestrians",
-        "gost_name": "C15. Failure to comply with the requirement of traffic rules to give way to pedestrians"
-      },
-      "23": {
-        "article": " 12.16 part 2",
-        "display_name": "Left turn",
-        "gost_name": "C10. Left turn in violation of sign or road markings requirements"
-      },
-      "24": {
-        "article": " 12.10 part 1",
-        "display_name": "Crossing railroad at a red light",
-        "gost_name": "C12. Crossing at a red traffic light signal"
-      },
-      "25": {
-        "article": " 12.10 part 2",
-        "display_name": "Railroad stop line",
-        "gost_name": "C13. Failure to comply with the requirement of traffic rules to stop before the stop line at a red traffic light signal"
-      },
-      "26": {
-        "article": " 12.15 part 4",
-        "display_name": "Overtaking at a railroad crossing",
-        "gost_name": "C7. Violation of traffic rules by entering the oncoming traffic lane"
-      },
-      "27": {
-        "article": " 12.10 part 1",
-        "display_name": "Stopping at a railroad crossing",
-        "gost_name": "C2. Violation of established rules for parking or stopping vehicles"
-      },
-      "28": {
-        "article": " 12.17 part 1.1",
-        "display_name": "Stopping in the public transport lane",
-        "gost_name": "C2. Violation of established rules for parking or stopping vehicles"
-      },
-      "29": {
-        "article": " 12.16 part 4",
-        "display_name": "Parking 3.28",
-        "gost_name": "C2. Violation of established rules for parking or stopping vehicles"
-      },
-      "30": {
-        "article": " ",
-        "display_name": "Parking at an intersection",
-        "gost_name": "C2. Violation of established rules for parking or stopping vehicles"
-      },
-      "31": {
-        "article": " ",
-        "display_name": "Along the sidewalk",
-        "gost_name": "C4. Movement on sidewalks, pedestrian, bicycle, and cycle lanes, and bicycle lanes"
-      },
-      "32": {
-        "article": " ",
-        "display_name": "Non-parallel parking near a fire hydrant",
-        "gost_name": "C2. Violation of established rules for parking or stopping vehicles"
-      },
-      "33": {
-        "article": " ",
-        "display_name": "One-way road",
-        "gost_name": "C9. Driving in the opposite direction on a road with one-way traffic"
-      },
-      "34": {
-        "article": " 12.15 part 4",
-        "display_name": "Two-way road (two lanes in each direction)",
-        "gost_name": "C7. Violation of traffic rules by entering the oncoming traffic lane"
-      },
-      "35": {
-        "article": " ",
-        "display_name": "Front Angled",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "36": {
-        "article": " 12.16 part 3",
-        "display_name": "One way meeting",
-        "gost_name": "C9. Driving in the opposite direction on a one-way road"
-      },
-      "37": {
-        "article": " 12.15 hour 4",
-        "display_name": "Encounter (No overtaking sign)",
-        "gost_name": "C7. Driving into oncoming traffic in violation of the traffic rules"
-      },
-      "38": {
-        "article": " ",
-        "display_name": "Along with the frequent check-in.",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "39": {
-        "article": " ",
-        "display_name": "On the sidewalk along",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "40": {
-        "article": " ",
-        "display_name": "Backward Angle",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "41": {
-        "article": " ",
-        "display_name": "Partial Backside",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "42": {
-        "article": " ",
-        "display_name": "Partially fronted",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "43": {
-        "article": " ",
-        "display_name": "On the trot corner in front",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "44": {
-        "article": " ",
-        "display_name": "On the trot. Backwards",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "45": {
-        "article": " ",
-        "display_name": "Movement prohibited",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "46": {
-        "article": " 12.12 part 1",
-        "display_name": "Driving in the reverse lane in the prohibited direction",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "47": {
-        "article": " 12.15.part 1",
-        "display_name": "Movement on tram tracks in the same direction",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "48": {
-        "article": " 12.15.part 1",
-        "display_name": "Turn left from tram tracks",
-        "gost_name": "C10. Turn left in violation of signs or markings"
-      },
-      "49": {
-        "article": " 12.15. part 4",
-        "display_name": "Traffic in the opposite direction",
-        "gost_name": "C8. Exit onto tram tracks in the opposite direction"
-      },
-      "51": {
-        "article": " 12.9 part 1",
-        "display_name": "Speed 11-20 in residential area",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "52": {
-        "article": " 12.9 part 2",
-        "display_name": "Speed 21-40 in residential area",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "53": {
-        "article": " 12.9 part 3",
-        "display_name": "Speed 41-60 in residential area",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "54": {
-        "article": " 12.9 part 4",
-        "display_name": "Speed 61-80 in residential area",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "55": {
-        "article": " 12.9 hour 5",
-        "display_name": "Speed 61-80 in residential area",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "56": {
-        "article": " 12.9 part 6",
-        "display_name": "Hidden repeat of part 3 in the residential area",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "57": {
-        "article": " 12.9 hour 7",
-        "display_name": "Secret repeat of part 4 in the residential area",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "58": {
-        "article": " 12.9 hour 7",
-        "display_name": "Secret repeat of part 5 in the residential area",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "61": {
-        "article": " 12.10 part 1",
-        "display_name": "Red HDD (repeat)",
-        "gost_name": "C12. Driving through a red light"
-      },
-      "62": {
-        "article": " 12.15 p.4",
-        "display_name": "Railway exit into oncoming traffic",
-        "gost_name": "C7. Driving into oncoming traffic in violation of the traffic rules"
-      },
-      "63": {
-        "article": " 12.15. part 1",
-        "display_name": "Roadside Driving",
-        "gost_name": "C3. Driving on the side of the road"
-      },
-      "64": {
-        "article": 12.2,
-        "display_name": "Violation of the rules for using external lights, sound signals, hazard warning lights or warning triangles",
-        "gost_name": "C5. Violation of the rules for using external lighting devices"
-      },
-      "65": {
-        "article": " 12.16 part 1",
-        "display_name": "Turn Right",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "66": {
-        "article": " 12.16 part 1",
-        "display_name": "Move straight ahead",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "67": {
-        "article": " 12.16 part 2",
-        "display_name": "U-turn prohibited",
-        "gost_name": "C10. U-turn, left turn, reversing in places where such maneuvers are prohibited"
-      },
-      "68": {
-        "article": " 12.16 part 2",
-        "display_name": "Turn under the sign, go straight ahead, sign 5.15",
-        "gost_name": "C10. U-turn, left turn, reversing in places where such maneuvers are prohibited"
-      },
-      "69": {
-        "article": " 12.14 part 1.1",
-        "display_name": "Position on the drive (turn right)",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "70": {
-        "article": " 12.14 part 1.1",
-        "display_name": "Position on IF (reversal)",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "71": {
-        "article": " 12.16 part 1",
-        "display_name": "Rebuilding in violation of 1.1 markup",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "72": {
-        "article": " 12.16 part 1",
-        "display_name": "Violation of sign 3.18.1 \"No right turn\"",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "73": {
-        "article": " 12.16 part 2",
-        "display_name": "Violation of sign 3.18.2 \"No left turn\"",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "74": {
-        "article": " 12.16 part 6",
-        "display_name": "Trucks are prohibited",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "75": {
-        "article": " 12.16 part 1",
-        "display_name": "Go straight ahead sign 5.15.1",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "87": {
-        "article": " 12.15 part 2",
-        "display_name": "Moving on the sidewalk",
-        "gost_name": "C4 GOST R57144-2016 Traffic on sidewalks, pedestrian, bicycle and pedestrian paths, lanes for cyclists"
-      },
-      "88": {
-        "article": " 12.15 part 2",
-        "display_name": "Pedestrian movement",
-        "gost_name": "C4 GOST R57144-2016 Traffic on sidewalks, pedestrian, bicycle and pedestrian paths, lanes for cyclists"
-      },
-      "89": {
-        "article": " 12.15 part 2",
-        "display_name": "Riding on a bike path",
-        "gost_name": "C4 GOST R57144-2016 Traffic on sidewalks, pedestrian, bicycle and pedestrian paths, lanes for cyclists"
-      },
-      "90": {
-        "article": " 12.15 part 2",
-        "display_name": "Moving on the footpath",
-        "gost_name": "C4 GOST R57144-2016 Traffic on sidewalks, pedestrian, bicycle and pedestrian paths, lanes for cyclists"
-      },
-      "91": {
-        "article": " 12.37 part 2",
-        "display_name": "No compulsory motor liability insurance policy",
-        "gost_name": "C16. Failure of the vehicle owner to comply with the Federal Law on Compulsory Motor Liability Insurance"
-      },
-      "92": {
-        "article": " 12.16 part 1",
-        "display_name": "Minimum speed",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "93": {
-        "article": " 12.16 part 1",
-        "display_name": "Violation of sign 2.5 requirements",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "94": {
-        "article": " 12.11 part 2",
-        "display_name": "Position on IF, over 3.5t",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "95": {
-        "article": " 12.16.ch.1",
-        "display_name": "Violation of the requirements of sign 3.16",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "96": {
-        "article": " ",
-        "display_name": "Movement of vehicles over 2.5 tons in the left lane",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "97": {
-        "article": " 12.12 part 2",
-        "display_name": "Stop line (sign 6.16)",
-        "gost_name": "C13. Driving beyond the stop line at a red light"
-      },
-      "98": {
-        "article": " 12.16 part 1",
-        "display_name": "Rebuilding in violation of markup 1.16.1 – 1.16.3",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "99": {
-        "article": " 12.16 part 1",
-        "display_name": "Turning left in violation of road markings",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "101": {
-        "article": " 12.9 part 1",
-        "display_name": "Speed 11-20 tr",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "102": {
-        "article": " 12.9 part 2",
-        "display_name": "Speed 21-40 tr",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "103": {
-        "article": " 12.9 part 3",
-        "display_name": "Speed 41-60 tr",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "104": {
-        "article": " 12.9 part 4",
-        "display_name": "Speed 61-80 tr",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "105": {
-        "article": " 12.9 part 1",
-        "display_name": "Speed 11-20 zn",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "106": {
-        "article": " 12.9 part 2",
-        "display_name": "Speed 21-40 zn",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "107": {
-        "article": " 12.9 part 3",
-        "display_name": "Speed 41-60 zn",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "108": {
-        "article": " 12.9 part 4",
-        "display_name": "Speed 61-80 zn",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "109": {
-        "article": " 12.9 part 1",
-        "display_name": "Speed 11-20 zz",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "110": {
-        "article": " 12.9 part 2",
-        "display_name": "Speed 21-40 gz",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "111": {
-        "article": " 12.9 part 3",
-        "display_name": "Speed 41-60 gz",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "112": {
-        "article": " 12.9 part 4",
-        "display_name": "Speed 61-80 zz",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "113": {
-        "article": " 12.9 hour 5",
-        "display_name": "Speed over 80",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "114": {
-        "article": " 12.9 hour 5",
-        "display_name": "Speed over 80 tr",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "115": {
-        "article": " 12.9 hour 5",
-        "display_name": "Speed over 80 zn",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "116": {
-        "article": " 12.9 hour 5",
-        "display_name": "Speed over 80 gz",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "117": {
-        "article": " 12.9 part 6",
-        "display_name": "Repeat speed part 3",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "118": {
-        "article": " 12.9 part 6",
-        "display_name": "Hidden repeat part 3 tr",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "119": {
-        "article": " 12.9 part 6",
-        "display_name": "Secret repeat part 3 characters",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "120": {
-        "article": " 12.9 part 6",
-        "display_name": "Sk. repeat part 3 zz",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "121": {
-        "article": " 12.9 hour 7",
-        "display_name": "Hidden repeat part 4",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "122": {
-        "article": " 12.9 hour 7",
-        "display_name": "Hidden repeat part 4 tr",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "123": {
-        "article": " 12.9 hour 7",
-        "display_name": "Secret repeat part 4 characters",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "124": {
-        "article": " 12.9 hour 7",
-        "display_name": "Sk. repeat part 4 zz",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "125": {
-        "article": " 12.9 hour 7",
-        "display_name": "Hidden repeat part 5",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "126": {
-        "article": " 12.9 hour 7",
-        "display_name": "Secret repeat part 5 tr",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "127": {
-        "article": " 12.9 hour 7",
-        "display_name": "Secret repeat h.5 characters",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "128": {
-        "article": " 12.9 hour 7",
-        "display_name": "Sk. repeat part 5 zz",
-        "gost_name": "C1.1. Violation of the established speed limit"
-      },
-      "130": {
-        "article": " 12.12 part 3",
-        "display_name": "Red Repeat",
-        "gost_name": "C12. Driving through a red light"
-      },
-      "131": {
-        "article": " 12.13 part 1",
-        "display_name": "Busy Intersection",
-        "gost_name": "C14. Entering an intersection or crossing the roadway in case of a traffic jam"
-      },
-      "132": {
-        "article": " 12.28 part 1",
-        "display_name": "Residential violation (except speed)",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "198": {
-        "article": " 12.16 part 1",
-        "display_name": "Moving under the \"brick\" in the same direction",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "199": {
-        "article": " 12.16 part 1",
-        "display_name": "Moving under the \"brick\" in the same direction (except taxis)",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "201": {
-        "article": " 12.9 part 1",
-        "display_name": "Speed on the city section, unsigned 11-20",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "202": {
-        "article": " 12.9 part 2",
-        "display_name": "Speed on the city section, unsigned 21-40",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "203": {
-        "article": " 12.9 part 3",
-        "display_name": "Speed on the city section, unsigned 41-60",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "204": {
-        "article": " 12.9 part 4",
-        "display_name": "Speed on the city section, unsigned 61-80",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "205": {
-        "article": " 12.9 hour 5",
-        "display_name": "Speed on the city section, unsigned 80-...",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "211": {
-        "article": " 12.9 part 1",
-        "display_name": "Speed on the suburban section, unsigned 11-20",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "212": {
-        "article": " 12.9 part 2",
-        "display_name": "Speed on the suburban section, unsigned 21-40",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "213": {
-        "article": " 12.9 part 3",
-        "display_name": "Speed on the suburban section, unsigned 41-60",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "214": {
-        "article": " 12.9 part 4",
-        "display_name": "Speed on the suburban section, unsigned 61-80",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "215": {
-        "article": " 12.9 hour 5",
-        "display_name": "Speed on the suburban section, unsigned 80-...",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "221": {
-        "article": " 12.9 part 1",
-        "display_name": "Speed on the city section, with sign 11-20",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "222": {
-        "article": " 12.9 part 2",
-        "display_name": "Speed on the city section, with sign 21-40",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "223": {
-        "article": " 12.9 part 3",
-        "display_name": "Speed on the city section, with sign 41-60",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "224": {
-        "article": " 12.9 part 4",
-        "display_name": "Speed on the city section, with a sign 61-80",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "225": {
-        "article": " 12.9 hour 5",
-        "display_name": "Speed on the city section, with a sign 80-...",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "231": {
-        "article": " 12.9 part 1",
-        "display_name": "Speed on the suburban section, with sign 11-20",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "232": {
-        "article": " 12.9 part 2",
-        "display_name": "Speed on the suburban section, with a sign 21-40",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "233": {
-        "article": " 12.9 part 3",
-        "display_name": "Speed on the suburban section, with sign 41-60",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "234": {
-        "article": " 12.9 part 4",
-        "display_name": "Speed on the suburban section, with a sign 61-80",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "235": {
-        "article": " 12.9 hour 5",
-        "display_name": "Speed on the suburban section, with a sign 80-...",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "236": {
-        "article": " 12.9 part 6",
-        "display_name": "Speed on section repeat part 3, city, unsigned",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "237": {
-        "article": " 12.9 part 6",
-        "display_name": "Speed on section repeat part 3, suburban, unsigned",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "238": {
-        "article": " 12.9 part 6",
-        "display_name": "Speed on the section repeat part 3, city, with sign",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "239": {
-        "article": " 12.9 part 6",
-        "display_name": "Speed on the section repeat part 3, suburban, with a sign",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "240": {
-        "article": " 12.9 hour 7",
-        "display_name": "Speed on section repeat part 4, city, unsigned",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "241": {
-        "article": " 12.9 hour 7",
-        "display_name": "Speed on section repeat part 4, suburban, unsigned",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "242": {
-        "article": " 12.9 hour 7",
-        "display_name": "Speed on the section repeat part 4, city, with sign",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "243": {
-        "article": " 12.9 hour 7",
-        "display_name": "Speed on the section repeat part 4, suburban, with a sign",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "244": {
-        "article": " 12.9 hour 7",
-        "display_name": "Speed on section repeat part 5, city, unsigned",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "245": {
-        "article": " 12.9 hour 7",
-        "display_name": "Speed on section repeat part 5, suburban, unsigned",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "246": {
-        "article": " 12.9 hour 7",
-        "display_name": "Speed on the section repeat part 5, city, with sign",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "247": {
-        "article": " 12.9 hour 7",
-        "display_name": "Speed on the section repeat part 5, suburban, with a sign",
-        "gost_name": "C1.2. Violation of the established speed limit"
-      },
-      "301": {
-        "article": " 12.21.1 part 1",
-        "display_name": "Excess axle load, more than 2%, no more than 10% (without permission)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "302": {
-        "article": " 12.21.1 part 1",
-        "display_name": "Excess axle load, more than 2%, no more than 10% (permission issued)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "303": {
-        "article": " 12.21.1 part 2",
-        "display_name": "Excess axle load, no more than 20% (without permission)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "304": {
-        "article": " 12.21.1 part 4",
-        "display_name": "Axle load exceeded, no more than 20% (permission issued)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "305": {
-        "article": " 12.21.1 part 3",
-        "display_name": "Axle load exceeded, no more than 50% (without permission)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "306": {
-        "article": " 12.21.1 part 5",
-        "display_name": "Axle load exceeded, no more than 50% (permission issued)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "307": {
-        "article": " 12.21.1 part 6",
-        "display_name": "Excess axle load, more than 50% (without resolution)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "308": {
-        "article": " 12.21.1 part 6",
-        "display_name": "Axle load exceeded, more than 50% (permission granted)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "309": {
-        "article": " 12.21.1 part 1",
-        "display_name": "Exceeding the permissible vehicle weight, more than 2%, no more than 10% (without permission)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "310": {
-        "article": " 12.21.1 part 1",
-        "display_name": "Exceeding the permissible vehicle weight, more than 2%, no more than 10% (permission issued)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "311": {
-        "article": " 12.21.1 part 2",
-        "display_name": "Exceeding the permissible vehicle weight, no more than 20% (without permission)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "312": {
-        "article": " 12.21.1 part 4",
-        "display_name": "Exceeding the permissible vehicle weight, no more than 20% (permission issued)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "313": {
-        "article": " 12.21.1 part 3",
-        "display_name": "Exceeding the permissible vehicle weight, no more than 50% (without permission)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "314": {
-        "article": " 12.21.1 part 5",
-        "display_name": "Exceeding the permissible vehicle weight, no more than 50% (permission issued)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "315": {
-        "article": " 12.21.1 part 6",
-        "display_name": "Exceeding the permissible vehicle weight, more than 50% (without permission)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "316": {
-        "article": " 12.21.1 part 6",
-        "display_name": "Exceeding the permissible vehicle weight, more than 50% (permission issued)",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "317": {
-        "article": " 12.21.1 part 1",
-        "display_name": "Exceeding the permissible dimensions of the vehicle, no more than 10 cm (without permission)",
-        "gost_name": "C16. Violation of traffic rules for large vehicles"
-      },
-      "318": {
-        "article": " 12.21.1 part 1",
-        "display_name": "Exceeding the permissible dimensions of the vehicle, no more than 10 cm (permission issued)",
-        "gost_name": "C16. Violation of traffic rules for large vehicles"
-      },
-      "319": {
-        "article": " 12.21.1 part 2",
-        "display_name": "Exceeding the permissible dimensions of the vehicle, no more than 20 cm (without permission)",
-        "gost_name": "C16. Violation of traffic rules for large vehicles"
-      },
-      "320": {
-        "article": " 12.21.1 part 4",
-        "display_name": "Exceeding the permissible dimensions of the vehicle, no more than 20 cm (permission issued)",
-        "gost_name": "C16. Violation of traffic rules for large vehicles"
-      },
-      "321": {
-        "article": " 12.21.1 part 3",
-        "display_name": "Exceeding the permissible dimensions of the vehicle, no more than 50 cm (without permission)",
-        "gost_name": "C16. Violation of traffic rules for large vehicles"
-      },
-      "322": {
-        "article": " 12.21.1 part 5",
-        "display_name": "Exceeding the permissible dimensions of the vehicle, no more than 50 cm (permission issued)",
-        "gost_name": "C16. Violation of traffic rules for large vehicles"
-      },
-      "323": {
-        "article": " 12.21.1 part 6",
-        "display_name": "Exceeding the permissible dimensions of the vehicle, more than 50 cm (without permission)",
-        "gost_name": "C16. Violation of traffic rules for large vehicles"
-      },
-      "324": {
-        "article": " 12.21.1 part 6",
-        "display_name": "Exceeding the permissible dimensions of the vehicle, more than 50 cm (permission issued)",
-        "gost_name": "C16. Violation of traffic rules for large vehicles"
-      },
-      "325": {
-        "article": " 12.21.1 part 1",
-        "display_name": "Overload on axle group part 1 br",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "326": {
-        "article": " 12.21.1 part 1",
-        "display_name": "Overload on axle group part 1 rv",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "327": {
-        "article": " 12.21.1 part 2",
-        "display_name": "Overload on axle group part 2 br",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "328": {
-        "article": " 12.21.1 part 4",
-        "display_name": "Overload on axle group part 4 rv",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "329": {
-        "article": " 12.21.1 part 3",
-        "display_name": "Overload on axle group part 3 br",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "330": {
-        "article": " 12.21.1 part 5",
-        "display_name": "Overload on axle group part 5 rv",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "331": {
-        "article": " 12.21.1 part 6",
-        "display_name": "Overload on axle group part 6 br",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "332": {
-        "article": " 12.21.1 part 6",
-        "display_name": "Overload on axle group part 6 rv",
-        "gost_name": "C16. Violation of traffic rules for a heavy vehicle"
-      },
-      "333": {
-        "article": " ",
-        "display_name": "Area Pollution",
-        "gost_name": "C16. Territory pollution"
-      },
-      "997": {
-        "article": " 12.36.1",
-        "display_name": "Violation of the rules for using a telephone by the driver of a vehicle",
-        "gost_name": "C16. Violation of the rules for using a telephone by the driver of a vehicle"
-      },
-      "999": {
-        "article": " 12.6",
-        "display_name": "Violation of the rules for using seat belts or motorcycle helmets",
-        "gost_name": "C16. Violation of the rules for using seat belts or motorcycle helmets"
-      }
-    },
     "maneuver": "Maneuver",
     "minimalDistance": "Minimal distance",
     "minimalSpeed": "Minimal speed",
@@ -2083,7 +669,6 @@
     "solidMarking": "Solid marking 1.1",
     "speed": "Speed",
     "standing": "Standing",
-    "stopLine": "Stopline",
     "stopSign": "STOP sign",
     "tramway": "Tramway path",
     "truckRoadProhibited": "Truck on road prohibited",
@@ -2093,16 +678,6 @@
   },
   "violationsPage": {
     "downloadMaterial": "Download material",
-    "imgxFileNames": {
-      "Видеоролик нарушения": "Video of the violation",
-      "Детальное фото въезд в зону контроля": "Detailed photo of the entrance to the control zone",
-      "Детальное фото выезд из зоны контроля": "Detailed photo of leaving the control zone",
-      "Детальное фото движение в зоне контроля": "Detailed photo of movement in the control zone",
-      "Изображение лобового стекла ТС": "Image of vehicle windshield",
-      "Нарушение коллаж для постановления": "Breaking collage for ruling",
-      "Пластина ГРЗ": "GRZ plate",
-      "Проезд с нарушением": "Travel with violation"
-    },
     "photoVideoViolationMaterials": "Photo/video violation materials",
     "unknownArticle": "Unknown article",
     "violationPlace": "Violation place",
