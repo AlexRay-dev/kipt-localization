@@ -47,7 +47,15 @@
     },
     "viewType": "Berish turi"
   },
+  "amtsServerPage": {
+    "addAdditionalPtServer": "O'T qo'shimcha serverini qo'shish",
+    "additionalPtServersTitle": "O'T qo'shimcha serverlari",
+    "deleteAdditionalPtServer": "O'T qo'shimcha serverini o'chirish",
+    "mainPtServerTitle": "O'T asosiy serveri",
+    "transferData": "Ma'lumotlarni uzatish"
+  },
   "channelAlignmentPage": {
+    "autoCalibration": "Avtokalibrovkani ishga tushirish",
     "compute": "Hisoblash",
     "enterCoordinates": "Koordinatalarni kiritish",
     "installationHeight": "O'rnatish balandligi",
@@ -97,30 +105,56 @@
   },
   "common": {
     "actions": "Amallar",
+    "adding": "Qo'shish",
     "additionalFilters": "Qo'shimcha filtrlar",
+    "additionalInformation": "Qo'shimcha ma'lumot",
     "additionalSettings": "Qo'shimcha sozlamalar",
     "address": "Manzil",
+    "alias": "Taxallus",
     "amts": "O'tayotgan transport",
+    "any": "Har qanday",
     "available": "Mavjud",
     "availablePages": "Mavjud sahifalar",
     "averageSpeed": "O'rtacha tezlik",
+    "background": "Fon",
     "brand": "Shtamp",
     "brightness": "Yoru'lik",
     "buttons": {
       "add": "Qo'shish",
       "apply": "Qo'llash",
+      "applyFormChanges": "Forma uchun o'zgarishlarni qo'llash",
+      "block": "Bloklash",
+      "calculate": "Hisoblash",
+      "cancel": "bekor qilish",
+      "changePassword": "Parolni o'zgartirish",
+      "changesApplied": "O'zgarishlar muvaffaqiyatli qo'llanildi",
       "check": "Tekshirish",
+      "chooseFile": "Faylni tanlang",
       "close": "Yopish",
       "confirm": "Tasdiqlash",
+      "confirmItemRemoval": "Elementni o'chirishni tasdiqlang | O'chirishni tasdiqlang \"{name}\"",
+      "createImage": "Rasm yaratish",
+      "decrease": "Kamaytirish",
       "delete": "O'chirish",
       "download": "Yuklab olish",
       "edit": "Tahrirlash",
+      "enableIlluminator": "IQ yoritgichni yoqish",
+      "exit": "Chiqish",
+      "hide": "Yashirish",
+      "install": "O'rnatish",
+      "list": "Ro'yxat",
+      "login": "Kirish",
+      "measure": "O'lchash",
       "pause": "To'xtatish",
       "play": "Qo'yish",
       "refresh": "Yangilash",
+      "refreshImage": "Rasmni yangilash",
+      "resetValue": "Qiymatni tiklash",
       "save": "Saqlash",
+      "saveImage": "Rasmni saqlash",
       "saveSettings": "Sozlamalarni saqlash",
       "search": "Izlash",
+      "setValue": "Qiymatni o'rnatish",
       "settings": "Sozlamalar",
       "showComments": "Izohlarni ko'rsatish",
       "showImage": "Rasmni ko'rsatish",
@@ -128,8 +162,14 @@
       "showXML": "XML ni ko'rsatish",
       "skipBackward": "Orqaga kadr",
       "skipForward": "Oldinga kadr",
+      "stop": "To'xtatish",
       "submit": "Saqlash",
-      "upload": "Yuklab olish"
+      "turnOffIlluminator": "IQ yoritgichni o'chirish",
+      "unblock": "Blokdan chiqarish",
+      "upload": "Yuklab olish",
+      "uploadImage": "Rasmni yuklash",
+      "useOldWebUI": "Eski versiyaga o'tish",
+      "watchVideo": "Videoni ko'rish"
     },
     "camera": "Kamera",
     "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Kamerani boshqarish funksiyalari faqat video mavjud bo'lgandagina faol",
@@ -146,32 +186,64 @@
     "comment": "Izoh | Izohlar",
     "commonSettings": "Umumiy sozlamalar",
     "complex": "Kompleks",
+    "coordinates": "Koordinatalar",
     "copyToClipboard": "Buferga nusxalash",
-    "dataTypes": {},
+    "count": "ta | dona",
+    "darkTheme": "Qorong'i mavzu",
+    "dataTypes": {
+      "array": "Ro'yxat",
+      "boolean": "Mantiqiy",
+      "number": "Raqam",
+      "rectangle": "To'rtburchak",
+      "string": "Qator"
+    },
     "date": "Sana",
+    "dateTimeUTC": "Sana, vaqt (UTV)",
+    "detailedInformation": "Batafsil ma'lumot",
     "deviceId": "Uskuna identifikatori",
     "direction": "Yo'nalish",
-    "directions": {},
+    "directions": {
+      "left": "Chap",
+      "right": "O'ng"
+    },
+    "directly": "To'g'ri",
     "disableFixation": "Qotirishni o'chirish",
     "doYouReallyWantToDelete": "Rostdan ham o'chirishni istaysizmi",
+    "editing": "Tahrirlash",
     "enableFixation": "Qotirishni yoqish",
     "endPeriod": "Davr tugashi",
     "endTime": "Tugash vaqti",
+    "enforcementTypes": "Qoidabuzarliklarni qayd etish",
     "error": "Xatolik",
     "errorCode": "Xato kodi",
     "field": "Maydon",
+    "filesHaveBeenUploadedSuccessfully": "Fayllar muvaffaqiyatli yuklandi",
     "filters": {
       "page": "Sahifa",
       "perPage": "Sahifadagi xabarlar"
     },
+    "fixationHasBeenDisabled": "Qayd etish o'chirilgan",
+    "fixationHasBeenEnabled": "Qayd etish yoqilgan",
+    "flow": "Oqim",
     "focalLength": "Fokus masofasi",
     "format": "Format",
     "fps": "k/s",
     "freezeFrames": "Kadrni to'xtatish",
     "full": "To'liq",
+    "geolocation": "Geojoylashuv",
     "group": "Guruh",
+    "height": "Balandlik",
+    "identifier": "Identifikator",
     "image": "Rasm",
+    "imageUpload": "Rasmni yuklash",
+    "key": "Kalit",
+    "latLon": "Kenglik/Uzunlik",
+    "latitude": "Kenglik",
+    "left": "Chap | Chapga",
+    "lightTheme": "Yorqin mavzu",
+    "longitude": "Uzunlik",
     "lpn": "DRB",
+    "markup": "Belgilash",
     "measurer": "O'lchagich",
     "mode": "Rejim",
     "model": "Model",
@@ -193,13 +265,19 @@
       "netMask": "Maska",
       "networkBridge": "Tarmoq ko'prigi",
       "ping": "Ping",
+      "sourceUrl": "URL manbaning ",
       "static": "Statik",
       "subnetMask": "Quyi tarmoq maskasi",
       "url": "Ma'lumot uzatish uchun URL",
       "vlan": "VLAN"
     },
     "no": "Yo'q",
+    "noData": "Ma'lumotlar mavjud emas",
     "noSearchResults": "Qidiruv natijalari mavjud emas",
+    "none": "mavjud emas | mavjud emas",
+    "notAvailable": "Mavjud emas",
+    "notConfigured": "Sozlanmagan",
+    "notifications": "Bildirishnomalar",
     "off": "O'chirish | o'chirilgan",
     "offset": "Og'ish",
     "on": "Yoqish | yoqilgan",
@@ -208,10 +286,14 @@
     "password": "Parol",
     "peer": "Tegishli kompleks | Tegishli komplekslar",
     "quality": "Sifat",
+    "realLatitude": "Haqiqiy kenglik",
+    "realLongitude": "Haqiqiy uzunlik",
+    "right": "O'ng / Chap",
     "rtspClients": "RTSP mijozlari",
     "schedule": "Jadval | Jadvallar",
     "serialNumber": "Seriya raqami",
     "set": "Tayinlash",
+    "settingsSaved": "Sozlamalar saqlandi",
     "sharpness": "Keskinlik",
     "shutter": "Diafragma",
     "size": "O'cham",
@@ -221,6 +303,7 @@
       "Mb": "MB"
     },
     "snapshot": "Surat",
+    "source": "Manba | manbaning",
     "specificDate": "Aniq sana",
     "speed": "Tezlik",
     "speedLimit": "Tezlik chegarasi",
@@ -237,12 +320,18 @@
     "tableHeaders": {
       "dateTime": "Sana va vaqt",
       "event": "Hodisa",
+      "imageName": "Rasm nomi",
+      "miniature": "Miniatyura",
+      "name": "Nomlanishi / Ism",
+      "sourceName": "Manba nomi",
       "time": "Vaqt bo'ldi"
     },
+    "thickness": "Qalinligi",
     "tilt": "Nishab",
     "time": "Vaqt",
     "timeSuffix": {
       "hours": "s",
+      "microSec": "mks",
       "ms": "ms",
       "sec": "sek"
     },
@@ -250,14 +339,23 @@
     "title": "Nomi",
     "turn": "O'zgartirish",
     "type": "Turi",
-    "units": {},
+    "uTurn": "Aylanib olish",
+    "undefined": "Aniqlanmagan",
+    "units": {
+      "millimeters": "millimetr / mm"
+    },
+    "unsavedChangesAlert": "DIQQAT! Sozlamalarda saqlanmagan o'zgarishlar mavjud",
+    "useConfirmation": "Tasdiqlashni qo'llash",
     "userName": "Foydalanuvchi nomi",
     "value": "Ma'nosi",
+    "valueType": "Qiymat turi",
     "video": "Video",
+    "videoInput": "Video kirish",
     "view": "Ko'rish",
     "viewImage": "Rasmni ko'rish",
     "violationType": "Qoidabuzarlik turi",
     "violations": "Qoidabuzarliklar",
+    "violationsTypes": "Qoidabuzarlik turlari",
     "wXh": "KxU",
     "weekDays": {
       "friday": "Juma",
@@ -268,17 +366,180 @@
       "tuesday": "Seshanba",
       "wednesday": "Chorshanba"
     },
+    "width": "Kenglik",
     "yes": "Ha",
     "zoom": "Yaqinlashtirish"
   },
-  "configEditor": {},
+  "configEditor": {
+    "fileSaved": "Fayl saqlandi\nSozlamalarni \"Tizim\" ilovasida saqlashni unutmang"
+  },
   "controlZonesPage": {
-    "globalSettings": {},
-    "grzRecognition": {},
-    "laneSettings": {},
-    "mskso": {},
+    "GRZrecognition": "DRB aniqlash",
+    "MaximumNumberOfLanes": "Maksimal chiziqlar soni",
+    "additionalChannelSettings": "Kanal qo'shimcha sozlamalari",
+    "additionalData": "Qo'shimcha ma'lumotlar",
+    "aliasRemovingConfirm": "Taxallusni o'chirishni tasdiqlang: \"{name}\"",
+    "area": "Tuman",
+    "bottomBorderFixation": "Qayd etish quyi chegarasi",
+    "channelName": "Kanal nomi",
+    "channelSettings": "Kanal sozlamalari",
+    "defaultVehicleDirection": "Standart bo'yicha TV yo'nalishi",
+    "doNotFixRouteVehicles": "Marshrut TV qayd etmaslik",
+    "doNotFixTheSpeedAfter": "Tezlikdan keyin qayd etmaslik",
+    "endPhaseTimeLag": "Bosqich yakunigacha bo'lgan vaqt, qoidabuzarlik qayd etilmaydi",
+    "entryLine": "Kirish liniyasi",
+    "fixationDisabled": "Qayd etish o'chirilgan",
+    "generalStop": "Umumiy to'xtash joyi",
+    "globalSettings": {
+      "additionalGlobalSettings": "Qo'shimcha global sozlamalar",
+      "globalSettings": "Global sozlamalar",
+      "oncomingDirection": "Qarama-qarshi (kameraga)",
+      "relatedDirection": "Yo'l bo'ylab (kameradan)"
+    },
+    "grzRecognition": {
+      "asyddIntegration": "AYHBT bilan integratsiya",
+      "detectionWithoutGuardrail": "DRB TV ni aniqlash",
+      "dynamicSizeGrz": "DRB dinamik hajmi",
+      "firstPassingPassengers": "Birinchisi yo'l bo'ylab, ikkinchisi qarama-qarshi uchun",
+      "firstRecognized": "Birinchi aniqlash",
+      "frameRate": "Aniqlab olish kadrlari chastotasi",
+      "grzForMaterial": "Material uchun DRB",
+      "largestGrz": "Eng yirik DRB",
+      "lastRecognized": "Oxirgi aniqlash",
+      "maxGrzWidth": "DRB maks. kengligi",
+      "minGrzReliability": "DRB minimal aniqlash to'g'riligi",
+      "minGrzWidth": "DRB kengligi",
+      "minNumberOfRecognitions": "DRB min. kengligi",
+      "numberOfFramesForLeaving": "Harakatsiz raqamni ketishi uchun kadrlar soni",
+      "numberOfFramesForRoomCare": "Raqam ketishi uchun kadrlar soni",
+      "recognize2ndFrame": "Har 2-kadrni aniqash",
+      "recognize3ndFrame": "Har 3-kadrni aniqlash",
+      "recognizeAllFrames": "Barcha kadrlarni aniqlash",
+      "useNeuralNetworkDetector": "DRB neyrotarmoq detektoridan foydalanish",
+      "useNeuralNetworkRecognitionGrz": "DRB neyrotarmoqli aniqlashdan foydalanish",
+      "vehicleDetectorThreshold": "TV detektori chegarasi"
+    },
+    "identifiers": "Identifikatorlar",
+    "ignoreRepeats": "Takrorlashni rad etish",
+    "ignoreZeroSpeed": "Nol tezlikdagi qoidabuzarliklarni rad etish",
+    "imageAliases": "Rasmlar taxalluslari / rasm taxallusining",
+    "laneSettings": {
+      "addLane": "Chiziq qo'shish",
+      "deleteLane": "Chiziqni o'chirish",
+      "deleteLaneConfirm": "Harakatlanish chizig'ini o'chirishni tasdiqlang: №{name}",
+      "disablePt": "O'T ni o'chirish",
+      "settingsTitle": "Harakat chiziqlari sozlamalari",
+      "trafficLanes": "Harakat chiziqlari"
+    },
+    "location": "Joylashuv",
+    "lpnSimilarity": "DRB ning o'xshashligi*",
+    "maxPhaseLength": "Maks. taqiqlash fazasining uzunligi",
+    "minConfidence": "Min. tog'rilik",
+    "minDistance": "Min. traektoriya uzunligi",
+    "minSpeedLimit": "Minimal tezlikni chegaralash",
+    "minStoppingTime": "Min. to'xtash vaqti",
+    "mskso": {
+      "arrowInput": "Qo'shimcha seksiyaga kirish",
+      "recordViolation": "Qoidabuzarlikni faqat qizil va yonmaydigan strelka bo'lganda aniqlash",
+      "redInput": "Qizil kirish",
+      "yellowInput": "Sariq kirish"
+    },
+    "networkDetermination": "TV turining neyrotarmoqli aniqlash",
+    "noConfiguredChannels": "Tegishli kompleksda sozlangan kanallar mavjud emas",
+    "okato": "BRMHT",
+    "oncoming": "Qarama-qarshi",
+    "oncomingBuses": "Qarama-qarshi avtobuslar",
+    "oncomingTrucks": "Qarama-qarshi yuk mashinalari",
+    "onlyStoplineTime": "Bosqich yakunigacha bo'lgan vaqt, qoidabuzarlik faqat to'xtash chizig'i sifatida talqin etiladi",
+    "outputLine": "Chiqish liniyasi",
+    "overSpeed": "Tezlikni oshirish",
+    "parking328": "Avtoturargoh 3.28",
+    "parkingAtIntersection": "Chorrahada to'xtab turish",
+    "parkingOnSiteForCrippled": "Nogironlar uchun bo'lgan joyda to'xtab turish",
+    "passing": "Hamrohlar",
+    "passingBuses": "Hamroh avtobuslar",
+    "passingTrucks": "Hamroh yuk tashuvchi TV",
+    "plotForTheResolution": "Qaror uchun fabula",
+    "prohibitedChannels": "Taqiqlangan kanallar",
+    "recognitionArea": "Aniqlash zonasi",
+    "recognitionChannelSettings": "Aniqlash kanali sozlamalari",
+    "repeatsTimeout": "Takrorlash vaqti",
+    "roadwayCrossingLine": "Qatnov qismlarining kesishish chizig'i",
+    "savePhotos": "TVDV lik TV sharxlovchi fotosuratlarini saqlash",
+    "speedLimitOnDistance": "Masofadagi tezlikni cheklash",
+    "speedThreshold": "Tezlik chegarasi",
+    "speedingAtADistance": "Masofadagi tezlikni oshirish",
+    "stop327": "To'xtab turish 3.27",
+    "stopAtPublicTransportStop": "JT to'xtash joyida to'xtab turish",
+    "stopAtRailwayCrossing": "TY kesishmasida to'xtab turish",
+    "stopInSecondRow": "2-qatorda to'xtab turish",
+    "stopOnLaneForFixedRouteVehicles": "MTV uchun belgilangan chiziqda to'xtab turish",
+    "stopOnSidewalk": "Yo'lakda to'xtab turish",
+    "stopOnTramTracks": "Tramvay yo'llarida to'xtab turish",
+    "stopPedestrianCrossing": "Piyodalar o'tish joyida to'xtab turish",
+    "tenzoM": "Tenzo-M",
+    "timeLag": "Aniqlashni kechiktirish",
+    "topBorderFixation": "Aniqlashning yuqori chegarasi",
+    "useCarClass": "TV sinfidan foydalanish",
+    "usePeer": "Tegishli kompleksdan foydalanish",
+    "vehicleDetectorMarkings": "TV detektorini belgilash",
+    "videoSourceAliases": "Video manbalarining taxalluslari / video manbasining taxalluslari",
+    "violationClassifyAlgorithm": "Kvalifikatsiya algoritmi",
+    "violationTypeSettings": "Qoidabuzarlik turi sozlamalari",
     "violations": {
-      "movingCargoExceeding2": {}
+      "allowedDirectionMovement": "Ruxsat etilgan harakat yo'nalishi",
+      "atRailway": "Temir yo'l kesishmasida",
+      "bandSelectionAlgorithm": "Chiziq tanlash algoritmi",
+      "bicyclePathMovement": "Velosiped yo'lagi bo'ylab harakatlanish",
+      "bothDirections": "Ikkala yo'nalish",
+      "byMotionSpeed": "Harakat tezligi bo'yicha, piks/kadr",
+      "crossingStopLine": "To'xtash chizig'ini kesib o'tish",
+      "forbiddenDirection": "Taqiqlangan harakat yo'nalishi",
+      "fromTVSensorParallel": "TV datchigidan (hamroh)",
+      "goStraight": "To'g'ri harakat",
+      "intersectionOrControlled": "Chorrahada yoki boshqariluvchi PY",
+      "lastRecognizedGrz": "Oxirgi aniqlangan DRB",
+      "leftCameraView": "Kameradan qaraganda chap tomonda",
+      "lineOfIntersection": "PCH kesishish chizig'i bo'ylab",
+      "maneuverTime": "Manevr vaqti",
+      "maxManeuverTime": "Maks. manevr vaqti",
+      "maxPermissibleWeightRestrictions": "Ruxsat etilgan maksimal massa cheklovlari (3.1 belgisi)",
+      "minDistance": "Min. masofa",
+      "minManeuverTime": "Min. manevr vaqti",
+      "minSpeed": "Min. tezlik",
+      "movingCargoBeyondSecondLane": "Ikkinchi bo'lakdan keyingi yuk transporti harakati",
+      "movingCargoExceeding2": {
+        "5TonsLeftLane": "MRO bilan yuk tashuvchi TV ning harakati 2,5 tonnadan oshadi."
+      },
+      "noPassingZone": "\"Quvib o'tish taqiqlangan\" belgisining amal qilish zonasida",
+      "oneWayTraffic": "Bir tomonlama harakat",
+      "outsideNoPassingZone": "\"Quvib o'tish taqiqlangan\" belgisi zonasidan tashqarida",
+      "pedestrianPathwayMovement": "Piyodalar yo'lagi bo'ylab harakatlanish",
+      "pedestrianZoneMovement": "Piyodalar zonasi bo'ylab harakatlanish",
+      "positionNoLeftSign": "HQ da chap tomonga belgisisiz joylashuv",
+      "positionNoRightSign": "HQ da o'ng tomonga belgisisiz joylashuv",
+      "positionNoUTurnSign": "HQ da aylanib olish belgisisiz joylashuv",
+      "prohibitedDirections": "Taqiqlangan yo'nalishlar / Taqiqlangan yo'nalish",
+      "railwayCrossing": "TY kesishmasi",
+      "rightCameraView": "Kameradan qaraganda o'ng tomonda",
+      "rightProhibited": "O'ngga burilish taqiqlanadi",
+      "safetyIsland": "Xavfsizlik oroli",
+      "sameDirectionMovement": "Yo'l bo'ylab \"g'isht\" belgisiga harakatlanish",
+      "sameDirectionMovementNoTaxis": "Yo'l bo'ylab \"g'isht\" belgisiga harakatlanish (taksidan tashqari)",
+      "settingsTitle": "Qoidabuzarlik sozlamalari",
+      "sidewalkMovement": "Yo'lak bo'ylab harakatlanish",
+      "signLeftProhibited": "\"Chapga burilish taqiqlangan\" belgisi",
+      "signRightProhibited": "\"O'ngga burilish taqiqlangan\" belgisi",
+      "solidMarkingsLeft": "Tutash belgi chap tomonda",
+      "solidMarkingsRight": "Tutash belgi o'ng tomonda",
+      "toTVSensorOncoming": "TV datchikga (qarama-qarshi)",
+      "tramTracksDirection": "Tramvay yo'llari bo'ylab harakatlanish yo'nalishi",
+      "truckMovementProhibited": "Yuk mashinalarida harakatlanish taqiqlanadi (3.4 belgi)",
+      "turningLeftProhibited": "Chapga burilish taqiqlanadi",
+      "uTurnNoGoStraight": "To'g'riga harakat belgisi ostida burilish",
+      "uTurnProhibited": "Aylanib olish taqiqlangan",
+      "useRelatedComplexes": "Tegishli komplekslardan foydalanish",
+      "withoutMarkings": "Chorrahada yoki boshqariluvchi PY da belgisiz"
     }
   },
   "convertersPage": {
@@ -309,6 +570,8 @@
       "violationsDisabled": "Qoidabuzarliklarni uzatishni o'chirib qo'yish",
       "violationsTimeout": "Qoidabuzarliklarni yuklash taymauti"
     },
+    "duploServicesStatusRefreshed": "Xizmatlar holati yangilandi",
+    "instance": "Namuna",
     "isActive": "Aktiv",
     "isLoaded": "Yuklangan",
     "krisForm": {
@@ -329,6 +592,7 @@
     "restartDuploServices": "Duplo xizmatini qayta ishga tushirish",
     "saveConverterSettings": "Konverterlar sozlamalarini saqlash",
     "serviceName": "Xizmat nomi",
+    "thereMustBeAtLeastOneValue": "Kamida 1 qiymat bo'lishi kerak",
     "transferSettings": "Uzatish sozlamalari"
   },
   "datePage": {
@@ -342,19 +606,31 @@
     "timeZone": "Vaqt zonasi"
   },
   "errorPages": {
-    "forbidden": {},
-    "login": {},
-    "notFound": {}
+    "forbidden": {
+      "exit": "Akkauntdan chiqish",
+      "title": "Sahifani ko'rish uchun Sizda yetarli huquqlar mavjud emas"
+    },
+    "login": {
+      "title": "Sizga avtorizatsiyan o'tmadingiz! 🔐"
+    },
+    "notFound": {
+      "backHome": "Bosh menyuga qaytish",
+      "subtitle": "Voy! 😖 Ushbu serverda so'ralgan URL-manzil topilmadi.",
+      "title": "Sahifa topilmadi"
+    }
   },
   "errors": {
-    "За указанную дату нарушения не найдены": "Belgilangan sanada qoidabuzarliklar topilmadi"
+    "errorCode": "Xato kodi",
+    "errorText": "Xato matni",
+    "За указанную дату нарушения не найдены": "Belgilangan sanada qoidabuzarliklar topilmadi",
+    "Пользователь не может заблокировать собственную учетную запись": "Foydalanuvchi o'z hisob raqamini bloklay olmaydi",
+    "Файл с правами не найден": "Ruxsatli fayl topilmadi",
+    "Файл успешно сохранён": "Fayl muvaffaqiyatli saqlandi"
   },
   "gpsPage": {
     "clearLog": "Logni tozalash",
     "deviance": "Joylashuvni aniqlashdagi xatolik nisbati, m",
     "factoryReset": "Priyomnikni zavod sozlamalariga qaytarish",
-    "fixedCoordinateMode": "Ruxsat etilgan koordinata rejimi",
-    "fixedCoords": "Ruxsat etilgan koordinata rejimi",
     "gpsLog": "GPS ma'lumotlar logi",
     "logEnable": "GPS ma'lumotlarini loglash",
     "numberOfMeasurements": "O'lchovlar soni",
@@ -368,6 +644,8 @@
       "amtTotalFailed": "Xatolarga yo'l qo'yib o'tgan transport vositalarining umumiy soni",
       "amtTotalQueued": "Navbatda turgan transport vositalarining umumiy soni",
       "amtTotalSuccess": "Muvaffaqiyatli jo'natilgan transport vositalarining umumiy soni",
+      "date": "Sana",
+      "duplo": "Kavak 2",
       "errors": "Xatolar",
       "inQueue": "Navbatda",
       "successful": "Muvaffaqiyatli",
@@ -403,16 +681,26 @@
       "warnings": "Ogohlantirishlar"
     }
   },
-  "imagesPage": {},
+  "imagesPage": {
+    "fillColor": "To'ldirish rangi",
+    "imageCreate": "Rasm yaratish",
+    "line": "Chiziq",
+    "lineThickness": "Chiziqlar qalinligi",
+    "polygon": "Ko'pburchak",
+    "rectangle": "To'rtburchak",
+    "selectBackground": "Fonni tanlang",
+    "strokeColor": "Aylanma chiziq rangi",
+    "title": "Rasmlar "
+  },
   "menu": {
     "amts": "O'tgan transport vositalari",
     "amtsServer": "PT serveri",
-    "channelAlignmentPage": "Metrologiya",
     "channelsAlignment": "Kanallarni sozlash",
     "climate": "Harorat nazorati",
     "controlZones": "Boshqaruv zonalari",
     "converters": "Konverterlar",
     "dateTime": "Sana va vaqt",
+    "eds": "ERI",
     "gps": "GLONASS/GPS",
     "groups": {
       "azimuthSettings": "Azimut SPO sozlamalari",
@@ -422,6 +710,7 @@
     },
     "home": "Bosh sahifa",
     "images": "Rasmlar",
+    "metrology": "Metrologiya",
     "monitoring": "Monitoring",
     "mskso": "MSKSO",
     "networks": "Tarmoq sozlamalari",
@@ -437,14 +726,82 @@
   },
   "metrologyPage": {
     "recognitionChannels": {
-      "table": {},
-      "verificationRecognitionChannel": {}
+      "distanceMeasurementSettings": "Masofa bo'ylab o'lchovni sozlash",
+      "table": {
+        "avgSpeedMeasurement": "O'rtacha tezlikni o'lchash",
+        "calibrationDone": "Sozlash amalga oshirildi",
+        "channelId": "Kanal ID",
+        "distance": "Masofa",
+        "inputChannelDirection": "Kirish kanalining yo'nalishi",
+        "linkedComplex": "Tegishli kompleks",
+        "oppositeDirection": "Qarama-qarshi",
+        "outputChannelDirection": "Chiqish kanalining yo'nalishi",
+        "sameDirection": "Yo'l bo'ylab",
+        "sectionLength": "Yo'l qismining uzunligi",
+        "verification": "Tekshirish"
+      },
+      "title": "Aniqlash kanallari",
+      "verificationRecognitionChannel": {
+        "absImmersion": "Abs. xato., km/s",
+        "cameraVerification": "Kamerani tekshirish",
+        "deleteLine": "Qatorni o'chirish",
+        "distanceControlAlert": "Nazorat zonasidagi va L1 masofalarni o'lchash uchun uchun - \"DRB\" maydonini to'ldirish kerak",
+        "distanceControlTitle": "Nazorat zonasida masofani o'lchash",
+        "endInterval": "Intervalni tugatish",
+        "lastMeasurement": "Oxirgi o'lchov",
+        "measureL1": "L1 ni o'lchash",
+        "measuredLength": "Segmentning o'lchangan uzunligi, mm",
+        "measuredSpeed": "O'lchangan tezlik",
+        "measurementL1Title": "L1 masofani o'lchash",
+        "measurementType": "O'zgartirish turlari",
+        "noData": "Ma'lumotlar mavjud emas",
+        "radarVerification": "Radarni tekshirish",
+        "relError": "Nisb.xatol., %",
+        "speedonSimulator": "Imimatordagi tezlik",
+        "startInterval": "Intervalni boshlash",
+        "startMeasurement": "O'lchovlarni boshlash",
+        "stopMeasurement": "O'lchovlarni to'xtatish",
+        "title": "Jonli video",
+        "verificationMode": "Tekshirish rejimi"
+      }
     },
-    "speedMeasurementError": {},
-    "tools": {},
-    "verification": {}
+    "speedMeasurementError": {
+      "absoluteError": "Absolyut xato",
+      "gpsSpeed": "Tezlik, GPS",
+      "kiptSpeed": "Tezlik, KO'DT",
+      "relativeError": "Nisbiy xato"
+    },
+    "tools": {
+      "calculateError": "Hisoblash uchun noto'g'ri ma'lumotlar",
+      "calculationOfSpeedMeasurementErrorButton": "Tezlikni o'lchash xatosini hisoblash",
+      "changeMetrologyPasswordTitle": "Metrolog parolini o'zgartirish",
+      "confirmPassword": "Metrolog parolini o'zgartirish",
+      "currentPassword": "Metrologning hozirgi paroli",
+      "deCalculationButton": "DE kalkulyatori",
+      "deCalculationTitle": "DE hisoblash ",
+      "fileInputLabel": ".nme fayllarni tanlang",
+      "hideReport": "Hisobotni yashirish",
+      "inaccuracyCalculationTitle": "Xatoni hisoblash",
+      "metrologyPasswordButton": "Metrolog parolini o'zgartirish",
+      "newPassword": "Metrologning yangi paroli",
+      "roundToInputLabel": "O'nli kasrlar",
+      "showMap": "Xaritani ko'rsatish",
+      "showReport": "Hisobotni ko'rsatish",
+      "title": "Asboblar"
+    },
+    "verification": {
+      "certificateNumberInputLabel": "Sertifikat raqami",
+      "validUntilDateInputLabel": "Gacha amal qiladi",
+      "verificationCertificateTitle": "Tekshiruv haqidagi guvohnoma"
+    }
   },
-  "monitoringPage": {},
+  "monitoringPage": {
+    "counterDirection": "Hamrohlar uchun yo'nalish",
+    "favorableDirection": "Hamroh yo'nalish",
+    "speedOnControlZone": "Nazorat zonasidagi tezlik",
+    "speedOnSite": "Yo'l qismidagi tezlik",
+    "title": "O'tgan TV monitoring qilish"
+  },
   "msksoPage": {
     "communicationInterface": "Aloqa interfeysi",
     "msksoConfigList": {
@@ -460,6 +817,8 @@
     "serialPort": "Ketma-ket port"
   },
   "networksPage": {
+    "adapter": "Tarmoq adaO'Teri",
+    "addDnsServer": "DNS serverini qo'shish",
     "addressType": "Manzil turi",
     "bridgesList": {
       "editNetworkBridge": "Tarmoq ko'prigini tahrirlash"
@@ -471,6 +830,8 @@
       "title": "Tarmoq diagnostikasi",
       "tracepath": "Tracepath"
     },
+    "networkSettingsAreSaved": "Tarmoq sozlamalari saqlandi",
+    "networkSettingsHaveBeenApplied": "Tarmoq sozlamalari qo'llanildi",
     "openVpn": {
       "certificate": "Sertifikat",
       "configFile": "Kongifuratsiya fayli",
@@ -484,6 +845,7 @@
       "openVpn": "OpenVPN",
       "vlan": "VLAN"
     },
+    "unusedNetworkAdapters": "Foydalanilmaydigan tarmoq adaO'Terlari",
     "vlan": {
       "dhcp": "DHCP",
       "static": "Statik",
@@ -492,15 +854,19 @@
     }
   },
   "parkingPage": {
+    "addArea": "Maydon qo'shish",
     "addPreset": "Preset qo'shish",
     "addZone": "Zonani qo'shish",
     "deletePreset": "Presetni o'chirish",
     "deleteZone": "Zonani o'chirish",
+    "doSurveyPhoto": "Sharhlovchi fotosuratlarini olish",
     "editZone": "Zonani tahrirlash",
     "getCameraPosition": "Kameraning joriy pozitsiyasini olish",
+    "presetSettings": "Preset sozlamalari",
     "presetsList": "Presetlar ro'yxati",
     "setPreset": "Presetga o'tish",
     "startPan": "Kamerani burish",
+    "surveyZoom": "Sharhlovchi fotosuratni kattalashtirish",
     "zoneEnd": "Zonaning oxiri",
     "zoneSettings": "Zonani sozlash",
     "zoneStart": "Zonaning boshlanishi",
@@ -556,6 +922,7 @@
     "zoneWidth": "Zona kengligi"
   },
   "peersPage": {
+    "addPeer": "Tegishli kompleksni qo'shish",
     "checkTime": "Sonning vaqti. Tekshirish",
     "complexDeleted": "Kompleks o'chirilgan",
     "complexSaved": "Kompleks saqlanib qolgan",
@@ -563,6 +930,7 @@
     "connectVideoArchive": "Video arxivini ulash",
     "peerListRefreshed": "Bog'liq komplekslar ro'yxati yangilandi",
     "peerName": "Bog'liq kompleksning nomi (berilgan KIPT ichida unikal bo'lishi kerak)",
+    "peerRemoveConfirm": "Tegishli kompleksni o'chirishni tasdiqlash",
     "recognitionChannelsCount": "Aniqlash kanallari soni",
     "synchronized": "Sinxronlangan"
   },
@@ -583,15 +951,36 @@
     "ignoreRule": "Qoidani rad etish",
     "rule": "Qoida | Qoidalar",
     "scheduleAddedSaveSettings": "Jadval qo'shilgan. Sozlamalarni saqlash",
-    "scheduleCheck": "Jadvalni tekshirish"
+    "scheduleCheck": "Jadvalni tekshirish",
+    "schedulesSavedSaveSettings": "Jadvallar saqlanib qoldi. Sozlamalarni \"Tizim\" ilovasida saqlashni unutmang",
+    "violationsWillBeRecordedAtTheSelectedTime": "Tanlangan vaqtda qoidabuzarliklar qayd etiladi",
+    "violationsWillNotBeRecordedAtTheSelectedTime": "Tanlangan vaqtda qoidabuzarliklar qayd etilmaydi"
   },
-  "signPage": {},
+  "signPage": {
+    "certificateRequest": "Sertifikat so'rovi",
+    "country": "Davlat",
+    "createCertificateRequest": "Sertifikat so'rovini yaratish",
+    "dataForCreatingCertificateRequest": "Sertifikat so'rovini yaratish uchun ma'lumotlar",
+    "downloadCertificateRequest": "Sertifikat so'rovini yuklab olish",
+    "inn": "STIR",
+    "installCertificate": "Sertifikatni o'rnatish",
+    "installationAddress": "O'rnatish manzili",
+    "locality": "Aholi punkti",
+    "noCertificateRequest": "Sertifikat so'rovi mavjud emas",
+    "ogrn": "ADRR",
+    "organization": "Tashkilot",
+    "region": "Mintaqa",
+    "subjectsName": "Subyekt nomi",
+    "theCertificateIsInstalled": "Sertifikat o'rnatildi",
+    "theRequestWasSuccessfullyCreated": "So'rov muvaffaqiyatli yaratildi"
+  },
   "systemPage": {
     "cleanerTab": {
       "absolutePath": "Mutlaq yo'l",
       "actions": "Amallar",
       "addNewDirectory": "Yangi direktoriya qo'shish",
       "clearingPriority": "Tozalash ustuvorligi",
+      "confirmRemoval": "\"{name}\" bo'limini o'chirishni tasdiqlang",
       "deleteDirectory": "Direktoriyani o'chirish",
       "displayName": "Ko'rsatiladigan nom",
       "editDirectory": "Direktoriyani tahrirlash \"{name}\"",
@@ -605,7 +994,9 @@
       "totalSizeDirectories": "Summa"
     },
     "systemTab": {
+      "archiveWithModulesIsUploaded": "Modullar arxivi Yuklangan",
       "availableRAM": "Mavjud RAM",
+      "computingModuleHasBeenSentForReboot": "Hisoblash moduli qayta ishga tushirish uchun yuborilgan",
       "configuration": "Komplektatsiya",
       "created": "yaratilgan",
       "dataPartition": "Ma'lumotlar bo'limi",
@@ -613,10 +1004,12 @@
       "freeDiskSpace": "Bo'sh",
       "identificationData": "Dasturiy ta'minotning metrologik jihatdan muhim qismining identifikatsiya ma'lumotlari",
       "locationComputingModule": "Hisoblash moduli joylashuvi",
+      "locationComputingModuleSaved": "Hisoblash modulining joylashuvi saqlandi",
       "maxRecognitionChannels": "Aniqlash kanallarining maksimal soni",
       "mounted": "o'rnatilgan",
       "notExist": "MAVJUD EMAS",
       "notMounted": "O'RNATILMAGAN",
+      "numberOfChannelsUsedHasBeenChanged": "Amaldagi kanallar soni o'zgartirildi",
       "numberOfRecognitionChannelsUsed": "Foydalaniladigan aniqlash kanallari soni",
       "protectionKeySerial": "Xavfsizlik kaliti seriya raqami",
       "rebootComputingModule": "Hisoblash modulini qayta ishga tushirish",
@@ -652,10 +1045,29 @@
     "changingUserPassword": "Foydalanuvchi parolini o'zgartirish",
     "confirmDeleteUser": "Foydalanuvchining o'chirilishini tasdiqlash",
     "confirmPassword": "Tasdiqlash*",
+    "locked": "Bloklangan",
     "newPassword": "Yangi parol*",
-    "usersList": "Foydalanuvchilar ro'yxati"
+    "permissionsSaved": "Foydalanuvchining mavjud sahifalari ro'yxati saqlandi",
+    "userAdded": "{userLogin} foydalanuvchi muvaffaqiyatli qo'shildi",
+    "userPasswordChanged": "{userLogin} foydalanuvchi paroli o'zgartirildi",
+    "userSaved": "{userLogin} foydalanuvchi saqlandi",
+    "usersList": "Foydalanuvchilar ro'yxati",
+    "usersSaved": "Foydalanuvchilar saqlandi"
   },
-  "validations": {},
+  "validations": {
+    "confirmPassword": "Parollar mos kelmaydi",
+    "integer": "Maydonda faqat butun sonlar bo'lishi kerak",
+    "ipAddress": "To'g'ri IP-manzilni kiriting",
+    "maxLength": "Maydon {max} belgilaridan oshmasligi kerak",
+    "maxValue": "Raqam {max} dan katta bo'lishi mumkin emas",
+    "minLength": "Maydon {min} belgilardan kam bo'lmasligi kerak",
+    "minSizeOfDirectory": "Min. deriktoriya hajmi maksimaldan katta bo'lishi mumkin emas",
+    "minValue": "Raqam {min} dan kam bo'lishi mumkin emas",
+    "numeric": "Maydonda faqat raqamlar bo'lishi kerak",
+    "required": "Maydon to'ldirish uchun majburiydir",
+    "uniqueHost": "Host noyob bo'lishi kerak",
+    "uniqueLogin": "Ushbu login allaqachon band"
+  },
   "videoArchivePage": {
     "addImage": "Rasmni qo'shish",
     "downloadStillFrame": "Stop-kadrni yuklab olish",
@@ -664,9 +1076,56 @@
     "videoSource": "Video manbasi"
   },
   "videoSourcePage": {
-    "genicamCameras": {},
-    "rtspClients": {},
-    "rtspServers": {}
+    "genicamCameras": {
+      "addGenicam": "Genicam manbasini qo'shish",
+      "brightness": "Yorqinlik",
+      "brightnessControl": "Yorqinlikni boshqarish",
+      "editGenicam": "Genicam manbasini tahrirlash",
+      "excerpt": "Saqlab turish",
+      "fromLastFrame": "Oxirgi kadrdan, sek",
+      "gain": "Kuchaytirish",
+      "horizontalOffset": "Gorizontal bo'ylab siljish",
+      "leftOffset": "Chap tomonga siljish",
+      "maxGain": "Maks. kuchaytirish",
+      "maxHoldingTime": "Maks. saqlab turish vaqti",
+      "powerSupply": "IQ yoritgich QB",
+      "removeConfirm": "Kamerani o'chirishni tasdiqlang: \"{name}\"",
+      "sensorSerialNumber": "TV datchik seriya raqami",
+      "timeStampCorrection": "Vaqt belgisini tuzatish",
+      "title": "Genicam TV datchiklari",
+      "topOffset": "Yuqoriga siljish",
+      "verticalOffset": "Vertikal bo'ylab siljish",
+      "videoInput": "Video kirish"
+    },
+    "rtspClients": {
+      "cameraButtonTitle": "Barcha stop-kadrlarni ko'rsatish",
+      "fromLastUpdate": "So'nggi yangilanishdan, sek",
+      "packagesAccepted": "Qabul qilingan paketlar",
+      "portOfUnpacker": "Raspakovshik UDP porti",
+      "ptzProtocol": "PTZ protokol",
+      "removeConfirm": "RTSP mijozni o'chirilishini tasdiqlang: \"{name}\"",
+      "rtspClientAdd": "Yangi RTSP mijozni qo'shish",
+      "rtspClientEdit": "RTSP mijozni tahrirlash: \"{name}\"",
+      "sourceTemplate": "Manba shabloni",
+      "synchronizeStream": "HM soatlari bo'yicha oqimni sinxronizatsiya qilish",
+      "timeDeviation": "Vaqtning og'ishi, sek",
+      "title": "RTSP mijozlar / RTSP mijoz",
+      "unpackStream": "Qayta ishlash uchun oqimni raspakovka qilish",
+      "videoInputNumber": "Raspakovka qilish uchun bo'sh video kirish № raqami",
+      "viewStillImage": "Stop-kadrni ko'rish / Barcha stop-kadrlarni ko'rish"
+    },
+    "rtspServers": {
+      "addServer": "Yangi RTSP serverini qo'shish",
+      "editServer": "RTSP serverini tahrirlash: \"{name}\"",
+      "gamma": "Gamma",
+      "maxGamma": "Maks. gamma",
+      "minGamma": "Min. gamma",
+      "pedestrianDetector": "Piyodalar detektori",
+      "removeConfirm": "RTSP serverini o'chirishni tasdiqlang: \"{name}\"",
+      "sample": "Shablon",
+      "streamName": "Oqim nomi",
+      "title": "RTSP serverlar"
+    }
   },
   "violationTypes": {
     "all": "Hamma turlar",
@@ -675,12 +1134,925 @@
     "busLane": "MTS chizig'i",
     "busyIntersection": "Band kesishma",
     "enforcementTypes": {
-      "inAPopulatedAreaOutsideTheSignsCoverageArea": 1
+      "inAPopulatedAreaOutsideTheSignsCoverageArea": 1,
+      "inAPopulatedAreaWithinTheSignsCoverageArea": "Aholi punktida, belgining amal qilish zonasida",
+      "inAResidentialArea": "Yashash joyida",
+      "outsideThePopulatedAreaOutsideTheSignsCoverageArea": "Aholi punktidan tashqarida, belgining amal qilish zonasidan tashqarida",
+      "outsideThePopulatedAreaWithinTheSignsCoverageArea": "Aholi punktidan tashqarida, belgining amal qilish zonasida",
+      "routeVehicleLane": "MTV chiziqlari"
     },
     "garbage": "Hududning ifloslanishi",
     "headlights": "Faralar",
     "list": {
-      "999": {}
+      "0": {
+        "article": " 12.12 1-b.",
+        "display_name": "Qizil",
+        "gost_name": "C12. Svetoforning taqiqlangan signalida o'tish"
+      },
+      "1": {
+        "article": " 12.9 1-b.",
+        "display_name": "Tezlik 11-20",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "2": {
+        "article": " 12.9 2-b.",
+        "display_name": "Tezlik 21-40",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "3": {
+        "article": " 12.9 3-b",
+        "display_name": "Tezlik 41-60",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "4": {
+        "article": " 12.9 4-b",
+        "display_name": "Tezlik 61-80",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "5": {
+        "article": " 12.16 1-b",
+        "display_name": "To'xtash turish vaqti",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "6": {
+        "display_name": "Tramvay Yo'llari",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "7": {
+        "article": " 12.17 1.1-b",
+        "display_name": "Avtobus liniyasi",
+        "gost_name": "C6. Yo'nalish transport vositalari bo'lagida harakatlanish"
+      },
+      "9": {
+        "article": " 12.16 4-b",
+        "display_name": "To'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "10": {
+        "article": " 12.12 2-b",
+        "display_name": "To'xtash chizig'i",
+        "gost_name": "C13. Svetoforning taqiqlangan signalida to'xtash chizig'idan tashqariga chiqish"
+      },
+      "11": {
+        "article": " 12.16 1-b",
+        "display_name": "Chiziqlar bo'ylab harakatlanish (5.15.2 belgi)",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "12": {
+        "article": " 12.14 1.1-b",
+        "display_name": "HQ dagi holat",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "13": {
+        "article": " 12.16 1-b",
+        "display_name": "Chiziqlar bo'ylab harakatlanish (5.15.1 belgi)",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "14": {
+        "article": " 12.19 1-b",
+        "display_name": "Umumiy to'xtash joyi",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "15": {
+        "article": " 12.19 2-b",
+        "display_name": "Nogironlar uchun to'xtash joyi",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "16": {
+        "article": " 12.19 3-b",
+        "display_name": "PY da to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "17": {
+        "article": " 12.19 3-b",
+        "display_name": "Yo'lakda to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "18": {
+        "article": " 12.19 3.1-b",
+        "display_name": "To'xtash joyida to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "19": {
+        "article": " 12.19 3.2-b",
+        "display_name": "TY da to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "20": {
+        "article": " 12.19 3.2-b",
+        "display_name": "2-qatorda to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "21": {
+        "article": " 12.19 1-b",
+        "display_name": "To'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "22": {
+        "article": 12.18,
+        "display_name": "Piyodaga ustunlik bermaslik",
+        "gost_name": "C15. Piyodalarga yo'l berish Yo'l harakati qoidalarini bajarmaslik "
+      },
+      "23": {
+        "article": " 12.16 b-2",
+        "display_name": "Chapga burilish",
+        "gost_name": "C10. Belgilar yoki chiziqlar talablarini buzgan holda chapga burilish"
+      },
+      "24": {
+        "article": " 12.10 1-b",
+        "display_name": "TY kesishmasini taqiqlovchi signalda o'tish ",
+        "gost_name": "C12. Svetoforning taqiqlangan signalida o'tish"
+      },
+      "25": {
+        "article": " 12.10 2-b",
+        "display_name": "TY kesishmasi to'xtash chizig'i",
+        "gost_name": "C13. Svetoforning taqiqlangan signalida to'xtash chizig'i oldida to'xtab turish haqidagi Yo'l harakati qoidalari talablarini bajarmaslik. "
+      },
+      "26": {
+        "article": " 12.15.4-b",
+        "display_name": "Temir yo'l kesishmasida aylanma yo'l",
+        "gost_name": "C7. Yo'l harakati qoidalarini buzgan holda qarama-qarshi yo'nalish chiziqlaridan chiqish"
+      },
+      "27": {
+        "article": " 12.10 1-b",
+        "display_name": "TY kesishmasini taqiqlovchi signalda o'tish ",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "28": {
+        "article": " 12.17 1.1-b",
+        "display_name": "MTV uchun belgilangan chiziqda to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "29": {
+        "article": " 12.16 4-b",
+        "display_name": "Avtoturargoh 3.28",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "30": {
+        "display_name": "Chorrahada to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "31": {
+        "display_name": "Yo'lak bo'ylab",
+        "gost_name": "C4. Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
+      },
+      "32": {
+        "display_name": "Noparallel parkovka. HQ",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "33": {
+        "display_name": "Bir tomonlama yo'l",
+        "gost_name": "C9. Bir tomonlama yo'lda qarama-qarshi yo'nalishda harakat"
+      },
+      "34": {
+        "article": " 12.15.4-b",
+        "display_name": "Qarama-qarshi (Har bir yo'nalishda ikkita chiziq)",
+        "gost_name": "C7. Yo'l harakati qoidalarini buzgan holda qarama-qarshi yo'nalish chiziqlaridan chiqish"
+      },
+      "35": {
+        "display_name": "Oldi bilan burchak ostida",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "36": {
+        "article": " 12.16 3-b",
+        "display_name": "Qarama-qarshi bir tomonlama harakatlanish",
+        "gost_name": "C9. Bir tomonlama yo'lda qarama-qarshi yo'nalishda harakat"
+      },
+      "37": {
+        "article": " 12.15 4-b",
+        "display_name": "Qarama-qarshi (Quvib o'tish taqiqlangan belgisi)",
+        "gost_name": "C7. Yo'l harakati qoidalarini buzgan holda qarama-qarshi yo'nalish chiziqlaridan chiqish"
+      },
+      "38": {
+        "display_name": "Qisman yo'nalish bo'ylab",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "39": {
+        "display_name": "Yo'lak bo'ylab",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "40": {
+        "display_name": "Orqa bilan burchak ostida",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "41": {
+        "display_name": "Qisman orqa bilan",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "42": {
+        "display_name": "Qisman oldi bilan",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "43": {
+        "display_name": "Yo'lak ustida burchakda oldi bilan",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "44": {
+        "display_name": "Yo'lak ustida burchakda oldi bilan",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "45": {
+        "display_name": "Harakat taqiqlangan",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "46": {
+        "article": " 12.12 1-b.",
+        "display_name": "Teskari chiziq bo'ylab taqiqlangan yo'nalishda harakatlanish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "47": {
+        "article": "12.15. 1-b.",
+        "display_name": "Yo'l-yo'lakay yo'nalishdagi tramvay yo'llari bo'ylab harakatlanish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "48": {
+        "article": "12.15. 1-b.",
+        "display_name": "Tramvay yo'llaridan chapga burilish",
+        "gost_name": "C10. Belgilar yoki chiziqlar talablarini buzgan holda chapga burilish"
+      },
+      "49": {
+        "article": " 12.15.4-b",
+        "display_name": "Qarama-qarshi yo'nalishdagi tramvay yo'llari bo'ylab harakatlanish",
+        "gost_name": "C8. Qarama-qarshi yo'nalishdagi tramvay yo'llariga chiqish"
+      },
+      "51": {
+        "article": " 12.9 1-b.",
+        "display_name": "Yashash joyida tezlik 11-20",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "52": {
+        "article": " 12.9 2-b.",
+        "display_name": "Yashash joyida tezlik 21-40",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "53": {
+        "article": " 12.9 3-b",
+        "display_name": "Yashash joyida tezlik 41-60 ",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "54": {
+        "article": " 12.9 4-b",
+        "display_name": "Yashash joyida tezlik 61-80",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "55": {
+        "article": " 12.9 5-b",
+        "display_name": "Yashash joyida tezlik 61-80",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "56": {
+        "article": " 12.9 6-b",
+        "display_name": "Yashash joyida 3-q. tezkor takror",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "57": {
+        "article": " 12.9 7-b",
+        "display_name": "Yashash joyida 4-q. tezkor takror",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "58": {
+        "article": " 12.9 7-b",
+        "display_name": "Yashash joyida 5-q. tezkor takror",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "61": {
+        "article": " 12.10 1-b",
+        "display_name": "Qizil TY (takror)",
+        "gost_name": "C12. Svetoforning taqiqlangan signalida o'tish"
+      },
+      "62": {
+        "article": " 12.15 4-b",
+        "display_name": "Qarama-qarshi yo'nalishga TY chiqishi",
+        "gost_name": "C7. Yo'l harakati qoidalarini buzgan holda qarama-qarshi yo'nalish chiziqlaridan chiqish"
+      },
+      "63": {
+        "article": " 12.15. 1-b",
+        "display_name": "Yo'l cheti bo'ylab harakatlanish",
+        "gost_name": "C3. Yo'l cheti bo'ylab harakatlanish"
+      },
+      "64": {
+        "article": 12.2,
+        "display_name": "Tashqi yoritish moslamalari, ovozli signallar, favqulodda signalizatsiya yoki favqulodda to'xtash belgisidan foydalanish qoidalarini buzish",
+        "gost_name": "C5. Tashqi yoritish moslamalaridan foydalanish qoidalarini buzish"
+      },
+      "65": {
+        "article": " 12.16 1-b",
+        "display_name": "O'ngga burilish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "66": {
+        "article": " 12.16 1-b",
+        "display_name": "To'g'ri harakat",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "67": {
+        "article": " 12.16 b-2",
+        "display_name": "Aylanib olish taqiqlangan",
+        "gost_name": "C10. Aylanib olish, chapga burilish, orqaga yurish, bunday manevrlar taqiqlangan joylarda harakatlanish"
+      },
+      "68": {
+        "article": " 12.16 b-2",
+        "display_name": "To'g'riga harakatlanish 5.15 belgisi ostida aylanib olish",
+        "gost_name": "C10. Aylanib olish, chapga burilish, orqaga yurish, bunday manevrlar taqiqlangan joylarda harakatlanish"
+      },
+      "69": {
+        "article": " 12.14 1.1-b",
+        "display_name": "HQ dagi joylashuv (o'ngga burilish)",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "70": {
+        "article": " 12.14 1.1-b",
+        "display_name": "HQ joylashuv (aylanib olish)",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "71": {
+        "article": " 12.16 b-1",
+        "display_name": "Chiziqni buzgan holda qayta joylashuv 1.1",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "72": {
+        "article": " 12.16 b-1",
+        "display_name": "3.18.1 \"O'ngga burilish taqiqlangan\" belgisini buzish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "73": {
+        "article": " 12.16 b-2",
+        "display_name": "3.18.2 \"Chapga burilish taqiqlangan\" belgisini buzish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "74": {
+        "article": " 12.16 b-6",
+        "display_name": "Yuk mashinalariga harakatlanish taqiqlanadi",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "75": {
+        "article": " 12.16 b-1",
+        "display_name": "To'g'riga harakat belgisi 5.15.1",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "87": {
+        "article": " 12.15 b-2",
+        "display_name": "Yo'lak bo'ylab harakatlanish",
+        "gost_name": "С4 DST Р57144-2016 Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
+      },
+      "88": {
+        "article": " 12.15 b-2",
+        "display_name": "Piyodalar zonasi bo'ylab harakatlanish",
+        "gost_name": "С4 DST Р57144-2016 Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
+      },
+      "89": {
+        "article": " 12.15 b-2",
+        "display_name": "Velosiped yo'lagi bo'ylab harakatlanish",
+        "gost_name": "С4 DST Р57144-2016 Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
+      },
+      "90": {
+        "article": " 12.15 b-2",
+        "display_name": "Piyodalar yo'lagi bo'ylab harakatlanish",
+        "gost_name": "С4 DST Р57144-2016 Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
+      },
+      "91": {
+        "article": " 12.37 b-2",
+        "display_name": "OSAGO sug'urtasining yo'qligi",
+        "gost_name": "C16. TV egasining OSAGO to'g'risidagi FQ bajarmaganligi"
+      },
+      "92": {
+        "article": " 12.16 b-1",
+        "display_name": "Minimal tezlik",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "93": {
+        "article": " 12.16 b-1",
+        "display_name": "2.5 belgisi talablarini buzish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "94": {
+        "article": " 12.11 b-2",
+        "display_name": "HQ dagi joylashuv, 3,5 tonnadan yuqori",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "95": {
+        "article": " 12.16 b-1",
+        "display_name": "3.16 belgisi talablarini buzish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "96": {
+        "display_name": "2,5 tonnadan ortiq TV ning chap chiziqda harakatlanishi",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "97": {
+        "article": " 12.12 2-b",
+        "display_name": "To'xtash chizig'i (6.16 belgisi)",
+        "gost_name": "C13. Svetoforning taqiqlangan signalida to'xtash chizig'idan tashqariga chiqish"
+      },
+      "98": {
+        "article": " 12.16 1-b",
+        "display_name": "Chiziqni buzgan holda qayta joylashuv 1.16.1 – 1.16.3",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "99": {
+        "article": " 12.16 1-b",
+        "display_name": "Yo'l chiziqlari bilan belgilangan talablarni buzgan holda chapga burilish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "101": {
+        "article": " 12.9 1-b.",
+        "display_name": "Trassada tezlik 11-20",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "102": {
+        "article": " 12.9 2-b.",
+        "display_name": "Trassada tezlik 21-40",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "103": {
+        "article": " 12.9 3-b.",
+        "display_name": "Trassada tezlik 41-60",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "104": {
+        "article": " 12.9 4-b.",
+        "display_name": "Trassada tezlik 61-80",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "105": {
+        "article": " 12.9 1-b.",
+        "display_name": "Aholi punktlari belgisi ostida tezlik 11-20",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "106": {
+        "article": " 12.9 2-b.",
+        "display_name": "Aholi punktlari belgisi ostida tezlik 21-40",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "107": {
+        "article": " 12.9 3-b.",
+        "display_name": "Aholi punktlari belgisi ostida tezlik 41-60",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "108": {
+        "article": " 12.9 4-b.",
+        "display_name": "Aholi punktlari belgisi ostida tezlik 61-80",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "109": {
+        "article": " 12.9 1-b.",
+        "display_name": "Aholi punktlari belgisidan tashqarida tezlik 11-20",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "110": {
+        "article": " 12.9 2-b.",
+        "display_name": "Aholi punktlari belgisidan tashqarida tezlik 21-40",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "111": {
+        "article": " 12.9 3-b.",
+        "display_name": "Aholi punktlari belgisidan tashqarida tezlik 41-60",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "112": {
+        "article": " 12.9 4-b.",
+        "display_name": "Aholi punktlari belgisidan tashqarida tezlik 61-80",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "113": {
+        "article": " 12.9 5-b.",
+        "display_name": "80 dan yuqori tezlik",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "114": {
+        "article": " 12.9 5-b.",
+        "display_name": "Trassada 80 dan yuqori tezlik",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "115": {
+        "article": " 12.9 5-b.",
+        "display_name": "Aholi punktlari belgisidan tashqarida 80 dan ortiq tezlik",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "116": {
+        "article": " 12.9 5-b.",
+        "display_name": "Aholi punktlari belgisidan tashqarida 80 dan ortiq tezlik",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "117": {
+        "article": " 12.9 6-b.",
+        "display_name": "Tezlik takror 3-q. ",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "118": {
+        "article": " 12.9 6-b.",
+        "display_name": "Tezlik takror 3-q. trassada",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "119": {
+        "article": " 12.9 6-b.",
+        "display_name": "Tezlik takror 3-q. aholi punktlari belgisi ostida",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "120": {
+        "article": " 12.9 6-b.",
+        "display_name": "Tezlik takror 3-q. aholi punktlari belgisidan tashqarida",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "121": {
+        "article": " 12.9 7-b.",
+        "display_name": "Tezlik takror 4-q.",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "122": {
+        "article": " 12.9 7-b.",
+        "display_name": "Tezlik takror 4-q. trassada",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "123": {
+        "article": " 12.9 7-b.",
+        "display_name": "Tezlik takror 4-q. aholi punktlari belgisi ostida",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "124": {
+        "article": " 12.9 7-b.",
+        "display_name": "Tezlik takror 4-q. aholi punktlari belgisidan tashqarida",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "125": {
+        "article": " 12.9 7-b.",
+        "display_name": "Tezlik takror 5-q. ",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "126": {
+        "article": " 12.9 7-b.",
+        "display_name": "Tezlik takror 5-q. trassada",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "127": {
+        "article": " 12.9 7-b.",
+        "display_name": "Tezlik takror 5-q. aholi punktlari belgisi ostida",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "128": {
+        "article": " 12.9 7-b.",
+        "display_name": "Tezlik takror 5-q. aholi punktlari belgisidan tashqarida",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "130": {
+        "article": " 12.12 3-b.",
+        "display_name": "Qizil takror",
+        "gost_name": "C12. Svetoforning taqiqlangan signalida o'tish"
+      },
+      "131": {
+        "article": " 12.13 1-b.",
+        "display_name": "Band qilingan chorraha",
+        "gost_name": "C14. Agar tirbandlik yuzaga kelsa, chorrahaga chiqish yoki qatnov qismining kesishishi"
+      },
+      "132": {
+        "article": " 12.28 1-b.",
+        "display_name": "Yashash joyidagi qoidabuzarlik (tezlikdan tashqari)",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "198": {
+        "article": " 12.16 1-b.",
+        "display_name": "Yo'l bo'ylab \"g'isht\" belgisiga harakatlanish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "199": {
+        "article": " 12.16 1-b.",
+        "display_name": "Yo'l bo'ylab \"g'isht\" belgisiga harakatlanish (taksidan tashqari)",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "201": {
+        "article": " 12.9 1-b.",
+        "display_name": "Shahar uchastkasidagi belgi bo'lmaganda tezlik 11-20\n",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish\n"
+      },
+      "202": {
+        "article": " 12.9 2-b.",
+        "display_name": "Shahar uchastkasidagi belgi bo'lmaganda tezlik 21-40\n",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish\n"
+      },
+      "203": {
+        "article": " 12.9 3-b.",
+        "display_name": "Shahar uchastkasidagi belgi bo'lmaganda tezlik 41-60\n",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish\n"
+      },
+      "204": {
+        "article": " 12.9 4-b.",
+        "display_name": "Shahar uchastkasidagi belgi bo'lmaganda tezlik 61-80\n",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish\n"
+      },
+      "205": {
+        "article": " 12.9 5-b.",
+        "display_name": "Shahar uchastkasidagi belgi bo'lmaganda tezlik 80-...",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "211": {
+        "article": " 12.9 1-b.",
+        "display_name": "Shahar uchastkasidan tashqarida belgi bo'lmaganda tezlik 11-20",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "212": {
+        "article": " 12.9 2-b.",
+        "display_name": "Shahar uchastkasidan tashqarida belgi bo'lmaganda tezlik 21-40",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "213": {
+        "article": " 12.9 3-b.",
+        "display_name": "Shahar uchastkasidan tashqarida belgi bo'lmaganda tezlik 41-60",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "214": {
+        "article": " 12.9 4-b.",
+        "display_name": "Shahar uchastkasidan tashqarida belgi bo'lmaganda tezlik 61-80",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "215": {
+        "article": " 12.9 5-b.",
+        "display_name": "Shahar tashqarisidagi uchastkada tezlik, 80 belgisi yo'q-…",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "221": {
+        "article": " 12.9 1-b.",
+        "display_name": "Shahar uchastkasida belgi bo'lganda tezlik 11-20",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "222": {
+        "article": " 12.9 2-b.",
+        "display_name": "Shahar uchastkasida belgi bo'lganda tezlik 21-40",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "223": {
+        "article": " 12.9 3-b.",
+        "display_name": "Shahar uchastkasida belgi bo'lganda tezlik 41-60",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "224": {
+        "article": " 12.9 4-b.",
+        "display_name": "Shahar uchastkasida belgi bo'lganda tezlik 61-80",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "225": {
+        "article": " 12.9 5-b.",
+        "display_name": "Shahar uchastkasida belgi bo'lganda tezlik 80-...",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "231": {
+        "article": " 12.9 1-b.",
+        "display_name": "Shahar uchastkasidan tashqarida belgi bo'lganda tezlik 11-20",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "232": {
+        "article": " 12.9 2-b.",
+        "display_name": "Shahar uchastkasidan tashqarida belgi bo'lganda tezlik 21-40",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "233": {
+        "article": " 12.9 3-b.",
+        "display_name": "Shahar uchastkasidan tashqarida belgi bo'lganda tezlik 41-60",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "234": {
+        "article": " 12.9 4-b.",
+        "display_name": "Shahar uchastkasidan tashqarida belgi bo'lganda tezlik 61-80",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "235": {
+        "article": " 12.9 5-b.",
+        "display_name": "Shahar uchastkasidan tashqarida belgi bo'lganda tezlik 80-...",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "236": {
+        "article": " 12.9 6-b.",
+        "display_name": "Uchastkadagi takror 3-q, belgi bo'lmaganda",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "237": {
+        "article": " 12.9 6-b.",
+        "display_name": "Uchastkadagi takror 3-q, shahar tashqarisida, belgi bo'lmaganda",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "238": {
+        "article": " 12.9 6-b.",
+        "display_name": "Uchastkadagi takror 3-q, shahar, belgi bo'lganda tezlik",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "239": {
+        "article": " 12.9 6-b.",
+        "display_name": "Uchastkadagi takror 3-q, shahar tashqarisida, belgi bo'lganda tezlik",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "240": {
+        "article": " 12.9 7-b.",
+        "display_name": "Uchastkadagi takror 4-q, belgi bo'lmaganda",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "241": {
+        "article": " 12.9 7-b.",
+        "display_name": "Uchastkadagi takror 4-q, shahar tashqarisida, belgi bo'lmaganda",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "242": {
+        "article": " 12.9 7-b.",
+        "display_name": "Uchastkadagi takror 4-q, shahar, belgi bo'lganda tezlik",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "243": {
+        "article": " 12.9 7-b.",
+        "display_name": "Uchastkadagi takror 4-q, shahar tashqarisida, belgi bo'lganda tezlik",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "244": {
+        "article": " 12.9 7-b.",
+        "display_name": "Uchastkadagi takror 5-q, belgi bo'lmaganda",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "245": {
+        "article": " 12.9 7-b.",
+        "display_name": "Uchastkadagi takror 5-q, shahar tashqarisida, belgi bo'lmaganda",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "246": {
+        "article": " 12.9 7-b.",
+        "display_name": "Uchastkadagi takror 4-q, shahar, belgi bo'lganda tezlik",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "247": {
+        "article": " 12.9 7-b.",
+        "display_name": "Uchastkadagi takror 4-q, shahar tashqarisida, belgi bo'lganda tezlik",
+        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+      },
+      "301": {
+        "article": " 12.21.1 1-b.",
+        "display_name": "O'qga o'girlikning ortishi, 2% dan ortiq, 10% dan ko'p bo'lmagan (ruxsatnomasiz)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "302": {
+        "article": " 12.21.1 1-b.",
+        "display_name": "O'qga o'girlikning ortishi, 2% dan ortiq, 10% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "303": {
+        "article": " 12.21.1 2-b.",
+        "display_name": "O'qga o'girlikning ortishi, 20% dan ko'p bo'lmagan (ruxsatnomasiz)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "304": {
+        "article": " 12.21.1 4-b.",
+        "display_name": "O'qga o'girlikning ortishi, 20% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "305": {
+        "article": " 12.21.1 3-b.",
+        "display_name": "O'qga o'girlikning ortishi, 50% dan ko'p bo'lmagan (ruxsatnomasiz)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "306": {
+        "article": " 12.21.1 5-b.",
+        "display_name": "O'qga o'girlikning ortishi, 50% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "307": {
+        "article": " 12.21.1 6-b.",
+        "display_name": "O'qga o'girlikning ortishi, 50% dan ortiq bo'lmagan (ruxsatnomasiz)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "308": {
+        "article": " 12.21.1 6-b.",
+        "display_name": "O'qga o'girlikning ortishi, 50% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "309": {
+        "article": " 12.21.1 1-b.",
+        "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 2% dan ortiq, 10% dan ko'p bo'lmagan (ruxsatnomasiz)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "310": {
+        "article": " 12.21.1 1-b.",
+        "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 2% dan ortiq, 10% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "311": {
+        "article": " 12.21.1 2-b.",
+        "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 20% dan ko'p bo'lmagan (ruxsatnomasiz)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "312": {
+        "article": " 12.21.1 4-b.",
+        "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 20% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "313": {
+        "article": " 12.21.1 3-b.",
+        "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 50% dan ko'p bo'lmagan (ruxsatnomasiz)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "314": {
+        "article": " 12.21.1 5-b.",
+        "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 50% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "315": {
+        "article": " 12.21.1 6-b.",
+        "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 50% dan ortiq bo'lmagan (ruxsatnomasiz)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "316": {
+        "article": " 12.21.1 6-b.",
+        "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 50% dan ortiq bo'lmagan (ruxsatnoma berilgan)",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "317": {
+        "article": " 12.21.1 1-b.",
+        "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 10 sm dan ko'p bo'lmagan (ruxsatnomasiz)",
+        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+      },
+      "318": {
+        "article": " 12.21.1 1-b.",
+        "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 10 sm dan ko'p bo'lmagan (ruxsatnoma berilgan)",
+        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+      },
+      "319": {
+        "article": " 12.21.1 2-b.",
+        "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 20 sm dan ko'p bo'lmagan (ruxsatnomasiz)",
+        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+      },
+      "320": {
+        "article": " 12.21.1 4-b.",
+        "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 20 sm dan ko'p bo'lmagan (ruxsatnoma berilgan)",
+        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+      },
+      "321": {
+        "article": " 12.21.1 3-b.",
+        "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 50 sm dan ko'p bo'lmagan (ruxsatnomasiz)",
+        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+      },
+      "322": {
+        "article": " 12.21.1 5-b.",
+        "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 10 sm dan ko'p bo'lmagan (ruxsatnoma berilgan)",
+        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+      },
+      "323": {
+        "article": " 12.21.1 6-b.",
+        "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 50 sm dan ortiq bo'lmagan (ruxsatnomasiz)",
+        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+      },
+      "324": {
+        "article": " 12.21.1 6-b.",
+        "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 50 sm dan ortiq bo'lmagan (ruxsatnoma berilgan)",
+        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+      },
+      "325": {
+        "article": " 12.21.1 1-b.",
+        "display_name": "O'qlar guruhiga ortiqcha yuk 1-q maxsus ruxsatnomasiz",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "326": {
+        "article": " 12.21.1 1-b.",
+        "display_name": "O'qlar guruhiga ortiqcha yuk 1-q maxsus ruxsatnoma bilan",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "327": {
+        "article": " 12.21.1 2-b.",
+        "display_name": "O'qlar guruhiga ortiqcha yuk 2-q maxsus ruxsatnomasiz",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "328": {
+        "article": " 12.21.1 4-b.",
+        "display_name": "O'qlar guruhiga ortiqcha yuk 4-q maxsus ruxsatnoma bilan",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "329": {
+        "article": " 12.21.1 3-b.",
+        "display_name": "O'qlar guruhiga ortiqcha yuk 3-q maxsus ruxsatnomasiz",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "330": {
+        "article": " 12.21.1 5-b.",
+        "display_name": "O'qlar guruhiga ortiqcha yuk 5-q maxsus ruxsatnoma bilan",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "331": {
+        "article": " 12.21.1 6-b.",
+        "display_name": "O'qlar guruhiga ortiqcha yuk 6-q maxsus ruxsatnomasiz",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "332": {
+        "article": " 12.21.1 6-b.",
+        "display_name": "O'qlar guruhiga ortiqcha yuk 6-q maxsus ruxsatnoma bilan",
+        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+      },
+      "333": {
+        "display_name": "Hududning ifloslanishi",
+        "gost_name": "C16. Hududning ifloslanishi"
+      },
+      "997": {
+        "article": " 12.36.1",
+        "display_name": "Transport vositasi haydovchisi tomonidan telefondan foydalanish qoidalarini buzish",
+        "gost_name": "C16. Transport vositasi haydovchisi tomonidan telefondan foydalanish qoidalarini buzish"
+      },
+      "999": {
+        "article": " 12.6",
+        "display_name": "Xavfsizlik kamarlaridan yoki mototsikl dubulg'alaridan foydalanish qoidalarini buzish",
+        "gost_name": "C16. Xavfsizlik kamarlaridan yoki mototsikl dubulg'alaridan foydalanish qoidalarini buzish"
+      }
     },
     "maneuver": "Manyovr",
     "minimalDistance": "Minimal masofa",
@@ -693,6 +2065,7 @@
     "solidMarking": "Tutash chiziq 1.1",
     "speed": "Tezlik",
     "standing": "To'xtash joyi",
+    "stopLine": "To'xtash chizig'i",
     "stopSign": "STOP belgisi",
     "tramway": "Tramvay yo'llari",
     "truckRoadProhibited": "PCH da joylashuvi, 3,5 t dan ortiq",
@@ -702,7 +2075,16 @@
   },
   "violationsPage": {
     "downloadMaterial": "Materialni yuklab olish",
-    "imgxFileNames": {},
+    "imgxFileNames": {
+      "Видеоролик нарушения": "Qoidabuzarlik videosi",
+      "Детальное фото въезд в зону контроля": "Batafsil fotosurat nazorat zonasiga kirish",
+      "Детальное фото выезд из зоны контроля": "Batafsil fotosurat nazorat zonasidan chiqish",
+      "Детальное фото движение в зоне контроля": "Batafsil fotosurat nazorat zonasida harakat",
+      "Изображение лобового стекла ТС": "TV old oynasi tasviri",
+      "Нарушение коллаж для постановления": "Qaror uchun qoidabuzarliklar kollaji",
+      "Пластина ГРЗ": "DRB plastinasi",
+      "Проезд с нарушением": "Qoidabuzarlik bilan o'tish"
+    },
     "photoVideoViolationMaterials": "Qoidabuzarlikning foto/video materiallari",
     "unknownArticle": "Noma'lum maqola",
     "violationPlace": "Qoidabuzarlikning joyi",
