@@ -61,7 +61,6 @@
     "autoCalibration": "Авто калибрлөө",
     "compute": "Эсептөо",
     "computeDiscrepancyToastFirst": "Эсептөө ийгиликтүү болду, дал келбестик:",
-    "computeDiscrepancyToastSecond": "эсептелген фокустук аралык:",
     "enterCoordinates": "Координаттарды киргизүү",
     "installationHeight": "Орнотуунун бийиктиги",
     "lastStatus": "Акыркы абалы",
@@ -567,7 +566,6 @@
   "convertersPage": {
     "addConverter": "Конвертерди кошуу",
     "commonSettings": "Жалпы жөндөөлөр",
-    "convertersList": "Конверторлордун тизмеси",
     "deleteCurrentConverter": "Учурдагы конвертерди жок кылуу",
     "digitalPatrolForm": {
       "addResolution": "Сүрөттүн чечилишин кошуу",
@@ -612,7 +610,6 @@
     },
     "refreshDuploServiceStatus": "Кызматтардын статусун жаңыртуу",
     "restartDuploServices": "Duplo кызматын кжүргүзүү",
-    "saveConverterSettings": "Конверторлордун жөндөөлөрүн сактоо",
     "serviceName": "Кызматтын аты",
     "thereMustBeAtLeastOneValue": "Кеминде 1 маани болушу керек",
     "transferSettings": "Берүүнүн жөндөөлөрү"
@@ -729,7 +726,6 @@
     "channelsAlignment": "Каналдарды тууралоо",
     "climate": "Климат-көзөмөл",
     "controlZones": "Көзөмөл аймагы",
-    "converters": "Конверторлор",
     "dateTime": "Күнү/убакыты",
     "eds": "ЭСК",
     "gps": "ГЛОНАСС/GPS",
@@ -1182,10 +1178,6 @@
   },
   "violationTypes": {
     "all": "Бардык типтер",
-    "averageSpeed": "Орточо ылдамдык",
-    "belt": "Кур",
-    "busLane": "МТС тилкеси",
-    "busyIntersection": "Бош эмес кесилиш",
     "enforcementTypes": {
       "inAPopulatedAreaOutsideTheSignsCoverageArea": "Элдүү аймакта, белгинин камтуу аймагынан тышкары",
       "inAPopulatedAreaWithinTheSignsCoverageArea": "Калктуу конушта, белги колдонулган аймактын чегинде",
@@ -1194,8 +1186,6 @@
       "outsideThePopulatedAreaWithinTheSignsCoverageArea": "Калктуу конуштан тышкары, белги колдонулган аймактын чегинде",
       "routeVehicleLane": "МТС тилкеси"
     },
-    "garbage": "Аймактын булганышы",
-    "headlights": "Фаралар",
     "list": {
       "0": {
         "article": " 12.12 1-б.",
@@ -2107,24 +2097,7 @@
         "gost_name": "C16. Коопсуздук курун же мотошлемдерин колдонуу эрежелерин бузуу"
       }
     },
-    "maneuver": "Манёвр",
-    "minimalDistance": "Минималдык аралык",
-    "minimalSpeed": "Минималдык ылдамдык",
-    "noPassage": "Кыймылга тыюу салынган",
-    "pedestrians": "Жөө жүрүүчүлөр",
-    "phone": "Телефон",
-    "redlight": "Кызыл",
-    "roadside": "Жол жээги",
-    "solidMarking": "Үзгүлтүксүз белгилөө 1.1",
-    "speed": "Ылдамдык",
-    "standing": "Аялдама",
-    "stopLine": "Токто сызыгы",
-    "stopSign": "STOP белгиси",
-    "tramway": "Трамвай жолдору",
-    "truckRoadProhibited": "Жолдогу 3.5 т дан жогору абал",
-    "trucksProhibited": "Жүк ташуучу унааларга тыюу салынган",
-    "unknown": "Бузуунун белгисиз түрү",
-    "wrongDirection": "Каршы тилке"
+    "unknown": "Бузуунун белгисиз түрү"
   },
   "violationsPage": {
     "downloadMaterial": "Материалды жүктөө",
