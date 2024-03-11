@@ -277,7 +277,7 @@
     "none": "mavjud emas | mavjud emas",
     "notAvailable": "Mavjud emas",
     "notConfigured": "Sozlanmagan",
-    "notifications": "Bildirishnomalar",
+    "notifications": {},
     "off": "O'chirish | o'chirilgan",
     "offset": "Og'ish",
     "on": "Yoqish | yoqilgan",
@@ -422,7 +422,7 @@
     "identifiers": "Identifikatorlar",
     "ignoreRepeats": "Takrorlashni rad etish",
     "ignoreZeroSpeed": "Nol tezlikdagi qoidabuzarliklarni rad etish",
-    "imageAliases": "Rasmlar taxalluslari / rasm taxallusining",
+    "imageAliases": "Rasmlar taxalluslari | rasm taxallusining",
     "laneSettings": {
       "addLane": "Chiziq qo'shish",
       "deleteLane": "Chiziqni o'chirish",
@@ -483,7 +483,7 @@
     "useCarClass": "TV sinfidan foydalanish",
     "usePeer": "Tegishli kompleksdan foydalanish",
     "vehicleDetectorMarkings": "TV detektorini belgilash",
-    "videoSourceAliases": "Video manbalarining taxalluslari / video manbasining taxalluslari",
+    "videoSourceAliases": "Video manbalarining taxalluslari | video manbasining taxalluslari",
     "violationClassifyAlgorithm": "Kvalifikatsiya algoritmi",
     "violationTypeSettings": "Qoidabuzarlik turi sozlamalari",
     "violations": {
@@ -519,7 +519,7 @@
       "positionNoLeftSign": "HQ da chap tomonga belgisisiz joylashuv",
       "positionNoRightSign": "HQ da o'ng tomonga belgisisiz joylashuv",
       "positionNoUTurnSign": "HQ da aylanib olish belgisisiz joylashuv",
-      "prohibitedDirections": "Taqiqlangan yo'nalishlar / Taqiqlangan yo'nalish",
+      "prohibitedDirections": "Taqiqlangan yo'nalishlar | Taqiqlangan yo'nalish",
       "railwayCrossing": "TY kesishmasi",
       "rightCameraView": "Kameradan qaraganda o'ng tomonda",
       "rightProhibited": "O'ngga burilish taqiqlanadi",
@@ -655,7 +655,7 @@
       "violationTotalSuccess": "Muvaffaqiyatli yuborilgan qoidabuzarliklarning umumiy soni"
     },
     "information": {
-      "allSpace": "SSD dagi bo'sh joyning umumiy soni",
+      "allSpace": "SSD dagi bo'sh joyning umumiy miqdori",
       "duploStatistics": "''Duplo 2'' xizmatiga materiallar jo'natish statistikasi",
       "freeSpace": "bo'sh",
       "gigabyte": "GB",
@@ -1109,10 +1109,10 @@
       "sourceTemplate": "Manba shabloni",
       "synchronizeStream": "HM soatlari bo'yicha oqimni sinxronizatsiya qilish",
       "timeDeviation": "Vaqtning og'ishi, sek",
-      "title": "RTSP mijozlar / RTSP mijoz",
+      "title": "RTSP mijozlar | RTSP mijoz",
       "unpackStream": "Qayta ishlash uchun oqimni raspakovka qilish",
       "videoInputNumber": "Raspakovka qilish uchun bo'sh video kirish № raqami",
-      "viewStillImage": "Stop-kadrni ko'rish / Barcha stop-kadrlarni ko'rish"
+      "viewStillImage": "Stop-kadrni ko'rish | Barcha stop-kadrlarni ko'rish"
     },
     "rtspServers": {
       "addServer": "Yangi RTSP serverini qo'shish",
@@ -1129,10 +1129,6 @@
   },
   "violationTypes": {
     "all": "Hamma turlar",
-    "averageSpeed": "O'rtacha tezlik",
-    "belt": "Kamar",
-    "busLane": "MTS chizig'i",
-    "busyIntersection": "Band kesishma",
     "enforcementTypes": {
       "inAPopulatedAreaOutsideTheSignsCoverageArea": 1,
       "inAPopulatedAreaWithinTheSignsCoverageArea": "Aholi punktida, belgining amal qilish zonasida",
@@ -1141,8 +1137,6 @@
       "outsideThePopulatedAreaWithinTheSignsCoverageArea": "Aholi punktidan tashqarida, belgining amal qilish zonasida",
       "routeVehicleLane": "MTV chiziqlari"
     },
-    "garbage": "Hududning ifloslanishi",
-    "headlights": "Faralar",
     "list": {
       "0": {
         "article": " 12.12 1-b.",
@@ -2054,24 +2048,30 @@
         "gost_name": "C16. Xavfsizlik kamarlaridan yoki mototsikl dubulg'alaridan foydalanish qoidalarini buzish"
       }
     },
-    "maneuver": "Manyovr",
-    "minimalDistance": "Minimal masofa",
-    "minimalSpeed": "Minimal tezlik",
-    "noPassage": "Harakat taqiqlangan",
-    "pedestrians": "Piyodalar",
-    "phone": "Telefon",
-    "redlight": "Qizil",
-    "roadside": "Yelka",
-    "solidMarking": "Tutash chiziq 1.1",
-    "speed": "Tezlik",
-    "standing": "To'xtash joyi",
-    "stopLine": "To'xtash chizig'i",
-    "stopSign": "STOP belgisi",
-    "tramway": "Tramvay yo'llari",
-    "truckRoadProhibited": "PCH da joylashuvi, 3,5 t dan ortiq",
-    "trucksProhibited": "Yuk mashinalar harakati cheklangan",
+    "stope_line": "To'xtash chizig'i",
     "unknown": "No'malum qoidabuzarlik turi",
-    "wrongDirection": "Qarshi"
+    "Встречная": "Qarshi",
+    "Движение грузовикам запрещено": "Yuk mashinalar harakati cheklangan",
+    "Движение запрещено": "Harakat taqiqlangan",
+    "Загрязнение территории": "Hududning ifloslanishi",
+    "Занятый перекрёсток": "Band kesishma",
+    "Знак STOP": "STOP belgisi",
+    "Красный": "Qizil",
+    "Манёвр": "Manyovr",
+    "Минимальная дистанция": "Minimal masofa",
+    "Минимальная скорость": "Minimal tezlik",
+    "Обочина": "Yelka",
+    "Остановка": "To'xtash joyi",
+    "Пешеходы": "Piyodalar",
+    "Положение на ПЧ, свыше 3,5 т": "PCH da joylashuvi, 3,5 t dan ortiq",
+    "Полоса МТС": "MTS chizig'i",
+    "Ремень": "Kamar",
+    "Скорость": "Tezlik",
+    "Сплошная разметка 1,1": "Tutash chiziq 1.1",
+    "Средняя скорость": "O'rtacha tezlik",
+    "Телефон": "Telefon",
+    "Трамвайные пути": "Tramvay yo'llari",
+    "Фары": "Faralar"
   },
   "violationsPage": {
     "downloadMaterial": "Materialni yuklab olish",
