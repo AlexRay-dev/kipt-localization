@@ -1183,6 +1183,7 @@
       "pulseDuration": "pulse duration",
       "removeConfirm": "Confirm camera deletion: \"{name}\"",
       "sensorSerialNumber": "Serial number of the TV sensor",
+      "timeStampCorrection": "Time stamp correction",
       "title": "Genicam TV sensors",
       "topOffset": "Offset from above",
       "verticalOffset": "Vertical offset",
