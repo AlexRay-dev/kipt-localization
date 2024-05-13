@@ -460,7 +460,7 @@
       "deleteLaneConfirm": "Harakatlanish chizig'ini o'chirishni tasdiqlang: №{name}",
       "disablePt": "O'T ni o'chirish",
       "settingsTitle": "Harakat chiziqlari sozlamalari",
-      "trafficLanes": "Harakat chiziqlari"
+      "trafficLanes": "Yo'l chiziqlari"
     },
     "location": "Joylashuv",
     "lowerFixationLimit": "Fiksatsiyaning pastki chegarasi",
@@ -709,7 +709,7 @@
       "amtTotalQueued": "Navbatda turgan transport vositalarining umumiy soni",
       "amtTotalSuccess": "Muvaffaqiyatli jo'natilgan transport vositalarining umumiy soni",
       "date": "Sana",
-      "duplo": "Kavak 2",
+      "duplo": "Duplo 2",
       "errors": "Xatolar",
       "inQueue": "Navbatda",
       "successful": "Muvaffaqiyatli",
@@ -1189,7 +1189,7 @@
       "verticalOffset": "Vertikal bo'ylab siljish",
       "videoInput": "Video kirish"
     },
-    "pulseDurationChangedToast": "${channel} kanali uchun puls davomiyligi oʻzgardi",
+    "pulseDurationChangedToast": "{channel} kanali uchun puls davomiyligi oʻzgardi",
     "rtspCameraSavedToast": "RTSP serveri saqlandi",
     "rtspClientAddedToast": "RTSP mijozi qo'shildi",
     "rtspClientDeletedToast": "RTSP mijozi {name} olib tashlandi",
@@ -1249,10 +1249,405 @@
         "display_name": "Tezlik 11-20",
         "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
       },
+      "2": {
+        "article": " 12.9 2-b.",
+        "display_name": "Tezlik 21-40",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "3": {
+        "article": " 12.9 3-b",
+        "display_name": "Tezlik 41-60",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "4": {
+        "article": " 12.9 4-b",
+        "display_name": "Tezlik 61-80",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "5": {
+        "article": " 12.16 1-b",
+        "display_name": "To'xtash turish vaqti",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "6": {
+        "display_name": "Tramvay Yo'llari",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "7": {
+        "article": " 12.17 1.1-b",
+        "display_name": "Avtobus liniyasi",
+        "gost_name": "C6. Yo'nalish transport vositalari bo'lagida harakatlanish"
+      },
+      "9": {
+        "article": " 12.16 4-b",
+        "display_name": "To'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
       "10": {
         "article": " 12.12 2-b",
         "display_name": "To'xtash chizig'i",
         "gost_name": "C13. Svetoforning taqiqlangan signalida to'xtash chizig'idan tashqariga chiqish"
+      },
+      "11": {
+        "article": " 12.16 1-b",
+        "display_name": "Chiziqlar bo'ylab harakatlanish (5.15.2 belgi)",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "12": {
+        "article": " 12.14 1.1-b",
+        "display_name": "HQ dagi holat",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "13": {
+        "article": " 12.16 1-b",
+        "display_name": "Chiziqlar bo'ylab harakatlanish (5.15.1 belgi)",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "14": {
+        "article": " 12.19 1-b",
+        "display_name": "Umumiy to'xtash joyi",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "15": {
+        "article": " 12.19 2-b",
+        "display_name": "Nogironlar uchun to'xtash joyi",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "16": {
+        "article": " 12.19 3-b",
+        "display_name": "PY da to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "17": {
+        "article": " 12.19 3-b",
+        "display_name": "Yo'lakda to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "18": {
+        "article": " 12.19 3.1-b",
+        "display_name": "To'xtash joyida to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "19": {
+        "article": " 12.19 3.2-b",
+        "display_name": "TY da to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "20": {
+        "article": " 12.19 3.2-b",
+        "display_name": "2-qatorda to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "21": {
+        "article": " 12.19 1-b",
+        "display_name": "To'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "22": {
+        "article": 12.18,
+        "display_name": "Piyodaga ustunlik bermaslik",
+        "gost_name": "C15. Piyodalarga yo'l berish Yo'l harakati qoidalarini bajarmaslik "
+      },
+      "23": {
+        "article": " 12.16 b-2",
+        "display_name": "Chapga burilish",
+        "gost_name": "C10. Belgilar yoki chiziqlar talablarini buzgan holda chapga burilish"
+      },
+      "24": {
+        "article": " 12.10 1-b",
+        "display_name": "TY kesishmasini taqiqlovchi signalda o'tish ",
+        "gost_name": "C12. Svetoforning taqiqlangan signalida o'tish"
+      },
+      "25": {
+        "article": " 12.10 2-b",
+        "display_name": "TY kesishmasi to'xtash chizig'i",
+        "gost_name": "C13. Svetoforning taqiqlangan signalida to'xtash chizig'i oldida to'xtab turish haqidagi Yo'l harakati qoidalari talablarini bajarmaslik. "
+      },
+      "26": {
+        "article": " 12.15.4-b",
+        "display_name": "Temir yo'l kesishmasida aylanma yo'l",
+        "gost_name": "C7. Yo'l harakati qoidalarini buzgan holda qarama-qarshi yo'nalish chiziqlaridan chiqish"
+      },
+      "27": {
+        "article": " 12.10 1-b",
+        "display_name": "TY kesishmasini taqiqlovchi signalda o'tish ",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "28": {
+        "article": " 12.17 1.1-b",
+        "display_name": "MTV uchun belgilangan chiziqda to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "29": {
+        "article": " 12.16 4-b",
+        "display_name": "Avtoturargoh 3.28",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "30": {
+        "display_name": "Chorrahada to'xtab turish",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "31": {
+        "display_name": "Yo'lak bo'ylab",
+        "gost_name": "C4. Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
+      },
+      "32": {
+        "display_name": "Noparallel parkovka. HQ",
+        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
+      },
+      "33": {
+        "display_name": "Bir tomonlama yo'l",
+        "gost_name": "C9. Bir tomonlama yo'lda qarama-qarshi yo'nalishda harakat"
+      },
+      "34": {
+        "article": " 12.15.4-b",
+        "display_name": "Qarama-qarshi (Har bir yo'nalishda ikkita chiziq)",
+        "gost_name": "C7. Yo'l harakati qoidalarini buzgan holda qarama-qarshi yo'nalish chiziqlaridan chiqish"
+      },
+      "35": {
+        "display_name": "Oldi bilan burchak ostida",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "36": {
+        "article": " 12.16 3-b",
+        "display_name": "Qarama-qarshi bir tomonlama harakatlanish",
+        "gost_name": "C9. Bir tomonlama yo'lda qarama-qarshi yo'nalishda harakat"
+      },
+      "37": {
+        "article": " 12.15 4-b",
+        "display_name": "Qarama-qarshi (Quvib o'tish taqiqlangan belgisi)",
+        "gost_name": "C7. Yo'l harakati qoidalarini buzgan holda qarama-qarshi yo'nalish chiziqlaridan chiqish"
+      },
+      "38": {
+        "display_name": "Qisman yo'nalish bo'ylab",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "39": {
+        "display_name": "Yo'lak bo'ylab",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "40": {
+        "display_name": "Orqa bilan burchak ostida",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "41": {
+        "display_name": "Qisman orqa bilan",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "42": {
+        "display_name": "Qisman oldi bilan",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "43": {
+        "display_name": "Yo'lak ustida burchakda oldi bilan",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "44": {
+        "display_name": "Yo'lak ustida burchakda oldi bilan",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "45": {
+        "display_name": "Harakat taqiqlangan",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "46": {
+        "article": " 12.12 1-b.",
+        "display_name": "Teskari chiziq bo'ylab taqiqlangan yo'nalishda harakatlanish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "47": {
+        "article": "12.15. 1-b.",
+        "display_name": "Yo'l-yo'lakay yo'nalishdagi tramvay yo'llari bo'ylab harakatlanish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "48": {
+        "article": "12.15. 1-b.",
+        "display_name": "Tramvay yo'llaridan chapga burilish",
+        "gost_name": "C10. Belgilar yoki chiziqlar talablarini buzgan holda chapga burilish"
+      },
+      "49": {
+        "article": " 12.15.4-b",
+        "display_name": "Qarama-qarshi yo'nalishdagi tramvay yo'llari bo'ylab harakatlanish",
+        "gost_name": "C8. Qarama-qarshi yo'nalishdagi tramvay yo'llariga chiqish"
+      },
+      "51": {
+        "article": " 12.9 1-b.",
+        "display_name": "Yashash joyida tezlik 11-20",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "52": {
+        "article": " 12.9 2-b.",
+        "display_name": "Yashash joyida tezlik 21-40",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "53": {
+        "article": " 12.9 3-b",
+        "display_name": "Yashash joyida tezlik 41-60 ",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "54": {
+        "article": " 12.9 4-b",
+        "display_name": "Yashash joyida tezlik 61-80",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "55": {
+        "article": " 12.9 5-b",
+        "display_name": "Yashash joyida tezlik 61-80",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "56": {
+        "article": " 12.9 6-b",
+        "display_name": "Yashash joyida 3-q. tezkor takror",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "57": {
+        "article": " 12.9 7-b",
+        "display_name": "Yashash joyida 4-q. tezkor takror",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "58": {
+        "article": " 12.9 7-b",
+        "display_name": "Yashash joyida 5-q. tezkor takror",
+        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+      },
+      "61": {
+        "article": " 12.10 1-b",
+        "display_name": "Qizil TY (takror)",
+        "gost_name": "C12. Svetoforning taqiqlangan signalida o'tish"
+      },
+      "62": {
+        "article": " 12.15 4-b",
+        "display_name": "Qarama-qarshi yo'nalishga TY chiqishi",
+        "gost_name": "C7. Yo'l harakati qoidalarini buzgan holda qarama-qarshi yo'nalish chiziqlaridan chiqish"
+      },
+      "63": {
+        "article": " 12.15. 1-b",
+        "display_name": "Yo'l cheti bo'ylab harakatlanish",
+        "gost_name": "C3. Yo'l cheti bo'ylab harakatlanish"
+      },
+      "64": {
+        "article": 12.2,
+        "display_name": "Tashqi yoritish moslamalari, ovozli signallar, favqulodda signalizatsiya yoki favqulodda to'xtash belgisidan foydalanish qoidalarini buzish",
+        "gost_name": "C5. Tashqi yoritish moslamalaridan foydalanish qoidalarini buzish"
+      },
+      "65": {
+        "article": " 12.16 1-b",
+        "display_name": "O'ngga burilish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "66": {
+        "article": " 12.16 1-b",
+        "display_name": "To'g'ri harakat",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "67": {
+        "article": " 12.16 b-2",
+        "display_name": "Aylanib olish taqiqlangan",
+        "gost_name": "C10. Aylanib olish, chapga burilish, orqaga yurish, bunday manevrlar taqiqlangan joylarda harakatlanish"
+      },
+      "68": {
+        "article": " 12.16 b-2",
+        "display_name": "To'g'riga harakatlanish 5.15 belgisi ostida aylanib olish",
+        "gost_name": "C10. Aylanib olish, chapga burilish, orqaga yurish, bunday manevrlar taqiqlangan joylarda harakatlanish"
+      },
+      "69": {
+        "article": " 12.14 1.1-b",
+        "display_name": "HQ dagi joylashuv (o'ngga burilish)",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "70": {
+        "article": " 12.14 1.1-b",
+        "display_name": "HQ joylashuv (aylanib olish)",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "71": {
+        "article": " 12.16 b-1",
+        "display_name": "Chiziqni buzgan holda qayta joylashuv 1.1",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "72": {
+        "article": " 12.16 b-1",
+        "display_name": "3.18.1 \"O'ngga burilish taqiqlangan\" belgisini buzish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "73": {
+        "article": " 12.16 b-2",
+        "display_name": "3.18.2 \"Chapga burilish taqiqlangan\" belgisini buzish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "74": {
+        "article": " 12.16 b-6",
+        "display_name": "Yuk mashinalariga harakatlanish taqiqlanadi",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "75": {
+        "article": " 12.16 b-1",
+        "display_name": "To'g'riga harakat belgisi 5.15.1",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "87": {
+        "article": " 12.15 b-2",
+        "display_name": "Yo'lak bo'ylab harakatlanish",
+        "gost_name": "С4 DST Р57144-2016 Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
+      },
+      "88": {
+        "article": " 12.15 b-2",
+        "display_name": "Piyodalar zonasi bo'ylab harakatlanish",
+        "gost_name": "С4 DST Р57144-2016 Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
+      },
+      "89": {
+        "article": " 12.15 b-2",
+        "display_name": "Velosiped yo'lagi bo'ylab harakatlanish",
+        "gost_name": "С4 DST Р57144-2016 Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
+      },
+      "90": {
+        "article": " 12.15 b-2",
+        "display_name": "Piyodalar yo'lagi bo'ylab harakatlanish",
+        "gost_name": "С4 DST Р57144-2016 Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
+      },
+      "91": {
+        "article": " 12.37 b-2",
+        "display_name": "OSAGO sug'urtasining yo'qligi",
+        "gost_name": "C16. TV egasining OSAGO to'g'risidagi FQ bajarmaganligi"
+      },
+      "92": {
+        "article": " 12.16 b-1",
+        "display_name": "Minimal tezlik",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "93": {
+        "article": " 12.16 b-1",
+        "display_name": "2.5 belgisi talablarini buzish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "94": {
+        "article": " 12.11 b-2",
+        "display_name": "HQ dagi joylashuv, 3,5 tonnadan yuqori",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "95": {
+        "article": " 12.16 b-1",
+        "display_name": "3.16 belgisi talablarini buzish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "96": {
+        "display_name": "2,5 tonnadan ortiq TV ning chap chiziqda harakatlanishi",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "97": {
+        "article": " 12.12 2-b",
+        "display_name": "To'xtash chizig'i (6.16 belgisi)",
+        "gost_name": "C13. Svetoforning taqiqlangan signalida to'xtash chizig'idan tashqariga chiqish"
+      },
+      "98": {
+        "article": " 12.16 1-b",
+        "display_name": "Chiziqni buzgan holda qayta joylashuv 1.16.1 – 1.16.3",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+      },
+      "99": {
+        "article": " 12.16 1-b",
+        "display_name": "Yo'l chiziqlari bilan belgilangan talablarni buzgan holda chapga burilish",
+        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
       },
       "101": {
         "article": " 12.9 1-b.",
@@ -1298,11 +1693,6 @@
         "article": " 12.9 1-b.",
         "display_name": "Aholi punktlari belgisidan tashqarida tezlik 11-20",
         "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
-      },
-      "11": {
-        "article": " 12.16 1-b",
-        "display_name": "Chiziqlar bo'ylab harakatlanish (5.15.2 belgi)",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
       },
       "110": {
         "article": " 12.9 2-b.",
@@ -1354,11 +1744,6 @@
         "display_name": "Tezlik takror 3-q. aholi punktlari belgisi ostida",
         "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
       },
-      "12": {
-        "article": " 12.14 1.1-b",
-        "display_name": "HQ dagi holat",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
       "120": {
         "article": " 12.9 6-b.",
         "display_name": "Tezlik takror 3-q. aholi punktlari belgisidan tashqarida",
@@ -1404,11 +1789,6 @@
         "display_name": "Tezlik takror 5-q. aholi punktlari belgisidan tashqarida",
         "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
       },
-      "13": {
-        "article": " 12.16 1-b",
-        "display_name": "Chiziqlar bo'ylab harakatlanish (5.15.1 belgi)",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
       "130": {
         "article": " 12.12 3-b.",
         "display_name": "Qizil takror",
@@ -1424,36 +1804,6 @@
         "display_name": "Yashash joyidagi qoidabuzarlik (tezlikdan tashqari)",
         "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
       },
-      "14": {
-        "article": " 12.19 1-b",
-        "display_name": "Umumiy to'xtash joyi",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
-      },
-      "15": {
-        "article": " 12.19 2-b",
-        "display_name": "Nogironlar uchun to'xtash joyi",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
-      },
-      "16": {
-        "article": " 12.19 3-b",
-        "display_name": "PY da to'xtab turish",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
-      },
-      "17": {
-        "article": " 12.19 3-b",
-        "display_name": "Yo'lakda to'xtab turish",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
-      },
-      "18": {
-        "article": " 12.19 3.1-b",
-        "display_name": "To'xtash joyida to'xtab turish",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
-      },
-      "19": {
-        "article": " 12.19 3.2-b",
-        "display_name": "TY da to'xtab turish",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
-      },
       "198": {
         "article": " 12.16 1-b.",
         "display_name": "Yo'l bo'ylab \"g'isht\" belgisiga harakatlanish",
@@ -1463,16 +1813,6 @@
         "article": " 12.16 1-b.",
         "display_name": "Yo'l bo'ylab \"g'isht\" belgisiga harakatlanish (taksidan tashqari)",
         "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "2": {
-        "article": " 12.9 2-b.",
-        "display_name": "Tezlik 21-40",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
-      },
-      "20": {
-        "article": " 12.19 3.2-b",
-        "display_name": "2-qatorda to'xtab turish",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
       },
       "201": {
         "article": " 12.9 1-b.",
@@ -1499,11 +1839,6 @@
         "display_name": "Shahar uchastkasidagi belgi bo'lmaganda tezlik 80-...",
         "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
       },
-      "21": {
-        "article": " 12.19 1-b",
-        "display_name": "To'xtab turish",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
-      },
       "211": {
         "article": " 12.9 1-b.",
         "display_name": "Shahar uchastkasidan tashqarida belgi bo'lmaganda tezlik 11-20",
@@ -1529,11 +1864,6 @@
         "display_name": "Shahar tashqarisidagi uchastkada tezlik, 80 belgisi yo'q-…",
         "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
       },
-      "22": {
-        "article": 12.18,
-        "display_name": "Piyodaga ustunlik bermaslik",
-        "gost_name": "C15. Piyodalarga yo'l berish Yo'l harakati qoidalarini bajarmaslik "
-      },
       "221": {
         "article": " 12.9 1-b.",
         "display_name": "Shahar uchastkasida belgi bo'lganda tezlik 11-20",
@@ -1558,11 +1888,6 @@
         "article": " 12.9 5-b.",
         "display_name": "Shahar uchastkasida belgi bo'lganda tezlik 80-...",
         "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
-      },
-      "23": {
-        "article": " 12.16 b-2",
-        "display_name": "Chapga burilish",
-        "gost_name": "C10. Belgilar yoki chiziqlar talablarini buzgan holda chapga burilish"
       },
       "231": {
         "article": " 12.9 1-b.",
@@ -1609,11 +1934,6 @@
         "display_name": "Uchastkadagi takror 3-q, shahar tashqarisida, belgi bo'lganda tezlik",
         "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
       },
-      "24": {
-        "article": " 12.10 1-b",
-        "display_name": "TY kesishmasini taqiqlovchi signalda o'tish ",
-        "gost_name": "C12. Svetoforning taqiqlangan signalida o'tish"
-      },
       "240": {
         "article": " 12.9 7-b.",
         "display_name": "Uchastkadagi takror 4-q, belgi bo'lmaganda",
@@ -1653,40 +1973,6 @@
         "article": " 12.9 7-b.",
         "display_name": "Uchastkadagi takror 4-q, shahar tashqarisida, belgi bo'lganda tezlik",
         "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
-      },
-      "25": {
-        "article": " 12.10 2-b",
-        "display_name": "TY kesishmasi to'xtash chizig'i",
-        "gost_name": "C13. Svetoforning taqiqlangan signalida to'xtash chizig'i oldida to'xtab turish haqidagi Yo'l harakati qoidalari talablarini bajarmaslik. "
-      },
-      "26": {
-        "article": " 12.15.4-b",
-        "display_name": "Temir yo'l kesishmasida aylanma yo'l",
-        "gost_name": "C7. Yo'l harakati qoidalarini buzgan holda qarama-qarshi yo'nalish chiziqlaridan chiqish"
-      },
-      "27": {
-        "article": " 12.10 1-b",
-        "display_name": "TY kesishmasini taqiqlovchi signalda o'tish ",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
-      },
-      "28": {
-        "article": " 12.17 1.1-b",
-        "display_name": "MTV uchun belgilangan chiziqda to'xtab turish",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
-      },
-      "29": {
-        "article": " 12.16 4-b",
-        "display_name": "Avtoturargoh 3.28",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
-      },
-      "3": {
-        "article": " 12.9 3-b",
-        "display_name": "Tezlik 41-60",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
-      },
-      "30": {
-        "display_name": "Chorrahada to'xtab turish",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
       },
       "301": {
         "article": " 12.21.1 1-b.",
@@ -1732,10 +2018,6 @@
         "article": " 12.21.1 1-b.",
         "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 2% dan ortiq, 10% dan ko'p bo'lmagan (ruxsatnomasiz)",
         "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
-      },
-      "31": {
-        "display_name": "Yo'lak bo'ylab",
-        "gost_name": "C4. Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
       },
       "310": {
         "article": " 12.21.1 1-b.",
@@ -1787,10 +2069,6 @@
         "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 20 sm dan ko'p bo'lmagan (ruxsatnomasiz)",
         "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
       },
-      "32": {
-        "display_name": "Noparallel parkovka. HQ",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
-      },
       "320": {
         "article": " 12.21.1 4-b.",
         "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 20 sm dan ko'p bo'lmagan (ruxsatnoma berilgan)",
@@ -1841,10 +2119,6 @@
         "display_name": "O'qlar guruhiga ortiqcha yuk 3-q maxsus ruxsatnomasiz",
         "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
       },
-      "33": {
-        "display_name": "Bir tomonlama yo'l",
-        "gost_name": "C9. Bir tomonlama yo'lda qarama-qarshi yo'nalishda harakat"
-      },
       "330": {
         "article": " 12.21.1 5-b.",
         "display_name": "O'qlar guruhiga ortiqcha yuk 5-q maxsus ruxsatnoma bilan",
@@ -1863,280 +2137,6 @@
       "333": {
         "display_name": "Hududning ifloslanishi",
         "gost_name": "C16. Hududning ifloslanishi"
-      },
-      "34": {
-        "article": " 12.15.4-b",
-        "display_name": "Qarama-qarshi (Har bir yo'nalishda ikkita chiziq)",
-        "gost_name": "C7. Yo'l harakati qoidalarini buzgan holda qarama-qarshi yo'nalish chiziqlaridan chiqish"
-      },
-      "35": {
-        "display_name": "Oldi bilan burchak ostida",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "36": {
-        "article": " 12.16 3-b",
-        "display_name": "Qarama-qarshi bir tomonlama harakatlanish",
-        "gost_name": "C9. Bir tomonlama yo'lda qarama-qarshi yo'nalishda harakat"
-      },
-      "37": {
-        "article": " 12.15 4-b",
-        "display_name": "Qarama-qarshi (Quvib o'tish taqiqlangan belgisi)",
-        "gost_name": "C7. Yo'l harakati qoidalarini buzgan holda qarama-qarshi yo'nalish chiziqlaridan chiqish"
-      },
-      "38": {
-        "display_name": "Qisman yo'nalish bo'ylab",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "39": {
-        "display_name": "Yo'lak bo'ylab",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "4": {
-        "article": " 12.9 4-b",
-        "display_name": "Tezlik 61-80",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
-      },
-      "40": {
-        "display_name": "Orqa bilan burchak ostida",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "41": {
-        "display_name": "Qisman orqa bilan",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "42": {
-        "display_name": "Qisman oldi bilan",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "43": {
-        "display_name": "Yo'lak ustida burchakda oldi bilan",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "44": {
-        "display_name": "Yo'lak ustida burchakda oldi bilan",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "45": {
-        "display_name": "Harakat taqiqlangan",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "46": {
-        "article": " 12.12 1-b.",
-        "display_name": "Teskari chiziq bo'ylab taqiqlangan yo'nalishda harakatlanish",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "47": {
-        "article": "12.15. 1-b.",
-        "display_name": "Yo'l-yo'lakay yo'nalishdagi tramvay yo'llari bo'ylab harakatlanish",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "48": {
-        "article": "12.15. 1-b.",
-        "display_name": "Tramvay yo'llaridan chapga burilish",
-        "gost_name": "C10. Belgilar yoki chiziqlar talablarini buzgan holda chapga burilish"
-      },
-      "49": {
-        "article": " 12.15.4-b",
-        "display_name": "Qarama-qarshi yo'nalishdagi tramvay yo'llari bo'ylab harakatlanish",
-        "gost_name": "C8. Qarama-qarshi yo'nalishdagi tramvay yo'llariga chiqish"
-      },
-      "5": {
-        "article": " 12.16 1-b",
-        "display_name": "To'xtash turish vaqti",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "51": {
-        "article": " 12.9 1-b.",
-        "display_name": "Yashash joyida tezlik 11-20",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
-      },
-      "52": {
-        "article": " 12.9 2-b.",
-        "display_name": "Yashash joyida tezlik 21-40",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
-      },
-      "53": {
-        "article": " 12.9 3-b",
-        "display_name": "Yashash joyida tezlik 41-60 ",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
-      },
-      "54": {
-        "article": " 12.9 4-b",
-        "display_name": "Yashash joyida tezlik 61-80",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
-      },
-      "55": {
-        "article": " 12.9 5-b",
-        "display_name": "Yashash joyida tezlik 61-80",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
-      },
-      "56": {
-        "article": " 12.9 6-b",
-        "display_name": "Yashash joyida 3-q. tezkor takror",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
-      },
-      "57": {
-        "article": " 12.9 7-b",
-        "display_name": "Yashash joyida 4-q. tezkor takror",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
-      },
-      "58": {
-        "article": " 12.9 7-b",
-        "display_name": "Yashash joyida 5-q. tezkor takror",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
-      },
-      "6": {
-        "display_name": "Tramvay Yo'llari",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "61": {
-        "article": " 12.10 1-b",
-        "display_name": "Qizil TY (takror)",
-        "gost_name": "C12. Svetoforning taqiqlangan signalida o'tish"
-      },
-      "62": {
-        "article": " 12.15 4-b",
-        "display_name": "Qarama-qarshi yo'nalishga TY chiqishi",
-        "gost_name": "C7. Yo'l harakati qoidalarini buzgan holda qarama-qarshi yo'nalish chiziqlaridan chiqish"
-      },
-      "63": {
-        "article": " 12.15. 1-b",
-        "display_name": "Yo'l cheti bo'ylab harakatlanish",
-        "gost_name": "C3. Yo'l cheti bo'ylab harakatlanish"
-      },
-      "64": {
-        "article": 12.2,
-        "display_name": "Tashqi yoritish moslamalari, ovozli signallar, favqulodda signalizatsiya yoki favqulodda to'xtash belgisidan foydalanish qoidalarini buzish",
-        "gost_name": "C5. Tashqi yoritish moslamalaridan foydalanish qoidalarini buzish"
-      },
-      "65": {
-        "article": " 12.16 1-b",
-        "display_name": "O'ngga burilish",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "66": {
-        "article": " 12.16 1-b",
-        "display_name": "To'g'ri harakat",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "67": {
-        "article": " 12.16 b-2",
-        "display_name": "Aylanib olish taqiqlangan",
-        "gost_name": "C10. Aylanib olish, chapga burilish, orqaga yurish, bunday manevrlar taqiqlangan joylarda harakatlanish"
-      },
-      "68": {
-        "article": " 12.16 b-2",
-        "display_name": "To'g'riga harakatlanish 5.15 belgisi ostida aylanib olish",
-        "gost_name": "C10. Aylanib olish, chapga burilish, orqaga yurish, bunday manevrlar taqiqlangan joylarda harakatlanish"
-      },
-      "69": {
-        "article": " 12.14 1.1-b",
-        "display_name": "HQ dagi joylashuv (o'ngga burilish)",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "7": {
-        "article": " 12.17 1.1-b",
-        "display_name": "Avtobus liniyasi",
-        "gost_name": "C6. Yo'nalish transport vositalari bo'lagida harakatlanish"
-      },
-      "70": {
-        "article": " 12.14 1.1-b",
-        "display_name": "HQ joylashuv (aylanib olish)",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "71": {
-        "article": " 12.16 b-1",
-        "display_name": "Chiziqni buzgan holda qayta joylashuv 1.1",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "72": {
-        "article": " 12.16 b-1",
-        "display_name": "3.18.1 \"O'ngga burilish taqiqlangan\" belgisini buzish",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "73": {
-        "article": " 12.16 b-2",
-        "display_name": "3.18.2 \"Chapga burilish taqiqlangan\" belgisini buzish",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "74": {
-        "article": " 12.16 b-6",
-        "display_name": "Yuk mashinalariga harakatlanish taqiqlanadi",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "75": {
-        "article": " 12.16 b-1",
-        "display_name": "To'g'riga harakat belgisi 5.15.1",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "87": {
-        "article": " 12.15 b-2",
-        "display_name": "Yo'lak bo'ylab harakatlanish",
-        "gost_name": "С4 DST Р57144-2016 Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
-      },
-      "88": {
-        "article": " 12.15 b-2",
-        "display_name": "Piyodalar zonasi bo'ylab harakatlanish",
-        "gost_name": "С4 DST Р57144-2016 Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
-      },
-      "89": {
-        "article": " 12.15 b-2",
-        "display_name": "Velosiped yo'lagi bo'ylab harakatlanish",
-        "gost_name": "С4 DST Р57144-2016 Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
-      },
-      "9": {
-        "article": " 12.16 4-b",
-        "display_name": "To'xtab turish",
-        "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
-      },
-      "90": {
-        "article": " 12.15 b-2",
-        "display_name": "Piyodalar yo'lagi bo'ylab harakatlanish",
-        "gost_name": "С4 DST Р57144-2016 Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
-      },
-      "91": {
-        "article": " 12.37 b-2",
-        "display_name": "OSAGO sug'urtasining yo'qligi",
-        "gost_name": "C16. TV egasining OSAGO to'g'risidagi FQ bajarmaganligi"
-      },
-      "92": {
-        "article": " 12.16 b-1",
-        "display_name": "Minimal tezlik",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "93": {
-        "article": " 12.16 b-1",
-        "display_name": "2.5 belgisi talablarini buzish",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "94": {
-        "article": " 12.11 b-2",
-        "display_name": "HQ dagi joylashuv, 3,5 tonnadan yuqori",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "95": {
-        "article": " 12.16 b-1",
-        "display_name": "3.16 belgisi talablarini buzish",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "96": {
-        "display_name": "2,5 tonnadan ortiq TV ning chap chiziqda harakatlanishi",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "97": {
-        "article": " 12.12 2-b",
-        "display_name": "To'xtash chizig'i (6.16 belgisi)",
-        "gost_name": "C13. Svetoforning taqiqlangan signalida to'xtash chizig'idan tashqariga chiqish"
-      },
-      "98": {
-        "article": " 12.16 1-b",
-        "display_name": "Chiziqni buzgan holda qayta joylashuv 1.16.1 – 1.16.3",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
-      },
-      "99": {
-        "article": " 12.16 1-b",
-        "display_name": "Yo'l chiziqlari bilan belgilangan talablarni buzgan holda chapga burilish",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
       },
       "997": {
         "article": " 12.36.1",
