@@ -79,7 +79,8 @@
     "squareStep": "Square pitch",
     "startAutoCalibration": "Start autocalibration",
     "timeStatusChange": "Time of status change",
-    "vehiclesCount": "Number of vehicles"
+    "vehiclesCount": "Number of vehicles",
+    "calculationError": "Calculation error. Check the entered coordinates"
   },
   "climateControlPage": {
     "Toffmax": "Upper temperature switch-off limit",
@@ -179,6 +180,7 @@
       "skipForward": "Frame forward",
       "stop": "Stop",
       "submit": "Save",
+      "statistics": "Statistics",
       "turnOffIlluminator": "Switch off the IR illuminator",
       "unblock": "Unlock",
       "upload": "Load",
@@ -353,7 +355,11 @@
       "miniature": "Miniature",
       "name": "Title | Name",
       "sourceName": "Source Name",
-      "time": "Time"
+      "time": "Time",
+      "numberInOrder": "№",
+      "laneType": "Lane type",
+      "direction": "Direction",
+      "violationTypes": "Violation types"
     },
     "temperature": "Temperature",
     "thickness": "Thickness",
@@ -398,7 +404,12 @@
     },
     "width": "Width",
     "yes": "Yes",
-    "zoom": "Enhancement"
+    "zoom": "Zoom",
+    "showRecognizer": "Show recognizer",
+    "step": "Step",
+    "select": "Select",
+    "fixationSettings": "Fixation settings",
+    "focus": "Focus"
   },
   "configEditor": {
     "fileSaved": "File saved\nDon't forget to save your settings in the System tab"
@@ -742,7 +753,18 @@
       "title": "Traffic lanes",
       "violationsToday": "Violations Today",
       "violationsYesterday": "Violations Yesterday",
-      "warnings": "Warnings"
+      "warnings": "Warnings",
+      "anyDirection": "Any",
+      "allCurrentLaneSettingsWillBeDeleted": "Attention! All current lane settings will be deleted. Are you sure?"
+    },
+    "lanesDialog": {
+      "selectNumberOfLanes": "Select the number of lanes",
+      "roadSide": "Roadside",
+      "lane": "Lane"
+    },
+    "settings": {
+      "directionForOncoming": "Direction for oncoming",
+      "directionForPassing": "Directions for passing"
     }
   },
   "imagesPage": {
@@ -1189,7 +1211,7 @@
       "verticalOffset": "Vertical offset",
       "videoInput": "Video Input"
     },
-    "pulseDurationChangedToast": "Pulse duration for channel ${channel} changed",
+    "pulseDurationChangedToast": "Pulse duration for channel {channel} changed",
     "rtspCameraSavedToast": "RTSP server saved",
     "rtspClientAddedToast": "RTSP client added",
     "rtspClientDeletedToast": "RTSP client {name} deleted",
@@ -1249,10 +1271,405 @@
         "display_name": "Speed 11-20",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
+      "2": {
+        "article": " 12.9 p. 2",
+        "display_name": "Speed 21-40",
+        "gost_name": "C1.1 Violation of the established speed limit"
+      },
+      "3": {
+        "article": " 12.9 p. 3",
+        "display_name": "Speed 41-60",
+        "gost_name": "C1.1 Violation of the established speed limit"
+      },
+      "4": {
+        "article": " 12.9 p. 4",
+        "display_name": "Speed 61-80",
+        "gost_name": "C1.1 Violation of the established speed limit"
+      },
+      "5": {
+        "article": " 12.16 p. 1",
+        "display_name": "Parking time",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "6": {
+        "display_name": "Tram tracks",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "7": {
+        "article": " 12.17 p. 1.1",
+        "display_name": "Bus lane",
+        "gost_name": "C6. Moving in the lane for route vehicles"
+      },
+      "9": {
+        "article": " 12.16 p. 4",
+        "display_name": "Stop",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
       "10": {
         "article": " 12.12 p. 2",
         "display_name": "Stop line",
         "gost_name": "C13. Driving beyond the stop line at a prohibited traffic light signal"
+      },
+      "11": {
+        "article": " 12.16 p. 1",
+        "display_name": "Traffic in lanes (sign 5.15.2)",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "12": {
+        "article": " 12.14 p. 1.1",
+        "display_name": "Position on carriageway",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "13": {
+        "article": " 12.16 p. 1",
+        "display_name": "Traffic in lanes (sign 5.15.1)",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "14": {
+        "article": " 12.19 p. 1",
+        "display_name": "General stop ",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "15": {
+        "article": " 12.19 p. 2",
+        "display_name": "Parking for incapacitated people",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "16": {
+        "article": " 12.19 p. 3",
+        "display_name": "Stopping at a pedestrian crossing",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "17": {
+        "article": " 12.19 p. 3",
+        "display_name": "Stopping on a sidewalk",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "18": {
+        "article": " 12.19 p. 3.1",
+        "display_name": "Stopping at a bus stop",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "19": {
+        "article": " 12.19 p. 3.2",
+        "display_name": "Stopping on tram tracks",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "20": {
+        "article": " 12.19 p. 3.2",
+        "display_name": "Stop in the 2nd row",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "21": {
+        "article": " 12.19 p. 1",
+        "display_name": "Stopping",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "22": {
+        "article": 12.18,
+        "display_name": "Not favouring a pedestrian",
+        "gost_name": "C15. Non-compliance with the requirement of the Road Traffic Rules to give way to pedestrians"
+      },
+      "23": {
+        "article": " 12.16 p. 2",
+        "display_name": "Left turn",
+        "gost_name": "C10. Turning left in violation of signs or markings"
+      },
+      "24": {
+        "article": " 12.10 p. 1",
+        "display_name": "Passing a railway crossing at a prohibited signal",
+        "gost_name": "C12. Passing through a prohibited traffic light signal"
+      },
+      "25": {
+        "article": " 12.10 p. 2",
+        "display_name": "Railway crossing stop line",
+        "gost_name": "C13. Failure to comply with the requirement of the Traffic Rules to stop in front of the stop line at a prohibited traffic light signal"
+      },
+      "26": {
+        "article": " 12.15.p. 4",
+        "display_name": "Detour at railway crossing",
+        "gost_name": "C7. Driving into the opposite-direction lane of traffic in violation of the Traffic Rules"
+      },
+      "27": {
+        "article": " 12.10 p. 1",
+        "display_name": "Stop at railway crossing",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "28": {
+        "article": " 12.17 p. 1.1",
+        "display_name": "Stopping in the lane for route vehicles",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "29": {
+        "article": " 12.16 p. 4",
+        "display_name": "Parking 3.28",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "30": {
+        "display_name": "Parking at crossroads",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "31": {
+        "display_name": "Along the pavement",
+        "gost_name": "C4. Traffic on pavements, pedestrian, cycle and cycle-pedestrian paths and cycle lanes"
+      },
+      "32": {
+        "display_name": "Parking not parallel to the carriageway",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "33": {
+        "display_name": "One-way road",
+        "gost_name": "C9. Driving in opposite-direction on a one-way road"
+      },
+      "34": {
+        "article": " 12.15.p. 4",
+        "display_name": "Opposite-direction lane (Two lanes in each direction)",
+        "gost_name": "C7. Driving into the opposite-direction lane of traffic in violation of the Traffic Rules"
+      },
+      "35": {
+        "display_name": "Angled in front",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "36": {
+        "article": " 12.16 p. 3",
+        "display_name": "Oopposite-direction lane on one-way traffic",
+        "gost_name": "C9. Driving in opposite-direction on a one-way road"
+      },
+      "37": {
+        "article": " 12.15 p. 4",
+        "display_name": "Opposite-direction lane (Overtaking sign prohibited)",
+        "gost_name": "C7. Driving into the opposite-direction lane of traffic in violation of the Traffic Rules"
+      },
+      "38": {
+        "display_name": "Parallel, with partial overlap",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "39": {
+        "display_name": "On the pavement along",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "40": {
+        "display_name": "Angled backwards",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "41": {
+        "display_name": "Partial back",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "42": {
+        "display_name": "Partial front",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "43": {
+        "display_name": "On the pavement angled, front",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "44": {
+        "display_name": "On the pavement angled, back",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "45": {
+        "display_name": "No traffic allowed",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "46": {
+        "article": " 12.12 p. 1",
+        "display_name": "Driving in a reversible lane in a prohibited direction",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "47": {
+        "article": " 12.15.p. 1",
+        "display_name": "Moving on oncoming tram tracks",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "48": {
+        "article": " 12.15.p. 1",
+        "display_name": "Left turn from the tram tracks",
+        "gost_name": "C10. Turning left in violation of signs or markings"
+      },
+      "49": {
+        "article": " 12.15.p. 4",
+        "display_name": "Moving on opposite-direction tram tracks",
+        "gost_name": "C8. Driving on tram tracks of opposite-direction"
+      },
+      "51": {
+        "article": " 12.9 p. 1",
+        "display_name": "Speed 11-20 in a residential area",
+        "gost_name": "C1.1 Violation of the established speed limit"
+      },
+      "52": {
+        "article": " 12.9 p. 2",
+        "display_name": "Speed 21-40 in a residential area",
+        "gost_name": "C1.1 Violation of the established speed limit"
+      },
+      "53": {
+        "article": " 12.9 p. 3",
+        "display_name": "Speed 41-60 in residential area",
+        "gost_name": "C1.1 Violation of the established speed limit"
+      },
+      "54": {
+        "article": " 12.9 p. 4",
+        "display_name": "Speed 61-80 in a residential area",
+        "gost_name": "C1.1 Violation of the established speed limit"
+      },
+      "55": {
+        "article": " 12.9 p. 5",
+        "display_name": "Speed 61-80 in a residential area",
+        "gost_name": "C1.1 Violation of the established speed limit"
+      },
+      "56": {
+        "article": " 12.9 p. 6",
+        "display_name": "Speeding, repeat p. 3 in a residential area",
+        "gost_name": "C1.1 Violation of the established speed limit"
+      },
+      "57": {
+        "article": " 12.9 p. 7",
+        "display_name": "Speeding, repeat p. 4 in a residential area",
+        "gost_name": "C1.1 Violation of the established speed limit"
+      },
+      "58": {
+        "article": " 12.9 p. 7",
+        "display_name": "Speeding, repeat p. 5 in a residential area",
+        "gost_name": "C1.1 Violation of the established speed limit"
+      },
+      "61": {
+        "article": " 12.10 p.1",
+        "display_name": "Red, Railway (repeat)",
+        "gost_name": "C12. Passing through a prohibited traffic light signal"
+      },
+      "62": {
+        "article": " 12.15 p.4",
+        "display_name": "Railway, driving on opposite-direction lane",
+        "gost_name": "C7. Driving into the opposite-direction lane of traffic in violation of the Traffic Rules"
+      },
+      "63": {
+        "article": " 12.15. p.1",
+        "display_name": "Roadside traffic",
+        "gost_name": "C3. Roadside traffic"
+      },
+      "64": {
+        "article": 12.2,
+        "display_name": "Violation of the rules for the use of external lights, sound signals, emergency signalling or an emergency stop sign",
+        "gost_name": "C5. Violation of the rules for the use of external lighting devices"
+      },
+      "65": {
+        "article": " 12.16 p. 1",
+        "display_name": "Turning right",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "66": {
+        "article": " 12.16 p. 1",
+        "display_name": "Moving straight",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "67": {
+        "article": " 12.16 p. 2",
+        "display_name": "U-turns are prohibited",
+        "gost_name": "C10. U-turn, left turn, reversing in places where such manoeuvres are prohibited"
+      },
+      "68": {
+        "article": " 12.16 p. 2",
+        "display_name": "U-turn under the straight ahead sign 5.15",
+        "gost_name": "C10. U-turn, left turn, reversing in places where such manoeuvres are prohibited"
+      },
+      "69": {
+        "article": " 12.14 p. 1.1",
+        "display_name": "Position on the carriageway (turning right)",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "70": {
+        "article": " 12.14 p. 1.1",
+        "display_name": "Position on the carriageway (turning)",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "71": {
+        "article": " 12.16 p. 1",
+        "display_name": "Re-alignment in violation of marking 1.1",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "72": {
+        "article": " 12.16 p. 1",
+        "display_name": "Violation of sign 3.18.1 \"Turning right is prohibited\"",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "73": {
+        "article": " 12.16 p. 2",
+        "display_name": "Violation of sign 3.18.2 \"Turning left is prohibited\"",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "74": {
+        "article": " 12.16 p.6",
+        "display_name": "No lorry traffic",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "75": {
+        "article": " 12.16 p.1",
+        "display_name": "Straight ahead sign 5.15.1",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "87": {
+        "article": " 12.15 p.2",
+        "display_name": "Moving on the pavement",
+        "gost_name": "C4 GOST R57144-2016 Moving on pavements, pedestrian, bicycle and cycle-pedestrian paths, cycle lanes"
+      },
+      "88": {
+        "article": " 12.15 p.2",
+        "display_name": "Moving through the pedestrian zone",
+        "gost_name": "C4 GOST R57144-2016 Moving on pavements, pedestrian, bicycle and cycle-pedestrian paths, cycle lanes"
+      },
+      "89": {
+        "article": " 12.15 p.2",
+        "display_name": "Moving along the cycle path",
+        "gost_name": "C4 GOST R57144-2016 Moving on pavements, pedestrian, bicycle and cycle-pedestrian paths, cycle lanes"
+      },
+      "90": {
+        "article": " 12.15 p.2",
+        "display_name": "Moving on the footpath",
+        "gost_name": "C4 GOST R57144-2016 Moving on pavements, pedestrian, bicycle and cycle-pedestrian paths, cycle lanes"
+      },
+      "91": {
+        "article": " 12.37 p. 2",
+        "display_name": "No CMTPL insurance policy",
+        "gost_name": "C16. Failure of the owner of the vehicle to comply with the Federal Law on CMTPL insurance"
+      },
+      "92": {
+        "article": " 12.16 p. 1",
+        "display_name": "Minimum speed",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "93": {
+        "article": " 12.16 p. 1",
+        "display_name": "Violation of the requirements of sign 2.5",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "94": {
+        "article": " 12.11 p. 2",
+        "display_name": "Position on the carriageway, over 3.5t",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "95": {
+        "article": " 12.16.p.1",
+        "display_name": "Violation of the requirements of sign 3.16",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "96": {
+        "display_name": "Traffic of vehicles over 2.5 tonnes in the left lane",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "97": {
+        "article": " 12.12 p. 2",
+        "display_name": "Stop line (sign 6.16)",
+        "gost_name": "C13. Driving beyond the stop line at a prohibited traffic light signal"
+      },
+      "98": {
+        "article": " 12.16 p.1",
+        "display_name": "Re-alignment in violation of markings 1.16.1 - 1.16.3",
+        "gost_name": "C11. Violation of road signs and road markings"
+      },
+      "99": {
+        "article": " 12.16 p.1",
+        "display_name": "Turning left in violation of the requirements prescribed by road markings",
+        "gost_name": "C11. Violation of road signs and road markings"
       },
       "101": {
         "article": " 12.9 p. 1",
@@ -1298,11 +1715,6 @@
         "article": " 12.9 p. 1",
         "display_name": "Speed 11-20 outside of settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
-      },
-      "11": {
-        "article": " 12.16 p. 1",
-        "display_name": "Traffic in lanes (sign 5.15.2)",
-        "gost_name": "C11. Violation of road signs and road markings"
       },
       "110": {
         "article": " 12.9 p. 2",
@@ -1354,11 +1766,6 @@
         "display_name": "Speed Repeat p. 3. in settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
-      "12": {
-        "article": " 12.14 p. 1.1",
-        "display_name": "Position on carriageway",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
       "120": {
         "article": " 12.9 p. 6",
         "display_name": "Speed Repeat p. 3. outside of settlement with sign",
@@ -1404,11 +1811,6 @@
         "display_name": "Speed Repeat p. 5. outside of settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
-      "13": {
-        "article": " 12.16 p. 1",
-        "display_name": "Traffic in lanes (sign 5.15.1)",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
       "130": {
         "article": " 12.12 p. 3",
         "display_name": "Red repeat",
@@ -1424,36 +1826,6 @@
         "display_name": "Violation in a residential area (except for speed)",
         "gost_name": "C11. Violation of road signs and road markings"
       },
-      "14": {
-        "article": " 12.19 p. 1",
-        "display_name": "General stop ",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
-      "15": {
-        "article": " 12.19 p. 2",
-        "display_name": "Parking for incapacitated people",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
-      "16": {
-        "article": " 12.19 p. 3",
-        "display_name": "Stopping at a pedestrian crossing",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
-      "17": {
-        "article": " 12.19 p. 3",
-        "display_name": "Stopping on a sidewalk",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
-      "18": {
-        "article": " 12.19 p. 3.1",
-        "display_name": "Stopping at a bus stop",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
-      "19": {
-        "article": " 12.19 p. 3.2",
-        "display_name": "Stopping on tram tracks",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
       "198": {
         "article": " 12.16 p.1",
         "display_name": "Driving under \"No entry\" sign in an oncoming direction",
@@ -1463,16 +1835,6 @@
         "article": " 12.16 p.1",
         "display_name": "Driving under \"No entry\" sign in oncoming direction (except taxis)",
         "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "2": {
-        "article": " 12.9 p. 2",
-        "display_name": "Speed 21-40",
-        "gost_name": "C1.1 Violation of the established speed limit"
-      },
-      "20": {
-        "article": " 12.19 p. 3.2",
-        "display_name": "Stop in the 2nd row",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
       },
       "201": {
         "article": " 12.9 p. 1",
@@ -1499,11 +1861,6 @@
         "display_name": "Speed in city section, no sign 80-...",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
-      "21": {
-        "article": " 12.19 p. 1",
-        "display_name": "Stopping",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
       "211": {
         "article": " 12.9 p. 1",
         "display_name": "Speed in suburban section, no sign 11-20",
@@ -1529,11 +1886,6 @@
         "display_name": "Speed in suburban section, no sign 80-...",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
-      "22": {
-        "article": 12.18,
-        "display_name": "Not favouring a pedestrian",
-        "gost_name": "C15. Non-compliance with the requirement of the Road Traffic Rules to give way to pedestrians"
-      },
       "221": {
         "article": " 12.9 p. 1",
         "display_name": "Speed in the city section, with sign 11-20",
@@ -1558,11 +1910,6 @@
         "article": " 12.9 p. 5",
         "display_name": "Speed in city section, with sign 80-...",
         "gost_name": "C1.2 Violation of the established speed limit"
-      },
-      "23": {
-        "article": " 12.16 p. 2",
-        "display_name": "Left turn",
-        "gost_name": "C10. Turning left in violation of signs or markings"
       },
       "231": {
         "article": " 12.9 p. 1",
@@ -1609,11 +1956,6 @@
         "display_name": "Speeding on section, repeat p. 3, suburban, with sign",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
-      "24": {
-        "article": " 12.10 p. 1",
-        "display_name": "Passing a railway crossing at a prohibited signal",
-        "gost_name": "C12. Passing through a prohibited traffic light signal"
-      },
       "240": {
         "article": " 12.9 p. 7",
         "display_name": "Speed on section, repeat p. 4, city, no sign",
@@ -1653,40 +1995,6 @@
         "article": " 12.9 p. 7",
         "display_name": "Speeding on section, repeat p. 5, suburban, with sign",
         "gost_name": "C1.2 Violation of the established speed limit"
-      },
-      "25": {
-        "article": " 12.10 p. 2",
-        "display_name": "Railway crossing stop line",
-        "gost_name": "C13. Failure to comply with the requirement of the Traffic Rules to stop in front of the stop line at a prohibited traffic light signal"
-      },
-      "26": {
-        "article": " 12.15.p. 4",
-        "display_name": "Detour at railway crossing",
-        "gost_name": "C7. Driving into the opposite-direction lane of traffic in violation of the Traffic Rules"
-      },
-      "27": {
-        "article": " 12.10 p. 1",
-        "display_name": "Stop at railway crossing",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
-      "28": {
-        "article": " 12.17 p. 1.1",
-        "display_name": "Stopping in the lane for route vehicles",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
-      "29": {
-        "article": " 12.16 p. 4",
-        "display_name": "Parking 3.28",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
-      "3": {
-        "article": " 12.9 p. 3",
-        "display_name": "Speed 41-60",
-        "gost_name": "C1.1 Violation of the established speed limit"
-      },
-      "30": {
-        "display_name": "Parking at crossroads",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
       },
       "301": {
         "article": " 12.21.1 p.1",
@@ -1732,10 +2040,6 @@
         "article": " 12.21.1 p.1",
         "display_name": "Exceeding the permissible weight of the vehicle, more than 2%, not more than 10% (without permission)",
         "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
-      },
-      "31": {
-        "display_name": "Along the pavement",
-        "gost_name": "C4. Traffic on pavements, pedestrian, cycle and cycle-pedestrian paths and cycle lanes"
       },
       "310": {
         "article": " 12.21.1 p.1",
@@ -1787,10 +2091,6 @@
         "display_name": "Exceeding the permissible dimensions of the vehicle, not more than 20 cm (without permission)",
         "gost_name": "C16. Violation of the rules of large-size vehicle movement"
       },
-      "32": {
-        "display_name": "Parking not parallel to the carriageway",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
       "320": {
         "article": " 12.21.1 p.4",
         "display_name": "Exceeding the permissible dimensions of the vehicle, not more than 20 cm (permission granted)",
@@ -1841,10 +2141,6 @@
         "display_name": "Overloading on axle group p. 3 without special permission",
         "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
       },
-      "33": {
-        "display_name": "One-way road",
-        "gost_name": "C9. Driving in opposite-direction on a one-way road"
-      },
       "330": {
         "article": " 12.21.1 p. 5",
         "display_name": "Overloading on axle group p. 5 with special permission",
@@ -1863,280 +2159,6 @@
       "333": {
         "display_name": "Pollution of the area",
         "gost_name": "C16. Contamination of the territory"
-      },
-      "34": {
-        "article": " 12.15.p. 4",
-        "display_name": "Opposite-direction lane (Two lanes in each direction)",
-        "gost_name": "C7. Driving into the opposite-direction lane of traffic in violation of the Traffic Rules"
-      },
-      "35": {
-        "display_name": "Angled in front",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "36": {
-        "article": " 12.16 p. 3",
-        "display_name": "Oopposite-direction lane on one-way traffic",
-        "gost_name": "C9. Driving in opposite-direction on a one-way road"
-      },
-      "37": {
-        "article": " 12.15 p. 4",
-        "display_name": "Opposite-direction lane (Overtaking sign prohibited)",
-        "gost_name": "C7. Driving into the opposite-direction lane of traffic in violation of the Traffic Rules"
-      },
-      "38": {
-        "display_name": "Parallel, with partial overlap",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "39": {
-        "display_name": "On the pavement along",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "4": {
-        "article": " 12.9 p. 4",
-        "display_name": "Speed 61-80",
-        "gost_name": "C1.1 Violation of the established speed limit"
-      },
-      "40": {
-        "display_name": "Angled backwards",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "41": {
-        "display_name": "Partial back",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "42": {
-        "display_name": "Partial front",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "43": {
-        "display_name": "On the pavement angled, front",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "44": {
-        "display_name": "On the pavement angled, back",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "45": {
-        "display_name": "No traffic allowed",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "46": {
-        "article": " 12.12 p. 1",
-        "display_name": "Driving in a reversible lane in a prohibited direction",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "47": {
-        "article": " 12.15.p. 1",
-        "display_name": "Moving on oncoming tram tracks",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "48": {
-        "article": " 12.15.p. 1",
-        "display_name": "Left turn from the tram tracks",
-        "gost_name": "C10. Turning left in violation of signs or markings"
-      },
-      "49": {
-        "article": " 12.15.p. 4",
-        "display_name": "Moving on opposite-direction tram tracks",
-        "gost_name": "C8. Driving on tram tracks of opposite-direction"
-      },
-      "5": {
-        "article": " 12.16 p. 1",
-        "display_name": "Parking time",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "51": {
-        "article": " 12.9 p. 1",
-        "display_name": "Speed 11-20 in a residential area",
-        "gost_name": "C1.1 Violation of the established speed limit"
-      },
-      "52": {
-        "article": " 12.9 p. 2",
-        "display_name": "Speed 21-40 in a residential area",
-        "gost_name": "C1.1 Violation of the established speed limit"
-      },
-      "53": {
-        "article": " 12.9 p. 3",
-        "display_name": "Speed 41-60 in residential area",
-        "gost_name": "C1.1 Violation of the established speed limit"
-      },
-      "54": {
-        "article": " 12.9 p. 4",
-        "display_name": "Speed 61-80 in a residential area",
-        "gost_name": "C1.1 Violation of the established speed limit"
-      },
-      "55": {
-        "article": " 12.9 p. 5",
-        "display_name": "Speed 61-80 in a residential area",
-        "gost_name": "C1.1 Violation of the established speed limit"
-      },
-      "56": {
-        "article": " 12.9 p. 6",
-        "display_name": "Speeding, repeat p. 3 in a residential area",
-        "gost_name": "C1.1 Violation of the established speed limit"
-      },
-      "57": {
-        "article": " 12.9 p. 7",
-        "display_name": "Speeding, repeat p. 4 in a residential area",
-        "gost_name": "C1.1 Violation of the established speed limit"
-      },
-      "58": {
-        "article": " 12.9 p. 7",
-        "display_name": "Speeding, repeat p. 5 in a residential area",
-        "gost_name": "C1.1 Violation of the established speed limit"
-      },
-      "6": {
-        "display_name": "Tram tracks",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "61": {
-        "article": " 12.10 p.1",
-        "display_name": "Red, Railway (repeat)",
-        "gost_name": "C12. Passing through a prohibited traffic light signal"
-      },
-      "62": {
-        "article": " 12.15 p.4",
-        "display_name": "Railway, driving on opposite-direction lane",
-        "gost_name": "C7. Driving into the opposite-direction lane of traffic in violation of the Traffic Rules"
-      },
-      "63": {
-        "article": " 12.15. p.1",
-        "display_name": "Roadside traffic",
-        "gost_name": "C3. Roadside traffic"
-      },
-      "64": {
-        "article": 12.2,
-        "display_name": "Violation of the rules for the use of external lights, sound signals, emergency signalling or an emergency stop sign",
-        "gost_name": "C5. Violation of the rules for the use of external lighting devices"
-      },
-      "65": {
-        "article": " 12.16 p. 1",
-        "display_name": "Turning right",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "66": {
-        "article": " 12.16 p. 1",
-        "display_name": "Moving straight",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "67": {
-        "article": " 12.16 p. 2",
-        "display_name": "U-turns are prohibited",
-        "gost_name": "C10. U-turn, left turn, reversing in places where such manoeuvres are prohibited"
-      },
-      "68": {
-        "article": " 12.16 p. 2",
-        "display_name": "U-turn under the straight ahead sign 5.15",
-        "gost_name": "C10. U-turn, left turn, reversing in places where such manoeuvres are prohibited"
-      },
-      "69": {
-        "article": " 12.14 p. 1.1",
-        "display_name": "Position on the carriageway (turning right)",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "7": {
-        "article": " 12.17 p. 1.1",
-        "display_name": "Bus lane",
-        "gost_name": "C6. Moving in the lane for route vehicles"
-      },
-      "70": {
-        "article": " 12.14 p. 1.1",
-        "display_name": "Position on the carriageway (turning)",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "71": {
-        "article": " 12.16 p. 1",
-        "display_name": "Re-alignment in violation of marking 1.1",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "72": {
-        "article": " 12.16 p. 1",
-        "display_name": "Violation of sign 3.18.1 \"Turning right is prohibited\"",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "73": {
-        "article": " 12.16 p. 2",
-        "display_name": "Violation of sign 3.18.2 \"Turning left is prohibited\"",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "74": {
-        "article": " 12.16 p.6",
-        "display_name": "No lorry traffic",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "75": {
-        "article": " 12.16 p.1",
-        "display_name": "Straight ahead sign 5.15.1",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "87": {
-        "article": " 12.15 p.2",
-        "display_name": "Moving on the pavement",
-        "gost_name": "C4 GOST R57144-2016 Moving on pavements, pedestrian, bicycle and cycle-pedestrian paths, cycle lanes"
-      },
-      "88": {
-        "article": " 12.15 p.2",
-        "display_name": "Moving through the pedestrian zone",
-        "gost_name": "C4 GOST R57144-2016 Moving on pavements, pedestrian, bicycle and cycle-pedestrian paths, cycle lanes"
-      },
-      "89": {
-        "article": " 12.15 p.2",
-        "display_name": "Moving along the cycle path",
-        "gost_name": "C4 GOST R57144-2016 Moving on pavements, pedestrian, bicycle and cycle-pedestrian paths, cycle lanes"
-      },
-      "9": {
-        "article": " 12.16 p. 4",
-        "display_name": "Stop",
-        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
-      },
-      "90": {
-        "article": " 12.15 p.2",
-        "display_name": "Moving on the footpath",
-        "gost_name": "C4 GOST R57144-2016 Moving on pavements, pedestrian, bicycle and cycle-pedestrian paths, cycle lanes"
-      },
-      "91": {
-        "article": " 12.37 p. 2",
-        "display_name": "No CMTPL insurance policy",
-        "gost_name": "C16. Failure of the owner of the vehicle to comply with the Federal Law on CMTPL insurance"
-      },
-      "92": {
-        "article": " 12.16 p. 1",
-        "display_name": "Minimum speed",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "93": {
-        "article": " 12.16 p. 1",
-        "display_name": "Violation of the requirements of sign 2.5",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "94": {
-        "article": " 12.11 p. 2",
-        "display_name": "Position on the carriageway, over 3.5t",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "95": {
-        "article": " 12.16.p.1",
-        "display_name": "Violation of the requirements of sign 3.16",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "96": {
-        "display_name": "Traffic of vehicles over 2.5 tonnes in the left lane",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "97": {
-        "article": " 12.12 p. 2",
-        "display_name": "Stop line (sign 6.16)",
-        "gost_name": "C13. Driving beyond the stop line at a prohibited traffic light signal"
-      },
-      "98": {
-        "article": " 12.16 p.1",
-        "display_name": "Re-alignment in violation of markings 1.16.1 - 1.16.3",
-        "gost_name": "C11. Violation of road signs and road markings"
-      },
-      "99": {
-        "article": " 12.16 p.1",
-        "display_name": "Turning left in violation of the requirements prescribed by road markings",
-        "gost_name": "C11. Violation of road signs and road markings"
       },
       "997": {
         "article": " 12.36.1",
