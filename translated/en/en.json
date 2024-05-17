@@ -440,13 +440,13 @@
       "additionalGlobalSettings": "Additional global settings",
       "globalSettings": "Global settings",
       "oncomingDirection": "Opposite-direction (to camera)",
-      "relatedDirection": "Oncoming traffic (from camera)"
+      "relatedDirection": "Passing traffic (from camera)"
     },
     "grzRecognition": {
       "asyddIntegration": "Integration with automated traffic management systems",
       "detectionWithoutGuardrail": "Vehicle detection without a vehicle registration plate",
       "dynamicSizeGrz": "Dynamic vehicle registration plate size",
-      "firstPassingPassengers": "First for oncoming, last for opposite-direction",
+      "firstPassingPassengers": "First for passing, last for opposite-direction",
       "firstRecognized": "First recognition",
       "frameRate": "Recognition frame rate",
       "grzForMaterial": "Vehicle registration plate for the material",
@@ -506,7 +506,9 @@
     "parking328": "Parking 3.28",
     "parkingAtIntersection": "Parking at the crossroads",
     "parkingOnSiteForCrippled": "Parking in a parking place for incapacitated people",
-    "passing": "Oncoming",
+    "passing": "Passing",
+    "passingBuses": "Passing buses",
+    "passingTrucks": "Passing trucks",
     "plotForTheResolution": "Background for the ruling",
     "prohibitedChannels": "Forbidden channels",
     "recognitionArea": "Recognition zone",
@@ -544,7 +546,7 @@
       "byMotionSpeed": "By speed of movement, pixels/frame",
       "crossingStopLine": "Crossing the stop line",
       "forbiddenDirection": "Prohibited direction of travel",
-      "fromTVSensorParallel": "from TV sensor (Oncoming traffic)",
+      "fromTVSensorParallel": "from TV sensor (Passing traffic)",
       "goStraight": "Moving straight",
       "intersectionOrControlled": "At an intersection or controlled pedestrian crossing",
       "lastRecognizedGrz": "Last recognised vehicle registration plate",
@@ -573,8 +575,8 @@
       "rightCameraView": "On the right side of camera view",
       "rightProhibited": "Turning right is prohibited",
       "safetyIsland": "Safety island",
-      "sameDirectionMovement": "Driving under a \"No passing\" sign in the oncoming direction",
-      "sameDirectionMovementNoTaxis": "Traffic under \"No Passing\" sign in the oncoming direction (except taxis)",
+      "sameDirectionMovement": "Driving under a \"No passing\" sign in the passing direction",
+      "sameDirectionMovementNoTaxis": "Traffic under \"No Passing\" sign in the passing direction (except taxis)",
       "settingsTitle": "Violation settings",
       "sidewalkMovement": "Travelling on the pavement",
       "signLeftProhibited": "\"No Left Turn\" sign",
@@ -769,7 +771,7 @@
       "objectId": "Object ID",
       "oppositeDirection": "Opposite-direction",
       "recognitionChannel": "Recognition channel",
-      "sameDirection": "Oncoming",
+      "sameDirection": "Passing",
       "tcToday": "Vehicles Today",
       "tcYesterday": "Vehicles Yesterday",
       "title": "Traffic lanes",
@@ -785,7 +787,7 @@
       "lane": "Lane"
     },
     "settings": {
-      "directionForOncoming": "Direction for oncoming",
+      "directionForOncoming": "Direction for opposite",
       "directionForPassing": "Directions for passing"
     }
   },
@@ -850,7 +852,7 @@
         "linkedComplex": "Connected complex",
         "oppositeDirection": "Opposite-direction",
         "outputChannelDirection": "Output channel direction",
-        "sameDirection": "Oncoming",
+        "sameDirection": "Passing",
         "sectionLength": "Section length",
         "verification": "Verification"
       },
@@ -919,8 +921,8 @@
     "verticalMovementConfirmToast": "The vertical movement of the vehicle registration plate is less than 100px. Press OK to continue measurements, press Cancel to cancel"
   },
   "monitoringPage": {
-    "counterDirection": "Direction for oncoming",
-    "favorableDirection": "Oncoming direction",
+    "counterDirection": "Direction for passing",
+    "favorableDirection": "Passing direction",
     "speedOnControlZone": "Speed in the control area",
     "speedOnSite": "Speed on site",
     "title": "Monitoring of passed vehicles"
@@ -1477,12 +1479,12 @@
       },
       "198": {
         "article": " 12.16 p.1",
-        "display_name": "Driving under \"No entry\" sign in an oncoming direction",
+        "display_name": "Driving under \"No entry\" sign in an passing direction",
         "gost_name": "C11. Violation of road signs and road markings"
       },
       "199": {
         "article": " 12.16 p.1",
-        "display_name": "Driving under \"No entry\" sign in oncoming direction (except taxis)",
+        "display_name": "Driving under \"No entry\" sign in passing direction (except taxis)",
         "gost_name": "C11. Violation of road signs and road markings"
       },
       "201": {
@@ -1822,7 +1824,7 @@
     },
     "stope_line": "Stop line",
     "unknown": "Unknown type of violation",
-    "Встречная": "Oncoming",
+    "Встречная": "Opposite-direction",
     "Движение грузовикам запрещено": "No lorry traffic",
     "Движение запрещено": "No traffic allowed",
     "Загрязнение территории": "Pollution of the area",
