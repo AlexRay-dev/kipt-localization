@@ -47,7 +47,8 @@
       "payload": "Cargo type",
       "place": "Place of fixation"
     },
-    "viewType": "Type of issue"
+    "viewType": "Type of issue",
+    "recordsFound": "Records found"
   },
   "amtsServerPage": {
     "addAdditionalPtServer": "Add an additional passed transport server",
@@ -594,16 +595,15 @@
       "uTurnNoGoStraight": "A U-turn under the \"Go Straight\" sign ",
       "uTurnProhibited": "U-turns are prohibited",
       "useRelatedComplexes": "Use related complexes",
-      "withoutMarkings": "At an intersection or regulated crossing without markings"
+      "withoutMarkings": "At an intersection or regulated crossing without markings",
+      "allViolationsFormed": "Both violations are formed",
+      "driverViolationsFormed": "Driver violations are formed",
+      "fixDriverBelt": "Fix the driver's seatbelt",
+      "fixPassengerBelt": "Fix the passenger seatbelt",
+      "passengerViolationsFormed": "Passenger violations are formed",
+      "withSimultaneousFixation": "With simultaneous fixation"
     },
-    "drivingTaxiBrick": "The movement of a taxi under the \"brick\" in the lane",
-    "withoutMarkings": "At an intersection or regulated crossing without markings",
-    "allViolationsFormed": "Both violations are formed",
-    "driverViolationsFormed": "Driver violations are formed",
-    "fixDriverBelt": "Capture the driver's seatbelt",
-    "fixPassengerBelt": "Capture the passenger's seatbelt",
-    "passengerViolationsFormed": "Passenger violations are formed",
-    "withSimultaneousFixation": "With simultaneous capture"
+    "drivingTaxiBrick": "The movement of a taxi under the \"brick\" in the lane"
   },
   "convertersPage": {
     "addConverter": "Add a converter",
@@ -729,7 +729,8 @@
     "peripheryNotFound": "The periphery ‘{var}’ was not found",
     "dynemicError": "Error: {var}",
     "incorrectCleanerPathStart": "The directory path must start with ‘/mnt/azimuth-data/’. You entered ‘{var}’",
-    "cleanerPathNotExists": "A non-existent path ‘{var}’ is specified. Check if it exists"
+    "cleanerPathNotExists": "A non-existent path ‘{var}’ is specified. Check if it exists",
+    "imageDisplayError": "Image display error"
   },
   "gpsPage": {
     "clearLog": "Clear the log",
@@ -742,7 +743,13 @@
     "satelliteID": "Satellite ID",
     "snr": "Average S/N ratio, dB",
     "trackingSatellites": "Satellites are in tracking",
-    "usedSatellites": "Satellites are in the solution"
+    "usedSatellites": "Satellites are in the solution",
+    "coordinatesCopied": "Coordinates copied to the clipboard",
+    "coordinatesNotAvailable": "Coordinates unavailable",
+    "differentialGps": "Differential GPS",
+    "extrapolationOfCoordinates": "Extrapolation of coordinates",
+    "manualInputMode": "Manual input mode",
+    "simulatorMode": "Simulator mode"
   },
   "homePage": {
     "duploDialog": {
@@ -945,9 +952,11 @@
       "greenSection": "Green (section)",
       "removeConfig": "Delete the config",
       "settingUpChannels": "Channel settings",
-      "settingUpMsksoChannels": "Сhannel settings of synchronisation module with the traffic light controller "
+      "settingUpMsksoChannels": "Сhannel settings of synchronisation module with the traffic light controller ",
+      "addMskso": "Add synchronisation module with traffic light object controller"
     },
-    "serialPort": "Serial port"
+    "serialPort": "Serial port",
+    "msksoRemoveConfirm": "Confirm the removal of the synchronisation module with traffic light object controller: \"{name}\""
   },
   "networksPage": {
     "adapter": "Network adapter",
@@ -1068,10 +1077,11 @@
     "connectProxy": "Connect to a proxy server",
     "connectVideoArchive": "Connect a video archive",
     "peerListRefreshed": "The list of related complexes has been updated",
-    "peerName": "Name of the related complex",
+    "peerName": "Name of the associated complex",
     "peerRemoveConfirm": "Confirm deletion of the related complex",
     "recognitionChannelsCount": "Number of recognition channels",
-    "synchronized": "Synchronised"
+    "synchronized": "Synchronised",
+    "uniquePeerName": "The name must be unique within a given Measuring software and hardware complex"
   },
   "schedulesPage": {
     "addRule": "Add a rule",
@@ -1093,7 +1103,10 @@
     "scheduleCheck": "Schedule check",
     "schedulesSavedSaveSettings": "The schedules have been saved. Do not forget to save the settings in the System tab",
     "violationsWillBeRecordedAtTheSelectedTime": "Violations will be recorded at the selected time",
-    "violationsWillNotBeRecordedAtTheSelectedTime": "No violations will be recorded at the selected time"
+    "violationsWillNotBeRecordedAtTheSelectedTime": "No violations will be recorded at the selected time",
+    "scheduleRuleRemoveConfirm": "Confirm deletion of rule No.{name}",
+    "removeScheduleConfirm": "Confirm deletion of schedule \"{name}\"",
+    "viewSchedule": "Schedule view"
   },
   "signPage": {
     "certificateRequest": "Request for a certificate",
@@ -1218,7 +1231,8 @@
     "uniqueLogin": "The login is already taken",
     "alphaNum": "The value can only be letters (Latin) and numbers",
     "imageFileName": "The file name can only consist of Latin characters or numbers",
-    "uniqueFileName": "This file name is already taken"
+    "uniqueFileName": "This file name is already taken",
+    "uniqueScheduleName": "This schedule name is already taken"
   },
   "videoArchivePage": {
     "addImage": "Add an image",
@@ -1312,22 +1326,22 @@
     },
     "list": {
       "0": {
-        "article": " 12.12 p. 1",
+        "article": "12.12 p. 1",
         "display_name": "Red",
-        "gost_name": "C12. Passing through a prohibited traffic light signal"
+        "gost_name": "C12 Driving through a prohibited traffic signal"
       },
       "1": {
-        "article": " 12.9 p. 1",
+        "article": "12.9 p. 1",
         "display_name": "Speed 11-20",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "2": {
-        "article": " 12.9 p. 2",
+        "article": "12.9 p. 2",
         "display_name": "Speed 21-40",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "3": {
-        "article": " 12.9 p. 3",
+        "article": "12.9 p. 3",
         "display_name": "Speed 41-60",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
@@ -1356,9 +1370,9 @@
         "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
       },
       "10": {
-        "article": " 12.12 p. 2",
+        "article": "12.12 p. 2",
         "display_name": "Stop line",
-        "gost_name": "C13. Driving beyond the stop line at a prohibited traffic light signal"
+        "gost_name": "C13 Driving beyond the stop line at a prohibited traffic signal"
       },
       "11": {
         "article": " 12.16 p. 1",
@@ -1657,6 +1671,11 @@
         "display_name": "Straight ahead sign 5.15.1",
         "gost_name": "C11. Violation of road signs and road markings"
       },
+      "76": {
+        "article": "12.19 p.1",
+        "display_name": "Parking violation (sign 6.4 with Tables 8.6.1-8.6.9)",
+        "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
       "87": {
         "article": " 12.15 p.2",
         "display_name": "Moving on the pavement",
@@ -1721,504 +1740,529 @@
         "display_name": "Turning left in violation of the requirements prescribed by road markings",
         "gost_name": "C11. Violation of road signs and road markings"
       },
-      "101": {
-        "article": " 12.9 p. 1",
-        "display_name": "Speed 11-20 motorway",
-        "gost_name": "C1.1 Violation of the established speed limit"
-      },
       "102": {
-        "article": " 12.9 p. 2",
+        "article": "12.9 p. 2",
         "display_name": "Speed 21-40 motorway",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "103": {
-        "article": " 12.9 p. 3",
+        "article": "12.9 p. 3",
         "display_name": "Speed 41-60 motorway",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "104": {
-        "article": " 12.9 p. 4",
+        "article": "12.9 p. 4",
         "display_name": "Speed 61-80 motorway",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "105": {
-        "article": " 12.9 p. 1",
+        "article": "12.9 p. 1",
         "display_name": "Speed 11-20 in settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "106": {
-        "article": " 12.9 p. 2",
+        "article": "12.9 p. 2",
         "display_name": "Speed 21-40 in settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "107": {
-        "article": " 12.9 p. 3",
+        "article": "12.9 p. 3",
         "display_name": "Speed 41-60 in settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "108": {
-        "article": " 12.9 p. 4",
+        "article": "12.9 p. 4",
         "display_name": "Speed 61-80 in settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "109": {
-        "article": " 12.9 p. 1",
+        "article": "12.9 p. 1",
         "display_name": "Speed 11-20 outside of settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "110": {
-        "article": " 12.9 p. 2",
+        "article": "12.9 p. 2",
         "display_name": "Speed 21-40 outside of settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "111": {
-        "article": " 12.9 p. 3",
+        "article": "12.9 p. 3",
         "display_name": "Speed 41-60 outside of settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "112": {
-        "article": " 12.9 p. 4",
+        "article": "12.9 p. 4",
         "display_name": "Speed 61-80 outside of settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "113": {
-        "article": " 12.9 p. 5",
+        "article": "12.9 p. 5",
         "display_name": "Speed over 80",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "114": {
-        "article": " 12.9 p. 5",
+        "article": "12.9 p. 5",
         "display_name": "Speed over 80 motorway",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "115": {
-        "article": " 12.9 p. 5",
+        "article": "12.9 p. 5",
         "display_name": "Speed over 80 in settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "116": {
-        "article": " 12.9 p. 5",
+        "article": "12.9 p. 5",
         "display_name": "Speed over 80 outside of settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "117": {
-        "article": " 12.9 p. 6",
+        "article": "12.9 p. 6",
         "display_name": "Speed repeat p. 3.",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "118": {
-        "article": " 12.9 p. 6",
+        "article": "12.9 p. 6",
         "display_name": "Speed Repeat p. 3. motorway",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "119": {
-        "article": " 12.9 p. 6",
+        "article": "12.9 p. 6",
         "display_name": "Speed Repeat p. 3. in settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "120": {
-        "article": " 12.9 p. 6",
+        "article": "12.9 p. 6",
         "display_name": "Speed Repeat p. 3. outside of settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "121": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speed repeat p. 4.",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "122": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speed Repeat p. 4. motorway",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "123": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speed Repeat p. 4. in settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "124": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speed Repeat p. 4. outside of settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "125": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speed Repeat p. 5.",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "126": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speed Repeat p. 5. motorway",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "127": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speed Repeat p. 5. in settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "128": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speed Repeat p. 5. outside of settlement with sign",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "130": {
-        "article": " 12.12 p. 3",
+        "article": "12.12 p. 3",
         "display_name": "Red repeat",
-        "gost_name": "C12. Passing through a prohibited traffic light signal"
+        "gost_name": "C12 Driving through a prohibited traffic signal"
       },
       "131": {
-        "article": " 12.13 p.1",
+        "article": "12.13 p.1",
         "display_name": "Busy crossroad",
-        "gost_name": "C14. Entering a crossroad or crossing a carriageway in the event of congestion"
+        "gost_name": "C14 Entering a junction or crossing a carriageway in case of congestion"
       },
       "132": {
-        "article": " 12.28 p. 1",
+        "article": "12.28 p. 1",
         "display_name": "Violation in a residential area (except for speed)",
-        "gost_name": "C11. Violation of road signs and road markings"
+        "gost_name": "C11 Failure to comply with road signs and road markings"
+      },
+      "194": {
+        "article": "12.16 p.1",
+        "display_name": "Driving a taxi under a \"brick\" on a lane of traffic",
+        "gost_name": "C11. Taxi driving in the lane reserved for route vehicles under sign 3.1"
+      },
+      "195": {
+        "article": "12.16 p.1",
+        "display_name": "Driving under a \"brick\" in a lane of traffic",
+        "gost_name": "C11. Travelling in the lane reserved for route vehicles under sign 3.1"
+      },
+      "196": {
+        "article": "12.16 p.1",
+        "display_name": "Driving under a \"brick\" for lorries with maximum permitted weight",
+        "gost_name": "C11. Restrictions on the maximum permissible mass (sign 3.1)"
+      },
+      "197": {
+        "article": "12.20",
+        "display_name": "Violation of the rules for the use of external lights, sound signals, emergency signalling or an emergency stop sign",
+        "gost_name": "C5. Violation of the rules for the use of external lighting devices"
       },
       "198": {
-        "article": " 12.16 p.1",
-        "display_name": "Driving under \"No entry\" sign in an oncoming direction",
-        "gost_name": "C11. Violation of road signs and road markings"
+        "article": "12.28 p. 1",
+        "display_name": "Driving under a \"brick\" in the passing direction)",
+        "gost_name": "C11 Failure to comply with road signs and road markings"
       },
       "199": {
-        "article": " 12.16 p.1",
+        "article": "12.16 p. 1",
         "display_name": "Driving under \"No entry\" sign in oncoming direction (except taxis)",
-        "gost_name": "C11. Violation of road signs and road markings"
+        "gost_name": "C11 Failure to comply with road signs and road markings"
       },
       "201": {
-        "article": " 12.9 p. 1",
+        "article": "12.9 p. 1",
         "display_name": "Speed in city section, no sign 11-20",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "202": {
-        "article": " 12.9 p. 2",
+        "article": "12.9 p. 2",
         "display_name": "Speed in city section, no sign 21-40",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "203": {
-        "article": " 12.9 p. 3",
+        "article": "12.9 p. 3",
         "display_name": "Speed on city section, no sign 41-60",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "204": {
-        "article": " 12.9 p. 4",
+        "article": "12.9 p. 4",
         "display_name": "Speed in city section, no sign 61-80",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "205": {
-        "article": " 12.9 p. 5",
+        "article": "12.9 p. 5",
         "display_name": "Speed in city section, no sign 80-...",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "211": {
-        "article": " 12.9 p. 1",
+        "article": "12.9 p. 1",
         "display_name": "Speed in suburban section, no sign 11-20",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "212": {
-        "article": " 12.9 p. 2",
+        "article": "12.9 p. 2",
         "display_name": "Speed in suburban section, no sign 21-40",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "213": {
-        "article": " 12.9 p. 3",
+        "article": "12.9 p. 3",
         "display_name": "Speed in suburban section, no sign 41-60",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "214": {
-        "article": " 12.9 p. 4",
+        "article": "12.9 p. 4",
         "display_name": "Speed in suburban section, no sign 61-80",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "215": {
-        "article": " 12.9 p. 5",
+        "article": "12.9 p. 5",
         "display_name": "Speed in suburban section, no sign 80-...",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "221": {
-        "article": " 12.9 p. 1",
+        "article": "12.9 p. 1",
         "display_name": "Speed in the city section, with sign 11-20",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "222": {
-        "article": " 12.9 p. 2",
+        "article": "12.9 p. 2",
         "display_name": "Speed in city section, with sign 21-40",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "223": {
-        "article": " 12.9 p. 3",
+        "article": "12.9 p. 3",
         "display_name": "Speed in city section, with sign 41-60",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "224": {
-        "article": " 12.9 p. 4",
+        "article": "12.9 p. 4",
         "display_name": "Speed in city section, with sign 61-80",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "225": {
-        "article": " 12.9 p. 5",
+        "article": "12.9 p. 5",
         "display_name": "Speed in city section, with sign 80-...",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "231": {
-        "article": " 12.9 p. 1",
+        "article": "12.9 p. 1",
         "display_name": "Speed in suburban section, with sign 11-20",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "232": {
-        "article": " 12.9 p. 2",
+        "article": "12.9 p. 2",
         "display_name": "Speed in suburban section, with sign 21-40",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "233": {
-        "article": " 12.9 p. 3",
+        "article": "12.9 p. 3",
         "display_name": "Speed in suburban section, with sign 41-60",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "234": {
-        "article": " 12.9 p. 4",
+        "article": "12.9 p. 4",
         "display_name": "Speed in suburban section, with sign 61-80",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "235": {
-        "article": " 12.9 p. 5",
+        "article": "12.9 p. 5",
         "display_name": "Speed in suburban section, with sign 80-...",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "236": {
-        "article": " 12.9 p. 6",
+        "article": "12.9 p. 6",
         "display_name": "Speed on section, repeat p. 3, city, no sign",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "237": {
-        "article": " 12.9 p. 6",
+        "article": "12.9 p. 6",
         "display_name": "Speed on section, repeat p. 3, out of town, no sign.",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "238": {
-        "article": " 12.9 p. 6",
+        "article": "12.9 p. 6",
         "display_name": "Speeding on section, repeat p. 3, city, with sign",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "239": {
-        "article": " 12.9 p. 6",
+        "article": "12.9 p. 6",
         "display_name": "Speeding on section, repeat p. 3, suburban, with sign",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "240": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speed on section, repeat p. 4, city, no sign",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "241": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speed on section, repeat p. 4, out of town, no sign.",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "242": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speeding on section, repeat p. 4, city, with sign",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "243": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speeding on section, repeat p. 4, suburban, with sign",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "244": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speed on section, repeat p. 5, city, no sign",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "245": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speed on section, repeat p. 5, out of town, no sign.",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "246": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speeding on section, repeat p. 5, city, with sign",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "247": {
-        "article": " 12.9 p. 7",
+        "article": "12.9 p. 7",
         "display_name": "Speeding on section, repeat p. 5, suburban, with sign",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "301": {
-        "article": " 12.21.1 p.1",
+        "article": "12.21.1 p.1",
         "display_name": "Exceeding axle load, more than 2 per cent, not more than 10 per cent (without authorisation)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "302": {
-        "article": " 12.21.1 p.1",
+        "article": "12.21.1 p.1",
         "display_name": "Excess axle load, more than 2 per cent, not more than 10 per cent (permission granted)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "303": {
-        "article": " 12.21.1 p.2",
+        "article": "12.21.1 p.2",
         "display_name": "Excess axle load, max. 20 % (without permission)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "304": {
-        "article": " 12.21.1 p.4",
+        "article": "12.21.1 p.4",
         "display_name": "Excess axle load, not more than 20% (permission granted)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "305": {
-        "article": " 12.21.1 p.3",
+        "article": "12.21.1 p.3",
         "display_name": "Excess axle load, max. 50 % (without permission)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "306": {
-        "article": " 12.21.1 p.5",
+        "article": "12.21.1 p.5",
         "display_name": "Excess axle load, not more than 50 per cent (permission granted)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "307": {
-        "article": " 12.21.1 p.6",
+        "article": "12.21.1 p.6",
         "display_name": "Exceeding the axle load by more than 50 per cent (without permission)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "308": {
-        "article": " 12.21.1 p.6",
+        "article": "12.21.1 p.6",
         "display_name": "Exceeding axle load, more than 50 per cent (permission granted)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "309": {
-        "article": " 12.21.1 p.1",
+        "article": "12.21.1 p.1",
         "display_name": "Exceeding the permissible weight of the vehicle, more than 2%, not more than 10% (without permission)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "310": {
-        "article": " 12.21.1 p.1",
+        "article": "12.21.1 p.1",
         "display_name": "Exceeding the permissible weight of the vehicle, more than 2%, not more than 10% (permission granted)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "311": {
-        "article": " 12.21.1 p.2",
+        "article": "12.21.1 p.2",
         "display_name": "Exceeding the permissible weight of the vehicle, not more than 20% (without permission)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "312": {
-        "article": " 12.21.1 p.4",
+        "article": "12.21.1 p.4",
         "display_name": "Exceeding the permissible weight of the vehicle, not more than 20% (permission granted)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "313": {
-        "article": " 12.21.1 p.3",
+        "article": "12.21.1 p.3",
         "display_name": "Exceeding the permissible weight of the vehicle, not more than 50 per cent (without permission)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "314": {
-        "article": " 12.21.1 p.5",
+        "article": "12.21.1 p.5",
         "display_name": "Exceeding the permissible weight of the vehicle, not more than 50 per cent (permission granted)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "315": {
-        "article": " 12.21.1 p.6",
+        "article": "12.21.1 p.6",
         "display_name": "Exceeding the permissible weight of the vehicle, more than 50% (without permission)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "316": {
-        "article": " 12.21.1 p.6",
+        "article": "12.21.1 p.6",
         "display_name": "Exceeding the permissible weight of the vehicle, more than 50% (permission granted)",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "317": {
-        "article": " 12.21.1 p.1",
+        "article": "12.21.1 p.1",
         "display_name": "Exceeding the permissible dimensions of the vehicle, not more than 10 cm (without permission)",
-        "gost_name": "C16. Violation of the rules of large-size vehicle movement"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "318": {
-        "article": " 12.21.1 p.1",
+        "article": "12.21.1 p.1",
         "display_name": "Exceeding the permissible dimensions of the vehicle, not more than 10 cm (permission granted)",
-        "gost_name": "C16. Violation of the rules of large-size vehicle movement"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "319": {
-        "article": " 12.21.1 p.2",
+        "article": "12.21.1 p.2",
         "display_name": "Exceeding the permissible dimensions of the vehicle, not more than 20 cm (without permission)",
-        "gost_name": "C16. Violation of the rules of large-size vehicle movement"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "320": {
-        "article": " 12.21.1 p.4",
+        "article": "12.21.1 p.4",
         "display_name": "Exceeding the permissible dimensions of the vehicle, not more than 20 cm (permission granted)",
-        "gost_name": "C16. Violation of the rules of large-size vehicle movement"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "321": {
-        "article": " 12.21.1 p.3",
+        "article": "12.21.1 p.3",
         "display_name": "Exceeding the permissible dimensions of the vehicle, not more than 50 cm (without permission)",
-        "gost_name": "C16. Violation of the rules of large-size vehicle movement"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "322": {
-        "article": " 12.21.1 p.5",
+        "article": "12.21.1 p.5",
         "display_name": "Exceeding the permissible dimensions of the vehicle, not more than 50 cm (permission granted)",
-        "gost_name": "C16. Violation of the rules of large-size vehicle movement"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "323": {
-        "article": " 12.21.1 p.6",
+        "article": "12.21.1 p.6",
         "display_name": "Exceeding the permissible dimensions of the vehicle, more than 50 cm (without permission)",
-        "gost_name": "C16. Violation of the rules of large-size vehicle movement"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "324": {
-        "article": " 12.21.1 p.6",
+        "article": "12.21.1 p.6",
         "display_name": "Exceeding the permissible dimensions of the vehicle, more than 50 cm (permission granted)",
-        "gost_name": "C16. Violation of the rules of large-size vehicle movement"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "325": {
-        "article": " 12.21.1 p. 1",
+        "article": "12.21.1 p. 1",
         "display_name": "Overloading on axle group p. 1 without special permission",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "326": {
-        "article": " 12.21.1 p. 1",
+        "article": "12.21.1 p. 1",
         "display_name": "Overloading on axle group p. 1 with special permission",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "327": {
-        "article": " 12.21.1 p. 2",
+        "article": "12.21.1 p. 2",
         "display_name": "Overloading on axle group p. 2 without special permission",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "328": {
-        "article": " 12.21.1 ч. 4",
+        "article": "12.21.1 p. 4",
         "display_name": "Overloading on axle group p. 4 with special permission",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "329": {
-        "article": " 12.21.1 p. 3",
+        "article": "12.21.1 p. 3",
         "display_name": "Overloading on axle group p. 3 without special permission",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "330": {
-        "article": " 12.21.1 p. 5",
+        "article": "12.21.1 p. 5",
         "display_name": "Overloading on axle group p. 5 with special permission",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "331": {
-        "article": " 12.21.1 p. 6",
+        "article": "12.21.1 p. 6",
         "display_name": "Overloading on axle group p. 6 without special permission",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "332": {
-        "article": " 12.21.1 p. 6",
+        "article": "12.21.1 p. 6",
         "display_name": "Overloading on axle group p. 6 with special permission",
-        "gost_name": "C16. Violation of the rules of driving a heavy goods vehicle"
+        "gost_name": "C16 Violation of driving a heavy goods vehicle"
       },
       "333": {
         "display_name": "Pollution of the area",
         "gost_name": "C16. Contamination of the territory"
       },
+      "996": {
+        "article": "12.6",
+        "display_name": "Violation of motorbike helmet regulations",
+        "gost_name": "C16. Violation of motorbike helmet regulations"
+      },
       "997": {
-        "article": " 12.36.1",
+        "article": "12.36.1",
         "display_name": "Violation of the rules on telephone use by the driver of a vehicle",
-        "gost_name": "C16. Violation of the rules on the use of the telephone by the driver of a vehicle"
+        "gost_name": "C16 Violation of the rules on the use of a telephone by a driver of a motor vehicle"
+      },
+      "998": {
+        "article": "12.6",
+        "display_name": "Violation of seat belt or motorbike helmet use by a passenger",
+        "gost_name": "C16. Violation of seat belt or motorbike helmet use by a passenger"
       },
       "999": {
-        "article": " 12.6",
+        "article": "12.6",
         "display_name": "Violation of seat belt or motorbike helmet regulations",
-        "gost_name": "C16. Violation of seat belt or motorbike helmet regulations"
+        "gost_name": "C16 Violation of seat belt use regulations"
       }
     },
     "stope_line": "Stop line",
