@@ -47,7 +47,8 @@
       "payload": "Yuk turi",
       "place": "Qotirish joyi"
     },
-    "viewType": "Berish turi"
+    "viewType": "Berish turi",
+    "recordsFound": "Ёзувлар топилди"
   },
   "amtsServerPage": {
     "addAdditionalPtServer": "O'T qo'shimcha serverini qo'shish",
@@ -162,6 +163,7 @@
       "login": "Kirish",
       "measure": "O'lchash",
       "pause": "To'xtatish",
+      "permanentSaveSettings": "Созламаларни доимий сақлаш",
       "play": "Qo'yish",
       "refresh": "Yangilash",
       "refreshImage": "Rasmni yangilash",
@@ -244,6 +246,7 @@
     "fixationHasBeenEnabled": "Qayd etish yoqilgan",
     "flow": "Oqim",
     "focalLength": "Fokus masofasi",
+    "focus": "Фокус",
     "format": "Format",
     "fps": "k/s",
     "freezeFrames": "Kadrni to'xtatish",
@@ -413,7 +416,9 @@
     "dataFromDevice": "Қурилмадан олинган маълумотлар",
     "dataFromComplex": "Комплексдан олинган маълумотлар",
     "device": "Қурилма",
-    "zoom": "Yaqinlashtirish"
+    "zoom": "Yaqinlashtirish",
+    "detailCamera": "Тафсилот камераси",
+    "surveyCamera": "Кўрсатув камераси"
   },
   "configEditor": {
     "fileSaved": "Fayl saqlandi\nSozlamalarni \"Tizim\" ilovasida saqlashni unutmang"
@@ -597,7 +602,8 @@
       "fixPassengerBelt": "Йўловчининг камарини маҳкамлаш",
       "passengerViolationsFormed": "Йўловчига нисбатан қоидабузарлик юзага келади",
       "withSimultaneousFixation": "Бир вақтнинг ўзида маҳкамлаш билан"
-    }
+    },
+    "drivingTaxiBrick": "\"Ғишт\" йўлак остида такси ҳаракати"
   },
   "convertersPage": {
     "addConverter": "Konverterni qo'shish",
@@ -723,7 +729,8 @@
     "peripheryNotFound": "Периферик \"{var}\" топилмади",
     "dynemicError": "Хато: {var}",
     "incorrectCleanerPathStart": "Каталогга йўл '/mnt/azimuth-data/' билан бошланиши керак. Сиз \"{var}\"ни киритдингиз",
-    "cleanerPathNotExists": "Мавжуд бўлмаган \"{var}\" йўл кўрсатилган. Унинг мавжудлигини текширинг"
+    "cleanerPathNotExists": "Мавжуд бўлмаган \"{var}\" йўл кўрсатилган. Унинг мавжудлигини текширинг",
+    "imageDisplayError": "Расмни кўрсатишда хатолик юз берди"
   },
   "gpsPage": {
     "clearLog": "Logni tozalash",
@@ -736,7 +743,13 @@
     "satelliteID": "Sun'iy yo'ldosh identifikatori",
     "snr": "o'rtacha s/sh, dB",
     "trackingSatellites": "Izlashda sun'iy yo'ldoshlar",
-    "usedSatellites": "Yechimdagi sun'iy yo'ldoshlar"
+    "usedSatellites": "Yechimdagi sun'iy yo'ldoshlar",
+    "coordinatesCopied": "Координаталар вақтинчалик хотирага кўчирилди",
+    "coordinatesNotAvailable": "Координаталар мавжуд емас",
+    "differentialGps": "Дифференциал  GPS",
+    "extrapolationOfCoordinates": "Координаталарнинг 'кстраполяцияси",
+    "manualInputMode": "Қўлда киритиш тариби",
+    "simulatorMode": "Симулятор тариби"
   },
   "homePage": {
     "duploDialog": {
@@ -835,7 +848,8 @@
     "users": "Hisoblar",
     "videoArchive": "Video arxivi",
     "videoSources": "Video manbalar",
-    "violations": "Qoidabuzarliklar"
+    "violations": "Qoidabuzarliklar",
+    "zonesConnect": "Назорат зоналарини боғлаш"
   },
   "metrologyPage": {
     "certificateSaved": "Sertifikat saqlandi",
@@ -920,6 +934,9 @@
     },
     "verticalMovementConfirmToast": "GRZ ning vertikal harakati 100px dan kam. O'lchovlarni davom ettirish uchun OK tugmasini bosing; bekor qilish uchun Bekor qilish tugmasini bosing."
   },
+  "mobileRoutePage": {
+    "routeSettings": "Маршрут созламалари"
+  },
   "monitoringPage": {
     "counterDirection": "Hamrohlar uchun yo'nalish",
     "favorableDirection": "Hamroh yo'nalish",
@@ -935,9 +952,11 @@
       "greenSection": "Yashil (bo'lim)",
       "removeConfig": "Konfiguratsiyani o'chirish",
       "settingUpChannels": "Kanallarni sozlash",
-      "settingUpMsksoChannels": "MSKSO kanallarini sozlash"
+      "settingUpMsksoChannels": "MSKSO kanallarini sozlash",
+      "addMskso": "СОБСМ қўшиш (светофор объекти бошқарувчиси билан синхронизация модули)"
     },
-    "serialPort": "Ketma-ket port"
+    "serialPort": "Ketma-ket port",
+    "msksoRemoveConfirm": "СОБСМни ўчиришни тасдиқланг: \"{name}\""
   },
   "networksPage": {
     "adapter": "Tarmoq adaO'Teri",
@@ -1058,10 +1077,11 @@
     "connectProxy": "Proksi ulash",
     "connectVideoArchive": "Video arxivini ulash",
     "peerListRefreshed": "Bog'liq komplekslar ro'yxati yangilandi",
-    "peerName": "Bog'liq kompleksning nomi",
+    "peerName": "Тегишли комплекснинг номи",
     "peerRemoveConfirm": "Tegishli kompleksni o'chirishni tasdiqlash",
     "recognitionChannelsCount": "Aniqlash kanallari soni",
-    "synchronized": "Sinxronlangan"
+    "synchronized": "Sinxronlangan",
+    "uniquePeerName": "Ушбу УДТК (ўлчаш дастурий таъминот  комплекси) ичида ном ноёб бўлиши керак"
   },
   "schedulesPage": {
     "addRule": "Qoida qo'shish",
@@ -1083,7 +1103,10 @@
     "scheduleCheck": "Jadvalni tekshirish",
     "schedulesSavedSaveSettings": "Jadvallar saqlanib qoldi. Sozlamalarni \"Tizim\" ilovasida saqlashni unutmang",
     "violationsWillBeRecordedAtTheSelectedTime": "Tanlangan vaqtda qoidabuzarliklar qayd etiladi",
-    "violationsWillNotBeRecordedAtTheSelectedTime": "Tanlangan vaqtda qoidabuzarliklar qayd etilmaydi"
+    "violationsWillNotBeRecordedAtTheSelectedTime": "Tanlangan vaqtda qoidabuzarliklar qayd etilmaydi",
+    "scheduleRuleRemoveConfirm": "Қоидани ўчириб ташлашни тасдиқланг №{name}",
+    "removeScheduleConfirm": "Жадвални ўчириб ташлашни тасдиқланг \"{name}\"",
+    "viewSchedule": "Жадвални кўриш"
   },
   "signPage": {
     "certificateRequest": "Sertifikat so'rovi",
@@ -1150,7 +1173,13 @@
       "systemManagement": "Tizim boshqaruvi",
       "totalDiskSpace": "Diskning umumiy sig'imi",
       "totalRAM": "Umumiy operativ xotira",
-      "version": "Versiya"
+      "version": "Versiya",
+      "usageModes": {
+        "mobile": "Мобил",
+        "static": "Стационар",
+        "moved": "Кўчма"
+      },
+      "usageMode": "Фойдаланиш режими"
     },
     "tabs": {
       "cleanerSettings": "Cleaner sozlamalari",
@@ -1202,7 +1231,8 @@
     "uniqueLogin": "Ushbu login allaqachon band",
     "alphaNum": "Қиймат фақат ҳарфлар (лотин) ва рақамлар бўлиши мумкин",
     "imageFileName": "Файл номи фақат лотин ҳарфлари ёки рақамларидан иборат бўлиши мумкин",
-    "uniqueFileName": "Бу файл номи мавжуд емас"
+    "uniqueFileName": "Бу файл номи мавжуд емас",
+    "uniqueScheduleName": "Бу жадвал номи аллақачон олинган"
   },
   "videoArchivePage": {
     "addImage": "Rasmni qo'shish",
@@ -1296,24 +1326,24 @@
     },
     "list": {
       "0": {
-        "article": " 12.12 1-b.",
+        "article": "12.12 1-қ",
         "display_name": "Qizil",
-        "gost_name": "C12. Svetoforning taqiqlangan signalida o'tish"
+        "gost_name": "C12 Тақиқланган светофордан ҳайдаш"
       },
       "1": {
-        "article": " 12.9 1-b.",
+        "article": "12.9 1-қ",
         "display_name": "Tezlik 11-20",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "2": {
-        "article": " 12.9 2-b.",
+        "article": "12.9 2-қ",
         "display_name": "Tezlik 21-40",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "3": {
-        "article": " 12.9 3-b",
+        "article": "12.9 3-қ",
         "display_name": "Tezlik 41-60",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "4": {
         "article": " 12.9 4-b",
@@ -1340,9 +1370,9 @@
         "gost_name": "C2. Transport vositalarining to'xtash joyi yoki to'xtab turish bo'yicha belgilangan qoidalarni buzish"
       },
       "10": {
-        "article": " 12.12 2-b",
+        "article": "12.12 2-қ",
         "display_name": "To'xtash chizig'i",
-        "gost_name": "C13. Svetoforning taqiqlangan signalida to'xtash chizig'idan tashqariga chiqish"
+        "gost_name": "C13 Тақиқланган светофордан тўхташ чизиғидан ташқарида ҳайдаш"
       },
       "11": {
         "article": " 12.16 1-b",
@@ -1641,6 +1671,11 @@
         "display_name": "To'g'riga harakat belgisi 5.15.1",
         "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
       },
+      "76": {
+        "article": "12.19 1-қ",
+        "display_name": "Тўхташ усулини бузиш (8.6.1-8.6.9-жадвалдаги 6.4 белгиси)",
+        "gost_name": "C2. Автотранспорт воситаларини тўхташ ёки тўхтатиш учун белгиланган қоидаларни бузиш"
+      },
       "87": {
         "article": " 12.15 b-2",
         "display_name": "Yo'lak bo'ylab harakatlanish",
@@ -1705,504 +1740,529 @@
         "display_name": "Yo'l chiziqlari bilan belgilangan talablarni buzgan holda chapga burilish",
         "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
       },
-      "101": {
-        "article": " 12.9 1-b.",
-        "display_name": "Trassada tezlik 11-20",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
-      },
       "102": {
-        "article": " 12.9 2-b.",
+        "article": "12.9 2-қ",
         "display_name": "Trassada tezlik 21-40",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "103": {
-        "article": " 12.9 3-b.",
+        "article": "12.9 3-қ",
         "display_name": "Trassada tezlik 41-60",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "104": {
-        "article": " 12.9 4-b.",
+        "article": "12.9 4-қ",
         "display_name": "Trassada tezlik 61-80",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "105": {
-        "article": " 12.9 1-b.",
+        "article": "12.9 1-қ",
         "display_name": "Aholi punktlari belgisi ostida tezlik 11-20",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "106": {
-        "article": " 12.9 2-b.",
+        "article": "12.9 2-қ",
         "display_name": "Aholi punktlari belgisi ostida tezlik 21-40",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "107": {
-        "article": " 12.9 3-b.",
+        "article": "12.9 3-қ",
         "display_name": "Aholi punktlari belgisi ostida tezlik 41-60",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "108": {
-        "article": " 12.9 4-b.",
+        "article": "12.9 4-қ",
         "display_name": "Aholi punktlari belgisi ostida tezlik 61-80",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "109": {
-        "article": " 12.9 1-b.",
+        "article": "12.9 1-қ",
         "display_name": "Aholi punktlari belgisidan tashqarida tezlik 11-20",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "110": {
-        "article": " 12.9 2-b.",
+        "article": "12.9 2-қ",
         "display_name": "Aholi punktlari belgisidan tashqarida tezlik 21-40",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "111": {
-        "article": " 12.9 3-b.",
+        "article": "12.9 3-қ",
         "display_name": "Aholi punktlari belgisidan tashqarida tezlik 41-60",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "112": {
-        "article": " 12.9 4-b.",
+        "article": "12.9 4-қ",
         "display_name": "Aholi punktlari belgisidan tashqarida tezlik 61-80",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "113": {
-        "article": " 12.9 5-b.",
+        "article": "12.9 5-қ",
         "display_name": "80 dan yuqori tezlik",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "114": {
-        "article": " 12.9 5-b.",
+        "article": "12.9 5-қ",
         "display_name": "Trassada 80 dan yuqori tezlik",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "115": {
-        "article": " 12.9 5-b.",
+        "article": "12.9 5-қ",
         "display_name": "Aholi punktlari belgisidan tashqarida 80 dan ortiq tezlik",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "116": {
-        "article": " 12.9 5-b.",
+        "article": "12.9 5-қ",
         "display_name": "Aholi punktlari belgisidan tashqarida 80 dan ortiq tezlik",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "117": {
-        "article": " 12.9 6-b.",
+        "article": "12.9 6-қ",
         "display_name": "Tezlik takror 3-q. ",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "118": {
-        "article": " 12.9 6-b.",
+        "article": "12.9 6-қ",
         "display_name": "Tezlik takror 3-q. trassada",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "119": {
-        "article": " 12.9 6-b.",
+        "article": "12.9 6-қ",
         "display_name": "Tezlik takror 3-q. aholi punktlari belgisi ostida",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "120": {
-        "article": " 12.9 6-b.",
+        "article": "12.9 6-қ",
         "display_name": "Tezlik takror 3-q. aholi punktlari belgisidan tashqarida",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "121": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-қ",
         "display_name": "Tezlik takror 4-q.",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "122": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-қ",
         "display_name": "Tezlik takror 4-q. trassada",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "123": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-қ",
         "display_name": "Tezlik takror 4-q. aholi punktlari belgisi ostida",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "124": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-қ",
         "display_name": "Tezlik takror 4-q. aholi punktlari belgisidan tashqarida",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "125": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-бөлүк",
         "display_name": "Tezlik takror 5-q. ",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "126": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-бөлүк",
         "display_name": "Tezlik takror 5-q. trassada",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "127": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-қ",
         "display_name": "Tezlik takror 5-q. aholi punktlari belgisi ostida",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "128": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-қ",
         "display_name": "Tezlik takror 5-q. aholi punktlari belgisidan tashqarida",
-        "gost_name": "C1.1. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "130": {
-        "article": " 12.12 3-b.",
+        "article": "12.12 3-қ",
         "display_name": "Qizil takror",
-        "gost_name": "C12. Svetoforning taqiqlangan signalida o'tish"
+        "gost_name": "C12 Тақиқланган светофордан ҳайдаш"
       },
       "131": {
-        "article": " 12.13 1-b.",
+        "article": "12.13 1-қ",
         "display_name": "Band qilingan chorraha",
-        "gost_name": "C14. Agar tirbandlik yuzaga kelsa, chorrahaga chiqish yoki qatnov qismining kesishishi"
+        "gost_name": "C14 Чорраҳага ҳайдаш ёки тирбандлик ҳолатида йўлни кесиб ўтиш"
       },
       "132": {
-        "article": " 12.28 1-b.",
+        "article": "12.28 1-қ",
         "display_name": "Yashash joyidagi qoidabuzarlik (tezlikdan tashqari)",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+        "gost_name": "C11 йўл белгилари ва йўл белгилари талабларини бузиш"
+      },
+      "194": {
+        "article": "12.16 1-қ",
+        "display_name": "\"Ғишт\" йўлак остида такси ҳаракати",
+        "gost_name": "C11. 3.1 белгиси остида қатъий йўналишли транспорт воситалари учун мўлжалланган бўлакда такси ҳаракати"
+      },
+      "195": {
+        "article": "12.16 1-қ",
+        "display_name": "\"Ғишт\" йўлак остида ҳаракати",
+        "gost_name": "C11. 3.1 белгиси остида қатъий йўналишли транспорт воситалари учун мўлжалланган бўлакда ҳаракати"
+      },
+      "196": {
+        "article": "12.16 1-қ",
+        "display_name": "Максимал рухсат этилган вазнли юк машиналарига \"кирпич\" белгилари остида ҳаракатланиш",
+        "gost_name": "C11. Рухсат етилган максимал вазн чекловлари (3.1 белгиси)"
+      },
+      "197": {
+        "article": "12.20",
+        "display_name": "Ташқи ёритиш мосламалари, овозли сигналлар, огоҳлантириш чироқлари ёки огоҳлантирувчи учбурчаклардан фойдаланиш қоидаларини бузиш",
+        "gost_name": "C5. Ташқи ёритиш мосламаларидан фойдаланиш қоидаларини бузиш"
       },
       "198": {
-        "article": " 12.16 1-b.",
-        "display_name": "Yo'l bo'ylab \"g'isht\" belgisiga harakatlanish",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+        "article": "12.28 1-қ",
+        "display_name": "Худди шу йўналишда \"ғишт\" остида ҳаракат қилиш",
+        "gost_name": "C11 Жол белгилеринин жана жолго чийилген белгилемелердин талабын бузуу"
       },
       "199": {
-        "article": " 12.16 1-b.",
+        "article": "12.16 1-қ",
         "display_name": "Yo'l bo'ylab \"g'isht\" belgisiga harakatlanish (taksidan tashqari)",
-        "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
+        "gost_name": "C11 йўл белгилари ва йўл белгилари талабларини бузиш"
       },
       "201": {
-        "article": " 12.9 1-b.",
+        "article": "12.9 1-қ",
         "display_name": "Shahar uchastkasidagi belgi bo'lmaganda tezlik 11-20\n",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish\n"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "202": {
-        "article": " 12.9 2-b.",
+        "article": "12.9 2-қ",
         "display_name": "Shahar uchastkasidagi belgi bo'lmaganda tezlik 21-40\n",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish\n"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "203": {
-        "article": " 12.9 3-b.",
+        "article": "12.9 3-қ",
         "display_name": "Shahar uchastkasidagi belgi bo'lmaganda tezlik 41-60\n",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish\n"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "204": {
-        "article": " 12.9 4-b.",
+        "article": "12.9 4-қ",
         "display_name": "Shahar uchastkasidagi belgi bo'lmaganda tezlik 61-80\n",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish\n"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "205": {
-        "article": " 12.9 5-b.",
+        "article": "12.9 5-қ",
         "display_name": "Shahar uchastkasidagi belgi bo'lmaganda tezlik 80-...",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "211": {
-        "article": " 12.9 1-b.",
+        "article": "12.9 1-қ",
         "display_name": "Shahar uchastkasidan tashqarida belgi bo'lmaganda tezlik 11-20",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "212": {
-        "article": " 12.9 2-b.",
+        "article": "12.9 2-қ",
         "display_name": "Shahar uchastkasidan tashqarida belgi bo'lmaganda tezlik 21-40",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "213": {
-        "article": " 12.9 3-b.",
+        "article": "12.9 3-қ",
         "display_name": "Shahar uchastkasidan tashqarida belgi bo'lmaganda tezlik 41-60",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "214": {
-        "article": " 12.9 4-b.",
+        "article": "12.9 4-қ",
         "display_name": "Shahar uchastkasidan tashqarida belgi bo'lmaganda tezlik 61-80",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "215": {
-        "article": " 12.9 5-b.",
+        "article": "12.9 5-қ",
         "display_name": "Shahar tashqarisidagi uchastkada tezlik, 80 belgisi yo'q-…",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "221": {
-        "article": " 12.9 1-b.",
+        "article": "12.9 1-қ",
         "display_name": "Shahar uchastkasida belgi bo'lganda tezlik 11-20",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "222": {
-        "article": " 12.9 2-b.",
+        "article": "12.9 2-қ",
         "display_name": "Shahar uchastkasida belgi bo'lganda tezlik 21-40",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "223": {
-        "article": " 12.9 3-b.",
+        "article": "12.9 3-қ",
         "display_name": "Shahar uchastkasida belgi bo'lganda tezlik 41-60",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "224": {
-        "article": " 12.9 4-b.",
+        "article": "12.9 4-қ",
         "display_name": "Shahar uchastkasida belgi bo'lganda tezlik 61-80",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "225": {
-        "article": " 12.9 5-b.",
+        "article": "12.9 5-қ",
         "display_name": "Shahar uchastkasida belgi bo'lganda tezlik 80-...",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "231": {
-        "article": " 12.9 1-b.",
+        "article": "12.9 1-қ",
         "display_name": "Shahar uchastkasidan tashqarida belgi bo'lganda tezlik 11-20",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "232": {
-        "article": " 12.9 2-b.",
+        "article": "12.9 2-қ",
         "display_name": "Shahar uchastkasidan tashqarida belgi bo'lganda tezlik 21-40",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "233": {
-        "article": " 12.9 3-b.",
+        "article": "12.9 3-қ",
         "display_name": "Shahar uchastkasidan tashqarida belgi bo'lganda tezlik 41-60",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "234": {
-        "article": " 12.9 4-b.",
+        "article": "12.9 4-қ",
         "display_name": "Shahar uchastkasidan tashqarida belgi bo'lganda tezlik 61-80",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "235": {
-        "article": " 12.9 5-b.",
+        "article": "12.9 5-қ",
         "display_name": "Shahar uchastkasidan tashqarida belgi bo'lganda tezlik 80-...",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "236": {
-        "article": " 12.9 6-b.",
+        "article": "12.9 6-қ",
         "display_name": "Uchastkadagi takror 3-q, belgi bo'lmaganda",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "237": {
-        "article": " 12.9 6-b.",
+        "article": "12.9 6-қ",
         "display_name": "Uchastkadagi takror 3-q, shahar tashqarisida, belgi bo'lmaganda",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "238": {
-        "article": " 12.9 6-b.",
+        "article": "12.9 6-қ",
         "display_name": "Uchastkadagi takror 3-q, shahar, belgi bo'lganda tezlik",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "239": {
-        "article": " 12.9 6-b.",
+        "article": "12.9 6-қ",
         "display_name": "Uchastkadagi takror 3-q, shahar tashqarisida, belgi bo'lganda tezlik",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "240": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-қ",
         "display_name": "Uchastkadagi takror 4-q, belgi bo'lmaganda",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "241": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-қ",
         "display_name": "Uchastkadagi takror 4-q, shahar tashqarisida, belgi bo'lmaganda",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "242": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-қ",
         "display_name": "Uchastkadagi takror 4-q, shahar, belgi bo'lganda tezlik",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "243": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-қ",
         "display_name": "Uchastkadagi takror 4-q, shahar tashqarisida, belgi bo'lganda tezlik",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "244": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-қ",
         "display_name": "Uchastkadagi takror 5-q, belgi bo'lmaganda",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "245": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-бөлүк",
         "display_name": "Uchastkadagi takror 5-q, shahar tashqarisida, belgi bo'lmaganda",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "246": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-қ",
         "display_name": "Uchastkadagi takror 4-q, shahar, belgi bo'lganda tezlik",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "247": {
-        "article": " 12.9 7-b.",
+        "article": "12.9 7-қ",
         "display_name": "Uchastkadagi takror 4-q, shahar tashqarisida, belgi bo'lganda tezlik",
-        "gost_name": "C1.2. Belgilangan tezlik rejimini buzish"
+        "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "301": {
-        "article": " 12.21.1 1-b.",
+        "article": "12.21.1 1-қ",
         "display_name": "O'qga o'girlikning ortishi, 2% dan ortiq, 10% dan ko'p bo'lmagan (ruxsatnomasiz)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "302": {
-        "article": " 12.21.1 1-b.",
+        "article": "12.21.1 1-қ",
         "display_name": "O'qga o'girlikning ortishi, 2% dan ortiq, 10% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "303": {
-        "article": " 12.21.1 2-b.",
+        "article": "12.21.1 2-қ",
         "display_name": "O'qga o'girlikning ortishi, 20% dan ko'p bo'lmagan (ruxsatnomasiz)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "304": {
-        "article": " 12.21.1 4-b.",
+        "article": "12.21.1 4-қ",
         "display_name": "O'qga o'girlikning ortishi, 20% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "305": {
-        "article": " 12.21.1 3-b.",
+        "article": "12.21.1 3-қ",
         "display_name": "O'qga o'girlikning ortishi, 50% dan ko'p bo'lmagan (ruxsatnomasiz)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "306": {
-        "article": " 12.21.1 5-b.",
+        "article": "12.21.1 5-қ",
         "display_name": "O'qga o'girlikning ortishi, 50% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "307": {
-        "article": " 12.21.1 6-b.",
+        "article": "12.21.1 6-қ",
         "display_name": "O'qga o'girlikning ortishi, 50% dan ortiq bo'lmagan (ruxsatnomasiz)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "308": {
-        "article": " 12.21.1 6-b.",
+        "article": "12.21.1 6-қ",
         "display_name": "O'qga o'girlikning ortishi, 50% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "309": {
-        "article": " 12.21.1 1-b.",
+        "article": "12.21.1 1-қ",
         "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 2% dan ortiq, 10% dan ko'p bo'lmagan (ruxsatnomasiz)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "310": {
-        "article": " 12.21.1 1-b.",
+        "article": "12.21.1 1-қ",
         "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 2% dan ortiq, 10% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "311": {
-        "article": " 12.21.1 2-b.",
+        "article": "12.21.1 2-қ",
         "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 20% dan ko'p bo'lmagan (ruxsatnomasiz)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "312": {
-        "article": " 12.21.1 4-b.",
+        "article": "12.21.1 4-қ",
         "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 20% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "313": {
-        "article": " 12.21.1 3-b.",
+        "article": "12.21.1 3-қ",
         "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 50% dan ko'p bo'lmagan (ruxsatnomasiz)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "314": {
-        "article": " 12.21.1 5-b.",
+        "article": "12.21.1 5-қ",
         "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 50% dan ko'p bo'lmagan (ruxsatnoma berilgan)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "315": {
-        "article": " 12.21.1 6-b.",
+        "article": "12.21.1 6-қ",
         "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 50% dan ortiq bo'lmagan (ruxsatnomasiz)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "316": {
-        "article": " 12.21.1 6-b.",
+        "article": "12.21.1 6-қ",
         "display_name": "TV ga ruxsat etilgan og'irligidan oshib ketish, 50% dan ortiq bo'lmagan (ruxsatnoma berilgan)",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "317": {
-        "article": " 12.21.1 1-b.",
+        "article": "12.21.1 1-қ",
         "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 10 sm dan ko'p bo'lmagan (ruxsatnomasiz)",
-        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "318": {
-        "article": " 12.21.1 1-b.",
+        "article": "12.21.1 1-қ",
         "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 10 sm dan ko'p bo'lmagan (ruxsatnoma berilgan)",
-        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "319": {
-        "article": " 12.21.1 2-b.",
+        "article": "12.21.1 2-қ",
         "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 20 sm dan ko'p bo'lmagan (ruxsatnomasiz)",
-        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "320": {
-        "article": " 12.21.1 4-b.",
+        "article": "12.21.1 4-қ",
         "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 20 sm dan ko'p bo'lmagan (ruxsatnoma berilgan)",
-        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "321": {
-        "article": " 12.21.1 3-b.",
+        "article": "12.21.1 3-қ",
         "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 50 sm dan ko'p bo'lmagan (ruxsatnomasiz)",
-        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "322": {
-        "article": " 12.21.1 5-b.",
+        "article": "12.21.1 5-қ",
         "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 10 sm dan ko'p bo'lmagan (ruxsatnoma berilgan)",
-        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "323": {
-        "article": " 12.21.1 6-b.",
+        "article": "12.21.1 6-қ",
         "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 50 sm dan ortiq bo'lmagan (ruxsatnomasiz)",
-        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "324": {
-        "article": " 12.21.1 6-b.",
+        "article": "12.21.1 6-қ",
         "display_name": "TV ning ruxsat etilgan o'lchamlaridan oshib ketish, 50 sm dan ortiq bo'lmagan (ruxsatnoma berilgan)",
-        "gost_name": "C16. Katta TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "325": {
-        "article": " 12.21.1 1-b.",
+        "article": "12.21.1 1-қ",
         "display_name": "O'qlar guruhiga ortiqcha yuk 1-q maxsus ruxsatnomasiz",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "326": {
-        "article": " 12.21.1 1-b.",
+        "article": "12.21.1 1-қ",
         "display_name": "O'qlar guruhiga ortiqcha yuk 1-q maxsus ruxsatnoma bilan",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "327": {
-        "article": " 12.21.1 2-b.",
+        "article": "12.21.1 2-қ",
         "display_name": "O'qlar guruhiga ortiqcha yuk 2-q maxsus ruxsatnomasiz",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "328": {
-        "article": " 12.21.1 4-b.",
+        "article": "12.21.1 4-қ",
         "display_name": "O'qlar guruhiga ortiqcha yuk 4-q maxsus ruxsatnoma bilan",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "329": {
-        "article": " 12.21.1 3-b.",
+        "article": "12.21.1 3-қ",
         "display_name": "O'qlar guruhiga ortiqcha yuk 3-q maxsus ruxsatnomasiz",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "330": {
-        "article": " 12.21.1 5-b.",
+        "article": "12.21.1 5-қ",
         "display_name": "O'qlar guruhiga ortiqcha yuk 5-q maxsus ruxsatnoma bilan",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "331": {
-        "article": " 12.21.1 6-b.",
+        "article": "12.21.1 6-қ",
         "display_name": "O'qlar guruhiga ortiqcha yuk 6-q maxsus ruxsatnomasiz",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "332": {
-        "article": " 12.21.1 6-b.",
+        "article": "12.21.1 6-қ",
         "display_name": "O'qlar guruhiga ortiqcha yuk 6-q maxsus ruxsatnoma bilan",
-        "gost_name": "C16. Og'ir TV ning harakatlanish qoidalarini buzish"
+        "gost_name": "C16 Оғир транспорт воситаларининг йўл ҳаракати қоидаларини бузиш"
       },
       "333": {
         "display_name": "Hududning ifloslanishi",
         "gost_name": "C16. Hududning ifloslanishi"
       },
+      "996": {
+        "article": "12.6",
+        "display_name": "Мотоцикл дубулғаларидан фойдаланиш қоидаларини бузиш",
+        "gost_name": "C16. Мотоцикл дубулғаларидан фойдаланиш қоидаларини бузиш"
+      },
       "997": {
-        "article": " 12.36.1",
+        "article": "12.36.1",
         "display_name": "Transport vositasi haydovchisi tomonidan telefondan foydalanish qoidalarini buzish",
-        "gost_name": "C16. Transport vositasi haydovchisi tomonidan telefondan foydalanish qoidalarini buzish"
+        "gost_name": "C16 Транспорт воситаси ҳайдовчиси томонидан телефондан фойдаланиш қоидаларини бузиш"
+      },
+      "998": {
+        "article": "12.6",
+        "display_name": "Йўловчининг хавфсизлик камарларидан ёки мотоцикл дубулғаларидан фойдаланиш қоидаларини бузиши",
+        "gost_name": "C16. Йўловчининг хавфсизлик камарларидан ёки мотоцикл дубулғаларидан фойдаланиш қоидаларини бузиши"
       },
       "999": {
-        "article": " 12.6",
+        "article": "12.6",
         "display_name": "Xavfsizlik kamarlaridan yoki mototsikl dubulg'alaridan foydalanish qoidalarini buzish",
-        "gost_name": "C16. Xavfsizlik kamarlaridan yoki mototsikl dubulg'alaridan foydalanish qoidalarini buzish"
+        "gost_name": "C16. Йўловчининг хавфсизлик камарларидан фойдаланиш қоидаларини бузиши"
       }
     },
     "stope_line": "To'xtash chizig'i",
@@ -2259,5 +2319,10 @@
       "materialIsFormed": "Shakllantirilgan material"
     },
     "violationTime": "Qoidabuzarlik vaqti"
+  },
+  "zonesConnect": {
+    "checkImage": "Тасвирни текшириш",
+    "lane": "Ҳаракат йўлаги",
+    "getImage": "Тасвирни олиш"
   }
 }
