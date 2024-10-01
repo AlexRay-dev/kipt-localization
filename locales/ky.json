@@ -8,9 +8,11 @@
     "additionalFilters": {
       "carClass": "Категория ТС",
       "country": "Страна ГРЗ",
-      "direction": "Направление движения"
+      "direction": "Направление движения",
+      "brand": "Марка",
+      "model": "Модель"
     },
-    "downloadFormat": "Формат файла",
+    "downloadFormat": "Формат выгрузки",
     "payloads": {
       "other": "Иное",
       "planks": "Доски",
@@ -48,6 +50,7 @@
       "place": "Место фиксации"
     },
     "viewType": "Вид выдачи",
+    "findAndSaveFile": "Найти и сохранить в файл",
     "recordsFound": "Записей найдено"
   },
   "amtsServerPage": {
@@ -81,7 +84,11 @@
     "squareStep": "Шаг квадрата",
     "startAutoCalibration": "Запустить автокалибровку",
     "timeStatusChange": "Время изменения статуса",
-    "vehiclesCount": "Количество ТС"
+    "vehiclesCount": "Количество ТС",
+    "deselectOneOfSquares": "Снимите выделение с квадрата что бы разблокировать поля",
+    "calculationOfFocalLength": "Расчёт фокусного расстояния",
+    "refreshLog": "Обновить лог",
+    "clearLog": "Очистить лог"
   },
   "climateControlPage": {
     "Toffmax": "Верхний предел отключения по температуре",
@@ -138,6 +145,7 @@
     "brightness": "Яркость",
     "buttons": {
       "add": "Добавить",
+      "statusReset": "Сбросить статус",
       "apply": "Применить",
       "applyFormChanges": "Применить изменения для формы",
       "block": "Заблокировать",
@@ -224,7 +232,11 @@
     "direction": "Направление",
     "directions": {
       "left": "Лево",
-      "right": "Право"
+      "right": "Право",
+      "center": "Центр",
+      "top": "Верх",
+      "middle": "Середина",
+      "bottom": "Низ"
     },
     "directly": "Прямо",
     "disableFixation": "Выключить фиксацию",
@@ -311,7 +323,7 @@
     "offset": "Отклонение",
     "on": "Вкл | включен",
     "operation": "Операция",
-    "parameter": "Параметр",
+    "parameter": "Параметр | Параметры",
     "password": "Пароль",
     "peer": "Связанный комплекс | Связанные комплексы",
     "quality": "Качество",
@@ -325,7 +337,7 @@
     "schedule": "Расписание | Расписания",
     "selectAll": "Выбрать всё",
     "serialNumber": "Серийный номер",
-    "set": "Назначить",
+    "set": "Установить",
     "settingsSaved": "Настройки сохранены",
     "sharpness": "Резкость",
     "shutter": "Диафрагма",
@@ -371,6 +383,7 @@
     "time": "Время",
     "timeSuffix": {
       "hours": "ч",
+      "minutes": "мин",
       "microSec": "мкс",
       "ms": "мс",
       "sec": "сек"
@@ -418,7 +431,53 @@
     "device": "Прибор",
     "zoom": "Увеличение",
     "detailCamera": "Детализирующая камера",
-    "surveyCamera": "Обзорная камера"
+    "surveyCamera": "Обзорная камера",
+    "dawn": "Рассвет",
+    "sunrise": "Восход",
+    "sunset": "Закат",
+    "dusk": "Сумерки",
+    "fix": "Исправить",
+    "state": "Состояние",
+    "user": "Пользователь",
+    "in": "в",
+    "templates": "Шаблон | Шаблоны",
+    "uploadedFiles": "Загруженные файлы",
+    "confirmRemove": "Вы действительно хотите удалить {entity}?",
+    "fileDeleted": "Файл {filename} удалён",
+    "fileUploaded": "Файл успешно загружен",
+    "text": "Текст",
+    "font": "Шрифт",
+    "bold": "Жирный",
+    "italic": "Курсив",
+    "underline": "Подчёркнутый",
+    "textColor": "Цвет текста",
+    "backgroundColor": "Цвет фона",
+    "clock": "Часы",
+    "visibility": "Видимость",
+    "dateFormat": "Формат даты",
+    "timeFormat": "Формат времени",
+    "preview": "Предпросмотр",
+    "rotation": "Угол поворота",
+    "listUpdated": "Список обновлён",
+    "total": "Всего",
+    "request": "Запросить",
+    "developerMode": "Инструменты разработчика",
+    "turnOn": "Включить",
+    "turnOff": "Выключить",
+    "section": "Секция",
+    "bus": "Автобус | Автобусы",
+    "car": "Легковая | Легковые",
+    "truck": "Грузовая | Грузовые",
+    "notComplyWithGost": "Внимание, данная настройка не соответствует ГОСТ",
+    "auto": "Авто",
+    "manually": "Вручную",
+    "lengthSuffix": {
+      "mm": "мм"
+    },
+    "distance": "Расстояние",
+    "confirmClear": "Вы действительно хотите очистить {entity}?",
+    "log": "лог",
+    "unknown": "Неизвестно"
   },
   "configEditor": {
     "fileSaved": "Файл сохранён\nНе забудьте сохранить настройки во вкладке \"Система\""
@@ -730,7 +789,9 @@
     "dynemicError": "Ошибка: {var}",
     "incorrectCleanerPathStart": "Путь к директории должен начинаться с '/mnt/azimuth-data/'. Вы ввели \"{var}\"",
     "cleanerPathNotExists": "Указан несуществующий путь \"{var}\". Проверьте его наличие",
-    "imageDisplayError": "Ошибка при отображении изображения"
+    "imageDisplayError": "Ошибка при отображении изображения",
+    "formError": "Некоторые поля формы заполнены неправильно. Пожалуйста, исправьте ошибки",
+    "Данные отсутствуют": "Данные отсутствуют"
   },
   "gpsPage": {
     "clearLog": "Очистить лог",
@@ -741,7 +802,7 @@
     "numberOfMeasurements": "Количество измерений",
     "receiverResetToast": "Приёмник сброшен",
     "satelliteID": "ID спутника",
-    "snr": "средний с/ш, дБ",
+    "snr": "Средний с/ш, дБ",
     "trackingSatellites": "Спутники в слежении",
     "usedSatellites": "Спутники в решении",
     "coordinatesCopied": "Координаты скопированы в буфер обмена",
@@ -764,7 +825,8 @@
       "title": "Детальная статистика отправки материалов в сервис ''Дупло 2''",
       "violationTotalFailed": "Общее кол-во нарушений с ошибками",
       "violationTotalQueued": "Общее кол-во нарушений находящихся в очереди",
-      "violationTotalSuccess": "Общее кол-во успешно отправленных нарушений"
+      "violationTotalSuccess": "Общее кол-во успешно отправленных нарушений",
+      "mainTabTitle": "Основной"
     },
     "information": {
       "allSpace": "Всего места на SSD",
@@ -802,6 +864,12 @@
       "warnings": "Предупреждения",
       "anyDirection": "Любое",
       "allCurrentLaneSettingsWillBeDeleted": "Внимание! Все текущие настройки полос удалятся. Вы уверены?"
+    },
+    "mobile": {
+      "chooseZoneConfigFile": "Выберите файл конфигурации зон",
+      "currentAddress": "Текущий адрес",
+      "currentViolation": "Текущее нарушение",
+      "complexIsNotOnRoute": "Комплекс не на маршруте"
     }
   },
   "imagesPage": {
@@ -849,7 +917,11 @@
     "videoArchive": "Видеоархив",
     "videoSources": "Источники видео",
     "violations": "Нарушения",
-    "zonesConnect": "Сопряжение зон контроля"
+    "zonesConnect": "Сопряжение зон контроля",
+    "garbageMO": "Мусор МО",
+    "roadScreen": "Информационное табло",
+    "radar": "Радар",
+    "configEditor": "Редактор конфигураций"
   },
   "metrologyPage": {
     "certificateSaved": "Свидетельство сохранено",
@@ -1135,7 +1207,7 @@
       "confirmRemoval": "Подтвердите удаление \"{name}\" директории",
       "deleteDirectory": "Удалить директорию",
       "displayName": "Отображаемое имя",
-      "editDirectory": "Редактировать директорию \"{name}\"",
+      "editDirectory": "Редактировать директорию \"{name}\" | Редактировать директорию",
       "hoursShort": "ч",
       "maxSizeDirectory": "Макс. размер директории",
       "maxTotalSizeFolders": "Макс. общий размер директорий",
@@ -1179,7 +1251,9 @@
         "static": "Стационарный",
         "moved": "Передвижной"
       },
-      "usageMode": "Режим использования"
+      "usageMode": "Режим использования",
+      "mountedPoint": "Точка монтирования",
+      "allPartitionsAreMounted": "Все разделы примонтированы"
     },
     "tabs": {
       "cleanerSettings": "Настройки Cleaner",
@@ -1232,7 +1306,11 @@
     "alphaNum": "Значением могут быть только буквы (латиница) и цифры",
     "imageFileName": "Имя файла может состоять только из латинских символов или цифр",
     "uniqueFileName": "Данное имя файла уже занято",
-    "uniqueScheduleName": "Данное имя расписания уже занято"
+    "scheduleTime": "Введите корректное время (ЧЧ:ММ:СС)",
+    "uniqueScheduleName": "Данное имя расписания уже занято",
+    "dateTimeWithMilliseconds": "Введите корректную дату/время в формате YYYY-MM-DD HH:mm:ss.SSS",
+    "dateTime": "Введите корректную дату/время в формате DD-MM-YYYY HH:mm:ss",
+    "date": "Введите корректную дату в формате DD-MM-YYYY"
   },
   "videoArchivePage": {
     "addImage": "Добавить изображение",
@@ -1273,7 +1351,13 @@
       "title": "Genicam ТВ датчики",
       "topOffset": "Смещение сверху",
       "verticalOffset": "Смещение по вертикали",
-      "videoInput": "Вход видео"
+      "videoInput": "Вход видео",
+      "lens": "Объектив",
+      "turnOnHoodHeater": "Включить обогреватель бленды",
+      "turnOffHoodHeater": "Выключить обогреватель бленды",
+      "hoodHeaterIsTurnedOnForSec": "Обогреватель бленды включен на {timeout} сек",
+      "hoodHeaterIsTurnedOff": "Обогреватель бленды выключен",
+      "irIlluminator": "ИК осветитель"
     },
     "pulseDurationChangedToast": "Длительность импульса для канала {channel} изменена",
     "rtspCameraSavedToast": "RTSP сервер сохранён",
@@ -1312,7 +1396,9 @@
       "streamName": "Имя потока",
       "title": "RTSP серверы"
     },
-    "synchronizationChangedToast": "Синхронизация изменена"
+    "synchronizationChangedToast": "Синхронизация изменена",
+    "rise": "Фронт",
+    "fall": "Спад"
   },
   "violationTypes": {
     "all": "Все типы",
@@ -1332,7 +1418,7 @@
       },
       "1": {
         "article": "12.9 ч. 1",
-        "display_name": "Скорость 11-20",
+        "display_name": "Превышение скорости",
         "gost_name": "C1.1 Нарушение установленного скоростного режима"
       },
       "2": {
@@ -1755,6 +1841,11 @@
         "display_name": "Поворот налево в нарушение требований, предписанных дорожной разметкой",
         "gost_name": "C11. Нарушение требований дорожных знаков и дорожной разметки"
       },
+      "101": {
+        "article": "12.9 ч. 1",
+        "display_name": "Превышение скорости",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
       "102": {
         "article": "12.9 ч. 2",
         "display_name": "Скорость 21-40 тр",
@@ -1937,7 +2028,7 @@
       },
       "201": {
         "article": "12.9 ч. 1",
-        "display_name": "Скорость на участке город, без знака 11-20",
+        "display_name": "Превышение скорости",
         "gost_name": "C1.2 Нарушение установленного скоростного режима"
       },
       "202": {
@@ -2334,11 +2425,70 @@
       "fixed": "Зафиксировано",
       "materialIsFormed": "Материал сформирован"
     },
-    "violationTime": "Время нарушения"
+    "showTraceback": "Показать traceback",
+    "violationTime": "Время нарушения",
+    "numberOfViolationsByFilter": "Количество нарушений по фильтру"
   },
   "zonesConnect": {
     "checkImage": "Проверка изображения",
     "lane": "Полоса движения",
     "getImage": "Получить изображение"
+  },
+  "garbage": {
+    "lpnFileUrl": "URL файла со списком ГРЗ",
+    "checkPeriod": "Период опроса"
+  },
+  "roadScreen": {
+    "currentState": "Текущее состояние",
+    "lastInvokedTemplate": "Последний вызванный шаблон",
+    "actionLog": "Журнал действий",
+    "templateParameters": "Параметры шаблона",
+    "controller": "Контроллер | Контроллеры",
+    "horizontalAlignment": "Горизонтальное выравнивание",
+    "verticalAlignment": "Вертикальное выравнивание",
+    "digital": "Цифровые",
+    "dial": "Циферблат",
+    "clockType": "Тип часов",
+    "titleAndVisibility": "Наименование/видимость",
+    "weekDayType": "Тип дней недели",
+    "program": "Программа | Программы",
+    "playDuration": "Время воспроизведения",
+    "templateSaved": "Шаблон {templateName} сохранён",
+    "currentTemplate": "Текущий шаблон",
+    "templateInvoke": "Вызов шаблона",
+    "runOnScreen": "Запустить на табло",
+    "templateIsRunning": "Шаблон {templateName} запущен",
+    "newTemplate": "Новый шаблон",
+    "templateDeleted": "Шаблон {templateName} удалён",
+    "screenWidth": "Ширина экрана",
+    "screenHeight": "Высота экрана",
+    "appVersion": "Версия приложения",
+    "fpgaVersion": "Версия fpga",
+    "kernelVersion": "Версия ядра",
+    "selfTest": "Самотестирование",
+    "controllerSaved": "Контроллер {controllerName} сохранён",
+    "selfTestCompleted": "Самотестирование завершено",
+    "newController": "Новый контроллер",
+    "defaultTemplate": "Шаблон по умолчанию",
+    "timeout": "Таймаут запуска шаблона по умолчанию",
+    "recordId": "ID записи",
+    "changingControllerIDSettings": "Изменение настроек ID контроллера",
+    "changingTemplate": "Изменение шаблона",
+    "changingSettings": "Изменение настроек",
+    "launchSelfTest": "Запуск самотестирования"
+  },
+  "bugReport": {
+    "triggerLabel": "Сообщить об ошибке",
+    "formTitle": "Форма сообщения",
+    "addScreenshot": "Добавить скриншот",
+    "removeScreenshot": "Убрать скриншот",
+    "submit": "Отправить",
+    "messageLabel": "Описание",
+    "messagePlaceholder": "Опишите ошибку как можно подробнее",
+    "successMessageText": "Спасибо вам за отправку отчёта об ошибке!"
+  },
+  "radarPage": {
+    "tracks": "Треки",
+    "scaleReset": "Сбросить масштаб к стандартным значениям"
   }
 }
