@@ -81,7 +81,9 @@
     "squareStep": "Квадрат кадамы",
     "startAutoCalibration": "Автокалибрлөөнү жүргүзүү",
     "timeStatusChange": "Статус өзгөртүү убактысы",
-    "vehiclesCount": "ТКнын саны"
+    "vehiclesCount": "ТКнын саны",
+    "deselectOneOfSquares": "",
+    "calculationOfFocalLength": ""
   },
   "climateControlPage": {
     "Toffmax": "Температураны өчүрүүнүн жогорку чеги",
@@ -730,7 +732,8 @@
     "dynemicError": "Ката: {var}",
     "incorrectCleanerPathStart": "Директорияга карай жол '/mnt/azimuth-data/' менен башталышы керек. Сиз \"{var}\" жаздыңыз",
     "cleanerPathNotExists": "Жок {var} жолу көрсөтүлгөн. Анын бар экенин текшериңиз",
-    "imageDisplayError": "Сүрөттү көрсөтүүдө ката кетти"
+    "imageDisplayError": "Сүрөттү көрсөтүүдө ката кетти",
+    "Данные отсутствуют": "Маалыматтар жок"
   },
   "gpsPage": {
     "clearLog": "Журналды тазалоо",
@@ -1135,7 +1138,6 @@
       "confirmRemoval": "\"{name}\" директориясын жок кылууну ырастаңыз",
       "deleteDirectory": "Директорияны жок кылуу",
       "displayName": "Көрсөтүлгөн ат",
-      "editDirectory": "Директорияны оңдоо \"{name}\"",
       "hoursShort": "с",
       "maxSizeDirectory": "Директориянын макс. өлчөмү",
       "maxTotalSizeFolders": "Директориянын макс. жалпы өлчөмү",
@@ -1273,7 +1275,8 @@
       "title": "Genicam ТВ сенсорлор",
       "topOffset": "Үстүнөн жылуу",
       "verticalOffset": "Тигинен жылуу",
-      "videoInput": "Видеонун кирүүсү"
+      "videoInput": "Видеонун кирүүсү",
+      "irIlluminator": ""
     },
     "pulseDurationChangedToast": "Канал импульсунун узактыгы өзгөрдү {channel}",
     "rtspCameraSavedToast": "RTSP сервери сакталды",
@@ -1332,7 +1335,7 @@
       },
       "1": {
         "article": "12.9 1-бөлүк",
-        "display_name": "11-20 Ылдамдык",
+        "display_name": "Ылдамдык",
         "gost_name": "С1.1 Белгиленген ылдамдык режимин бузуу"
       },
       "2": {
@@ -1740,6 +1743,11 @@
         "display_name": "Жол белгилөөлөрүндө каралган талаптарды бузуу менен солго бурулуу",
         "gost_name": "C11. Жол белгилеринин жана жол белгилөөлөрүнүн талаптарын бузуу"
       },
+      "101": {
+        "article": "12.9 1-бөлүк",
+        "display_name": "Ылдамдык",
+        "gost_name": "С1.1 Белгиленген ылдамдык режимин бузуу"
+      },
       "102": {
         "article": "12.9 2-бөлүк",
         "display_name": "21-40 тр ылдамдыгы",
@@ -1922,7 +1930,7 @@
       },
       "201": {
         "article": "12.9 1-бөлүк",
-        "display_name": "Шаар тилкесинде 11-20 белгисиз ылдамдык",
+        "display_name": "Ылдамдык",
         "gost_name": "C1.2 Белгиленген ылдамдык режимин бузуу"
       },
       "202": {
@@ -2319,10 +2327,5 @@
       "materialIsFormed": "Материал түзүлгөн"
     },
     "violationTime": "Бузуунун убактысы"
-  },
-  "zonesConnect": {
-    "checkImage": "Сүрөттү текшерүү",
-    "lane": "Кыймыл тилкеси",
-    "getImage": "Сүрөт алуу"
   }
 }
