@@ -81,7 +81,11 @@
     "squareStep": "Square pitch",
     "startAutoCalibration": "Start autocalibration",
     "timeStatusChange": "Time of status change",
-    "vehiclesCount": "Number of vehicles"
+    "vehiclesCount": "Number of vehicles",
+    "deselectOneOfSquares": "Deselect the square to unlock the fields",
+    "calculationOfFocalLength": "Calculation of the focal length",
+    "refreshLog": "Refresh log",
+    "clearLog": "Clear log"
   },
   "climateControlPage": {
     "Toffmax": "Upper temperature switch-off limit",
@@ -224,7 +228,11 @@
     "direction": "Direction",
     "directions": {
       "left": "Left",
-      "right": "Right"
+      "right": "Right",
+      "center": "Center",
+      "top": "Top",
+      "middle": "Middle",
+      "bottom": "Bottom"
     },
     "directly": "Straight",
     "disableFixation": "Switch off the fixation",
@@ -311,7 +319,7 @@
     "offset": "Deviation",
     "on": "On | switched on",
     "operation": "Operation",
-    "parameter": "Parameter",
+    "parameter": "Parameter | Parameters",
     "password": "Password",
     "peer": "Related complex | Related complexes",
     "quality": "Quality",
@@ -371,6 +379,7 @@
     "time": "Time",
     "timeSuffix": {
       "hours": "h",
+      "minutes": "min",
       "microSec": "μs",
       "ms": "ms",
       "sec": "sec"
@@ -418,7 +427,52 @@
     "device": "Device",
     "zoom": "Zoom",
     "detailCamera": "Detail camera",
-    "surveyCamera": "Survey camera"
+    "surveyCamera": "Survey camera",
+    "dawn": "Dawn",
+    "sunrise": "Sunrise",
+    "sunset": "Sunset",
+    "dusk": "Dusk",
+    "fix": "Fix",
+    "state": "State",
+    "user": "User",
+    "in": "in",
+    "templates": "Template | Templates",
+    "uploadedFiles": "Uploaded files",
+    "fileDeleted": "File {filename} deleted",
+    "fileUploaded": "The file has been successfully uploaded",
+    "text": "Text",
+    "font": "Font",
+    "bold": "Bold",
+    "italic": "Italic",
+    "underline": "Underline",
+    "textColor": "Text color",
+    "backgroundColor": "Background color",
+    "clock": "Clock",
+    "visibility": "Visibility",
+    "dateFormat": "Date format",
+    "timeFormat": "Time format",
+    "preview": "Preview",
+    "confirmRemove": "Do you really want to delete {entity}?",
+    "rotation": "Rotation",
+    "listUpdated": "List updated",
+    "request": "Request",
+    "total": "Total",
+    "turnOn": "Turn on",
+    "turnOff": "Turn off",
+    "section": "Section",
+    "car": "Car | Cars",
+    "bus": "Bus | Buses",
+    "truck": "Truck | Trucks",
+    "notComplyWithGost": "Attention, this setting does not comply with GOST",
+    "auto": "Auto",
+    "manually": "Manually",
+    "lengthSuffix": {
+      "mm": "mm"
+    },
+    "distance": "Distance",
+    "confirmClear": "Do you really want to clear {entity}?",
+    "log": "log",
+    "unknown": "Unknown"
   },
   "configEditor": {
     "fileSaved": "File saved\nDon't forget to save your settings in the System tab"
@@ -730,7 +784,8 @@
     "dynemicError": "Error: {var}",
     "incorrectCleanerPathStart": "The directory path must start with ‘/mnt/azimuth-data/’. You entered ‘{var}’",
     "cleanerPathNotExists": "A non-existent path ‘{var}’ is specified. Check if it exists",
-    "imageDisplayError": "Image display error"
+    "imageDisplayError": "Image display error",
+    "Данные отсутствуют": "No data available"
   },
   "gpsPage": {
     "clearLog": "Clear the log",
@@ -802,6 +857,12 @@
       "warnings": "Warnings",
       "anyDirection": "Any",
       "allCurrentLaneSettingsWillBeDeleted": "Attention! All current lane settings will be deleted. Are you sure?"
+    },
+    "mobile": {
+      "chooseZoneConfigFile": "Choose zone config file",
+      "currentAddress": "Current address",
+      "currentViolation": "Current violation",
+      "complexIsNotOnRoute": "The complex is not on the route"
     }
   },
   "imagesPage": {
@@ -849,7 +910,10 @@
     "videoArchive": "Video Archive",
     "videoSources": "Video Sources",
     "violations": "Violations",
-    "zonesConnect": "Control zones pairing"
+    "zonesConnect": "Control zones pairing",
+    "garbageMO": "Garbage MO",
+    "roadScreen": "Road screen",
+    "configEditor": "Config editor"
   },
   "metrologyPage": {
     "certificateSaved": "Certificate has been saved",
@@ -1135,7 +1199,6 @@
       "confirmRemoval": "Confirm deletion of the \"{name}\" directory",
       "deleteDirectory": "Delete the directory",
       "displayName": "Displayed name",
-      "editDirectory": "Edit the directory \"{name}\"",
       "hoursShort": "h",
       "maxSizeDirectory": "Max. size of directory",
       "maxTotalSizeFolders": "Max. total size of directories",
@@ -1179,7 +1242,9 @@
         "static": "Static",
         "moved": "Moved"
       },
-      "usageMode": "Usage mode"
+      "usageMode": "Usage mode",
+      "mountedPoint": "Mounted point",
+      "allPartitionsAreMounted": "All partitions are mounted"
     },
     "tabs": {
       "cleanerSettings": "Cleaner settings",
@@ -1273,7 +1338,13 @@
       "title": "Genicam TV sensors",
       "topOffset": "Offset from above",
       "verticalOffset": "Vertical offset",
-      "videoInput": "Video Input"
+      "videoInput": "Video Input",
+      "lens": "Lens",
+      "turnOnHoodHeater": "Turn on the hood heater",
+      "turnOffHoodHeater": "Turn off the hood heater",
+      "hoodHeaterIsTurnedOnForSec": "The hood heater is turned on for {timeout} sec",
+      "hoodHeaterIsTurnedOff": "The hood heater is turned off",
+      "irIlluminator": "IR illuminator"
     },
     "pulseDurationChangedToast": "Pulse duration for channel {channel} changed",
     "rtspCameraSavedToast": "RTSP server saved",
@@ -1312,7 +1383,9 @@
       "streamName": "Stream name",
       "title": "RTSP servers"
     },
-    "synchronizationChangedToast": "Synchronisation changed"
+    "synchronizationChangedToast": "Synchronisation changed",
+    "rise": "Rise",
+    "fall": "Fall"
   },
   "violationTypes": {
     "all": "All types",
@@ -1332,7 +1405,7 @@
       },
       "1": {
         "article": "12.9 p. 1",
-        "display_name": "Speed 11-20",
+        "display_name": "Overspeed",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "2": {
@@ -1740,6 +1813,11 @@
         "display_name": "Turning left in violation of the requirements prescribed by road markings",
         "gost_name": "C11. Violation of road signs and road markings"
       },
+      "101": {
+        "article": "12.9 p. 1",
+        "display_name": "Overspeed",
+        "gost_name": "C1.1 Violation of the established speed limit"
+      },
       "102": {
         "article": "12.9 p. 2",
         "display_name": "Speed 21-40 motorway",
@@ -1922,7 +2000,7 @@
       },
       "201": {
         "article": "12.9 p. 1",
-        "display_name": "Speed in city section, no sign 11-20",
+        "display_name": "Overspeed",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "202": {
@@ -2318,11 +2396,65 @@
       "fixed": "Fixed",
       "materialIsFormed": "Material is formed"
     },
-    "violationTime": "Time of violation"
+    "violationTime": "Time of violation",
+    "numberOfViolationsByFilter": "The number of violations by filter"
   },
   "zonesConnect": {
     "checkImage": "Check image",
     "lane": "Traffic lane",
     "getImage": "Get image"
+  },
+  "garbage": {
+    "checkPeriod": "Check period",
+    "lpnFileUrl": "URL to LPN file"
+  },
+  "roadScreen": {
+    "currentState": "Current state",
+    "lastInvokedTemplate": "Last invoked template",
+    "actionLog": "Action log",
+    "templateParameters": "Template parameters",
+    "controller": "Controller | Controllers",
+    "verticalAlignment": "Vertical alignment",
+    "horizontalAlignment": "Horizontal alignment",
+    "digital": "Digital",
+    "dial": "Dial",
+    "clockType": "Clock type",
+    "titleAndVisibility": "Title/visibility",
+    "weekDayType": "Week day type",
+    "program": "Program | Programs",
+    "playDuration": "Play duration",
+    "templateSaved": "Template {templateName} saved",
+    "currentTemplate": "Current template",
+    "templateInvoke": "Template invoke",
+    "runOnScreen": "Run on screen",
+    "templateIsRunning": "Template {templateName} is running",
+    "newTemplate": "New template",
+    "templateDeleted": "Template {templateName} is deleted",
+    "screenWidth": "Screen width",
+    "screenHeight": "Screen height",
+    "appVersion": "App version",
+    "fpgaVersion": "fpga version",
+    "kernelVersion": "Kernel version",
+    "selfTest": "Self test",
+    "controllerSaved": "Controller {controllerName} saved",
+    "selfTestCompleted": "Self test completed",
+    "newController": "New controller",
+    "defaultTemplate": "Deafult template",
+    "timeout": "Default template startup timeout",
+    "recordId": "Record ID",
+    "changingControllerIDSettings": "Changing the controller ID settings",
+    "changingTemplate": "Changing the template",
+    "changingSettings": "Changing the settings",
+    "launchSelfTest": "Launch self test"
+  },
+  "bugReport": {
+    "triggerLabel": "Report a Bug",
+    "removeScreenshot": "Remove screenshot",
+    "addScreenshot": "Add screenshot",
+    "submit": "Send Bug Report",
+    "successMessageText": "Thank you for your report!",
+    "formTitle": "Report a Bug",
+    "messagePlaceholder": "Describe the error in as much detail as possible",
+    "messageLabel": "Description"
   }
 }
