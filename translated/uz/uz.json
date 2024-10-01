@@ -81,7 +81,9 @@
     "squareStep": "Kvadrat oraliq",
     "startAutoCalibration": "Avtomatik kalibrlashni boshlang",
     "timeStatusChange": "Vaziyatni o'zgartirish vaqti",
-    "vehiclesCount": "Avtomobillar soni"
+    "vehiclesCount": "Avtomobillar soni",
+    "deselectOneOfSquares": "",
+    "calculationOfFocalLength": ""
   },
   "climateControlPage": {
     "Toffmax": "Harorat bo'yicha o'chirishning yuqori chegarasi",
@@ -730,7 +732,8 @@
     "dynemicError": "Хато: {var}",
     "incorrectCleanerPathStart": "Каталогга йўл '/mnt/azimuth-data/' билан бошланиши керак. Сиз \"{var}\"ни киритдингиз",
     "cleanerPathNotExists": "Мавжуд бўлмаган \"{var}\" йўл кўрсатилган. Унинг мавжудлигини текширинг",
-    "imageDisplayError": "Расмни кўрсатишда хатолик юз берди"
+    "imageDisplayError": "Расмни кўрсатишда хатолик юз берди",
+    "Данные отсутствуют": "Ma'lumotlar mavjud emas"
   },
   "gpsPage": {
     "clearLog": "Logni tozalash",
@@ -1135,7 +1138,6 @@
       "confirmRemoval": "\"{name}\" bo'limini o'chirishni tasdiqlang",
       "deleteDirectory": "Direktoriyani o'chirish",
       "displayName": "Ko'rsatiladigan nom",
-      "editDirectory": "Direktoriyani tahrirlash \"{name}\"",
       "hoursShort": "s",
       "maxSizeDirectory": "Direktoriyaning maks. hajmi",
       "maxTotalSizeFolders": "Direktoriyaning umumiy hajmi",
@@ -1273,7 +1275,8 @@
       "title": "Genicam TV datchiklari",
       "topOffset": "Yuqoriga siljish",
       "verticalOffset": "Vertikal bo'ylab siljish",
-      "videoInput": "Video kirish"
+      "videoInput": "Video kirish",
+      "irIlluminator": ""
     },
     "pulseDurationChangedToast": "{channel} kanali uchun puls davomiyligi oʻzgardi",
     "rtspCameraSavedToast": "RTSP serveri saqlandi",
@@ -1332,7 +1335,7 @@
       },
       "1": {
         "article": "12.9 1-қ",
-        "display_name": "Tezlik 11-20",
+        "display_name": "Tezlik",
         "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "2": {
@@ -1740,6 +1743,11 @@
         "display_name": "Yo'l chiziqlari bilan belgilangan talablarni buzgan holda chapga burilish",
         "gost_name": "C11. Yo'l belgilari va yo'l chiziqlari talablarini buzish"
       },
+      "101": {
+        "article": "12.9 1-қ",
+        "display_name": "Tezlik",
+        "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
+      },
       "102": {
         "article": "12.9 2-қ",
         "display_name": "Trassada tezlik 21-40",
@@ -1922,7 +1930,7 @@
       },
       "201": {
         "article": "12.9 1-қ",
-        "display_name": "Shahar uchastkasidagi belgi bo'lmaganda tezlik 11-20\n",
+        "display_name": "Tezlik 11-20\n",
         "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "202": {
