@@ -8,9 +8,11 @@
     "additionalFilters": {
       "carClass": "TV turi",
       "country": "Davlat RB",
-      "direction": "Harakat yo'nalishi"
+      "direction": "Harakat yo'nalishi",
+      "brand": "Markasi",
+      "model": "Modeli"
     },
-    "downloadFormat": "Fayl formati",
+    "downloadFormat": "Yuklash formati",
     "payloads": {
       "other": "Boshqa",
       "planks": "Taxtalar",
@@ -48,6 +50,7 @@
       "place": "Qotirish joyi"
     },
     "viewType": "Berish turi",
+    "findAndSaveFile": "Topish va faylga saqlash",
     "recordsFound": "Ёзувлар топилди"
   },
   "amtsServerPage": {
@@ -82,8 +85,10 @@
     "startAutoCalibration": "Avtomatik kalibrlashni boshlang",
     "timeStatusChange": "Vaziyatni o'zgartirish vaqti",
     "vehiclesCount": "Avtomobillar soni",
-    "deselectOneOfSquares": "",
-    "calculationOfFocalLength": ""
+    "deselectOneOfSquares": "Maydonlarni blokdan chiqarish uchun kvadratdan belgilashni olib tashlang",
+    "calculationOfFocalLength": "Fokus masofasini hisoblash",
+    "refreshLog": "Logni yangilash",
+    "clearLog": "Logni tozalash"
   },
   "climateControlPage": {
     "Toffmax": "Harorat bo'yicha o'chirishning yuqori chegarasi",
@@ -140,6 +145,7 @@
     "brightness": "Yoru'lik",
     "buttons": {
       "add": "Qo'shish",
+      "statusReset": "Holatni qayta tiklash",
       "apply": "Qo'llash",
       "applyFormChanges": "Forma uchun o'zgarishlarni qo'llash",
       "block": "Bloklash",
@@ -226,7 +232,11 @@
     "direction": "Yo'nalish",
     "directions": {
       "left": "Chap",
-      "right": "O'ng"
+      "right": "O'ng",
+      "center": "Markaz",
+      "top": "Yuqori",
+      "middle": "O'rtasi",
+      "bottom": "Pastki"
     },
     "directly": "To'g'ri",
     "disableFixation": "Qotirishni o'chirish",
@@ -313,7 +323,7 @@
     "offset": "Og'ish",
     "on": "Yoqish | yoqilgan",
     "operation": "Operatsiya",
-    "parameter": "Parametr",
+    "parameter": "Parametr | Parametrlar",
     "password": "Parol",
     "peer": "Tegishli kompleks | Tegishli komplekslar",
     "quality": "Sifat",
@@ -327,7 +337,7 @@
     "schedule": "Jadval | Jadvallar",
     "selectAll": "Hammasini tanlang",
     "serialNumber": "Seriya raqami",
-    "set": "Tayinlash",
+    "set": "O'rnatish",
     "settingsSaved": "Sozlamalar saqlandi",
     "sharpness": "Keskinlik",
     "shutter": "Diafragma",
@@ -373,6 +383,7 @@
     "time": "Vaqt",
     "timeSuffix": {
       "hours": "s",
+      "minutes": "min",
       "microSec": "mks",
       "ms": "ms",
       "sec": "sek"
@@ -420,7 +431,53 @@
     "device": "Қурилма",
     "zoom": "Yaqinlashtirish",
     "detailCamera": "Тафсилот камераси",
-    "surveyCamera": "Кўрсатув камераси"
+    "surveyCamera": "Кўрсатув камераси",
+    "dawn": "Tong",
+    "sunrise": "Quyoshning chiqishi",
+    "sunset": "Quyosh botishi",
+    "dusk": "Shom",
+    "fix": "Toʻgʻrilash",
+    "state": "Holat",
+    "user": "Foydalanuvchi",
+    "in": "da",
+    "templates": "Shablon | Shablonlar",
+    "uploadedFiles": "Yuklangan fayllar",
+    "confirmRemove": "Siz haqiqatan ham {entity}ni o‘chirishni xohlaysizmi?",
+    "fileDeleted": "Fayl {filename} o‘chirildi",
+    "fileUploaded": "Fayl muvaffaqiyatli yuklandi",
+    "text": "Matn",
+    "font": "Shrift",
+    "bold": "Qalin",
+    "italic": "Qiya",
+    "underline": "Qayta chizilgan",
+    "textColor": "Matn rangi",
+    "backgroundColor": "Fon rangi",
+    "clock": "Soat",
+    "visibility": "Ko'rinish",
+    "dateFormat": "Sana formati",
+    "timeFormat": "Vaqt formati",
+    "preview": "Oldindan ko'rish",
+    "rotation": "Burilish burchagi",
+    "listUpdated": "Ro'yxat yangilandi",
+    "total": "Jami",
+    "request": "So'rash",
+    "developerMode": "Dasturchi vositalari",
+    "turnOn": "Yoqish",
+    "turnOff": "O'chirish",
+    "section": "Bo'lim",
+    "bus": "Avtobus | Avtobuslar",
+    "car": "Yengil | Yengil avtomobillar",
+    "truck": "Yuk | Yuk avtomobillari",
+    "notComplyWithGost": "E'tibor bering, ushbu sozlama GOSTga mos kelmaydi",
+    "auto": "Avto",
+    "manually": "Qo'lda",
+    "lengthSuffix": {
+      "mm": "mm"
+    },
+    "distance": "Masofa",
+    "confirmClear": "Siz haqiqatan ham {entity}ni tozalashni xohlaysizmi?",
+    "log": "Log",
+    "unknown": "Ma'lum emas"
   },
   "configEditor": {
     "fileSaved": "Fayl saqlandi\nSozlamalarni \"Tizim\" ilovasida saqlashni unutmang"
@@ -733,6 +790,7 @@
     "incorrectCleanerPathStart": "Каталогга йўл '/mnt/azimuth-data/' билан бошланиши керак. Сиз \"{var}\"ни киритдингиз",
     "cleanerPathNotExists": "Мавжуд бўлмаган \"{var}\" йўл кўрсатилган. Унинг мавжудлигини текширинг",
     "imageDisplayError": "Расмни кўрсатишда хатолик юз берди",
+    "formError": "Ba'zi forma maydonlari noto'g'ri to'ldirilgan. Iltimos, xatolarni to'g'rilang",
     "Данные отсутствуют": "Ma'lumotlar mavjud emas"
   },
   "gpsPage": {
@@ -744,7 +802,7 @@
     "numberOfMeasurements": "O'lchovlar soni",
     "receiverResetToast": "Qabul qiluvchini qayta tiklash",
     "satelliteID": "Sun'iy yo'ldosh identifikatori",
-    "snr": "o'rtacha s/sh, dB",
+    "snr": "O'rtacha signal/shovqin, dB",
     "trackingSatellites": "Izlashda sun'iy yo'ldoshlar",
     "usedSatellites": "Yechimdagi sun'iy yo'ldoshlar",
     "coordinatesCopied": "Координаталар вақтинчалик хотирага кўчирилди",
@@ -767,7 +825,8 @@
       "title": "''Duplo 2'' xizmatiga materiallar yuborishning batafsil statistikasi",
       "violationTotalFailed": "Xatolar bilan sodir etilgan qoidabuzarliklarning umumiy soni",
       "violationTotalQueued": "Navbatda qoidabuzarliklarning umumiy soni",
-      "violationTotalSuccess": "Muvaffaqiyatli yuborilgan qoidabuzarliklarning umumiy soni"
+      "violationTotalSuccess": "Muvaffaqiyatli yuborilgan qoidabuzarliklarning umumiy soni",
+      "mainTabTitle": "Asosiy"
     },
     "information": {
       "allSpace": "SSD dagi bo'sh joyning umumiy miqdori",
@@ -805,6 +864,12 @@
       "warnings": "Ogohlantirishlar",
       "anyDirection": "Ҳар қандай",
       "allCurrentLaneSettingsWillBeDeleted": "Диққат! Барча жорий чизиқ созламалари ўчирилади. Ишончингиз комилми?"
+    },
+    "mobile": {
+      "chooseZoneConfigFile": "Zona konfiguratsiya faylini tanlang",
+      "currentAddress": "Hozirgi manzil",
+      "currentViolation": "Hozirgi buzilish",
+      "complexIsNotOnRoute": "Kompleks marshrutda emas"
     }
   },
   "imagesPage": {
@@ -852,7 +917,11 @@
     "videoArchive": "Video arxivi",
     "videoSources": "Video manbalar",
     "violations": "Qoidabuzarliklar",
-    "zonesConnect": "Назорат зоналарини боғлаш"
+    "zonesConnect": "Назорат зоналарини боғлаш",
+    "garbageMO": "Chiqindi МО",
+    "roadScreen": "Ma'lumot taxtasi",
+    "radar": "Radar",
+    "configEditor": "Konfiguratsiya tahrirlovchisi"
   },
   "metrologyPage": {
     "certificateSaved": "Sertifikat saqlandi",
@@ -1138,6 +1207,7 @@
       "confirmRemoval": "\"{name}\" bo'limini o'chirishni tasdiqlang",
       "deleteDirectory": "Direktoriyani o'chirish",
       "displayName": "Ko'rsatiladigan nom",
+      "editDirectory": "\"{name}\" katalogini tahrirlash | Katalogni tahrirlash",
       "hoursShort": "s",
       "maxSizeDirectory": "Direktoriyaning maks. hajmi",
       "maxTotalSizeFolders": "Direktoriyaning umumiy hajmi",
@@ -1181,7 +1251,9 @@
         "static": "Стационар",
         "moved": "Кўчма"
       },
-      "usageMode": "Фойдаланиш режими"
+      "usageMode": "Фойдаланиш режими",
+      "mountedPoint": "Tegish nuqtasi",
+      "allPartitionsAreMounted": "Barcha bo'limlar qo'shilgan"
     },
     "tabs": {
       "cleanerSettings": "Cleaner sozlamalari",
@@ -1234,7 +1306,11 @@
     "alphaNum": "Қиймат фақат ҳарфлар (лотин) ва рақамлар бўлиши мумкин",
     "imageFileName": "Файл номи фақат лотин ҳарфлари ёки рақамларидан иборат бўлиши мумкин",
     "uniqueFileName": "Бу файл номи мавжуд емас",
-    "uniqueScheduleName": "Бу жадвал номи аллақачон олинган"
+    "scheduleTime": "To'g'ri vaqtni kiriting (HH:MM:SS)",
+    "uniqueScheduleName": "Бу жадвал номи аллақачон олинган",
+    "dateTimeWithMilliseconds": "To'g'ri sana/vaqtni YYYY-MM-DD HH:mm.SSS formatida kiriting",
+    "dateTime": "To'g'ri sana/vaqtni DD-MM-YYYY HH:mm:ss formatida kiriting",
+    "date": "To'g'ri sanani DD-MM-YYYY formatida kiriting"
   },
   "videoArchivePage": {
     "addImage": "Rasmni qo'shish",
@@ -1276,7 +1352,12 @@
       "topOffset": "Yuqoriga siljish",
       "verticalOffset": "Vertikal bo'ylab siljish",
       "videoInput": "Video kirish",
-      "irIlluminator": ""
+      "lens": "Ob'ektiv",
+      "turnOnHoodHeater": "Blendani isitkichni yoqing",
+      "turnOffHoodHeater": "Blendani isitkichni o'chiring",
+      "hoodHeaterIsTurnedOnForSec": "Blendani isitkich {timeout} soniya davomida yoqilgan",
+      "hoodHeaterIsTurnedOff": "Blendani isitkich o'chirilgan",
+      "irIlluminator": "IK yoritgich"
     },
     "pulseDurationChangedToast": "{channel} kanali uchun puls davomiyligi oʻzgardi",
     "rtspCameraSavedToast": "RTSP serveri saqlandi",
@@ -1315,7 +1396,9 @@
       "streamName": "Oqim nomi",
       "title": "RTSP serverlar"
     },
-    "synchronizationChangedToast": "Sinxronizatsiya o'zgartirildi"
+    "synchronizationChangedToast": "Sinxronizatsiya o'zgartirildi",
+    "rise": "Ko'tarilish",
+    "fall": "Pasayish"
   },
   "violationTypes": {
     "all": "Hamma turlar",
@@ -1335,7 +1418,7 @@
       },
       "1": {
         "article": "12.9 1-қ",
-        "display_name": "Tezlik",
+        "display_name": "Tezlikni oshirish",
         "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "2": {
@@ -1930,7 +2013,7 @@
       },
       "201": {
         "article": "12.9 1-қ",
-        "display_name": "Tezlik 11-20\n",
+        "display_name": "Tezlikni oshirish",
         "gost_name": "C1.2 Белгиланган тезлик чегарасини бузиш"
       },
       "202": {
@@ -2326,11 +2409,70 @@
       "fixed": "Aniqlangan",
       "materialIsFormed": "Shakllantirilgan material"
     },
-    "violationTime": "Qoidabuzarlik vaqti"
+    "showTraceback": "Traceback'ni ko'rsatish",
+    "violationTime": "Qoidabuzarlik vaqti",
+    "numberOfViolationsByFilter": "Filtr bo'yicha buzilishlar soni"
   },
   "zonesConnect": {
     "checkImage": "Тасвирни текшириш",
     "lane": "Ҳаракат йўлаги",
     "getImage": "Тасвирни олиш"
+  },
+  "garbage": {
+    "lpnFileUrl": "Davlat ro'yxatga olish belgilarining ro'yxati faylning URL manzili",
+    "checkPeriod": "So'rov davri"
+  },
+  "roadScreen": {
+    "currentState": "Joriy holat",
+    "lastInvokedTemplate": "So'nggi chaqirilgan shablon",
+    "actionLog": "Harakatlar jurnali",
+    "templateParameters": "Shablon parametrlari",
+    "controller": "Kontroller | Kontrollerlar",
+    "horizontalAlignment": "Gorizontal ravishda joylash",
+    "verticalAlignment": "Vertikal ravishda joylash",
+    "digital": "Raqamli",
+    "dial": "Soat yuzasi",
+    "clockType": "Soat turi",
+    "titleAndVisibility": "Nom/ko'rinish",
+    "weekDayType": "Hafta kunlari turi",
+    "program": "Dastur | Dasturlar",
+    "playDuration": "Ijro vaqti",
+    "templateSaved": "Shablon {templateName} saqlangan",
+    "currentTemplate": "Joriy shablon",
+    "templateInvoke": "Shablonni chaqirish",
+    "runOnScreen": "Taxtada ishga tushirish",
+    "templateIsRunning": "Shablon {templateName} ishga tushirildi",
+    "newTemplate": "Yangi shablon",
+    "templateDeleted": "Shablon {templateName} o'chirildi",
+    "screenWidth": "Ekran kengligi",
+    "screenHeight": "Ekran balandligi",
+    "appVersion": "Ilovaning versiyasi",
+    "fpgaVersion": "FPGA versiyasi",
+    "kernelVersion": "Yadro versiyasi",
+    "selfTest": "O'z-o'zini sinovdan o'tkazish",
+    "controllerSaved": "Kontroller {controllerName} saqlangan",
+    "selfTestCompleted": "O'z-o'zini sinovdan o'tkazish tugallandi",
+    "newController": "Yangi kontroller",
+    "defaultTemplate": "Standart shablon",
+    "timeout": "Standart shablonni ishga tushirish uchun taymaut",
+    "recordId": "Yozuv IDsi",
+    "changingControllerIDSettings": "Kontroller ID sozlamalarini o'zgartirish",
+    "changingTemplate": "Shablonni o'zgartirish",
+    "changingSettings": "Sozlamalarni o'zgartirish",
+    "launchSelfTest": "O'z-o'zini sinovdan o'tkazishni ishga tushirish"
+  },
+  "bugReport": {
+    "triggerLabel": "Xato haqida xabar berish",
+    "formTitle": "Xabar shakli",
+    "addScreenshot": "Skrinshot qo'shish",
+    "removeScreenshot": "Skrinshotni olib tashlash",
+    "submit": "Yuborish",
+    "messageLabel": "Tavsif",
+    "messagePlaceholder": "Xatoni iloji boricha batafsil tavsiflang",
+    "successMessageText": "Xato haqidagi hisobotni yuborganingiz uchun rahmat!"
+  },
+  "radarPage": {
+    "tracks": "Treklar",
+    "scaleReset": "Masshtabni standart qiymatlarga qaytarish"
   }
 }
