@@ -8,9 +8,11 @@
     "additionalFilters": {
       "carClass": "ТК категориясы",
       "country": "МКБ өлкөсү",
-      "direction": "Кыймыл багыты"
+      "direction": "Кыймыл багыты",
+      "brand": "Маркасы",
+      "model": "Модели"
     },
-    "downloadFormat": "Файлдын форматы",
+    "downloadFormat": "Чыгаруунун форматы",
     "payloads": {
       "other": "Башка",
       "planks": "Тактайлар",
@@ -48,6 +50,7 @@
       "place": "Бекитүү орду"
     },
     "viewType": "Берүү түрү",
+    "findAndSaveFile": "Табуу жана файлга сактоо",
     "recordsFound": "Жазуулар табылды"
   },
   "amtsServerPage": {
@@ -82,8 +85,10 @@
     "startAutoCalibration": "Автокалибрлөөнү жүргүзүү",
     "timeStatusChange": "Статус өзгөртүү убактысы",
     "vehiclesCount": "ТКнын саны",
-    "deselectOneOfSquares": "",
-    "calculationOfFocalLength": ""
+    "deselectOneOfSquares": "Талааларды ачуу үчүн төрт бурчтуктан тандоону алып салыңыз",
+    "calculationOfFocalLength": "Фокус аралыгын эсептөө",
+    "refreshLog": "Логду жаңыртуу",
+    "clearLog": "Логду тазалоо"
   },
   "climateControlPage": {
     "Toffmax": "Температураны өчүрүүнүн жогорку чеги",
@@ -140,6 +145,7 @@
     "brightness": "Ачыктык",
     "buttons": {
       "add": "Кошуу",
+      "statusReset": "Статусту баштапкы абалга келтирүү",
       "apply": "Колдонуу",
       "applyFormChanges": "Форма үчүн өзгөртүүлөрдү колдонуу",
       "block": "Бөгөттөө",
@@ -226,7 +232,11 @@
     "direction": "Багыт ",
     "directions": {
       "left": "Солго",
-      "right": "Оңго"
+      "right": "Оңго",
+      "center": "Борбор",
+      "top": "Жогору",
+      "middle": "Орто",
+      "bottom": "Төмөн"
     },
     "directly": "Түз",
     "disableFixation": "Каттоону өчүрүү",
@@ -313,7 +323,7 @@
     "offset": "Четтөө",
     "on": "Күйг. |күйгүзүлгөн",
     "operation": "Операция",
-    "parameter": "Параметр",
+    "parameter": "Параметр | Параметрлер",
     "password": "Сырсөз",
     "peer": "Байланышкан комплекс | Байланышкан комплекстер",
     "quality": "Сапат",
@@ -327,7 +337,7 @@
     "schedule": "График | Графиктер",
     "selectAll": "Баарын тандоо",
     "serialNumber": "Сериялык номер",
-    "set": "Дайындоо",
+    "set": "Орнотуу",
     "settingsSaved": "Жөндөөлөр сакталган",
     "sharpness": "Айкындуулук",
     "shutter": "Диафрагма",
@@ -373,6 +383,7 @@
     "time": "Убакыт",
     "timeSuffix": {
       "hours": "с",
+      "minutes": "мүнөт",
       "microSec": "мкс",
       "ms": "мс",
       "sec": "сек"
@@ -420,7 +431,53 @@
     "device": "Прибор",
     "zoom": "Жогорулатуу",
     "detailCamera": "Деталдуу камера",
-    "surveyCamera": "Байкоочу камера"
+    "surveyCamera": "Байкоочу камера",
+    "dawn": "Таң",
+    "sunrise": "Күн чыгышы",
+    "sunset": "Күн батуусу",
+    "dusk": "Караңгылык",
+    "fix": "Дурустоо",
+    "state": "Абал",
+    "user": "Колдонуучу",
+    "in": "в",
+    "templates": "Шаблон | Шаблондор",
+    "uploadedFiles": "Жүктөлгөн файлдар",
+    "confirmRemove": "Сиз чындыгында {entity}ны жок кылууну каалайсызбы?",
+    "fileDeleted": "Файл {filename} жок кылынды",
+    "fileUploaded": "Файл ийгиликтүү жүктөлдү",
+    "text": "Тексти",
+    "font": "Шрифттин",
+    "bold": "Калың",
+    "italic": "Курсив",
+    "underline": "Чийилген",
+    "textColor": "Тексттин түсү",
+    "backgroundColor": "Фондун түсү",
+    "clock": "Сааттар",
+    "visibility": "Көрүнүш",
+    "dateFormat": "Дата форматы",
+    "timeFormat": "Убакыт форматы",
+    "preview": "Алдын ала көрсөтүү",
+    "rotation": "Бурчтын бурулуусу",
+    "listUpdated": "Тизмеси жаңыртылды",
+    "total": "Бардыгы",
+    "request": "Сураныч",
+    "developerMode": "Иштеп чыгуучунун шаймандары",
+    "turnOn": "Күйгүзүү",
+    "turnOff": "Өчүрүү",
+    "section": "Бөлүм",
+    "bus": "Автобус | Автобустар",
+    "car": "Жеке авто | Жеке унаалар",
+    "truck": "Жүк ташуучу | Жүк ташуучу унаалар",
+    "notComplyWithGost": "Эскертүү, бул жөндөө ГОСТко дал келбейт",
+    "auto": "Авто",
+    "manually": "Кол менен",
+    "lengthSuffix": {
+      "mm": "мм"
+    },
+    "distance": "Аралык",
+    "confirmClear": "Чындыгында {entity} тазалоону каалайсызбы?",
+    "log": "лог",
+    "unknown": "Белгисиз"
   },
   "configEditor": {
     "fileSaved": "Файл сакталган\n«Система» өтмөгүндө жөндөөлөрдү  сактоону унутпаңыз"
@@ -733,6 +790,7 @@
     "incorrectCleanerPathStart": "Директорияга карай жол '/mnt/azimuth-data/' менен башталышы керек. Сиз \"{var}\" жаздыңыз",
     "cleanerPathNotExists": "Жок {var} жолу көрсөтүлгөн. Анын бар экенин текшериңиз",
     "imageDisplayError": "Сүрөттү көрсөтүүдө ката кетти",
+    "formError": "Кээ бир форма талаалары туура эмес толтурулган. Сураныч, катааларды оңдоп коюңуз",
     "Данные отсутствуют": "Маалыматтар жок"
   },
   "gpsPage": {
@@ -744,7 +802,7 @@
     "numberOfMeasurements": "Өлчөөлөрдүн саны",
     "receiverResetToast": "Алуучу баштапкы абалга келтирилди",
     "satelliteID": "Спутниктин ID",
-    "snr": "орточо с/ш, дБ",
+    "snr": "Орточо сигнал/шум, дБ",
     "trackingSatellites": "Көз салууда спутниктер",
     "usedSatellites": "Чечимдеги спутниктер",
     "coordinatesCopied": "Координаттар алмашуу буферине көчүрүлдү",
@@ -767,7 +825,8 @@
       "title": "\"Дупло 2\" кызматына материалдарды жөнөтүү боюнча толук статистика",
       "violationTotalFailed": "Каталары бар бузуулардын жалпы саны",
       "violationTotalQueued": "Кезекте турган бузуулардын жалпы саны",
-      "violationTotalSuccess": "Ийгиликтүү жөнөтүлгөн бузуулардын жалпы саны"
+      "violationTotalSuccess": "Ийгиликтүү жөнөтүлгөн бузуулардын жалпы саны",
+      "mainTabTitle": "Негизги"
     },
     "information": {
       "allSpace": "SSD да бардык орундар",
@@ -805,6 +864,12 @@
       "warnings": "Эскертүу",
       "anyDirection": "Каалаганы",
       "allCurrentLaneSettingsWillBeDeleted": "Көңүл буруңуз! Тилкелердин бардык учурдагы ырастамалары өчүрүлөт. Сиз чындыгында өчүрүүнү каалайсызбы?"
+    },
+    "mobile": {
+      "chooseZoneConfigFile": "Зоналардын конфигурация файлын тандаңыз",
+      "currentAddress": "Учурдагы дарек",
+      "currentViolation": "Учурдагы бузуу",
+      "complexIsNotOnRoute": "Комплекс маршрутта эмес"
     }
   },
   "imagesPage": {
@@ -852,7 +917,11 @@
     "videoArchive": "Видеоархив",
     "videoSources": "Видео булактары",
     "violations": "Бузуулар",
-    "zonesConnect": "Багыттоо зоналарын кошуу"
+    "zonesConnect": "Багыттоо зоналарын кошуу",
+    "garbageMO": "Чүп МО",
+    "roadScreen": "Маалымат таблосу",
+    "radar": "Радар",
+    "configEditor": "Конфигурация редактору"
   },
   "metrologyPage": {
     "certificateSaved": "Сертификат сакталды",
@@ -1138,6 +1207,7 @@
       "confirmRemoval": "\"{name}\" директориясын жок кылууну ырастаңыз",
       "deleteDirectory": "Директорияны жок кылуу",
       "displayName": "Көрсөтүлгөн ат",
+      "editDirectory": "Директорияны \"{name}\" өзгөртүү | Директорияны өзгөртүү",
       "hoursShort": "с",
       "maxSizeDirectory": "Директориянын макс. өлчөмү",
       "maxTotalSizeFolders": "Директориянын макс. жалпы өлчөмү",
@@ -1181,7 +1251,9 @@
         "static": "Стационардык",
         "moved": "Көчмө"
       },
-      "usageMode": "Колдонуу режими"
+      "usageMode": "Колдонуу режими",
+      "mountedPoint": "Монтаждоо чекити",
+      "allPartitionsAreMounted": "Бардык бөлүмдөр монтаждалган"
     },
     "tabs": {
       "cleanerSettings": "Cleaner жөндөөлөрү",
@@ -1234,7 +1306,11 @@
     "alphaNum": "Маани тамгалар (латын) жана сандар гана болушу мүмкүн",
     "imageFileName": "Файлдын аталышы латын тамгаларынан же сандардан гана турушу мүмкүн",
     "uniqueFileName": "Файлдын мындай аталышы мурунтан эле колдонулат",
-    "uniqueScheduleName": "Ырастаманын бул ысымы мурунтан эле ээленген"
+    "scheduleTime": "ЧЧ:ММ:СС форматында туура убакытты киргизиңиз",
+    "uniqueScheduleName": "Ырастаманын бул ысымы мурунтан эле ээленген",
+    "dateTimeWithMilliseconds": "YYYY-MM-DD HH:mm\n.SSS форматында туура дата/времени киргизиңиз",
+    "dateTime": "DD-MM-YYYY HH:mm\nформатында туура дата/времени киргизиңиз",
+    "date": "DD-MM-YYYY форматында туура датаны киргизиңиз"
   },
   "videoArchivePage": {
     "addImage": "Сүрөттү кошуу",
@@ -1276,7 +1352,12 @@
       "topOffset": "Үстүнөн жылуу",
       "verticalOffset": "Тигинен жылуу",
       "videoInput": "Видеонун кирүүсү",
-      "irIlluminator": ""
+      "lens": "Объектив",
+      "turnOnHoodHeater": "Бленддин жылыткычын күйгүзүү",
+      "turnOffHoodHeater": "Бленддин жылыткычын өчүрүү",
+      "hoodHeaterIsTurnedOnForSec": "Бленддин жылыткычы {timeout} секундага күйгүзүлгөн",
+      "hoodHeaterIsTurnedOff": "Бленддин жылыткычы өчүрүлгөн",
+      "irIlluminator": "ИК жарык берүүчү"
     },
     "pulseDurationChangedToast": "Канал импульсунун узактыгы өзгөрдү {channel}",
     "rtspCameraSavedToast": "RTSP сервери сакталды",
@@ -1315,7 +1396,9 @@
       "streamName": "Агымдын аты",
       "title": "RTSP серверлер"
     },
-    "synchronizationChangedToast": "Синхрондоштуруу өзгөртүлдү"
+    "synchronizationChangedToast": "Синхрондоштуруу өзгөртүлдү",
+    "rise": "Жогору",
+    "fall": "Төмөн"
   },
   "violationTypes": {
     "all": "Бардык типтер",
@@ -1335,7 +1418,7 @@
       },
       "1": {
         "article": "12.9 1-бөлүк",
-        "display_name": "Ылдамдык",
+        "display_name": "Жылдамдыкты ашырып кетүү",
         "gost_name": "С1.1 Белгиленген ылдамдык режимин бузуу"
       },
       "2": {
@@ -1930,7 +2013,7 @@
       },
       "201": {
         "article": "12.9 1-бөлүк",
-        "display_name": "Ылдамдык",
+        "display_name": "Жылдамдыкты ашырып кетүү",
         "gost_name": "C1.2 Белгиленген ылдамдык режимин бузуу"
       },
       "202": {
@@ -2326,6 +2409,70 @@
       "fixed": "Жазылды",
       "materialIsFormed": "Материал түзүлгөн"
     },
-    "violationTime": "Бузуунун убактысы"
+    "showTraceback": "Табыштарды көрсөтүү",
+    "violationTime": "Бузуунун убактысы",
+    "numberOfViolationsByFilter": "Фильтр боюнча бузуу саны"
+  },
+  "zonesConnect": {
+    "checkImage": "Сүрөттү текшерүү",
+    "lane": "Кыймыл жолағы",
+    "getImage": "Сүрөттү алуу"
+  },
+  "garbage": {
+    "lpnFileUrl": "Мамлекеттик каттоо белгилери тизмеси камтылган файлдын URL дареги",
+    "checkPeriod": "Сурамжылоо мезгили"
+  },
+  "roadScreen": {
+    "currentState": "Учурдагы абал",
+    "lastInvokedTemplate": "Акыркы чакырылган шаблон",
+    "actionLog": "Иш-аракеттер журналы",
+    "templateParameters": "\nШаблон параметрлери",
+    "controller": "Контроллер | Контроллерлер",
+    "horizontalAlignment": "Горизонталдык тууралоо",
+    "verticalAlignment": "Тик багыттагы тууралоо",
+    "digital": "Сандык",
+    "dial": "Чагылдыруу",
+    "clockType": "Часардын типи",
+    "titleAndVisibility": "Аты/көрүнүктүүлүк",
+    "weekDayType": "Аптанын күндөрүнүн типи",
+    "program": "Программа | Программалар",
+    "playDuration": "Ойнотуучу убакыт",
+    "templateSaved": "Шаблон {templateName} сакталды",
+    "currentTemplate": "Учурдагы шаблон",
+    "templateInvoke": "Шаблонду чакыруу",
+    "runOnScreen": "Таблода баштоо",
+    "templateIsRunning": "Шаблон {templateName} башталды",
+    "newTemplate": "Жаңы шаблон",
+    "templateDeleted": "Шаблон {templateName} жок кылынды",
+    "screenWidth": "Экрандын туурасы",
+    "screenHeight": "Экрандын бийиктиги",
+    "appVersion": "Программалык камсыздоонун версиясы",
+    "fpgaVersion": "FPGA версиясы",
+    "kernelVersion": "Ядронун версиясы",
+    "selfTest": "Өзүн-өзү тестирлөө",
+    "controllerSaved": "Контроллер {controllerName} сакталды",
+    "selfTestCompleted": "Өзүн-өзү тестирлөө аякталды",
+    "newController": "Жаңы контроллер",
+    "defaultTemplate": "Стандарттык шаблон",
+    "timeout": "Стандарттык шаблонду баштоонун таймаутун орнотуңуз",
+    "recordId": "Записьтин ID",
+    "changingControllerIDSettings": "Контроллердин ID настройкаларын өзгөртүү",
+    "changingTemplate": "Шаблонду өзгөртүү",
+    "changingSettings": "Настройкаларды өзгөртүү",
+    "launchSelfTest": "Өзүн-өзү тестирлөөнү баштоо"
+  },
+  "bugReport": {
+    "triggerLabel": "Ката тууралуу кабарлоо",
+    "formTitle": "Кабар формасы",
+    "addScreenshot": "Скриншотту кошуу",
+    "removeScreenshot": "Скриншотту алып салуу",
+    "submit": "Жиберүү",
+    "messageLabel": "Сүрөттөмө",
+    "messagePlaceholder": "Катаны мүмкүн болушунча толугу менен сүрөттөп бериңиз.",
+    "successMessageText": "Ката тууралуу отчетти жибергендериңиз үчүн рахмат!"
+  },
+  "radarPage": {
+    "tracks": "Трэктер",
+    "scaleReset": "Масштабды стандарттуу маанилерге кайра алып келүү"
   }
 }
