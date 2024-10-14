@@ -8,9 +8,11 @@
     "additionalFilters": {
       "carClass": "Vehicle category",
       "country": "Country of the licence plate",
-      "direction": "Direction of traffic"
+      "direction": "Direction of traffic",
+      "brand": "Brand",
+      "model": "Model"
     },
-    "downloadFormat": "File Format",
+    "downloadFormat": "Download format",
     "payloads": {
       "other": "Other",
       "planks": "Planks",
@@ -48,6 +50,7 @@
       "place": "Place of fixation"
     },
     "viewType": "Type of issue",
+    "findAndSaveFile": "Find and save to file",
     "recordsFound": "Records found"
   },
   "amtsServerPage": {
@@ -142,6 +145,7 @@
     "brightness": "Brightness",
     "buttons": {
       "add": "Add",
+      "statusReset": "Reset status",
       "apply": "Apply",
       "applyFormChanges": "Apply changes to the form",
       "block": "Lock",
@@ -438,6 +442,7 @@
     "in": "in",
     "templates": "Template | Templates",
     "uploadedFiles": "Uploaded files",
+    "confirmRemove": "Do you really want to delete {entity}?",
     "fileDeleted": "File {filename} deleted",
     "fileUploaded": "The file has been successfully uploaded",
     "text": "Text",
@@ -452,16 +457,16 @@
     "dateFormat": "Date format",
     "timeFormat": "Time format",
     "preview": "Preview",
-    "confirmRemove": "Do you really want to delete {entity}?",
     "rotation": "Rotation",
     "listUpdated": "List updated",
-    "request": "Request",
     "total": "Total",
+    "request": "Request",
+    "developerMode": "Developer tools",
     "turnOn": "Turn on",
     "turnOff": "Turn off",
     "section": "Section",
-    "car": "Car | Cars",
     "bus": "Bus | Buses",
+    "car": "Car | Cars",
     "truck": "Truck | Trucks",
     "notComplyWithGost": "Attention, this setting does not comply with GOST",
     "auto": "Auto",
@@ -785,6 +790,7 @@
     "incorrectCleanerPathStart": "The directory path must start with ‘/mnt/azimuth-data/’. You entered ‘{var}’",
     "cleanerPathNotExists": "A non-existent path ‘{var}’ is specified. Check if it exists",
     "imageDisplayError": "Image display error",
+    "formError": "Some form fields are not filled out correctly. Please correct the errors.",
     "Данные отсутствуют": "No data available"
   },
   "gpsPage": {
@@ -796,7 +802,7 @@
     "numberOfMeasurements": "Number of measurements",
     "receiverResetToast": "Receiver reset",
     "satelliteID": "Satellite ID",
-    "snr": "Average S/N ratio, dB",
+    "snr": "Average signal-to-noise, dB",
     "trackingSatellites": "Satellites are in tracking",
     "usedSatellites": "Satellites are in the solution",
     "coordinatesCopied": "Coordinates copied to the clipboard",
@@ -819,7 +825,8 @@
       "title": "Detailed statistics of sending materials to Duplo 2 service",
       "violationTotalFailed": "Total number of violations with errors",
       "violationTotalQueued": "Total number of violations in the queue",
-      "violationTotalSuccess": "Total number of successfully submitted violations"
+      "violationTotalSuccess": "Total number of successfully submitted violations",
+      "mainTabTitle": "Main"
     },
     "information": {
       "allSpace": "Total space on the SSD",
@@ -913,6 +920,7 @@
     "zonesConnect": "Control zones pairing",
     "garbageMO": "Garbage MO",
     "roadScreen": "Road screen",
+    "radar": "Radar",
     "configEditor": "Config editor"
   },
   "metrologyPage": {
@@ -1199,6 +1207,7 @@
       "confirmRemoval": "Confirm deletion of the \"{name}\" directory",
       "deleteDirectory": "Delete the directory",
       "displayName": "Displayed name",
+      "editDirectory": "Edit directory ‘{name}’ | Edit directory",
       "hoursShort": "h",
       "maxSizeDirectory": "Max. size of directory",
       "maxTotalSizeFolders": "Max. total size of directories",
@@ -1297,7 +1306,11 @@
     "alphaNum": "The value can only be letters (Latin) and numbers",
     "imageFileName": "The file name can only consist of Latin characters or numbers",
     "uniqueFileName": "This file name is already taken",
-    "uniqueScheduleName": "This schedule name is already taken"
+    "scheduleTime": "Enter the correct time (HH:MM:SS)",
+    "uniqueScheduleName": "This schedule name is already taken",
+    "dateTimeWithMilliseconds": "Enter the correct date/time in the format YYYYY-MM-DD HH:mm:ss.SSS",
+    "dateTime": "Enter the correct date/time in the format DD-MM-YYYYY HH:mm:ss",
+    "date": "Enter the correct date in the format DD-MM-YYYYY "
   },
   "videoArchivePage": {
     "addImage": "Add an image",
@@ -1405,7 +1418,7 @@
       },
       "1": {
         "article": "12.9 p. 1",
-        "display_name": "Overspeed",
+        "display_name": "Exceeding the speed limit",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "2": {
@@ -2000,7 +2013,7 @@
       },
       "201": {
         "article": "12.9 p. 1",
-        "display_name": "Overspeed",
+        "display_name": "Exceeding the speed limit",
         "gost_name": "C1.2 Violation of the established speed limit"
       },
       "202": {
@@ -2396,6 +2409,7 @@
       "fixed": "Fixed",
       "materialIsFormed": "Material is formed"
     },
+    "showTraceback": "Show traceback",
     "violationTime": "Time of violation",
     "numberOfViolationsByFilter": "The number of violations by filter"
   },
@@ -2405,8 +2419,8 @@
     "getImage": "Get image"
   },
   "garbage": {
-    "checkPeriod": "Check period",
-    "lpnFileUrl": "URL to LPN file"
+    "lpnFileUrl": "URL to LPN file",
+    "checkPeriod": "Check period"
   },
   "roadScreen": {
     "currentState": "Current state",
@@ -2414,8 +2428,8 @@
     "actionLog": "Action log",
     "templateParameters": "Template parameters",
     "controller": "Controller | Controllers",
-    "verticalAlignment": "Vertical alignment",
     "horizontalAlignment": "Horizontal alignment",
+    "verticalAlignment": "Vertical alignment",
     "digital": "Digital",
     "dial": "Dial",
     "clockType": "Clock type",
@@ -2449,12 +2463,16 @@
   },
   "bugReport": {
     "triggerLabel": "Report a Bug",
-    "removeScreenshot": "Remove screenshot",
-    "addScreenshot": "Add screenshot",
-    "submit": "Send Bug Report",
-    "successMessageText": "Thank you for your report!",
     "formTitle": "Report a Bug",
+    "addScreenshot": "Add screenshot",
+    "removeScreenshot": "Remove screenshot",
+    "submit": "Send Bug Report",
+    "messageLabel": "Description",
     "messagePlaceholder": "Describe the error in as much detail as possible",
-    "messageLabel": "Description"
+    "successMessageText": "Thank you for your report!"
+  },
+  "radarPage": {
+    "tracks": "Tracks",
+    "scaleReset": "Reset scale to default values"
   }
 }
