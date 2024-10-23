@@ -1253,7 +1253,8 @@
       },
       "usageMode": "Колдонуу режими",
       "mountedPoint": "Монтаждоо чекити",
-      "allPartitionsAreMounted": "Бардык бөлүмдөр монтаждалган"
+      "allPartitionsAreMounted": "Бардык бөлүмдөр монтаждалган",
+      "mobilePosition": ""
     },
     "tabs": {
       "cleanerSettings": "Cleaner жөндөөлөрү",
