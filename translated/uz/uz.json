@@ -1253,7 +1253,8 @@
       },
       "usageMode": "Фойдаланиш режими",
       "mountedPoint": "Tegish nuqtasi",
-      "allPartitionsAreMounted": "Barcha bo'limlar qo'shilgan"
+      "allPartitionsAreMounted": "Barcha bo'limlar qo'shilgan",
+      "mobilePosition": ""
     },
     "tabs": {
       "cleanerSettings": "Cleaner sozlamalari",
