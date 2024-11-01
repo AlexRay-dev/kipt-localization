@@ -129,6 +129,8 @@
   },
   "common": {
     "actions": "Actions",
+    "dateOfOperation": "Date of operation",
+    "selectFileToUpload": "Select file to upload",
     "adding": "Adding",
     "additionalFilters": "Additional filters",
     "additionalInformation": "Additional information",
@@ -203,6 +205,7 @@
     "change": "Change",
     "channel": "Channel | Channels",
     "channelsList": "Channel list",
+    "note": "Note",
     "color": "Colour",
     "colors": {
       "green": "Green",
@@ -226,6 +229,9 @@
     },
     "date": "Date",
     "dateTimeUTC": "Date, time (UTC)",
+    "dateTime": "Date, time",
+    "numberOfRecords": "Number of records",
+    "record": "Record | Records",
     "delay": "delay",
     "detailedInformation": "Detailed information",
     "deviceId": "Device ID",
@@ -370,6 +376,7 @@
       "event": "Event",
       "imageName": "Image Name",
       "laneType": "Lane type",
+      "active": "Active",
       "miniature": "Miniature",
       "name": "Title | Name",
       "numberInOrder": "№",
@@ -690,7 +697,8 @@
       "YEM": "Yemen",
       "ZMB": "Zambia",
       "ZWE": "Zimbabwe"
-    }
+    },
+    "currentTime": "Current time"
   },
   "configEditor": {
     "fileSaved": "File saved\nDon't forget to save your settings in the System tab"
@@ -1126,6 +1134,7 @@
     "peers": "Related complexes",
     "schedules": "Schedules",
     "system": "System",
+    "search": "Search",
     "users": "Accounts",
     "videoArchive": "Video Archive",
     "videoSources": "Video Sources",
@@ -1177,7 +1186,8 @@
         "startMeasurement": "Start measurement",
         "stopMeasurement": "Stop measurement",
         "title": "Live video",
-        "verificationMode": "Verification mode"
+        "verificationMode": "Verification mode",
+        "resetInterval": "Reset interval"
       }
     },
     "speedMeasurementError": {
@@ -1536,6 +1546,16 @@
     "noImageSelected": "Image not selected",
     "overlayImage": "Overlay an image",
     "videoSource": "Video source"
+  },
+  "searchPage": {
+    "edit": "Manage",
+    "monitor": "Tracking",
+    "searchType": "Type of search",
+    "downloadLog": "Download the download log",
+    "dateOfProduction": "Date of production",
+    "lpnFilter": "State registration number filter",
+    "amtsDeleteConfirm": "You really want to remove Vehicle ‘’{var}‘’ from the search list?",
+    "pageTotalCount": "Page {page} of {totalPages}"
   },
   "videoSourcePage": {
     "brightnessChangedToast": "Brightness has been changed",
@@ -2677,7 +2697,10 @@
     "changingControllerIDSettings": "Changing the controller ID settings",
     "changingTemplate": "Changing the template",
     "changingSettings": "Changing the settings",
-    "launchSelfTest": "Launch self test"
+    "launchSelfTest": "Launch self test",
+    "photoFromLastCall": "Photo from the last template call",
+    "newText": "New text",
+    "newImage": "New image"
   },
   "bugReport": {
     "triggerLabel": "Report a Bug",
