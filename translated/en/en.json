@@ -6,11 +6,15 @@
       "notEqual": "Not equal"
     },
     "additionalFilters": {
-      "carClass": "Vehicle category",
       "country": "Country of the licence plate",
       "direction": "Direction of traffic",
       "brand": "Brand",
-      "model": "Model"
+      "model": "Model",
+      "car_class": "Vehicle category",
+      "additional_data": {
+        "two_lines": "Строчность ГРЗ",
+        "two_lines_": "Two lines"
+      }
     },
     "downloadFormat": "Download format",
     "payloads": {
@@ -198,7 +202,8 @@
       "upload": "Load",
       "uploadImage": "Upload image",
       "useOldWebUI": "Switch to the old version",
-      "watchVideo": "Watch the video | View video"
+      "watchVideo": "Watch the video | View video",
+      "setDefaultSettings": "Set default values"
     },
     "camera": "Camera",
     "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Camera control functions are active only if there is a video",
@@ -309,7 +314,8 @@
       "static": "Static",
       "subnetMask": "Subnet mask",
       "url": "URL for data transfer | URL",
-      "vlan": "VLAN"
+      "vlan": "VLAN",
+      "port": "Port"
     },
     "no": "No",
     "noData": "No data available",
@@ -323,7 +329,8 @@
       "markersSaved": "Markers have been saved",
       "saved": "Saved",
       "successfully": "Successfully",
-      "title": "Notifications"
+      "title": "Notifications",
+      "changesApplied": "The changes have been applied"
     },
     "off": "Off | switched off",
     "offset": "Deviation",
@@ -696,9 +703,34 @@
       "VIR": "Virgin Islands, US",
       "YEM": "Yemen",
       "ZMB": "Zambia",
-      "ZWE": "Zimbabwe"
+      "ZWE": "Zimbabwe",
+      "ABH": "Abkhazia",
+      "DPR": "Donetsk People's Republic",
+      "LPR": "Luhansk People's Republic"
     },
-    "currentTime": "Current time"
+    "currentTime": "Current time",
+    "warning": "Warning",
+    "lane": "Traffic lane | Traffic lanes",
+    "laneNumber": "Traffic lane number",
+    "confirmResetValues": "Do you really want to reset the values?",
+    "regular": "Regular",
+    "dateTimePresets": {
+      "currentDay": "Current day",
+      "currentHour": "Current hour",
+      "lastHour": "Last hour",
+      "last3Hours": "Last 3 hours",
+      "lastDay": "Last day",
+      "last7Days": "Last 7 day",
+      "lastMonth": "Last month",
+      "byDay": "By day"
+    },
+    "custom": "Custom",
+    "dateTimePreset": "Date/time preset",
+    "preset": "Preset",
+    "photo": "Photo",
+    "addChannel": "Add channel",
+    "additionalViolationTypes": "Additional types of violation",
+    "dark": "Dark"
   },
   "configEditor": {
     "fileSaved": "File saved\nDon't forget to save your settings in the System tab"
@@ -881,7 +913,8 @@
       "fixDriverBelt": "Fix the driver's seatbelt",
       "fixPassengerBelt": "Fix the passenger seatbelt",
       "passengerViolationsFormed": "Passenger violations are formed",
-      "withSimultaneousFixation": "With simultaneous fixation"
+      "withSimultaneousFixation": "With simultaneous fixation",
+      "enableQualificationsAtDifferentTimesOfTheDay": "Enable qualifications at different times of the day"
     },
     "drivingTaxiBrick": "The movement of a taxi under the \"brick\" in the lane"
   },
@@ -916,7 +949,7 @@
     },
     "duploServicesStatusRefreshed": "Status of services has been updated",
     "formatInputHint": "Format to which you want to convert violations. Value \"duplo\" must be set ",
-    "instance": "Instance",
+    "instance": "Instance name",
     "isActive": "Active",
     "isLoaded": "Loaded",
     "krisForm": {
@@ -964,7 +997,7 @@
       "title": "You are not authorised! 🔐"
     },
     "notFound": {
-      "backHome": "Back to main page",
+      "backHome": "To main page",
       "subtitle": "Oops! 😖 The requested URL was not found on this server.",
       "title": "Page not found"
     }
@@ -1012,7 +1045,9 @@
     "cleanerPathNotExists": "A non-existent path ‘{var}’ is specified. Check if it exists",
     "imageDisplayError": "Image display error",
     "formError": "Some form fields are not filled out correctly. Please correct the errors.",
-    "Данные отсутствуют": "No data available"
+    "Данные отсутствуют": "No data available",
+    "internalServerError": "Internal server error",
+    "errorReceivingGpsData": "Error receiving GPS data"
   },
   "gpsPage": {
     "clearLog": "Clear the log",
@@ -1124,7 +1159,7 @@
       "view": "Viewing"
     },
     "home": "Main",
-    "images": "Image",
+    "images": "Images",
     "metrology": "Metrology",
     "monitoring": "Monitoring",
     "mskso": "MSTLOC",
@@ -1312,7 +1347,10 @@
     "zoneSettings": "Zone setting",
     "zoneStart": "Beginning of zone",
     "zoneUpdatedToast": "Zone {name} has been updated",
-    "zonesList": "List of zones"
+    "zonesList": "List of zones",
+    "area": "Area",
+    "areaSettings": "Area settings",
+    "deleteArea": "Delete a area"
   },
   "pedestriansPage": {
     "best": "best",
@@ -1442,7 +1480,7 @@
       "maxSizeError": "The sum of added directories exceeds the max. total directory size"
     },
     "systemTab": {
-      "archiveWithModulesIsUploaded": "The archive with modules has been uploaded",
+      "archiveWithModulesIsUploaded": "The archive with modules has been uploaded. Save the changes and restart the complex",
       "availableRAM": "RAM available",
       "computingModuleHasBeenSentForReboot": "Computing module sent for reboot",
       "configuration": "Equipment",
@@ -1538,7 +1576,8 @@
     "uniqueScheduleName": "This schedule name is already taken",
     "dateTimeWithMilliseconds": "Enter the correct date/time in the format YYYYY-MM-DD HH:mm:ss.SSS",
     "dateTime": "Enter the correct date/time in the format DD-MM-YYYYY HH:mm:ss",
-    "date": "Enter the correct date in the format DD-MM-YYYYY "
+    "date": "Enter the correct date in the format DD-MM-YYYYY ",
+    "uniqueDuploConverterInstance": "This instance name is already taken"
   },
   "videoArchivePage": {
     "addImage": "Add an image",
@@ -1595,7 +1634,18 @@
       "turnOffHoodHeater": "Turn off the hood heater",
       "hoodHeaterIsTurnedOnForSec": "The hood heater is turned on for {timeout} sec",
       "hoodHeaterIsTurnedOff": "The hood heater is turned off",
-      "irIlluminator": "IR illuminator"
+      "irIlluminator": "IR illuminator",
+      "irCutFilterMode": "IR filter operation mode",
+      "irFilterControlIsOff": "IR filter control is off",
+      "dayMode": "Day mode",
+      "nightMode": "Night mode",
+      "automaticallyByIlluminationMode": "Automatically by illumination",
+      "irCutFilterIlluminationThreshold": "Illumination threshold",
+      "irCutFilterIlluminationHysteresis": "Illumination hysteresis",
+      "irCutFilterIlluminationTimeConstant": "Time constant",
+      "automaticallyBySunriseAndSunsetTime": "Automatically by sunrise and sunset time",
+      "offsetFromSunrise": "Offset from sunrise",
+      "offsetFromSunset": "Offset from sunset"
     },
     "pulseDurationChangedToast": "Pulse duration for channel {channel} changed",
     "rtspCameraSavedToast": "RTSP server saved",
@@ -2715,5 +2765,12 @@
   "radarPage": {
     "tracks": "Tracks",
     "scaleReset": "Reset scale to default values"
+  },
+  "settingsResetPage": {
+    "alert": "This page is intended for resetting the KIPT settings. Think again before resetting the settings. The process is irreversible!",
+    "settingsReset": "Settings reset",
+    "settingsHaveBeenReset": "Settings have been reset. KIPT has been sent for reboot",
+    "resetNetwork": "Reset network settings",
+    "enterFullSerialNumber": "To reset the settings, enter the full serial number of the complex ({serialNumber})"
   }
 }
