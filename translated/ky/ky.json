@@ -6,11 +6,11 @@
       "notEqual": "Барабар эмес"
     },
     "additionalFilters": {
-      "carClass": "ТК категориясы",
       "country": "МКБ өлкөсү",
       "direction": "Кыймыл багыты",
       "brand": "Маркасы",
-      "model": "Модели"
+      "model": "Модели",
+      "car_class": "ТК категориясы"
     },
     "downloadFormat": "Чыгаруунун форматы",
     "payloads": {
@@ -916,7 +916,7 @@
     },
     "duploServicesStatusRefreshed": "Кызматтардын статусу жаңыртылган",
     "formatInputHint": "Бузууларды конвертациялоо керек болгон формат. \"Duplo\" мааниси коюлушу керек",
-    "instance": "Инстанс",
+    "instance": "Мисал аты",
     "isActive": "Активдүү",
     "isLoaded": "Жүктөлдү",
     "krisForm": {
