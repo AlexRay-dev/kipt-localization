@@ -6,11 +6,11 @@
       "notEqual": "Teng emas"
     },
     "additionalFilters": {
-      "carClass": "TV turi",
       "country": "Davlat RB",
       "direction": "Harakat yo'nalishi",
       "brand": "Markasi",
-      "model": "Modeli"
+      "model": "Modeli",
+      "car_class": "TV turi"
     },
     "downloadFormat": "Yuklash formati",
     "payloads": {
@@ -916,7 +916,7 @@
     },
     "duploServicesStatusRefreshed": "Xizmatlar holati yangilandi",
     "formatInputHint": "Buzilishlar o'zgartirilishi kerak bo'lgan format. Qiymat \"duplo\" bo'lishi kerak",
-    "instance": "Namuna",
+    "instance": "Misol nomi",
     "isActive": "Aktiv",
     "isLoaded": "Yuklangan",
     "krisForm": {
