@@ -1,0 +1,2825 @@
+{
+  "amts": {
+    "additionalFilterOperations": {
+      "equal": "Равно",
+      "like": "Как",
+      "notEqual": "Не равно"
+    },
+    "additionalFilters": {
+      "country": "Страна ГРЗ",
+      "direction": "Направление движения",
+      "brand": "Марка",
+      "model": "Модель",
+      "car_class": "Категория ТС",
+      "channel_id": "№ полосы",
+      "additional_data": {
+        "two_lines": "Строчность ГРЗ",
+        "two_lines_": "Двухстрочный"
+      }
+    },
+    "downloadFormat": "Формат выгрузки",
+    "payloads": {
+      "other": "Иное",
+      "planks": "Доски",
+      "tanks": "Цистерна",
+      "wood": "Лес",
+      "woodEmpty": "Пустой лесовоз"
+    },
+    "resultsView": {
+      "card": "Карточки",
+      "table": "Таблица"
+    },
+    "searchAndSaveInFile": "Найти и сохранить в файл",
+    "speedDisplayPrecisions": "Точность вывода скорости",
+    "speedPrecisions": {
+      "integer": "Целое",
+      "oneDecimal": "1 знак после запятой",
+      "threeDecimal": "3 знака после запятой",
+      "twoDecimal": "2 знака после запятой"
+    },
+    "tableHeaders": {
+      "additionalImages": "Доп. изображения",
+      "cameraBrightness": "Яркость камеры",
+      "cameraExposure": "Выдержка камеры",
+      "cameraGain": "Усиление камеры",
+      "cameraIllumination": "Освещённость в зоне контроля",
+      "confidence": "Вероятность распознавания",
+      "dark": "Тёмный",
+      "inTime": "Дата/Время, вход",
+      "lowContrast": "Низкая контрастность",
+      "lpImageSrc": "Изображение ГРЗ",
+      "numberOfRecognitions": "Кол-во распознаваний",
+      "outTime": "Дата/Время, выход",
+      "overlight": "Пересвет",
+      "payload": "Тип груза",
+      "place": "Место фиксации",
+      "video": "Видео проезда"
+    },
+    "viewType": "Вид выдачи",
+    "findAndSaveFile": "Найти и сохранить в файл",
+    "recordsFound": "Записей найдено",
+    "dateTimeOfTravel": "Дата, время проезда",
+    "secondsAfter": "Секунд после",
+    "secondsBefore": "Секунд до"
+  },
+  "amtsServerPage": {
+    "addAdditionalPtServer": "Добавить дополнительный сервер ПТ",
+    "additionalPtServersTitle": "Дополнительные сервера ПТ",
+    "additionalServersSaved": "Дополнительные сервера ПТ сохранены",
+    "deleteAdditionalPtServer": "Удалить дополнительный сервер ПТ",
+    "mainPtServerTitle": "Основной сервер ПТ",
+    "serverSaved": "Основной сервер ПТ сохранён",
+    "transferData": "Передавать данные"
+  },
+  "channelAlignmentPage": {
+    "allFieldsMustBeFilledInAndNotEqual0": "Все поля должны быть заполнены и не равны 0",
+    "autoCalibration": "Автокалибровка",
+    "calculationError": "Ошибка при расчёте. Проверьте введённые координаты",
+    "compute": "Рассчитать",
+    "computeDiscrepancyToastFirst": "Расчёт успешен, невязка:",
+    "computeDiscrepancyToastSecond": "Рассчётное фокусное расстояние:",
+    "doYouReallyWantToLeaveThePage": "Вы действительно хотите покинуть страницу?",
+    "enterCoordinates": "Ввод координат",
+    "installationHeight": "Высота установки",
+    "lastStatus": "Последний статус",
+    "metrologistPassword": "Пароль метролога",
+    "noDataToast": "Данных, о зоне распознавания на {name} канале, нет!",
+    "oneOfPointsCanBeZero": "Одна из точек может быть 0, 0, 0",
+    "pointA": "Точка А",
+    "pointB": "Точка B",
+    "pointC": "Точка C",
+    "pointD": "Точка D",
+    "processStatus": "Состояние процесса",
+    "squareStep": "Шаг квадрата",
+    "startAutoCalibration": "Запустить автокалибровку",
+    "timeStatusChange": "Время изменения статуса",
+    "vehiclesCount": "Количество ТС",
+    "deselectOneOfSquares": "Снимите выделение с квадрата что бы разблокировать поля",
+    "calculationOfFocalLength": "Расчёт фокусного расстояния",
+    "refreshLog": "Обновить лог",
+    "clearLog": "Очистить лог"
+  },
+  "climateControlPage": {
+    "Toffmax": "Верхний предел отключения по температуре",
+    "Toffmin": "Нижний предел отключения по температуре",
+    "Tonmax": "Верхний предел включения по температуре",
+    "Tonmin": "Нижний предел включения по температуре",
+    "Ucontrol": "Контролировать напряжение",
+    "Uoffmax": "Верхний предел отключения по напряжению",
+    "Uoffmin": "Нижний предел отключения по напряжению",
+    "Uonmax": "Верхний предел включения по напряжению",
+    "Uonmin": "Нижний предел включения по напряжению",
+    "climateLog": "Лог климат-контроля",
+    "climateSettings": "Настройки климат-контроля",
+    "dateTimeTitle": "Дата, время по часам климат-контроля",
+    "fan": "Вентилятор",
+    "fanControl": "Управление вентилятором",
+    "fanOnTemp": "Температура включения вентилятора",
+    "fanShutdownTemp": "Температура отключения вентилятора",
+    "heater": "Нагреватель",
+    "heaterControl": "Управление нагревателем",
+    "heaterOnTemp": "Температура включения нагревателя",
+    "heaterShutdownTemp": "Температура отключения нагревателя",
+    "load": "Нагрузка",
+    "loadManagement": "Управление нагрузкой",
+    "loadOff": "ВЫКЛ НАГРУЗ.",
+    "loadOn": "ВКЛ НАГРУЗ.",
+    "sensorReadings": "Показания датчиков",
+    "showLog": "Показать лог",
+    "startClimate": "СТАРТ",
+    "supplyVoltage": "Напряжение питания",
+    "tableHeaders": {
+      "flags": "Флаги"
+    },
+    "tempControl": "Контролировать температуру",
+    "temperatureFailure": "ТЕМП.",
+    "voltageFailure": "НАПР.",
+    "warningMessage": "Внимание! Неверные настройки климат-контроля могут привести к невозможности запуска вычислительного модуля или его повреждению.Перед изменением настроек внимательно изучите Руководство по эксплуатации"
+  },
+  "common": {
+    "actions": "Действия",
+    "dateOfOperation": "Дата операции",
+    "selectFileToUpload": "Выберите файл для загрузки",
+    "adding": "Добавление",
+    "additionalFilters": "Дополнительные фильтры",
+    "additionalInformation": "Доп. информация",
+    "additionalSettings": "Дополнительные настройки",
+    "address": "Адрес",
+    "alias": "Псевдоним",
+    "amts": "Проходящий транспорт",
+    "any": "Любое",
+    "available": "Доступен",
+    "availablePages": "Доступные страницы",
+    "averageSpeed": "Средняя скорость",
+    "background": "Фон",
+    "brand": "Марка",
+    "brightness": "Яркость",
+    "buttons": {
+      "add": "Добавить",
+      "statusReset": "Сбросить статус",
+      "apply": "Применить",
+      "applyFormChanges": "Применить изменения для формы",
+      "block": "Заблокировать",
+      "calculate": "Рассчитать",
+      "cancel": "Отменить",
+      "changePassword": "Сменить пароль",
+      "changesApplied": "Изменения были успешно применены",
+      "check": "Проверить",
+      "chooseFile": "Выберите файл",
+      "close": "Закрыть",
+      "confirm": "Подтверждение",
+      "remove": "Удаление",
+      "confirmItemRemoval": "Подтвердите удаление элемента | Подтвердите удаление \"{name}\"",
+      "createImage": "Создать изображение",
+      "decrease": "Убавить",
+      "delete": "Удалить",
+      "download": "Скачать | Загрузить",
+      "edit": "Редактировать",
+      "enableIlluminator": "Включить ИК осветитель",
+      "exit": "Выйти",
+      "hide": "Скрыть",
+      "install": "Установить",
+      "list": "Список",
+      "login": "Авторизоваться",
+      "measure": "Измерить",
+      "pause": "Пауза",
+      "permanentSaveSettings": "Сохранить настройки перманентно",
+      "play": "Воспроизвести",
+      "refresh": "Обновить",
+      "refreshImage": "Обновить изображение",
+      "resetValue": "Сбросить значение",
+      "save": "Сохранить",
+      "saveImage": "Сохранить изображение",
+      "saveSettings": "Сохранить настройки",
+      "search": "Найти",
+      "setValue": "Установить значение",
+      "settings": "Настройки",
+      "showComments": "Показать комментарии",
+      "showImage": "Показать изображение",
+      "showSnapshot": "Просмотр стоп-кадра",
+      "showXML": "Показать XML",
+      "skipBackward": "Кадр назад",
+      "skipForward": "Кадр вперёд",
+      "statistics": "Статистика",
+      "stop": "Остановить",
+      "submit": "Сохранить",
+      "turnOffIlluminator": "Выключить ИК осветитель",
+      "unblock": "Разблокировать",
+      "upload": "Загрузить",
+      "uploadImage": "Загрузить изображение",
+      "useOldWebUI": "Перейти на старую версию",
+      "watchVideo": "Просмотр видео",
+      "setDefaultSettings": "Установить значения по умолчанию"
+    },
+    "camera": "Камера",
+    "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Функции управления камерой активны только при наличии видео",
+    "change": "Изменить",
+    "channel": "Канал | Каналы",
+    "channelsList": "Список каналов",
+    "note": "Примечание",
+    "color": "Цвет",
+    "colors": {
+      "green": "Зелёный",
+      "grey": "Серый",
+      "red": "Красный",
+      "yellow": "Жёлтый"
+    },
+    "comment": "Комментарий | Комментарии",
+    "commonSettings": "Общие настройки",
+    "complex": "Комплекс",
+    "coordinates": "Координаты",
+    "copyToClipboard": "Копировать в буфер обмена",
+    "count": "шт | штук",
+    "darkTheme": "Тёмная тема",
+    "dataTypes": {
+      "array": "Список",
+      "boolean": "Логический",
+      "number": "Число",
+      "rectangle": "Прямоугольник",
+      "string": "Строка"
+    },
+    "date": "Дата",
+    "dateTimeUTC": "Дата, время (UTC)",
+    "dateTime": "Дата, время",
+    "numberOfRecords": "Кол-во записей",
+    "record": "Запись | Записей",
+    "delay": "задержка",
+    "detailedInformation": "Подробная информация",
+    "deviceId": "ID устройства",
+    "direction": "Направление",
+    "directions": {
+      "left": "Лево",
+      "right": "Право",
+      "center": "Центр",
+      "top": "Верх",
+      "middle": "Середина",
+      "bottom": "Низ"
+    },
+    "directly": "Прямо",
+    "disableFixation": "Выключить фиксацию",
+    "doYouReallyWantToDelete": "Вы действительно хотите удалить",
+    "editing": "Редактирование",
+    "enableFixation": "Включить фиксацию",
+    "endPeriod": "Конец периода",
+    "endTime": "Время окончания",
+    "enforcementTypes": "Фиксация нарушений",
+    "error": "Ошибка",
+    "errorCode": "Код ошибки",
+    "field": "Поле",
+    "filesHaveBeenUploadedSuccessfully": "Файлы успешно загружены",
+    "filters": {
+      "page": "Страница",
+      "perPage": "Записей на страницу"
+    },
+    "fixationHasBeenDisabled": "Фиксация отключена",
+    "fixationHasBeenEnabled": "Фиксация включена",
+    "flow": "Поток",
+    "focalLength": "Фокусное расстояние",
+    "focus": "Фокус",
+    "format": "Формат",
+    "fps": "к/с",
+    "freezeFrames": "Стоп кадры",
+    "full": "Полный",
+    "geolocation": "Геопозиция",
+    "group": "Группа",
+    "height": "Высота",
+    "identifier": "Идентификатор",
+    "image": "Изображение",
+    "imageUpload": "Загрузка изображения",
+    "initialization": "Инициализация",
+    "key": "Ключ",
+    "latLon": "Широта/Долгота",
+    "latitude": "Широта",
+    "left": "Лево | Налево",
+    "lightTheme": "Светлая тема",
+    "longitude": "Долгота",
+    "lpn": "ГРЗ",
+    "markup": "Разметка",
+    "measurer": "Измеритель",
+    "mode": "Режим",
+    "model": "Модель",
+    "moveByMouse": "Перемещение мышкой",
+    "moveSuffix": {
+      "pxFrame": "px/кадр"
+    },
+    "name": "Имя",
+    "network": {
+      "address": "Сетевой адрес",
+      "bridgeName": "Имя моста",
+      "deviceName": "Имя устройства",
+      "dhcp": "DHCP",
+      "dnsServers": "DNS серверы",
+      "gateway": "Шлюз",
+      "ipAddress": "IP адрес",
+      "link": "Линк",
+      "mac": "MAC",
+      "netMask": "Маска",
+      "networkBridge": "Сетевой мост",
+      "ping": "Пинг",
+      "sourceUrl": "URL источника",
+      "static": "Статический",
+      "subnetMask": "Маска подсети",
+      "url": "URL для передачи данных | URL",
+      "vlan": "VLAN",
+      "port": "Порт"
+    },
+    "no": "Нет",
+    "noData": "Данные отсутствуют",
+    "noSearchResults": "Нет результатов поиска",
+    "none": "отсутствует | отсутствуют",
+    "notAvailable": "Недоступен",
+    "notConfigured": "Не настроен",
+    "notifications": {
+      "changesSaved": "Изменения сохранены",
+      "fileSaved": "Файл {fileName} сохранён",
+      "markersSaved": "Маркеры сохранены",
+      "saved": "Сохранено",
+      "successfully": "Успешно",
+      "title": "Уведомления",
+      "changesApplied": "Изменения применены. Не забудьте сохранить"
+    },
+    "off": "Выкл | выключен",
+    "offset": "Отклонение",
+    "on": "Вкл | включен",
+    "operation": "Операция",
+    "parameter": "Параметр | Параметры",
+    "password": "Пароль",
+    "peer": "Связанный комплекс | Связанные комплексы",
+    "quality": "Качество",
+    "realLatitude": "Реальная широта",
+    "realLongitude": "Реальная долгота",
+    "resetAll": "Сбросить всё",
+    "right": "Право | Направо",
+    "rtspClients": "RTSP клиенты",
+    "rules": "Правила",
+    "running": "Запущен",
+    "schedule": "Расписание | Расписания",
+    "selectAll": "Выбрать всё",
+    "serialNumber": "Серийный номер",
+    "set": "Установить",
+    "settingsSaved": "Настройки сохранены",
+    "sharpness": "Резкость",
+    "shutter": "Диафрагма",
+    "size": "Размер",
+    "sizeSuffix": {
+      "Gb": "Гб",
+      "Kb": "КБ",
+      "Mb": "МБ"
+    },
+    "snapshot": "Снимок",
+    "source": "Источник | источника",
+    "specificDate": "Конкретная дата",
+    "speed": "Скорость",
+    "speedLimit": "Ограничение скорости",
+    "speedSuffix": {
+      "kmh": "км/ч"
+    },
+    "start": "Запустить",
+    "startPeriod": "Начало периода",
+    "startTime": "Время начала",
+    "status": "Статус",
+    "stop": "стоп",
+    "stopped": "Остановлен",
+    "surveyImage": "Обзорное изображение",
+    "synchronization": "Синхронизация",
+    "tableHeaderSettings": "Настройки столбцов таблицы",
+    "asc": "По возрастанию",
+    "desc": "По убыванию",
+    "sortBy": "Сортировать по",
+    "sortOrder": "Порядок сортировки",
+    "tableHeaders": {
+      "dateTime": "Дата/время",
+      "direction": "Направление движения",
+      "event": "Событие",
+      "imageName": "Имя изображения",
+      "laneType": "Тип полосы",
+      "active": "Активен",
+      "miniature": "Миниатюра",
+      "name": "Наименование | Имя",
+      "numberInOrder": "№ п/п",
+      "sourceName": "Имя источника",
+      "time": "Время",
+      "violationTypes": "Типы нарушений"
+    },
+    "temperature": "Температура",
+    "thickness": "Толщина",
+    "tilt": "Наклон",
+    "time": "Время",
+    "timeSuffix": {
+      "hours": "ч",
+      "minutes": "мин",
+      "microSec": "мкс",
+      "ms": "мс",
+      "sec": "сек"
+    },
+    "timeout": "Таймаут подключения",
+    "title": "Название",
+    "turn": "Поворот",
+    "type": "Тип",
+    "uTurn": "Разворот",
+    "undefined": "Не определено",
+    "units": {
+      "millimeters": "миллиметры | мм"
+    },
+    "unsavedChangesAlert": "ВНИМАНИЕ! Есть несохранённые изменения настроек",
+    "useConfirmation": "Использовать подтверждение",
+    "userName": "Имя пользователя",
+    "value": "Значение",
+    "valueType": "Тип значения",
+    "video": "Видео",
+    "videoInput": "Видео вход",
+    "view": "Просмотр",
+    "viewImage": "Просмотр изображения",
+    "violationType": "Тип нарушения",
+    "violations": "Нарушения",
+    "violationsTypes": "Типы нарушений",
+    "wXh": "ШхВ",
+    "weekDays": {
+      "friday": "Пятница",
+      "monday": "Понедельник",
+      "saturday": "Суббота",
+      "sunday": "Воскресенье",
+      "thursday": "Четверг",
+      "tuesday": "Вторник",
+      "wednesday": "Среда"
+    },
+    "width": "Ширина",
+    "yes": "Да",
+    "showRecognizer": "Показать распознование",
+    "step": "Шаг",
+    "select": "Выбрать",
+    "fixationSettings": "Настройки фиксации",
+    "alwaysOn": "Включен постоянно",
+    "dataFromDevice": "Данные с прибора",
+    "dataFromComplex": "Данные с комплекса",
+    "device": "Прибор",
+    "zoom": "Увеличение",
+    "detailCamera": "Детализирующая камера",
+    "surveyCamera": "Обзорная камера",
+    "dawn": "Рассвет",
+    "sunrise": "Восход",
+    "sunset": "Закат",
+    "dusk": "Сумерки",
+    "fix": "Исправить",
+    "state": "Состояние",
+    "user": "Пользователь",
+    "in": "в",
+    "templates": "Шаблон | Шаблоны",
+    "uploadedFiles": "Загруженные файлы",
+    "confirmRemove": "Вы действительно хотите удалить {entity}?",
+    "fileDeleted": "Файл {filename} удалён",
+    "fileUploaded": "Файл успешно загружен",
+    "text": "Текст",
+    "font": "Шрифт",
+    "bold": "Жирный",
+    "italic": "Курсив",
+    "underline": "Подчёркнутый",
+    "textColor": "Цвет текста",
+    "backgroundColor": "Цвет фона",
+    "clock": "Часы",
+    "visibility": "Видимость",
+    "dateFormat": "Формат даты",
+    "timeFormat": "Формат времени",
+    "preview": "Предпросмотр",
+    "rotation": "Угол поворота",
+    "listUpdated": "Список обновлён",
+    "total": "Всего",
+    "request": "Запросить",
+    "developerMode": "Инструменты разработчика",
+    "turnOn": "Включить",
+    "turnOff": "Выключить",
+    "section": "Секция",
+    "bus": "Автобус | Автобусы",
+    "car": "Легковая | Легковые",
+    "truck": "Грузовая | Грузовые",
+    "notComplyWithGost": "Внимание, данная настройка не соответствует ГОСТ",
+    "auto": "Авто",
+    "manually": "Вручную",
+    "lengthSuffix": {
+      "mm": "мм"
+    },
+    "distance": "Расстояние",
+    "confirmClear": "Вы действительно хотите очистить {entity}?",
+    "log": "лог",
+    "unknown": "Неизвестно",
+    "countries": {
+      "AFG": "Афганистан",
+      "ALB": "Албания",
+      "DZA": "Алжир",
+      "ASM": "Американское Самоа",
+      "AND": "Андорра",
+      "AGO": "Ангола",
+      "AIA": "Ангилья",
+      "ATG": "Антигуа и Барбуда",
+      "ARG": "Аргентина",
+      "ARM": "Армения",
+      "ABW": "Аруба",
+      "AUS": "Австралия",
+      "AUT": "Австрия",
+      "AZE": "Азербайджан",
+      "BHS": "Багамские Острова",
+      "BHR": "Бахрейн",
+      "BGD": "Бангладеш",
+      "BRB": "Барбадос",
+      "BLR": "Белоруссия",
+      "BEL": "Бельгия",
+      "BLZ": "Белиз",
+      "BEN": "Бенин",
+      "BMU": "Бермуды",
+      "BTN": "Бутан",
+      "BOL": "Боливия",
+      "BIH": "Босния и Герцеговина",
+      "BWA": "Ботсвана",
+      "BRA": "Бразилия",
+      "VGB": "Виргинские Острова (Великобритания)",
+      "BRN": "Бруней",
+      "BGR": "Болгария",
+      "BFA": "Буркина-Фасо",
+      "BDI": "Бурунди",
+      "KHM": "Камбоджа",
+      "CMR": "Камерун",
+      "CAN": "Канада",
+      "CPV": "Кабо-Верде",
+      "CAF": "Центральноафриканская Республика",
+      "TCD": "Чад",
+      "CHL": "Чили",
+      "CHN": "Китай",
+      "HKG": "Гонконг",
+      "MAC": "Макао",
+      "COL": "Колумбия",
+      "COM": "Коморы",
+      "COG": "Республика Конго",
+      "CRI": "Коста-Рика",
+      "CIV": "Кот-д’Ивуар",
+      "HRV": "Хорватия",
+      "CUB": "Куба",
+      "CYP": "Кипр",
+      "CZE": "Чехия",
+      "DNK": "Дания",
+      "DJI": "Джибути",
+      "DMA": "Доминика",
+      "DOM": "Доминиканская Республика",
+      "ECU": "Эквадор",
+      "EGY": "Египет",
+      "SLV": "Сальвадор",
+      "GNQ": "Экваториальная Гвинея",
+      "ERI": "Эритрея",
+      "EST": "Эстония",
+      "ETH": "Эфиопия",
+      "EUR": "Европейский союз",
+      "FRO": "Фарерские острова",
+      "FJI": "Фиджи",
+      "FIN": "Финляндия",
+      "FRA": "Франция",
+      "GUF": "Гвиана",
+      "PYF": "Французская Полинезия",
+      "GAB": "Габон",
+      "GMB": "Гамбия",
+      "GEO": "Грузия",
+      "DEU": "Германия",
+      "GHA": "Гана",
+      "GRC": "Греция",
+      "GRL": "Гринландия",
+      "GRD": "Гренада",
+      "GLP": "Гваделупа",
+      "GUM": "Гуам",
+      "GTM": "Гватемала",
+      "GNB": "Гвинея-Бисау",
+      "HTI": "Гаити",
+      "HND": "Гондурас",
+      "HUN": "Венгрия",
+      "ISL": "Исландия",
+      "IND": "Индия",
+      "IDN": "Индонезия",
+      "IRN": "Иран",
+      "IRQ": "Ирак",
+      "IRL": "Ирландия",
+      "ISR": "Израиль",
+      "ITA": "Италия",
+      "JPN": "Япония",
+      "JOR": "Иордания",
+      "KAZ": "Казахстан",
+      "KEN": "Кения",
+      "KIR": "Кирибати",
+      "PRK": "КНДР",
+      "KOR": "Республика Корея",
+      "KWT": "Кувейт",
+      "KGZ": "Кыргызстан",
+      "LAO": "Лаос",
+      "LVA": "Латвия",
+      "LBN": "Ливан",
+      "LSO": "Лесото",
+      "LBR": "Либерия",
+      "LBY": "Ливия",
+      "LIE": "Лихтенштейн",
+      "LTU": "Литва",
+      "LUX": "Люксембург",
+      "MDG": "Мадагаскар",
+      "MWI": "Малави",
+      "MYS": "Малайзия",
+      "MDV": "Мальдивы",
+      "MLI": "Мали",
+      "MLT": "Мальта",
+      "MHL": "Маршалловы Острова",
+      "MTQ": "Мартиника",
+      "MRT": "Мавритания",
+      "MUS": "Маврикий",
+      "MEX": "Мексика",
+      "FSM": "Микронезия",
+      "MDA": "Молдавия",
+      "MCO": "Монако",
+      "MNG": "Монголия",
+      "MNE": "Черногория",
+      "MSR": "Монтсеррат",
+      "MAR": "Мароко",
+      "MOZ": "Мозамбик",
+      "MMR": "Мьянма",
+      "NAM": "Намибия",
+      "NRU": "Науру",
+      "NPL": "Непал",
+      "NLD": "Нидерланды",
+      "NCL": "Новая Каледония",
+      "NZL": "Новая Зеландия",
+      "NIC": "Никарагуа",
+      "NER": "Нигер",
+      "NGA": "Нигерия",
+      "MNP": "Северные Марианские Острова",
+      "NOR": "Норвегия",
+      "OMN": "Оман",
+      "PAK": "Пакистан",
+      "PLW": "Палау",
+      "PSE": "Палестина",
+      "PAN": "Панама",
+      "PNG": "Папуа — Новая Гвинея",
+      "PRY": "Парагвай",
+      "PER": "Перу",
+      "PHL": "Филиппины",
+      "PCN": "Острова Питкэрн",
+      "POL": "Польша",
+      "PRT": "Португалия",
+      "PRI": "Пуэрто-Рико",
+      "QAT": "Катар",
+      "REU": "Реюньон",
+      "ROU": "Румыния",
+      "RUS": "Россия",
+      "RWA": "Руанда",
+      "KNA": "Сент-Китс и Невис",
+      "LCA": "Сент-Люсия",
+      "VCT": "Сент-Винсент и Гренадины",
+      "WSM": "Самоа",
+      "SMR": "Сан-Марино",
+      "STP": "Сан-Томе и Принсипи",
+      "SAU": "Саудовская Аравия",
+      "SEN": "Сенегал",
+      "SRB": "Сербия",
+      "SYC": "Сейшельские Острова",
+      "SLE": "Сьерра-Леоне",
+      "SGP": "Сингапур",
+      "SVK": "Словакия",
+      "SVN": "Словения",
+      "SLB": "Соломоновы Острова",
+      "SOM": "Сомали",
+      "ZAF": "ЮАР",
+      "ESP": "Испания",
+      "LKA": "Шри-Ланка",
+      "SDN": "Судан",
+      "SUR": "Суринам",
+      "SWZ": "Эсватини",
+      "SWE": "Швеция",
+      "CHE": "Швейцария",
+      "SYR": "Сирия",
+      "TWN": "Тайвань",
+      "TJK": "Таджикистан",
+      "TZA": "Танзания",
+      "THA": "Таиланд",
+      "TLS": "Восточный Тимор",
+      "TGO": "Того",
+      "TON": "Тонга",
+      "TTO": "Тринидад и Тобаго",
+      "TUN": "Тунис",
+      "TUR": "Турция",
+      "TKM": "Туркменистан",
+      "TUV": "Тувалу",
+      "UGA": "Уганда",
+      "UKR": "Украина",
+      "ARE": "ОАЭ",
+      "GBR": "Великобритания",
+      "USA": "США",
+      "URY": "Уругвай",
+      "UZB": "Узбекистан",
+      "VUT": "Вануату",
+      "VEN": "Венесуэла",
+      "VNM": "Вьетнам",
+      "VIR": "Виргинские Острова (США)",
+      "YEM": "Йемен",
+      "ZMB": "Замбия",
+      "ZWE": "Зимбабве",
+      "ABH": "Абхазия",
+      "DPR": "Республика ДНР",
+      "LPR": "Республика ЛНР"
+    },
+    "currentTime": "Текущее время",
+    "photo": "Фото",
+    "warning": "Предупреждение",
+    "lane": "Полоса | Полосы",
+    "laneNumber": "№ полосы",
+    "confirmResetValues": "Вы действительно хотите сбросить значения?",
+    "regular": "Обычный",
+    "dateTimePresets": {
+      "currentDay": "Текущий день",
+      "currentHour": "Текущий час",
+      "lastHour": "Последний час",
+      "last3Hours": "Последние 3 часа",
+      "lastDay": "Последние сутки",
+      "last7Days": "Последние 7 суток",
+      "lastMonth": "Последний месяц",
+      "byDay": "Посуточно"
+    },
+    "custom": "Пользовательский",
+    "dateTimePreset": "Пресет даты/времени",
+    "preset": "Пресет",
+    "addChannel": "Добавить канал",
+    "additionalViolationTypes": "Дополнительные типы нарушений",
+    "dark": "Темнота"
+  },
+  "configEditor": {
+    "fileSaved": "Файл сохранён\nНе забудьте сохранить настройки во вкладке \"Система\""
+  },
+  "controlZonesPage": {
+    "GRZrecognition": "Распознавание ГРЗ",
+    "MaximumNumberOfLanes": "Максимальное количество полос",
+    "additionalChannelSettings": "Дополнительные настройки канала",
+    "additionalData": "Дополнительные данные",
+    "aliasRemovingConfirm": "Подтвердите удаление псевдонима: \"{name}\"",
+    "area": "Район",
+    "bottomBorderFixation": "Нижняя граница фиксации",
+    "channelName": "Наименование канала",
+    "channelSettings": "Настройки канала",
+    "defaultVehicleDirection": "Направление ТС по умолчанию",
+    "doNotFixRouteVehicles": "Не фиксировать маршрутные ТС",
+    "doNotFixTheSpeedAfter": "Не фиксировать скорость после",
+    "drivingDesignated": "Движение по полосе, предназначенной для МТС (знак 3.1)",
+    "endPhaseTimeLag": "Время до окончания фазы, когда нарушение не фиксируется",
+    "entryLine": "Линия входа",
+    "fixationDisabled": "Фиксация отключена",
+    "generalStop": "Остановка общая",
+    "globalSettings": {
+      "additionalGlobalSettings": "Дополнительные глобальные настройки",
+      "globalSettings": "Глобальные настройки",
+      "oncomingDirection": "Встречное (к камере)",
+      "relatedDirection": "Попутное (от камеры)"
+    },
+    "grzRecognition": {
+      "asyddIntegration": "Интеграция с АСУДД",
+      "detectionWithoutGuardrail": "Детекция ТС без ГРЗ",
+      "dynamicSizeGrz": "Динамический размер ГРЗ",
+      "firstPassingPassengers": "Первое для попутных, последнее для встречных",
+      "firstRecognized": "Первое распознавание",
+      "frameRate": "Частота кадров распознавания",
+      "grzForMaterial": "ГРЗ для материала",
+      "largestGrz": "Самый крупный ГРЗ",
+      "lastRecognized": "Последнее распознавание",
+      "maxGrzWidth": "Макс. ширина ГРЗ",
+      "minGrzReliability": "Мин. достоверность распознавания ГРЗ",
+      "minGrzWidth": "Мин. ширина ГРЗ",
+      "minNumberOfRecognitions": "Мин. количество распознаваний",
+      "numberOfFramesForLeaving": "Количество кадров для ухода неподвижного номера",
+      "numberOfFramesForRoomCare": "Количество кадров для ухода номера",
+      "recognize2ndFrame": "Распознавать каждый 2-й кадр",
+      "recognize3ndFrame": "Распознавать каждый 3-й кадр",
+      "recognizeAllFrames": "Распознавать все кадры",
+      "useNeuralNetworkDetector": "Использовать нейросетевой детектор ГРЗ",
+      "useNeuralNetworkRecognitionGrz": "Использовать нейросетевое распознавание ГРЗ",
+      "vehicleDetectorThreshold": "Порог детектора ТС"
+    },
+    "identifiers": "Идентификаторы",
+    "ignoreRepeats": "Игнорировать повторы",
+    "ignoreZeroSpeed": "Игнорировать нарушения с нулевой скоростью",
+    "imageAliases": "Псевдонимы изображений | псевдонима изображения",
+    "laneSettings": {
+      "addLane": "Добавить полосу",
+      "deleteLane": "Удалить полосу",
+      "deleteLaneConfirm": "Подтвердите удаление полосы движения: №{name}",
+      "disablePt": "Отключить ПТ",
+      "settingsTitle": "Настройки полосы движения",
+      "trafficLanes": "Полосы движения"
+    },
+    "location": "Месторасположение",
+    "lowerFixationLimit": "Нижняя граница фиксации",
+    "lpnSimilarity": "Похожесть ГРЗ*",
+    "maxPhaseLength": "Макс. длина запрещающей фазы",
+    "minConfidence": "Мин. достоверность",
+    "minDistance": "Мин. длина траектории",
+    "minSpeedLimit": "Ограничение минимальной скорости",
+    "minStoppingTime": "Мин. время остановки",
+    "mskso": {
+      "arrowInput": "Вход доп.секции",
+      "recordViolation": "Фиксировать нарушение только при красном и не горящей стрелке",
+      "redInput": "Вход красного",
+      "yellowInput": "Вход жёлтого",
+      "arrowLeftInput": "Вход доп. секции налево",
+      "arrowRightInput": "Вход доп.секции направо"
+    },
+    "networkDetermination": "Нейросетевое определение класса ТС",
+    "noConfiguredChannels": "На связанном комплексе нет настроенных каналов",
+    "notEnoughSpaceForLane": "Недостаточно места для добавления новой полосы движения",
+    "okato": "ОКАТО",
+    "oncoming": "Встречные",
+    "oncomingBuses": "Встречные автобусы",
+    "oncomingTrucks": "Встречные грузовые",
+    "onlyStoplineTime": "Время до окончания фазы, когда нарушение трактуется только как стоп-линия",
+    "outputLine": "Линия выхода",
+    "overSpeed": "Превышение скорости",
+    "parking328": "Стоянка 3.28",
+    "parkingAtIntersection": "Стоянка на перекрестке",
+    "parkingOnSiteForCrippled": "Стоянка на месте для инвалидов",
+    "passing": "Попутные",
+    "passingBuses": "Попутные автобусы",
+    "passingTrucks": "Попутные грузовые",
+    "plotForTheResolution": "Фабула для постановления",
+    "prohibitedChannels": "Запрещённые каналы",
+    "recognitionArea": "Зона распознавания",
+    "recognitionChannelSettings": "Настройки канала распознавания",
+    "repeatsTimeout": "Таймаут повтора",
+    "roadwayCrossingLine": "Линия пересечения проезжих частей",
+    "savePhotos": "Сохранять обзорные фото ТС с ТВДД",
+    "speedLimitOnDistance": "Ограничение скорости на дистанции",
+    "speedThreshold": "Порог скорости",
+    "speedingAtADistance": "Превышение скорости на дистанции",
+    "stop327": "Остановка 3.27",
+    "stopAtPublicTransportStop": "Остановка на остановке ОТ",
+    "stopAtRailwayCrossing": "Остановка на ЖД переезде",
+    "stopInSecondRow": "Остановка во 2 ряду",
+    "stopOnLaneForFixedRouteVehicles": "Остановка на полосе для МТС",
+    "stopOnSidewalk": "Остановка на тротуаре",
+    "stopOnTramTracks": "Остановка на трамвайных путях",
+    "stopPedestrianCrossing": "Остановка на пешеходном переходе",
+    "tenzoM": "Тензо-М",
+    "timeLag": "Задержка фиксации",
+    "topBorderFixation": "Верхняя граница фиксации",
+    "upperFixationLimit": "Верхняя граница фиксации",
+    "useCarClass": "Использовать класс ТС",
+    "usePeer": "Использовать связанный комплекс",
+    "vehicleDetectorMarkings": "Разметка детектора ТС",
+    "videoSourceAliases": "Псевдонимы источников видео | псевдонима источника видео",
+    "violationClassifyAlgorithm": "Алгоритм квалификации",
+    "violationTypeSettings": "Настройки типа нарушения",
+    "violations": {
+      "allowedDirectionMovement": "Разрешенное направление движения",
+      "atRailway": "На ЖД переезде",
+      "bandSelectionAlgorithm": "Алгоритм выбора полосы",
+      "bicyclePathMovement": "Движение по велосипедной дорожке",
+      "bothDirections": "Оба направления",
+      "byMotionSpeed": "По скорости движения, пикс/кадр",
+      "crossingStopLine": "Пересечение стоп-линии",
+      "forbiddenDirection": "Запрещённое направление движения",
+      "fromTVSensorParallel": "от ТВ датчика (попутное)",
+      "goStraight": "Движение прямо",
+      "intersectionOrControlled": "На перекрёстке или регулируемом ПП",
+      "lastRecognizedGrz": "Последний распознаный ГРЗ",
+      "leftCameraView": "Слева при виде с камеры",
+      "lineOfIntersection": "По линии пересечения ПЧ",
+      "maneuverTime": "Время манёвра",
+      "maxManeuverTime": "Макс. время манёвра",
+      "maxPermissibleWeightRestrictions": "Ограничения максимальной разрешенной массы (знак 3.1)",
+      "minDistance": "Мин. дистанция",
+      "minManeuverTime": "Мин. время манёвра",
+      "minSpeed": "Мин. скорость",
+      "movingCargoBeyondSecondLane": "Движение грузового транспорта далее второй полосы",
+      "movingCargoExceeding2": {
+        "5TonsLeftLane": "Движение грузового ТС с МРМ более 2,5 т. в левой полосе"
+      },
+      "noPassingZone": "В зоне действия знака \"обгон запрещён\"",
+      "oneWayTraffic": "Одностороннее движение",
+      "outsideNoPassingZone": "Вне зоны действия знака \"обгон запрещён\"",
+      "pedestrianPathwayMovement": "Движение по пешеходной дорожке",
+      "pedestrianZoneMovement": "Движение по пешеходной зоне",
+      "positionNoLeftSign": "Положение на ПЧ без знака налево",
+      "positionNoRightSign": "Положение на ПЧ без знака направо",
+      "positionNoUTurnSign": "Положение на ПЧ без знака разворот",
+      "prohibitedDirections": "Запрещеннные направления | Запрещённое направление",
+      "railwayCrossing": "ЖД переезд",
+      "rightCameraView": "Справа при виде с камеры",
+      "rightProhibited": "Поворот направо запрещён",
+      "safetyIsland": "Островок безопасности",
+      "sameDirectionMovement": "Движение под \"кирпич\" в попутном направлении",
+      "sameDirectionMovementNoTaxis": "Движение под \"кирпич\" в попутном направлении (кроме такси)",
+      "settingsTitle": "Настройки нарушения",
+      "sidewalkMovement": "Движение по тротуару",
+      "signLeftProhibited": "Знак \"Поворот налево запрещен\"",
+      "signRightProhibited": "Знак \"Поворот направо запрещен\"",
+      "solidMarkingsLeft": "Сплошная разметка слева",
+      "solidMarkingsRight": "Сплошная разметка справа",
+      "toTVSensorOncoming": "к ТВ датчику (встречное)",
+      "tramTracksDirection": "Направление движения по трамвайным путям",
+      "truckMovementProhibited": "Движение грузовикам запрещено (знак 3.4)",
+      "turningLeftProhibited": "Поворот налево запрещён",
+      "uTurnNoGoStraight": "Разворот под знак движение прямо",
+      "uTurnProhibited": "Разворот запрещён",
+      "useRelatedComplexes": "Использовать связанные комплексы",
+      "withoutMarkings": "На перекрёстке или регулируемом ПП без разметки",
+      "allViolationsFormed": "Формируется оба нарушения",
+      "driverViolationsFormed": "Формируется нарушения на водителя",
+      "fixDriverBelt": "Фиксировать ремень водителя",
+      "fixPassengerBelt": "Фиксировать ремень пассажира",
+      "passengerViolationsFormed": "Формируется нарушения на пассажира",
+      "withSimultaneousFixation": "При одновременной фиксации",
+      "enableQualificationsAtDifferentTimesOfTheDay": "Включить квалификацию в разное время суток"
+    },
+    "drivingTaxiBrick": "Движение такси под \"кирпич\" по полосе движения"
+  },
+  "convertersPage": {
+    "addConverter": "Добавить конвертер",
+    "converterRestarted": "Конвертер перезапущен",
+    "commonSettings": "Общие настройки",
+    "converterInstanceHint": "Доп. имя для инстанса конвертора «duplo»",
+    "convertersList": "Список конвертеров",
+    "deleteCurrentConverter": "Удалить текущий конвертер",
+    "digitalPatrolForm": {
+      "addResolution": "Добавить разрешение изображения",
+      "cipherKey": "Шифр ключа",
+      "cipherKeyInputTitle": "Случайная строка для шифрования сообщений, заводится в DigitalPatrol Central и выдаётся для комплекса",
+      "deviceId": "ID устройства",
+      "deviceIdInputTitle": "Идентификатор комплекса, заводится в DigitalPatrol Central и выдаётся для комплекса",
+      "formatInputTitle": "Формат в который необходимо конвертировать нарушения. Должно быть выставлено значение «digital-patrol-center»",
+      "pathToCSV": "Путь к CSV с марш. ТС",
+      "rsaKey": "Приватный RSA ключ",
+      "urlInputTitle": "Удаленный адрес, на который будут передаваться пакеты с нарушениями"
+    },
+    "duploForm": {
+      "amtsDisabled": "Отключить передачу данных о прошедших ТС",
+      "amtsTimeout": "Таймаут выгрузки ПТ",
+      "debugSettings": "Настройки отладки",
+      "keepErrorAmts": "Сохранять данные об ошибках передачи ТС",
+      "keepErrorViolations": "Сохранять данные об ошибках при передаче нарушений",
+      "keepSentAmts": "Сохранять данные о переданных ТС",
+      "keepSentViolations": "Сохранять данные о переданных нарушениях",
+      "sendAmtsWithViolations": "Передавать ТС с нарушениями в потоке проходящих ТС",
+      "violationsDisabled": "Отключить передачу нарушений",
+      "violationsTimeout": "Таймаут выгрузки нарушений"
+    },
+    "duploServicesStatusRefreshed": "Статус служб обновлён",
+    "formatInputHint": "Формат в который необходимо конвертировать нарушения. Должно быть выставлено значение «duplo»",
+    "instance": "Имя экземпляра",
+    "isActive": "Активна",
+    "isLoaded": "Загружена",
+    "krisForm": {
+      "amts": "Проходящий транспорт",
+      "amtsDisabled": "Отключить передачу данных о прошедших ТС",
+      "amtsSaveLargeImage": "Передавать обзорное фото ТС с ТВДД",
+      "amtsSaveLicensePlateImage": "Передавать изображение ГРЗ",
+      "copyDir": "Директория для копирования",
+      "destFmt": "Шаблон имени файлов",
+      "destinationFolder": "Директория сохранения",
+      "disableViolationTypes": "Отключение формирования нарушений",
+      "permissions": "Маска доступа",
+      "signMechanism": "Механизм подписания",
+      "violations": "Нарушения",
+      "violationsDisabled": "Отключить передачу нарушений"
+    },
+    "refreshDuploServiceStatus": "Обновить статус служб",
+    "restartDuploServices": "Перезапустить службу Duplo",
+    "saveConverterSettings": "Сохранить настройки конвертеров",
+    "serviceName": "Имя службы",
+    "serviceStatus": "Статус служб",
+    "thereMustBeAtLeastOneValue": "Должно быть хотя бы 1 значение",
+    "transferSettings": "Настройки передачи",
+    "doYouReallyWantToDeleteSelectedConverter": "Вы действительно хотите удалить выбранный конвертер?"
+  },
+  "datePage": {
+    "dateTimeErrorToast": "Ошибка при получении текущей даты",
+    "dateTimeTitle": "Дата/время",
+    "dateTimeZoneSuccessToast": "Часовой пояс обновлён",
+    "deviation": "Отклонение, мс",
+    "fetchError": "Ошибка при отображении Даты и Времени!",
+    "getCurrentDateError": "Ошибка при получении текущей даты",
+    "gpsTitle": "Синхронизация GPS",
+    "instability": "Нестабильность, мс",
+    "lastSync": "Посл. синхр, с",
+    "syncSource": "Источник синхронизации",
+    "timeZone": "Часовой пояс"
+  },
+  "errorPages": {
+    "forbidden": {
+      "exit": "Выйти из аккаунта",
+      "title": "У Вас недостаточно прав для просмотра страницы"
+    },
+    "login": {
+      "title": "Вы не авторизованы! 🔐"
+    },
+    "notFound": {
+      "backHome": "На главную",
+      "subtitle": "Упс! 😖 Запрошенный URL-адрес не найден на этом сервере.",
+      "title": "Страница не найдена"
+    }
+  },
+  "errors": {
+    "errorCode": "Код ошибки",
+    "errorReceivingDataFromServer": "Ошибка при получении данных с сервера",
+    "errorText": "Текст ошибки",
+    "Вы не можете вносить изменения для системного пользователя": "Вы не можете вносить изменения для системного пользователя",
+    "Дата должна быть в формате ДД.ММ.ГГГГ": "Дата должна быть в формате ДД.ММ.ГГГГ",
+    "За указанную дату нарушения не найдены": "За указанную дату нарушения не найдены",
+    "Изменять настройки может только администратор": "Изменять настройки может только администратор",
+    "Изображение не найдено": "Изображение не найдено",
+    "Изображение не передано": "Изображение не передано",
+    "Имя пользователя не может быть пустым": "Имя пользователя не может быть пустым",
+    "Канал с таким именем уже существует": "Канал с таким именем уже существует",
+    "Канал успешно добавлен": "Канал успешно добавлен",
+    "Место не указано": "Место не указано",
+    "Неверный пароль метролога": "Неверный пароль метролога",
+    "Некорректный JSON": "Некорректный JSON",
+    "Некорректный или пустой JSON": "Некорректный или пустой JSON",
+    "Необходимо имя для нового соединения. Отсутствует параметр 'name'": "Необходимо имя для нового соединения. Отсутствует параметр 'name'",
+    "Необходимо как минимум три основных файла: client certificate, client key, openvpn config": "Необходимо как минимум три основных файла: client certificate, client key, openvpn config",
+    "Необходимы права администратора": "Необходимы права администратора",
+    "Отсутствует config": "Отсутствует config",
+    "Отсутствует datetime": "Отсутствует datetime",
+    "Отсутствует timetable_name": "Отсутствует timetable_name",
+    "Ошибка": "Ошибка",
+    "Пользователь не может заблокировать собственную учетную запись": "Пользователь не может заблокировать собственную учетную запись",
+    "Пользователь не может разблокировать собственную учетную запись": "Пользователь не может разблокировать собственную учетную запись",
+    "Файл конфигурации отсутствует или пустой": "Файл конфигурации отсутствует или пустой",
+    "Файл с правами не найден": "Файл с правами не найден",
+    "Файл успешно сохранён": "Файл успешно сохранён",
+    "Файлы успешно загружены": "Файлы успешно загружены",
+    "channelNotFound": "Канал {var} не найден",
+    "Некорректные параметры JSON": "Некорректные параметры JSON",
+    "Нет данных": "Нет данных",
+    "directoryAlreadyExists": "Директория \"{var}\" уже создана. Файлы успешно загружены",
+    "unknownUser": "Неизвестный пользователь \"{var}\"",
+    "userAlreadyExists": "Пользователь \"{var}\" уже существует",
+    "climatConnectionError": "Ошибка соединения с модулем климат-контроля: {var}",
+    "peripheryNotFound": "Периферия \"{var}\" не найдена",
+    "dynemicError": "Ошибка: {var}",
+    "incorrectCleanerPathStart": "Путь к директории должен начинаться с '/mnt/azimuth-data/'. Вы ввели \"{var}\"",
+    "cleanerPathNotExists": "Указан несуществующий путь \"{var}\". Проверьте его наличие",
+    "imageDisplayError": "Ошибка при отображении изображения",
+    "formError": "Некоторые поля формы заполнены неправильно. Пожалуйста, исправьте ошибки",
+    "Данные отсутствуют": "Данные отсутствуют",
+    "internalServerError": "Внутреняя ошибка сервера",
+    "errorReceivingGpsData": "Ошибка при получении данных GPS. Проверьте подключение к сети",
+    "Необходимо установить состав АПН": "Необходимо установить состав АПН",
+    "Отсутствуют данные о местоположении комплекса": "Отсутствуют данные о месторасположении комплекса"
+  },
+  "gpsPage": {
+    "clearLog": "Очистить лог",
+    "deviance": "Погрешность определения местоположения, м",
+    "factoryReset": "Сброс приёмника на заводские настройки",
+    "gpsLog": "Лог данных GPS",
+    "logEnable": "Логировать данные GPS",
+    "numberOfMeasurements": "Количество измерений",
+    "receiverResetToast": "Приёмник сброшен",
+    "satelliteID": "ID спутника",
+    "snr": "Средний с/ш, дБ",
+    "trackingSatellites": "Спутники в слежении",
+    "usedSatellites": "Спутники в решении",
+    "coordinatesCopied": "Координаты скопированы в буфер обмена",
+    "coordinatesNotAvailable": "Координаты недоступны",
+    "differentialGps": "Дифференциальный GPS",
+    "extrapolationOfCoordinates": "Экстраполяция координат",
+    "manualInputMode": "Режим ручного ввода",
+    "simulatorMode": "Режим симулятора"
+  },
+  "homePage": {
+    "duploDialog": {
+      "amtTotalFailed": "Общее кол-во прошедших ТС с ошибками",
+      "amtTotalQueued": "Общее кол-во прошедших ТС находящихся в очереди",
+      "amtTotalSuccess": "Общее кол-во успешно отправленных прошедших ТС",
+      "date": "Дата",
+      "duplo": "Дупло 2",
+      "errors": "Ошибок",
+      "inQueue": "В очереди",
+      "successful": "Успешных",
+      "title": "Детальная статистика отправки материалов в сервис ''Дупло 2''",
+      "violationTotalFailed": "Общее кол-во нарушений с ошибками",
+      "violationTotalQueued": "Общее кол-во нарушений находящихся в очереди",
+      "violationTotalSuccess": "Общее кол-во успешно отправленных нарушений",
+      "mainTabTitle": "Основной"
+    },
+    "information": {
+      "allSpace": "Всего места на SSD",
+      "duploStatistics": "Статистика отправки материалов в сервис ''Дупло 2''",
+      "freeSpace": "свободно",
+      "gigabyte": "Гб",
+      "maxChannels": "Максимальное число каналов распознавания",
+      "mod": "Комплектация",
+      "title": "Общая информация"
+    },
+    "lanesDialog": {
+      "lane": "Полоса",
+      "roadSide": "Обочина",
+      "selectNumberOfLanes": "Выберите количество полос"
+    },
+    "settings": {
+      "directionForOncoming": "Направление для встречных",
+      "directionForPassing": "Направление для попутных"
+    },
+    "trafficLanes": {
+      "cameraId": "ID камеры",
+      "direction": "Направление",
+      "indexNumber": "№ п.п.",
+      "installationPlace": "Место установки",
+      "kiptId": "ID КИПТ",
+      "objectId": "ID объекта",
+      "oppositeDirection": "Встречное",
+      "recognitionChannel": "Канал распознавания",
+      "sameDirection": "Попутное",
+      "tcToday": "TC сегодня",
+      "tcYesterday": "TC вчера",
+      "title": "Полосы движения",
+      "violationsToday": "Нарушений сегодня",
+      "violationsYesterday": "Нарушений вчера",
+      "warnings": "Предупреждения",
+      "anyDirection": "Любое",
+      "allCurrentLaneSettingsWillBeDeleted": "Внимание! Все текущие настройки полос удалятся. Вы уверены?"
+    },
+    "mobile": {
+      "chooseZoneConfigFile": "Выберите файл конфигурации зон",
+      "currentAddress": "Текущий адрес",
+      "currentViolation": "Текущее нарушение",
+      "complexIsNotOnRoute": "Комплекс не на маршруте",
+      "fixationDisabled": "Фиксация была автоматически отключена в связи с изменением или удалением месторасположения комплекса. Пожалуйста, проверьте настройки.",
+      "fixationDisabledIfNoViolations": "Внимание! При включенной фиксации необходимо установить состав АПН"
+    }
+  },
+  "imagesPage": {
+    "fillColor": "Цвет заливки",
+    "imageAddedToast": "Изображение добавлено",
+    "imageCreate": "Создание изображения",
+    "imageDeletedToast": "Изображение удалено",
+    "imageUploadedToast": "Изображение загружено",
+    "line": "Линия",
+    "lineThickness": "Толщина линий",
+    "polygon": "Многоугольник",
+    "rectangle": "Прямоугольник",
+    "selectBackground": "Выберите фон",
+    "strokeColor": "Цвет обводки",
+    "title": "Изображения "
+  },
+  "menu": {
+    "amts": "Прошедшие ТС",
+    "amtsServer": "Сервер ПТ",
+    "channelsAlignment": "Юстировка каналов",
+    "climate": "Климат-контроль",
+    "controlZones": "Зоны контроля",
+    "converters": "Конвертеры",
+    "dateTime": "Дата/Время",
+    "eds": "ЭЦП",
+    "gps": "ГЛОНАСС/GPS",
+    "groups": {
+      "azimuthSettings": "Настройки СПО Азимут",
+      "exportData": "Экспорт данных",
+      "systemSettings": "Настройки системы",
+      "view": "Просмотр"
+    },
+    "home": "Главная",
+    "images": "Изображения",
+    "metrology": "Метрология",
+    "monitoring": "Мониторинг",
+    "mskso": "МСКСО",
+    "networks": "Сетевые настройки",
+    "parking": "Парковка",
+    "pedestrians": "Фиксация пешеходов",
+    "peers": "Связанные комплексы",
+    "schedules": "Расписания",
+    "system": "Система",
+    "search": "Розыск",
+    "users": "Учетные записи",
+    "videoArchive": "Видеоархив",
+    "videoSources": "Источники видео",
+    "violations": "Нарушения",
+    "zonesConnect": "Сопряжение зон контроля",
+    "garbageMO": "Мусор МО",
+    "roadScreen": "Информационное табло",
+    "radar": "Радар",
+    "configEditor": "Редактор конфигураций"
+  },
+  "metrologyPage": {
+    "certificateSaved": "Свидетельство сохранено",
+    "metrologistPasswordSavedToast": "Пароль метролога успешно изменён",
+    "recognitionChannelSaved": "Канал распознавания успешно сохранён",
+    "recognitionChannels": {
+      "distanceMeasurementSettings": "Настройка измерения по дистанции",
+      "table": {
+        "avgSpeedMeasurement": "Измерение средней скорости",
+        "calibrationDone": "Юстировка выполнена",
+        "channelId": "ID канала",
+        "distance": "Дистанция",
+        "inputChannelDirection": "Направление входного канала",
+        "linkedComplex": "Связанный комплекс",
+        "oppositeDirection": "Встречное",
+        "outputChannelDirection": "Направление выходного канала",
+        "sameDirection": "Попутное",
+        "sectionLength": "Длина участка",
+        "verification": "Поверка"
+      },
+      "title": "Каналы распознавания",
+      "verificationRecognitionChannel": {
+        "absImmersion": "Абс. погр., км/ч",
+        "cameraVerification": "Поверка камеры",
+        "deleteLine": "Удалить строку",
+        "distanceControlAlert": "Для измерения дистанции в зоне контроля и измерения расстояния L1 - Необходимо заполнить поле \"ГРЗ\"",
+        "distanceControlTitle": "Измерение дистанции в зоне контроля",
+        "endInterval": "Закончить интервал",
+        "lastMeasurement": "Последнее измерение",
+        "measureL1": "Измерить L1",
+        "measuredLength": "Измеренная длина отрезка, мм",
+        "measuredSpeed": "Измеренная скорость",
+        "measurementL1Title": "Измерение расстояния L1",
+        "measurementType": "Тип. изм",
+        "noData": "Данные отсутствуют",
+        "radarVerification": "Поверка радара",
+        "relError": "Отн. погр., %",
+        "speedonSimulator": "Скорость на имитаторе",
+        "startInterval": "Начать интервал",
+        "startMeasurement": "Старт измерений",
+        "stopMeasurement": "Стоп измерений",
+        "title": "Живое видео",
+        "verificationMode": "Режим поверки",
+        "resetInterval": "Сбросить интервал"
+      }
+    },
+    "speedMeasurementError": {
+      "absoluteError": "Абсолютная погрешность",
+      "gpsSpeed": "Скорость, GPS",
+      "kiptSpeed": "Скорость, КИПТ",
+      "relativeError": "Относительная погрешность",
+      "speedMeasurementVerificationReport": "Отчет о проверке корректности измерения скорости",
+      "InformationAboutInstallation": "Информация о месте установки и направлении движения",
+      "speedTestResults": "Результаты тестовых измерений скорости",
+      "passageNumber": "№ проезда",
+      "dieIndication": "Показание плашки",
+      "graphicalRepresentation": "Графическое представление",
+      "laneNumber": "№ полосы"
+    },
+    "startMeasurementsConfirm": "Сначала нажмите кнопку \"старт измерений\"",
+    "tools": {
+      "calculateError": "Некорректные данные для вычисления",
+      "calculationOfSpeedMeasurementErrorButton": "Расчёт погрешности измерения скорости",
+      "changeMetrologyPasswordTitle": "Изменение пароля метролога",
+      "confirmPassword": "Изменение пароля метролога",
+      "currentPassword": "Действующий пароль метролога",
+      "deCalculationButton": "Калькулятор DE",
+      "deCalculationTitle": "Расчёт DE",
+      "fileInputLabel": "Выберете .nme файлы",
+      "hideReport": "Скрыть отчёт",
+      "inaccuracyCalculationTitle": "Расчёт погрешности",
+      "metrologyPasswordButton": "Изменить пароль метролога",
+      "newPassword": "Новый пароль метролога",
+      "roundToInputLabel": "Знаков после запятой",
+      "showMap": "Показать карту",
+      "showReport": "Показать отчёт",
+      "title": "Инструменты"
+    },
+    "verification": {
+      "certificateNumberInputLabel": "№ свидетельства",
+      "validUntilDateInputLabel": "Действительно до",
+      "verificationCertificateTitle": "Свидетельство о поверке"
+    },
+    "verticalMovementConfirmToast": "Перемещение ГРЗ по вертикали менее 100px. Для продолжение измерений нажмите ОК для отмены нажмите Отмена"
+  },
+  "mobileRoutePage": {
+    "routeSettings": "Настройки маршрута"
+  },
+  "monitoringPage": {
+    "counterDirection": "Направление для попутных",
+    "favorableDirection": "Попутное направление",
+    "speedOnControlZone": "Скорость в зоне контроля",
+    "speedOnSite": "Скорость на участке",
+    "title": "Мониторинг прошедших ТС"
+  },
+  "msksoPage": {
+    "communicationInterface": "Интерфейс связи",
+    "msksoConfigList": {
+      "confirmDeletionMSKSO": "Подтвердите удаление МСКСО",
+      "editConfig": "Редактировать конфиг",
+      "greenSection": "Зелёный (секция)",
+      "removeConfig": "Удалить конфиг",
+      "settingUpChannels": "Настройка каналов",
+      "settingUpMsksoChannels": "Настройка каналов МСКСО",
+      "addMskso": "Добавить МСКСО"
+    },
+    "serialPort": "Последовательный порт",
+    "msksoRemoveConfirm": "Подтвердите удаление МСКСО: \"{name}\""
+  },
+  "networksPage": {
+    "adapter": "Сетевой адаптер",
+    "addDnsServer": "Добавить DNS сервер",
+    "addressType": "Тип адреса",
+    "bridgesList": {
+      "editNetworkBridge": "Редактирование сетевого моста"
+    },
+    "canselDnsServerAdding": "Отменить добавление ДНС сервера",
+    "diagnosticForm": {
+      "hostNameOrIP": "Хост (имя или IP)",
+      "repeatsForPing": "Кол-во повторов (для ping)",
+      "responseTitle": "Ответ",
+      "title": "Диагностика сети",
+      "tracepath": "Tracepath"
+    },
+    "dnsServers": "ДНС серверы",
+    "networkSettingsAreSaved": "Сетевые настройки сохранены",
+    "networkSettingsHaveBeenApplied": "Сетевые настройки применены, не забудьте их сохранить! ",
+    "openVpn": {
+      "certificate": "Сертификат",
+      "configFile": "Файл конфигурации",
+      "connectionName": "Имя соединения",
+      "keyFile": "Файл ключа",
+      "title": "Настройки OpenVPN"
+    },
+    "tabs": {
+      "networkBridges": "Сетевые мосты",
+      "networkDiagnostics": "Диагностика сети",
+      "openVpn": "OpenVPN",
+      "vlan": "VLAN"
+    },
+    "unusedNetworkAdapters": "Неиспользуемые сетевые адаптеры",
+    "vlan": {
+      "dhcp": "DHCP",
+      "static": "Статический",
+      "title": "Список VLAN",
+      "vidVlanId": "VID (VLAN ID)"
+    }
+  },
+  "parkingPage": {
+    "applyPresetSettingsToast": "Для применения настроек пресета №{var} необходимо сохранить настройки",
+    "addArea": "Добавить область",
+    "addPreset": "Добавить пресет",
+    "addZone": "Добавить зону",
+    "channelAddedToast": "Канал {channel} добавлен",
+    "deletePreset": "Удалить пресет",
+    "deleteZone": "Удалить зону",
+    "doSurveyPhoto": "Делать обзорные фото",
+    "editZone": "Редактировать зону",
+    "getCameraPosition": "Получить текущую позицию камеры",
+    "presetSettings": "Настройки пресета",
+    "presetsList": "Список пресетов",
+    "setPreset": "Перейти в пресет",
+    "startPan": "Поворот камеры",
+    "surveyZoom": "Зум обзорного фото",
+    "zoneAddedToast": "Зона {name} добавлена",
+    "zoneEnd": "Конец зоны",
+    "zoneSettings": "Настройка зоны",
+    "zoneStart": "Начало зоны",
+    "zoneUpdatedToast": "Зона {name} обновлена",
+    "zonesList": "Список зон",
+    "zoneRemoveConfirm": "Действующий пресет содержит выбранную зону \"{name}\". Вы действительно хотите её удалить?",
+    "channelItemRemoveConfirm": "Вы действительно хотите удалить канал \"{name}\"?",
+    "channelItemRemovedToast": "Канал удалён. Необходимо сохранить настройки",
+    "zoneRemovedToast": "Зона удалена. Необходимо сохранить настройки",
+    "uniqueZoneNameError": "Данное имя зоны парковки уже занято",
+    "afterDeleteZoneMessage": "Зона удалена. Для применения изменений сохраните настройки",
+    "presetTitle": "Настройка пресета",
+    "area": "Область",
+    "areaSettings": "Настройки области",
+    "deleteArea": "Удалить область",
+    "addPointToEnd": "Добавить точку в конец",
+    "addPointAfterCurrent": "Добавить точку после текущей",
+    "removePoint": "Удалить точку",
+    "removeLastPoint": "Удалить последнюю точку",
+    "maxPoint": "Максимальное кол-во точек - {var}",
+    "minPoint": "Минимальное кол-во точек - {var}"
+  },
+  "pedestriansPage": {
+    "best": "лучшее",
+    "borderOfRoadway": "Граница проезжей части",
+    "channelSelection": "Выбор канала",
+    "crosswalkBottom": "Нижняя граница",
+    "crosswalkTop": "Верхняя граница",
+    "detectVerbosity": {
+      "maximum": "Максимально",
+      "middle": "Средне",
+      "minimum": "Минимально",
+      "off": "Отключено",
+      "upperMiddle": "Выше среднего"
+    },
+    "detectVerbosityText": "Подробность вывода детектора в видео",
+    "detectionZone": "Зона детекции",
+    "developerSettings": "Настройки для разработчика",
+    "fixDetectionZone": "Зафиксировать зону детекции",
+    "leftBottom": "Левая граница (низ)",
+    "leftIndentation": "Отступ слева",
+    "leftTop": "Левая граница (верх)",
+    "maxPedAngle": "Макс. угол вектора движения пешехода к горизонтали",
+    "maxPedestrianHeight": "Макс. высота пешехода",
+    "moveMaxThreshold": "Макс. порог движения",
+    "moveMinThreshold": "Мин. порог движения",
+    "opticalFlowLevels": "Количество уровней при расчёте оптического поток",
+    "opticalFlowResizeFactor": "Коэффициент масштабирования для расчёта оптического потока",
+    "opticalFlowWinSize": "Размер окна для расчёта оптического потока",
+    "pathToSavedFiles": "Путь сохранения файлов",
+    "pedestrianCrossingBorder": "Граница пешеходного перехода",
+    "pedestrianDetection": "Детекция пешехода",
+    "pedestriansDetectorChannelSettings": "Настройки канала детектора пешехода",
+    "pedestriansThreshold": "Порог детекции пешехода",
+    "restrictedZoneHeight": "Высота запретной зоны",
+    "restrictedZoneLength": "Длина запретной зоны",
+    "restrictedZoneOffset": "Смещение запретной зоны",
+    "restrictedZoneStart": "Начало запретной зоны",
+    "rightBottom": "Правая граница (низ)",
+    "rightTop": "Правая граница (верх)",
+    "saveOthers": "Сохранять ложные детекции",
+    "savePedestrians": "Сохранять детекции пешеходов",
+    "showDetection": "Показывать детекции",
+    "showMotion": "Показывать результаты детекции движения",
+    "topIndentation": "Отступ сверху",
+    "verticalDetectorFactor": "Коэффициент масштабирования по вертикали",
+    "videoInputNumber": "№ видеовхода",
+    "worst": "худшее",
+    "zoneHeight": "Высота зоны",
+    "zoneWidth": "Ширина зоны",
+    "removeConfirm": "Вы действительно хотите удалить канал \"{channel}\"?"
+  },
+  "peersPage": {
+    "addPeer": "Добавить связанный комплекс",
+    "checkTime": "Время посл. проверки",
+    "complexDeleted": "Комплекс удалён",
+    "complexSaved": "Комплекс сохранён",
+    "connectProxy": "Подключить proxy",
+    "connectVideoArchive": "Подключить видеоархив",
+    "peerListRefreshed": "Список связанных комплексов обновлён",
+    "peerName": "Имя связанного комплекса",
+    "peerRemoveConfirm": "Подтвердите удаление связанного комплекса",
+    "recognitionChannelsCount": "Кол-во каналов распознавания",
+    "synchronized": "Синхронизирован",
+    "uniquePeerName": "Имя должно быть уникально в пределах данного КИПТ"
+  },
+  "schedulesPage": {
+    "addRule": "Добавить правило",
+    "addSchedule": "Добавить расписание",
+    "dayTypes": {
+      "always": "Всегда",
+      "even": "Чётный",
+      "everyday": "Любой день",
+      "holiday": "В списке выходных",
+      "notHoliday": "Не в списке выходных",
+      "odd": "Нечётный",
+      "weekday": "Будний день",
+      "weekend": "Выходной"
+    },
+    "holidaysWeekends": "Праздничные/выходные дни",
+    "ignoreRule": "Игнорировать правило",
+    "rule": "Правило | Правила",
+    "scheduleAddedSaveSettings": "Расписание добавлено. Сохраните настройки",
+    "scheduleCheck": "Проверка расписания",
+    "schedulesSavedSaveSettings": "Расписания сохранены. Не забудьте сохранить настройки во вкладке \"Система\"",
+    "violationsWillBeRecordedAtTheSelectedTime": "В выбранное время нарушения будут фиксироваться",
+    "violationsWillNotBeRecordedAtTheSelectedTime": "В выбранное время нарушения не будут фиксироваться",
+    "scheduleRuleRemoveConfirm": "Подтвердите удаление правила №{name}",
+    "removeScheduleConfirm": "Подтвердите удаление расписания \"{name}\"",
+    "viewSchedule": "Просмотр расписания"
+  },
+  "signPage": {
+    "certificateRequest": "Запрос на сертификат",
+    "country": "Страна",
+    "createCertificateRequest": "Создать запрос на сертификат",
+    "dataForCreatingCertificateRequest": "Данные для создания запроса на сертификат",
+    "downloadCertificateRequest": "Скачать запрос на сертификат",
+    "inn": "ИНН",
+    "installCertificate": "Установить сертификат",
+    "installationAddress": "Адрес установки",
+    "locality": "Населенный пункт",
+    "noCertificateRequest": "Запрос на сертификат отсутствует",
+    "ogrn": "ОГРН",
+    "organization": "Организация",
+    "region": "Регион",
+    "subjectsName": "Имя субъекта",
+    "theCertificateIsInstalled": "Сертификат установлен",
+    "theRequestWasSuccessfullyCreated": "Запрос успешно создан"
+  },
+  "systemPage": {
+    "cleanerTab": {
+      "absolutePath": "Абсолютный путь",
+      "actions": "Действия",
+      "addNewDirectory": "Добавить новую директорию",
+      "clearingPriority": "Приоритет очистки",
+      "confirmRemoval": "Подтвердите удаление \"{name}\" директории",
+      "deleteDirectory": "Удалить директорию",
+      "displayName": "Отображаемое имя",
+      "editDirectory": "Редактировать директорию \"{name}\" | Редактировать директорию",
+      "hoursShort": "ч",
+      "maxSizeDirectory": "Макс. размер директории",
+      "maxTotalSizeFolders": "Макс. общий размер директорий",
+      "minSizeDirectory": "Мин. размер директории",
+      "save": "Сохранить",
+      "saveCleanerSettings": "Сохранить настройки Cleaner",
+      "storagePeriod": "Период хранения",
+      "totalSizeDirectories": "Сумма",
+      "maxSizeError": "Сумма добавленных директорий превышает макс. общий размер директорий"
+    },
+    "systemTab": {
+      "archiveWithModulesIsUploaded": "Архив с модулями загружен. Сохраните изменения и перезагрузите комплекс",
+      "availableRAM": "Оперативной памяти доступно",
+      "computingModuleHasBeenSentForReboot": "Вычислительный модуль отправлен на перезагрузку",
+      "configuration": "Комплектация",
+      "created": "создан",
+      "dataPartition": "Раздел с данными",
+      "fileName": "Имя файла",
+      "freeDiskSpace": "Свободно",
+      "identificationData": "Идентификационные данные метрологически значимой части ПО",
+      "locationComputingModule": "Месторасположение вычислительного модуля",
+      "locationComputingModuleSaved": "Месторасположение вычислительного модуля сохранено",
+      "maxRecognitionChannels": "Максимальное число каналов распознавания",
+      "mounted": "примонтирован",
+      "notExist": "ОТСУТСТВУЕТ",
+      "notMounted": "НЕ ПРИМОНТИРОВАН",
+      "numberOfChannelsUsedHasBeenChanged": "Используемое число каналов изменено",
+      "numberOfRecognitionChannelsUsed": "Используемое число каналов распознавания",
+      "protectionKeySerial": "Серийный номер ключа защиты",
+      "rebootComputingModule": "Перезагрузить вычислительный модуль",
+      "saveLocationComputingModule": "Сохранить месторасположение вычислительного модуля",
+      "saveNumberOfRecognitionChannels": "Сохранить используемое число каналов распознавания",
+      "serial": "Серийный номер",
+      "systemInfo": "Информация о системе",
+      "systemManagement": "Управление системой",
+      "totalDiskSpace": "Общий объем диска",
+      "totalRAM": "Оперативной памяти всего",
+      "version": "Версия",
+      "usageModes": {
+        "mobile": "Мобильный",
+        "static": "Стационарный",
+        "moved": "Передвижной"
+      },
+      "usageMode": "Режим использования",
+      "mountedPoint": "Точка монтирования",
+      "allPartitionsAreMounted": "Все разделы примонтированы",
+      "mobilePositions": {
+        "backward": "Назад",
+        "forward": "Вперёд"
+      },
+      "mobilePosition": "Обзор камеры"
+    },
+    "tabs": {
+      "cleanerSettings": "Настройки Cleaner",
+      "system": "Система",
+      "updateSoftware": "Обновление СПО"
+    },
+    "updateTab": {
+      "architecture": "Архитектура",
+      "chooseModuleArchive": "Выберите архив с модулями",
+      "installedModules": "Установленные модули",
+      "moduleArchiveUpload": "Загрузка архива с модулями",
+      "moduleVersion": "Версия модуля",
+      "osVersion": "Версия ОС",
+      "serialNumber": "№ п/п"
+    }
+  },
+  "usersPage": {
+    "addUser": "Добавить пользователя",
+    "addingNewUser": "Добавление нового пользователя",
+    "availablePagesList": "Список доступных страниц",
+    "changingListOfAvailableUserPages": "Изменение списка доступных страниц пользователя",
+    "changingUserPassword": "Изменение пароля пользователя",
+    "confirmDeleteUser": "Подтвердите удаление пользователя",
+    "confirmPassword": "Подтверждение*",
+    "locked": "Заблокирован",
+    "newPassword": "Новый пароль*",
+    "permissionsSaved": "Список доступных страниц пользователя сохранён",
+    "userAdded": "Пользователь {userLogin} успешно добавлен",
+    "userDeleted": "Пользователь {username} удалён",
+    "userIsLocked": "Пользователь {username} заблокирован",
+    "userIsUnlocked": "Пользователь {username} разблокирован",
+    "userPasswordChanged": "Пароль пользователя {userLogin} изменён",
+    "userSaved": "Пользователь {userLogin} сохранён",
+    "usersList": "Список пользователей",
+    "usersSaved": "Пользователи сохранены"
+  },
+  "validations": {
+    "confirmPassword": "Пароли не совпадают",
+    "integer": "Поле должно содержать только целые числа",
+    "ipAddress": "Введите корректный IP-адрес",
+    "maxLength": "Поле не должно превышать {max} символов",
+    "maxValue": "Число не может быть больше {max}",
+    "minLength": "Поле не должно быть меньше {min} символов",
+    "minSizeOfDirectory": "Мин. размер дериктории не может быть больше максимального",
+    "minValue": "Число не может быть меньше {min}",
+    "numeric": "Поле должно содержать только числа",
+    "required": "Поле обязательно для заполнения",
+    "uniqueHost": "Host должен быть уникальным",
+    "uniqueLogin": "Данный логин уже занят",
+    "alphaNum": "Значением могут быть только буквы (латиница) и цифры",
+    "imageFileName": "Имя файла может состоять только из латинских символов или цифр",
+    "uniqueFileName": "Данное имя файла уже занято",
+    "scheduleTime": "Введите корректное время (ЧЧ:ММ:СС)",
+    "uniqueScheduleName": "Данное имя расписания уже занято",
+    "dateTimeWithMilliseconds": "Введите корректную дату/время в формате YYYY-MM-DD HH:mm:ss.SSS",
+    "dateTime": "Введите корректную дату/время в формате DD-MM-YYYY HH:mm:ss",
+    "date": "Введите корректную дату в формате DD-MM-YYYY",
+    "uniqueDuploConverterInstance": "Данное имя экземпляра уже занято",
+    "uniqueValue": "Значение должно быть уникальным"
+  },
+  "videoArchivePage": {
+    "addImage": "Добавить изображение",
+    "downloadStillFrame": "Скачать стоп кадр",
+    "noImageSelected": "Изображение не выбрано",
+    "overlayImage": "Наложить изображение",
+    "videoSource": "Источник видео"
+  },
+  "searchPage": {
+    "edit": "Управление",
+    "monitor": "Отслеживание",
+    "searchType": "Тип розыска",
+    "downloadLog": "Скачать лог загрузки",
+    "dateOfProduction": "Дата постановки",
+    "lpnFilter": "Фильтр ГРЗ",
+    "amtsDeleteConfirm": "Вы действительно хотите удалить ТС ''{var}'' из розыска",
+    "pageTotalCount": "Страница {page} из {totalPages}",
+    "renameSearch": "Переименовать тип розыска",
+    "editVehicleList": "Редактировать список ТС",
+    "deleteVehicleList": "Удалить список ТС"
+  },
+  "videoSourcePage": {
+    "brightnessChangedToast": "Яркость изменена",
+    "cameraAddedToast": "Камера добавлена",
+    "cameraRemovedToast": "Камера удалена",
+    "cameraSavedToast": "Камера сохранена",
+    "genicamCameras": {
+      "addGenicam": "Добавление Genicam источника",
+      "brightness": "Яркость",
+      "brightnessControl": "Регулирование яркости",
+      "cameraOptions": "Параметры камеры",
+      "editGenicam": "Редактирование Genicam источника",
+      "excerpt": "Выдержка",
+      "fromLastFrame": "С последнего кадра, сек",
+      "gain": "Усиление",
+      "heaterError": "Ошибка нагревателя",
+      "heaterOn": "Нагреватель включен",
+      "horizontalOffset": "Смещение по горизонтали",
+      "hysteresis": "Гистерезис",
+      "irBpParameters": "Параметры ИК БП",
+      "irIlluminatorOn": "ИК осветитель включен",
+      "leftOffset": "Смещение слева",
+      "lensId": "ID объектива",
+      "maxGain": "Макс. усиление",
+      "maxHoldingTime": "Макс. время выдержки",
+      "powerSupply": "БП ИК осветителя",
+      "pulseDuration": "длительность импульса",
+      "removeConfirm": "Подтвердите удаление камеры: \"{name}\"",
+      "sensorSerialNumber": "Серийный номер ТВ датчика",
+      "timeStampCorrection": "Поправка метки времени",
+      "title": "Genicam ТВ датчики",
+      "topOffset": "Смещение сверху",
+      "verticalOffset": "Смещение по вертикали",
+      "videoInput": "Вход видео",
+      "lens": "Объектив",
+      "turnOnHoodHeater": "Включить обогреватель бленды",
+      "turnOffHoodHeater": "Выключить обогреватель бленды",
+      "hoodHeaterIsTurnedOnForSec": "Обогреватель бленды включен на {timeout} сек",
+      "hoodHeaterIsTurnedOff": "Обогреватель бленды выключен",
+      "irIlluminator": "ИК осветитель",
+      "irCutFilterMode": "Режим работы ИК фильтра",
+      "irFilterControlIsOff": "Управление ИК фильтром выключено",
+      "dayMode": "Режим \"день\"",
+      "nightMode": "Режим \"ночь\"",
+      "automaticallyByIlluminationMode": "Автоматически по освещенности",
+      "irCutFilterIlluminationThreshold": "Порог переключения",
+      "irCutFilterIlluminationHysteresis": "Гистерезис переключения",
+      "irCutFilterIlluminationTimeConstant": "Время переключения",
+      "automaticallyBySunriseAndSunsetTime": "Автоматически по времени восхода и заката",
+      "offsetFromSunrise": "Смещение от восхода",
+      "offsetFromSunset": "Смещение от заката"
+    },
+    "pulseDurationChangedToast": "Длительность импульса для канала {channel} изменена",
+    "rtspCameraSavedToast": "RTSP сервер сохранён",
+    "rtspClientAddedToast": "RTSP клиент добавлен",
+    "rtspClientDeletedToast": "RTSP клиент {name} удалён",
+    "rtspClientSavedToast": "RTSP клиент сохранён",
+    "rtspClients": {
+      "cameraButtonTitle": "Показать все стоп-кадры",
+      "fromLastUpdate": "С посл. обновления, сек",
+      "packagesAccepted": "Пакетов принято",
+      "portOfUnpacker": "UDP порт распаковщика",
+      "ptzProtocol": "PTZ протокол",
+      "removeConfirm": "Подтвердите удаление RTSP клиента: \"{name}\"",
+      "rtspClientAdd": "Добавление нового RTSP клиента",
+      "rtspClientEdit": "Редактирование RTSP клиента: \"{name}\"",
+      "sourceTemplate": "Шаблон источника",
+      "synchronizeStream": "Синхронизировать поток по часам ВМ",
+      "timeDeviation": "Отклонение времени, сек",
+      "title": "RTSP клиенты | RTSP клиент",
+      "unpackStream": "Распаковывать поток для обработки",
+      "videoInputNumber": "№ свободного видеовхода для распаковки",
+      "viewStillImage": "Просмотр стоп кадра | Просмотр всех стоп кадров"
+    },
+    "rtspOverWebsocket": "RTSP через Websocket",
+    "rtspServerAddedToast": "RTSP сервер добавлен",
+    "rtspServerDeletedToast": "RTSP сервер {name} удалён",
+    "rtspServers": {
+      "addServer": "Добавление нового RTSP сервера",
+      "editServer": "Редактирование RTSP сервера: \"{name}\"",
+      "gamma": "Гамма",
+      "maxGamma": "Макс. гамма",
+      "minGamma": "Мин. гамма",
+      "pedestrianDetector": "Детектор пешеходов",
+      "removeConfirm": "Подтвердите удаление RTSP сервера: \"{name}\"",
+      "sample": "Шаблон",
+      "streamName": "Имя потока",
+      "title": "RTSP серверы"
+    },
+    "synchronizationChangedToast": "Синхронизация изменена",
+    "rise": "Фронт",
+    "fall": "Спад"
+  },
+  "violationTypes": {
+    "all": "Все типы",
+    "enforcementTypes": {
+      "inAPopulatedAreaOutsideTheSignsCoverageArea": "В населённом пункте, вне зоны действия знака",
+      "inAPopulatedAreaWithinTheSignsCoverageArea": "В населённом пункте, в зоне действия знака",
+      "inAResidentialArea": "В жилой зоне",
+      "outsideThePopulatedAreaOutsideTheSignsCoverageArea": "Вне населённого пункта, вне зоны действия знака",
+      "outsideThePopulatedAreaWithinTheSignsCoverageArea": "Вне населённого пункта, в зоне действия знака",
+      "routeVehicleLane": "Полоса МТС"
+    },
+    "list": {
+      "0": {
+        "article": "12.12 ч. 1",
+        "display_name": "Красный",
+        "gost_name": "C12 Проезд на запрещающий сигнал светофора"
+      },
+      "1": {
+        "article": "12.9 ч. 1",
+        "display_name": "Превышение скорости",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "2": {
+        "article": "12.9 ч. 2",
+        "display_name": "Скорость 21-40",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "3": {
+        "article": "12.9 ч. 3",
+        "display_name": "Скорость 41-60",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "4": {
+        "article": "12.9 ч. 4",
+        "display_name": "Скорость 61-80",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "5": {
+        "article": "12.16 ч. 1",
+        "display_name": "Время стоянки",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "6": {
+        "article": "",
+        "display_name": "Трамвайные Пути",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "7": {
+        "article": "12.17 ч. 1.1",
+        "display_name": "Автобусная полоса",
+        "gost_name": "C6 Движение по полосе для маршрутных транспортных средств"
+      },
+      "9": {
+        "article": "12.16 ч. 4",
+        "display_name": "Остановка",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "10": {
+        "article": "12.12 ч. 2",
+        "display_name": "Стоп-линия",
+        "gost_name": "C13 Выезд на запрещающий сигнал светофора за стоп-линию"
+      },
+      "11": {
+        "article": "12.16 ч. 1",
+        "display_name": "Движение по полосам (знак 5.15.2)",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "12": {
+        "article": "12.14 ч. 1.1",
+        "display_name": "Положение на ПЧ",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "13": {
+        "article": "12.16 ч. 1",
+        "display_name": "Движение по полосам (знак 5.15.1)",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "14": {
+        "article": "12.19 ч. 1",
+        "display_name": "Остановка общая",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "15": {
+        "article": "12.19 ч. 2",
+        "display_name": "Стоянка инвалидов",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "16": {
+        "article": "12.19 ч. 3",
+        "display_name": "Остановка на ПП",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "17": {
+        "article": "12.19 ч. 3",
+        "display_name": "Остановка на тротуаре",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "18": {
+        "article": "12.19 ч. 3.1",
+        "display_name": "Остановка на остановке",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "19": {
+        "article": "12.19 ч. 3.2",
+        "display_name": "Остановка на ТП",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "20": {
+        "article": "12.19 ч. 3.2",
+        "display_name": "Остановка во 2 ряду",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "21": {
+        "article": "12.19 ч. 1",
+        "display_name": "Остановка",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "22": {
+        "article": "12.18",
+        "display_name": "Не предоставление преимущества пешеходу",
+        "gost_name": "C15 Невыполнение требования Правил дорожного движения уступить дорогу пешеходам"
+      },
+      "23": {
+        "article": "12.16 ч. 2",
+        "display_name": "Поворот налево",
+        "gost_name": "C10 Поворот налево в нарушении требований знаков или разметки"
+      },
+      "24": {
+        "article": "12.10 ч. 1",
+        "display_name": "Проезд ЖД переезда на запрещающий сигнал",
+        "gost_name": "C12 Проезд на запрещающий сигнал светофора"
+      },
+      "25": {
+        "article": "12.10 ч. 2",
+        "display_name": "ЖД переезд стоп-линия",
+        "gost_name": "C13 Выезд на запрещающий сигнал светофора за стоп-линию"
+      },
+      "26": {
+        "article": "12.15.ч. 4",
+        "display_name": "Объезд на ЖД переезде",
+        "gost_name": "C7 Выезд в нарушение Правил дорожного движения на полосу встречного движения"
+      },
+      "27": {
+        "article": "12.10 ч. 1",
+        "display_name": "Остановка на ЖД переезде",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "28": {
+        "article": "12.17 ч. 1.1",
+        "display_name": "Остановка на полосе для МТС",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "29": {
+        "article": "12.16 ч. 4",
+        "display_name": "Стоянка 3.28",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "30": {
+        "article": "",
+        "display_name": "Стоянка на перекрестке",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "31": {
+        "article": "",
+        "display_name": "Вдоль тротуара",
+        "gost_name": "C4 Движение по тротуарам, пешеходным, велосипедным и велопешеходным дорожкам, полосам для велосипедистов"
+      },
+      "32": {
+        "article": "",
+        "display_name": "Парковка непаралл. ПЧ",
+        "gost_name": "C2 Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "33": {
+        "article": "",
+        "display_name": "Односторонняя дорога",
+        "gost_name": "C9 Движение во встречном направлении по дороге с односторонним движением"
+      },
+      "34": {
+        "article": "12.15.ч. 4",
+        "display_name": "Встречка (Две полосы в каждом направлении)",
+        "gost_name": "C7 Выезд в нарушение Правил дорожного движения на полосу встречного движения"
+      },
+      "35": {
+        "article": "",
+        "display_name": "Под углом передом",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "36": {
+        "article": "12.16 ч. 3",
+        "display_name": "Встречка одностороннее движение",
+        "gost_name": "C9 Движение во встречном направлении по дороге с односторонним движением"
+      },
+      "37": {
+        "article": "12.15 ч. 4",
+        "display_name": "Встречка (Знак обгон запрещён)",
+        "gost_name": "C7 Выезд в нарушение Правил дорожного движения на полосу встречного движения"
+      },
+      "38": {
+        "article": "",
+        "display_name": "Вдоль с част. заезд.",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "39": {
+        "article": "",
+        "display_name": "На тротуаре вдоль",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "40": {
+        "article": "",
+        "display_name": "Под углом задом",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "41": {
+        "article": "",
+        "display_name": "С частичным задом",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "42": {
+        "article": "",
+        "display_name": "С частичным передом",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "43": {
+        "article": "",
+        "display_name": "На трот. углом перед",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "44": {
+        "article": "",
+        "display_name": "На трот. углом задом",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "45": {
+        "article": "",
+        "display_name": "Движение запрещено",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "46": {
+        "article": "12.12 ч. 1",
+        "display_name": "Движение по реверсивной полосе в запрещенном направлении",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "47": {
+        "article": "12.15.ч. 1",
+        "display_name": "Движение по трамвайным путям попутного направления",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "48": {
+        "article": "12.15.ч. 1",
+        "display_name": "Поворот налево с трамвайных путей",
+        "gost_name": "C10 Поворот налево в нарушении требований знаков или разметки"
+      },
+      "49": {
+        "article": "12.15.ч. 4",
+        "display_name": "Движение по трамвайным путям встречного направления",
+        "gost_name": "C8 Выезд на трамвайные пути встречного направления"
+      },
+      "51": {
+        "article": "12.9 ч. 1",
+        "display_name": "Скорость 11-20 в жилой зоне",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "52": {
+        "article": "12.9 ч. 2",
+        "display_name": "Скорость 21-40 в жилой зоне",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "53": {
+        "article": "12.9 ч. 3",
+        "display_name": "Скорость 41-60 в жилой зоне",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "54": {
+        "article": "12.9 ч. 4",
+        "display_name": "Скорость 61-80 в жилой зоне",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "55": {
+        "article": "12.9 ч. 5",
+        "display_name": "Скорость 61-80 в жилой зоне",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "56": {
+        "article": "12.9 ч. 6",
+        "display_name": "Скр. повтор ч.3 в жилой зоне",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "57": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скр. повтор ч.4 в жилой зоне",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "58": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скр. повтор ч.5 в жилой зоне",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "61": {
+        "article": "12.10 ч.1",
+        "display_name": "Красный ЖД (повтор)",
+        "gost_name": "C12 Проезд на запрещающий сигнал светофора"
+      },
+      "62": {
+        "article": "12.15 ч.4",
+        "display_name": "ЖД выезд на встречку",
+        "gost_name": "C7 Выезд в нарушение Правил дорожного движения на полосу встречного движения"
+      },
+      "63": {
+        "article": "12.15. ч.1",
+        "display_name": "Движение по обочине",
+        "gost_name": "C3 Движение по обочине"
+      },
+      "64": {
+        "article": "12.20",
+        "display_name": "Нарушение правил пользования внешними световыми приборами, звуковыми сигналами, аварийной сигнализацией или знаком аварийной остановки",
+        "gost_name": "C5 Нарушение правил пользования внешними световыми приборами"
+      },
+      "65": {
+        "article": "12.16 ч. 1",
+        "display_name": "Поворот направо",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "66": {
+        "article": "12.16 ч. 1",
+        "display_name": "Движение прямо",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "67": {
+        "article": "12.16 ч. 2",
+        "display_name": "Разворот запрещен",
+        "gost_name": "C10 Разворот, поворот налево, движение задним ходом в местах, где такие маневры запрещены"
+      },
+      "68": {
+        "article": "12.16 ч. 2",
+        "display_name": "Разворот под знак движение прямо знак 5.15",
+        "gost_name": "C10 Разворот, поворот налево, движение задним ходом в местах, где такие маневры запрещены"
+      },
+      "69": {
+        "article": "12.14 ч. 1.1",
+        "display_name": "Положение на ПЧ (поворот направо)",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "70": {
+        "article": "12.14 ч. 1.1",
+        "display_name": "Положение на ПЧ (разворот)",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "71": {
+        "article": "12.16 ч. 1",
+        "display_name": "Перестроение в нарушение разметки 1.1",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "72": {
+        "article": "12.16 ч. 1",
+        "display_name": "Нарушение знака 3.18.1 \"Поворот направо запрещен\"",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "73": {
+        "article": "12.16 ч. 2",
+        "display_name": "Нарушение знака 3.18.2 \"Поворот налево запрещен\"",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "74": {
+        "article": "12.16 ч.6",
+        "display_name": "Движение грузовикам запрещено",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "75": {
+        "article": "12.16 ч.1",
+        "display_name": "Движение прямо знак 5.15.1",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "76": {
+        "article": "12.19 ч.1",
+        "display_name": "Нарушение способа постановки на стоянку (знак 6,4 с табл. 8.6.1-8.6.9)",
+        "gost_name": "C2. Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "87": {
+        "article": "12.15 ч.2",
+        "display_name": "Движение по тротуару",
+        "gost_name": "С4 ГОСТ Р57144-2016 Движение по тротуарам, пешеходным, велосипедным и велопешеходным дорожкам, полосам для велосипедистов"
+      },
+      "88": {
+        "article": "12.15 ч.2",
+        "display_name": "Движение по пешеходной зоне",
+        "gost_name": "С4 ГОСТ Р57144-2016 Движение по тротуарам, пешеходным, велосипедным и велопешеходным дорожкам, полосам для велосипедистов"
+      },
+      "89": {
+        "article": "12.15 ч.2",
+        "display_name": "Движение по велосипедной дорожке",
+        "gost_name": "С4 ГОСТ Р57144-2016 Движение по тротуарам, пешеходным, велосипедным и велопешеходным дорожкам, полосам для велосипедистов"
+      },
+      "90": {
+        "article": "12.15 ч.2",
+        "display_name": "Движение по пешеходной дорожке",
+        "gost_name": "С4 ГОСТ Р57144-2016 Движение по тротуарам, пешеходным, велосипедным и велопешеходным дорожкам, полосам для велосипедистов"
+      },
+      "91": {
+        "article": "12.37 ч. 2",
+        "display_name": "Отсутствие полиса ОСАГО",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС Неисполнение владельцем ТС ФЗ об ОСАГО"
+      },
+      "92": {
+        "article": "12.16 ч. 1",
+        "display_name": "Минимальная скорость",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "93": {
+        "article": "12.16 ч. 1",
+        "display_name": "Нарушение требований знака 2.5",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "94": {
+        "article": "12.11 ч. 2",
+        "display_name": "Положение на ПЧ, свыше 3.5т",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "95": {
+        "article": "12.16.ч.1",
+        "display_name": "Нарушение требований знака 3.16",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "96": {
+        "article": "",
+        "display_name": "Движение ТС более 2,5 т. в левой полосе",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "97": {
+        "article": "12.12 ч. 2",
+        "display_name": "Стоп-линия (знак 6.16)",
+        "gost_name": "C13 Выезд на запрещающий сигнал светофора за стоп-линию"
+      },
+      "98": {
+        "article": "12.16 ч.1",
+        "display_name": "Перестроение в нарушение разметки 1.16.1 – 1.16.3",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "99": {
+        "article": "12.16 ч.1",
+        "display_name": "Поворот налево в нарушение требований, предписанных дорожной разметкой",
+        "gost_name": "C11. Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "101": {
+        "article": "12.9 ч. 1",
+        "display_name": "Превышение скорости",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "102": {
+        "article": "12.9 ч. 2",
+        "display_name": "Скорость 21-40 тр",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "103": {
+        "article": "12.9 ч. 3",
+        "display_name": "Скорость 41-60 тр",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "104": {
+        "article": "12.9 ч. 4",
+        "display_name": "Скорость 61-80 тр",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "105": {
+        "article": "12.9 ч. 1",
+        "display_name": "Скорость 11-20 зн",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "106": {
+        "article": "12.9 ч. 2",
+        "display_name": "Скорость 21-40 зн",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "107": {
+        "article": "12.9 ч. 3",
+        "display_name": "Скорость 41-60 зн",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "108": {
+        "article": "12.9 ч. 4",
+        "display_name": "Скорость 61-80 зн",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "109": {
+        "article": "12.9 ч. 1",
+        "display_name": "Скорость 11-20 зз",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "110": {
+        "article": "12.9 ч. 2",
+        "display_name": "Скорость 21-40 зз",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "111": {
+        "article": "12.9 ч. 3",
+        "display_name": "Скорость 41-60 зз",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "112": {
+        "article": "12.9 ч. 4",
+        "display_name": "Скорость 61-80 зз",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "113": {
+        "article": "12.9 ч. 5",
+        "display_name": "Скорость свыше 80",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "114": {
+        "article": "12.9 ч. 5",
+        "display_name": "Скорость свыше 80 тр",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "115": {
+        "article": "12.9 ч. 5",
+        "display_name": "Скорость свыше 80 зн",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "116": {
+        "article": "12.9 ч. 5",
+        "display_name": "Скорость свыше 80 зз",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "117": {
+        "article": "12.9 ч. 6",
+        "display_name": "Скорость повтор ч.3",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "118": {
+        "article": "12.9 ч. 6",
+        "display_name": "Скр. повтор ч.3 тр",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "119": {
+        "article": "12.9 ч. 6",
+        "display_name": "Скр. повтор ч.3 зн",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "120": {
+        "article": "12.9 ч. 6",
+        "display_name": "Скр. повтор ч.3 зз",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "121": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скр. повтор ч.4",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "122": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скр. повтор ч.4 тр",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "123": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скр. повтор ч.4 зн",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "124": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скр. повтор ч.4 зз",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "125": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скр. повтор ч.5",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "126": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скр. повтор ч.5 тр",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "127": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скр. повтор ч.5 зн",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "128": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скр. повтор ч.5 зз",
+        "gost_name": "C1.1 Нарушение установленного скоростного режима"
+      },
+      "130": {
+        "article": "12.12 ч. 3",
+        "display_name": "Красный повтор",
+        "gost_name": "C12 Проезд на запрещающий сигнал светофора"
+      },
+      "131": {
+        "article": "12.13 ч.1",
+        "display_name": "Занятый перекресток",
+        "gost_name": "C14 Выезд на перекресток или пересечение проезжей части дороги\nв случае возникновения затора"
+      },
+      "132": {
+        "article": "12.28 ч. 1",
+        "display_name": "Нарушение в жилой зоне (кроме скорости)",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "194": {
+        "article": "12.16 ч.1",
+        "display_name": "Движение такси под \"кирпич\" по полосе движения",
+        "gost_name": "C11. Движение такси по полосе, предназначенной для маршрутных ТС, под знак 3.1"
+      },
+      "195": {
+        "article": "12.16 ч.1",
+        "display_name": "Движение под \"кирпич\" по полосе движения",
+        "gost_name": "C11. Движение по полосе, предназначенной для маршрутных ТС, под знак 3.1"
+      },
+      "196": {
+        "article": "12.16 ч.1",
+        "display_name": "Движение под \"кирпич\" грузовикам с МРМ",
+        "gost_name": "C11. Ограничения максимальной разрешенной массы (знак 3.1)"
+      },
+      "197": {
+        "article": "12.20",
+        "display_name": "Нарушение правил пользования внешними световыми приборами, звуковыми сигналами, аварийной сигнализацией или знаком аварийной остановки",
+        "gost_name": "C5. Нарушение правил пользования внешними световыми приборами"
+      },
+      "198": {
+        "article": "12.28 ч. 1",
+        "display_name": "Движение под \"кирпич\" в попутном направлении)",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "199": {
+        "article": "12.16 ч. 1",
+        "display_name": "Движение под \"кирпич\" в попутном направлении (кроме такси)",
+        "gost_name": "C11 Нарушение требований дорожных знаков и дорожной разметки"
+      },
+      "201": {
+        "article": "12.9 ч. 1",
+        "display_name": "Превышение скорости",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "202": {
+        "article": "12.9 ч. 2",
+        "display_name": "Скорость на участке город, без знака 21-40",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "203": {
+        "article": "12.9 ч. 3",
+        "display_name": "Скорость на участке город, без знака 41-60",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "204": {
+        "article": "12.9 ч. 4",
+        "display_name": "Скорость на участке город, без знака 61-80",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "205": {
+        "article": "12.9 ч. 5",
+        "display_name": "Скорость на участке город, без знака 80-…",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "211": {
+        "article": "12.9 ч. 1",
+        "display_name": "Скорость на участке загород, без знака 11-20",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "212": {
+        "article": "12.9 ч. 2",
+        "display_name": "Скорость на участке загород, без знака 21-40",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "213": {
+        "article": "12.9 ч. 3",
+        "display_name": "Скорость на участке загород, без знака 41-60",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "214": {
+        "article": "12.9 ч. 4",
+        "display_name": "Скорость на участке загород, без знака 61-80",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "215": {
+        "article": "12.9 ч. 5",
+        "display_name": "Скорость на участке загород, без знака 80-…",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "221": {
+        "article": "12.9 ч. 1",
+        "display_name": "Скорость на участке город, со знаком 11-20",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "222": {
+        "article": "12.9 ч. 2",
+        "display_name": "Скорость на участке город, со знаком 21-40",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "223": {
+        "article": "12.9 ч. 3",
+        "display_name": "Скорость на участке город, со знаком 41-60",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "224": {
+        "article": "12.9 ч. 4",
+        "display_name": "Скорость на участке город, со знаком 61-80",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "225": {
+        "article": "12.9 ч. 5",
+        "display_name": "Скорость на участке город, со знаком 80-…",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "231": {
+        "article": "12.9 ч. 1",
+        "display_name": "Скорость на участке загород, со знаком 11-20",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "232": {
+        "article": "12.9 ч. 2",
+        "display_name": "Скорость на участке загород, со знаком 21-40",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "233": {
+        "article": "12.9 ч. 3",
+        "display_name": "Скорость на участке загород, со знаком 41-60",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "234": {
+        "article": "12.9 ч. 4",
+        "display_name": "Скорость на участке загород, со знаком 61-80",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "235": {
+        "article": "12.9 ч. 5",
+        "display_name": "Скорость на участке загород, со знаком 80-…",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "236": {
+        "article": "12.9 ч. 6",
+        "display_name": "Скорость на участке повтор ч.3, город, без знака",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "237": {
+        "article": "12.9 ч. 6",
+        "display_name": "Скорость на участке повтор ч.3, загород, без знака",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "238": {
+        "article": "12.9 ч. 6",
+        "display_name": "Скорость на участке повтор ч.3, город, со знаком",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "239": {
+        "article": "12.9 ч. 6",
+        "display_name": "Скорость на участке повтор ч.3, загород, со знаком",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "240": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скорость на участке повтор ч.4, город, без знака",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "241": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скорость на участке повтор ч.4, загород, без знака",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "242": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скорость на участке повтор ч.4, город, со знаком",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "243": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скорость на участке повтор ч.4, загород, со знаком",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "244": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скорость на участке повтор ч.5, город, без знака",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "245": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скорость на участке повтор ч.5, загород, без знака",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "246": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скорость на участке повтор ч.5, город, со знаком",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "247": {
+        "article": "12.9 ч. 7",
+        "display_name": "Скорость на участке повтор ч.5, загород, со знаком",
+        "gost_name": "C1.2 Нарушение установленного скоростного режима"
+      },
+      "301": {
+        "article": "12.21.1 ч.1",
+        "display_name": "Превышение нагрузки на ось, более 2%, не более 10% (без разрешения)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "302": {
+        "article": "12.21.1 ч.1",
+        "display_name": "Превышение нагрузки на ось, более 2%, не более 10% (разрешение выдано)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "303": {
+        "article": "12.21.1 ч.2",
+        "display_name": "Превышение нагрузки на ось, не более 20% (без разрешения)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "304": {
+        "article": "12.21.1 ч.4",
+        "display_name": "Превышение нагрузки на ось, не более 20% (разрешение выдано)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "305": {
+        "article": "12.21.1 ч.3",
+        "display_name": "Превышение нагрузки на ось, не более 50% (без разрешения)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "306": {
+        "article": "12.21.1 ч.5",
+        "display_name": "Превышение нагрузки на ось, не более 50% (разрешение выдано)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "307": {
+        "article": "12.21.1 ч.6",
+        "display_name": "Превышение нагрузки на ось, более 50% (без разрешения)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "308": {
+        "article": "12.21.1 ч.6",
+        "display_name": "Превышение нагрузки на ось, более 50% (разрешение выдано)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "309": {
+        "article": "12.21.1 ч.1",
+        "display_name": "Превышение допустимой массы ТС, более 2%, не более 10% (без разрешения)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "310": {
+        "article": "12.21.1 ч.1",
+        "display_name": "Превышение допустимой массы ТС, более 2%, не более 10% (разрешение выдано)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "311": {
+        "article": "12.21.1 ч.2",
+        "display_name": "Превышение допустимой массы ТС, не более 20% (без разрешения)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "312": {
+        "article": "12.21.1 ч.4",
+        "display_name": "Превышение допустимой массы ТС, не более 20% (разрешение выдано)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "313": {
+        "article": "12.21.1 ч.3",
+        "display_name": "Превышение допустимой массы ТС, не более 50% (без разрешения)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "314": {
+        "article": "12.21.1 ч.5",
+        "display_name": "Превышение допустимой массы ТС, не более 50% (разрешение выдано)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "315": {
+        "article": "12.21.1 ч.6",
+        "display_name": "Превышение допустимой массы ТС, более 50% (без разрешения)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "316": {
+        "article": "12.21.1 ч.6",
+        "display_name": "Превышение допустимой массы ТС, более 50% (разрешение выдано)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "317": {
+        "article": "12.21.1 ч.1",
+        "display_name": "Превышение допустимых габаритов ТС, не более 10 см (без разрешения)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "318": {
+        "article": "12.21.1 ч.1",
+        "display_name": "Превышение допустимых габаритов ТС, не более 10 см (разрешение выдано)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "319": {
+        "article": "12.21.1 ч.2",
+        "display_name": "Превышение допустимых габаритов ТС, не более 20 см (без разрешения)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "320": {
+        "article": "12.21.1 ч.4",
+        "display_name": "Превышение допустимых габаритов ТС, не более 20 см (разрешение выдано)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "321": {
+        "article": "12.21.1 ч.3",
+        "display_name": "Превышение допустимых габаритов ТС, не более 50 см (без разрешения)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "322": {
+        "article": "12.21.1 ч.5",
+        "display_name": "Превышение допустимых габаритов ТС, не более 50 см (разрешение выдано)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "323": {
+        "article": "12.21.1 ч.6",
+        "display_name": "Превышение допустимых габаритов ТС, более 50 см (без разрешения)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "324": {
+        "article": "12.21.1 ч.6",
+        "display_name": "Превышение допустимых габаритов ТС, более 50 см (разрешение выдано)",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "325": {
+        "article": "12.21.1 ч. 1",
+        "display_name": "Перегруз на группу осей ч.1 бр",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "326": {
+        "article": "12.21.1 ч. 1",
+        "display_name": "Перегруз на группу осей ч.1 рв",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "327": {
+        "article": "12.21.1 ч. 2",
+        "display_name": "Перегруз на группу осей ч.2 бр",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "328": {
+        "article": "12.21.1 ч. 4",
+        "display_name": "Перегруз на группу осей ч.4 рв",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "329": {
+        "article": "12.21.1 ч. 3",
+        "display_name": "Перегруз на группу осей ч.3 бр",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "330": {
+        "article": "12.21.1 ч. 5",
+        "display_name": "Перегруз на группу осей ч.5 рв",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "331": {
+        "article": "12.21.1 ч. 6",
+        "display_name": "Перегруз на группу осей ч.6 бр",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "332": {
+        "article": "12.21.1 ч. 6",
+        "display_name": "Перегруз на группу осей ч.6 рв",
+        "gost_name": "C16 Нарушение правил движения тяжеловестного ТС"
+      },
+      "333": {
+        "article": "",
+        "display_name": "Загрязнение территории",
+        "gost_name": "C16. Загрязнение территории"
+      },
+      "996": {
+        "article": "12.6",
+        "display_name": "Нарушение правил применения мотошлемов",
+        "gost_name": "C16. Нарушение правил применения мотошлемов"
+      },
+      "997": {
+        "article": "12.36.1",
+        "display_name": "Нарушение правил пользования телефоном водителем транспортного средства",
+        "gost_name": "C16 Нарушение правил пользования телефоном водителем транспортного средства"
+      },
+      "998": {
+        "article": "12.6",
+        "display_name": "Нарушение правил применения ремней безопасности или мотошлемов пассажиром",
+        "gost_name": "C16. Нарушение правил применения ремней безопасности или мотошлемов пассажиром"
+      },
+      "999": {
+        "article": "12.6",
+        "display_name": "Нарушение правил применения ремней безопасности или мотошлемов",
+        "gost_name": "C16 Нарушение правил применения ремней безопасности"
+      }
+    },
+    "stope_line": "Стоп-линия",
+    "unknown": "Неизвестный тип нарушения",
+    "Встречная": "Встречная",
+    "Движение грузовикам запрещено": "Движение грузовикам запрещено",
+    "Движение запрещено": "Движение запрещено",
+    "Загрязнение территории": "Загрязнение территории",
+    "Занятый перекрёсток": "Занятый перекрёсток",
+    "Знак STOP": "Знак STOP",
+    "Красный": "Красный",
+    "Манёвр": "Манёвр",
+    "Минимальная дистанция": "Минимальная дистанция",
+    "Минимальная скорость": "Минимальная скорость",
+    "Обочина": "Обочина",
+    "Остановка": "Остановка",
+    "Пешеходы": "Пешеходы",
+    "Положение на ПЧ, свыше 3,5 т": "Положение на ПЧ, свыше 3.5 т",
+    "Полоса МТС": "Полоса МТС",
+    "Ремень": "Ремень",
+    "Скорость": "Скорость",
+    "Сплошная разметка 1,1": "Сплошная разметка 1.1",
+    "Средняя скорость": "Средняя скорость",
+    "Телефон": "Телефон",
+    "Трамвайные пути": "Трамвайные пути",
+    "Фары": "Фары"
+  },
+  "violationsPage": {
+    "downloadMaterial": "Скачать материал",
+    "imgxFileNames": {
+      "Видеоролик нарушения": "Видеоролик нарушения",
+      "Детальное фото въезд в зону контроля": "Детальное фото въезд в зону контроля",
+      "Детальное фото выезд из зоны контроля": "Детальное фото выезд из зоны контроля",
+      "Детальное фото движение в зоне контроля": "Детальное фото движение в зоне контроля",
+      "Изображение лобового стекла ТС": "Изображение лобового стекла ТС",
+      "Нарушение": "Нарушение",
+      "Нарушение (коллаж)": "Нарушение (коллаж)",
+      "Нарушение коллаж для постановления": "Нарушение коллаж для постановления",
+      "Обзорное фото Въезд в зону фиксации": "Обзорное фото Въезд в зону фиксации",
+      "Обзорное фото Выезд из зоны фиксации": "Обзорное фото Выезд из зоны фиксации",
+      "Пластина ГРЗ": "Пластина ГРЗ",
+      "Проезд": "Проезд",
+      "Проезд с нарушением": "Проезд с нарушением",
+      "Просто картинка": "Просто картинка",
+      "Фото лобового стекла крупным планом (с демаскированным лицом)": "Фото лобового стекла крупным планом (с демаскированным лицом)",
+      "В населённом пункте, вне зоны действий знака": "В населённом пункте, вне зоны действий знака"
+    },
+    "photoVideoViolationMaterials": "Фото/видео материалы нарушения",
+    "unknownArticle": "Неизвестная статья",
+    "violationPlace": "Место нарушения",
+    "violationStatuses": {
+      "all": "Все статусы",
+      "fixed": "Зафиксировано",
+      "materialIsFormed": "Материал сформирован"
+    },
+    "showTraceback": "Показать traceback",
+    "violationTime": "Время нарушения",
+    "numberOfViolationsByFilter": "Количество нарушений по фильтру"
+  },
+  "zonesConnect": {
+    "checkImage": "Проверка изображения",
+    "lane": "Полоса движения",
+    "getImage": "Получить изображение"
+  },
+  "garbage": {
+    "lpnFileUrl": "URL файла со списком ГРЗ",
+    "checkPeriod": "Период опроса"
+  },
+  "roadScreen": {
+    "currentState": "Текущее состояние",
+    "lastInvokedTemplate": "Последний вызванный шаблон",
+    "actionLog": "Журнал действий",
+    "templateParameters": "Параметры шаблона",
+    "controller": "Контроллер | Контроллеры",
+    "horizontalAlignment": "Горизонтальное выравнивание",
+    "verticalAlignment": "Вертикальное выравнивание",
+    "digital": "Цифровые",
+    "dial": "Циферблат",
+    "clockType": "Тип часов",
+    "titleAndVisibility": "Наименование/видимость",
+    "weekDayType": "Тип дней недели",
+    "program": "Программа | Программы",
+    "playDuration": "Время воспроизведения",
+    "templateSaved": "Шаблон {templateName} сохранён",
+    "currentTemplate": "Текущий шаблон",
+    "templateInvoke": "Вызов шаблона",
+    "runOnScreen": "Запустить на табло",
+    "templateIsRunning": "Шаблон {templateName} запущен",
+    "newTemplate": "Новый шаблон",
+    "templateDeleted": "Шаблон {templateName} удалён",
+    "screenWidth": "Ширина экрана",
+    "screenHeight": "Высота экрана",
+    "appVersion": "Версия приложения",
+    "fpgaVersion": "Версия fpga",
+    "kernelVersion": "Версия ядра",
+    "selfTest": "Самотестирование",
+    "controllerSaved": "Контроллер {controllerName} сохранён",
+    "selfTestCompleted": "Самотестирование завершено",
+    "newController": "Новый контроллер",
+    "defaultTemplate": "Шаблон по умолчанию",
+    "timeout": "Таймаут запуска шаблона по умолчанию",
+    "recordId": "ID записи",
+    "changingControllerIDSettings": "Изменение настроек ID контроллера",
+    "changingTemplate": "Изменение шаблона",
+    "changingSettings": "Изменение настроек",
+    "launchSelfTest": "Запуск самотестирования",
+    "photoFromLastCall": "Фото с последнего вызова шаблона",
+    "newText": "Новый текст",
+    "newImage": "Новое изображение"
+  },
+  "bugReport": {
+    "triggerLabel": "Сообщить об ошибке",
+    "formTitle": "Форма сообщения",
+    "addScreenshot": "Добавить скриншот",
+    "removeScreenshot": "Убрать скриншот",
+    "submit": "Отправить",
+    "messageLabel": "Описание",
+    "messagePlaceholder": "Опишите ошибку как можно подробнее",
+    "successMessageText": "Спасибо вам за отправку отчёта об ошибке!"
+  },
+  "radarPage": {
+    "tracks": "Треки",
+    "scaleReset": "Сбросить масштаб к стандартным значениям"
+  },
+  "settingsResetPage": {
+    "settingsReset": "Сброс настроек",
+    "alert": "Данная страница предназначена для сброса настроек КИПТ. Подумайте ещё раз, перед тем как сбрасывать настройки. Процесс необратим!",
+    "settingsHaveBeenReset": "Настройки сброшены. КИПТ отправлен на перезагрузку",
+    "resetNetwork": "Сбросить сетевые настройки",
+    "enterFullSerialNumber": "Что бы сбросить настройки введите полный серийный номер комплекса ({serialNumber})"
+  }
+}
