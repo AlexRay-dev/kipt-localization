@@ -10,7 +10,9 @@
       "direction": "Кыймыл багыты",
       "brand": "Маркасы",
       "model": "Модели",
-      "car_class": "ТК категориясы"
+      "car_class": "ТК категориясы",
+      "additional_data": {
+      }
     },
     "downloadFormat": "Чыгаруунун форматы",
     "payloads": {
@@ -698,7 +700,9 @@
       "ZMB": "Замбия",
       "ZWE": "Зимбабве"
     },
-    "currentTime": "Учурдагы убакыт"
+    "currentTime": "Учурдагы убакыт",
+    "dateTimePresets": {
+    }
   },
   "configEditor": {
     "fileSaved": "Файл сакталган\n«Система» өтмөгүндө жөндөөлөрдү  сактоону унутпаңыз"
@@ -2715,5 +2719,7 @@
   "radarPage": {
     "tracks": "Трэктер",
     "scaleReset": "Масштабды стандарттуу маанилерге кайра алып келүү"
+  },
+  "settingsResetPage": {
   }
 }
