@@ -10,7 +10,12 @@
       "direction": "Harakat yo'nalishi",
       "brand": "Markasi",
       "model": "Modeli",
-      "car_class": "TV turi"
+      "car_class": "TV turi",
+      "channel_id": "Yo‘lak №",
+      "additional_data": {
+        "two_lines": "Davlat ro‘yxat belgisi yozuvi tartibi",
+        "two_lines_": "Ikki qatorli"
+      }
     },
     "downloadFormat": "Yuklash formati",
     "payloads": {
@@ -47,11 +52,15 @@
       "outTime": "Sana/Vaqt, chiqish",
       "overlight": "Yuqori yoriqlik",
       "payload": "Yuk turi",
-      "place": "Qotirish joyi"
+      "place": "Qotirish joyi",
+      "video": "Harakat videosi"
     },
     "viewType": "Berish turi",
     "findAndSaveFile": "Topish va faylga saqlash",
-    "recordsFound": "Ёзувлар топилди"
+    "recordsFound": "Ёзувлар топилди",
+    "dateTimeOfTravel": "Harakat sanasi va vaqti",
+    "secondsAfter": "Sekunddan keyin",
+    "secondsBefore": "Sekundgacha"
   },
   "amtsServerPage": {
     "addAdditionalPtServer": "O'T qo'shimcha serverini qo'shish",
@@ -159,6 +168,7 @@
       "chooseFile": "Faylni tanlang",
       "close": "Yopish",
       "confirm": "Tasdiqlash",
+      "remove": "O‘chirish",
       "confirmItemRemoval": "Elementni o'chirishni tasdiqlang | O'chirishni tasdiqlang \"{name}\"",
       "createImage": "Rasm yaratish",
       "decrease": "Kamaytirish",
@@ -198,7 +208,8 @@
       "upload": "Yuklab olish",
       "uploadImage": "Rasmni yuklash",
       "useOldWebUI": "Eski versiyaga o'tish",
-      "watchVideo": "Videoni ko'rish"
+      "watchVideo": "Videoni ko'rish",
+      "setDefaultSettings": "Standart qiymatlarni o‘rnatish"
     },
     "camera": "Kamera",
     "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Kamerani boshqarish funksiyalari faqat video mavjud bo'lgandagina faol",
@@ -309,7 +320,8 @@
       "static": "Statik",
       "subnetMask": "Quyi tarmoq maskasi",
       "url": "Ma'lumot uzatish uchun URL",
-      "vlan": "VLAN"
+      "vlan": "VLAN",
+      "port": "Port"
     },
     "no": "Yo'q",
     "noData": "Ma'lumotlar mavjud emas",
@@ -323,7 +335,8 @@
       "markersSaved": "Markerlar saqlandi",
       "saved": "Saqlangan",
       "successfully": "Muvaffaqiyatli",
-      "title": "Билдиришномалар"
+      "title": "Билдиришномалар",
+      "changesApplied": "O‘zgarishlar qo‘llandi. Saqlashni unutmang"
     },
     "off": "O'chirish | o'chirilgan",
     "offset": "Og'ish",
@@ -370,6 +383,10 @@
     "surveyImage": "Umumiy ko'rinish rasmi",
     "synchronization": "Sinxronizatsiya",
     "tableHeaderSettings": "Jadval ustunining sozlamalari",
+    "asc": "O‘sish tartibida",
+    "desc": "Kamayish tartibida",
+    "sortBy": "Saralash mezoni",
+    "sortOrder": "Saralash tartibi",
     "tableHeaders": {
       "dateTime": "Sana va vaqt",
       "direction": "Ҳаракат йўналиши",
@@ -696,9 +713,34 @@
       "VIR": "Virgin orollari (AQSH)",
       "YEM": "Yaman",
       "ZMB": "Zambiya",
-      "ZWE": "Zimbabve"
+      "ZWE": "Zimbabve",
+      "ABH": "Abxaziya",
+      "DPR": "DNR Respublikasi",
+      "LPR": "LNR Respublikasi"
     },
-    "currentTime": "Joriy vaqt"
+    "currentTime": "Joriy vaqt",
+    "photo": "Foto",
+    "warning": "Ogohlantirish",
+    "lane": "Yo‘lak | Yo‘laklar",
+    "laneNumber": "Yo‘lak №",
+    "confirmResetValues": "Qiymatlarni tiklashni xohlaysizmi?",
+    "regular": "Oddiy",
+    "dateTimePresets": {
+      "currentDay": "Joriy kun",
+      "currentHour": "Joriy soat",
+      "lastHour": "Oxirgi soat",
+      "last3Hours": "So‘nggi 3 soat",
+      "lastDay": "So‘nggi sutka",
+      "last7Days": "So‘nggi 7 sutka",
+      "lastMonth": "Oxirgi oy",
+      "byDay": "Kunlik"
+    },
+    "custom": "Foydalanuvchi sozlamasi",
+    "dateTimePreset": "Sana/vaqt preseti",
+    "preset": "Preset",
+    "addChannel": "Kanal qo‘shish",
+    "additionalViolationTypes": "Qo‘shimcha huquqbuzarlik turlari",
+    "dark": "Qorong‘ulik"
   },
   "configEditor": {
     "fileSaved": "Fayl saqlandi\nSozlamalarni \"Tizim\" ilovasida saqlashni unutmang"
@@ -881,12 +923,14 @@
       "fixDriverBelt": "Ҳайдовчининг камарини маҳкамлаш",
       "fixPassengerBelt": "Йўловчининг камарини маҳкамлаш",
       "passengerViolationsFormed": "Йўловчига нисбатан қоидабузарлик юзага келади",
-      "withSimultaneousFixation": "Бир вақтнинг ўзида маҳкамлаш билан"
+      "withSimultaneousFixation": "Бир вақтнинг ўзида маҳкамлаш билан",
+      "enableQualificationsAtDifferentTimesOfTheDay": "Kun vaqtiga qarab malakani yoqish"
     },
     "drivingTaxiBrick": "\"Ғишт\" йўлак остида такси ҳаракати"
   },
   "convertersPage": {
     "addConverter": "Konverterni qo'shish",
+    "converterRestarted": "Konvertor qayta ishga tushirildi",
     "commonSettings": "Umumiy sozlamalar",
     "converterInstanceHint": "Qo'shish. konvertor misoli \"duplo\" nomi",
     "convertersList": "Konverterlar ro'yxati",
@@ -1012,7 +1056,11 @@
     "cleanerPathNotExists": "Мавжуд бўлмаган \"{var}\" йўл кўрсатилган. Унинг мавжудлигини текширинг",
     "imageDisplayError": "Расмни кўрсатишда хатолик юз берди",
     "formError": "Ba'zi forma maydonlari noto'g'ri to'ldirilgan. Iltimos, xatolarni to'g'rilang",
-    "Данные отсутствуют": "Ma'lumotlar mavjud emas"
+    "Данные отсутствуют": "Ma'lumotlar mavjud emas",
+    "internalServerError": "Serverning ichki xatosi",
+    "errorReceivingGpsData": "GPS ma’lumotlarini olishda xato. Tarmoq ulanishini tekshiring",
+    "Необходимо установить состав АПН": "Ma’muriy huquqbuzarliklar tarkibini o‘rnatish talab qilinadi",
+    "Отсутствуют данные о местоположении комплекса": "Majmuaning joylashuvi haqida ma’lumot mavjud emas"
   },
   "gpsPage": {
     "clearLog": "Logni tozalash",
@@ -1090,7 +1138,9 @@
       "chooseZoneConfigFile": "Zona konfiguratsiya faylini tanlang",
       "currentAddress": "Hozirgi manzil",
       "currentViolation": "Hozirgi buzilish",
-      "complexIsNotOnRoute": "Kompleks marshrutda emas"
+      "complexIsNotOnRoute": "Kompleks marshrutda emas",
+      "fixationDisabled": "Majmuaning joylashuvi o‘zgargani yoki o‘chirilgani tufayli qayd avtomatik ravishda o‘chirildi. Iltimos, sozlamalarni tekshiring.",
+      "fixationDisabledIfNoViolations": "Diqqat! Qayd yoqilgan bo‘lsa, ma’muriy huquqbuzarliklar tarkibini o‘rnatish shart"
     }
   },
   "imagesPage": {
@@ -1293,6 +1343,7 @@
     }
   },
   "parkingPage": {
+    "applyPresetSettingsToast": "Preset №{var} sozlamalarini qo‘llash uchun sozlamalarni saqlang",
     "addArea": "Maydon qo'shish",
     "addPreset": "Preset qo'shish",
     "addZone": "Zonani qo'shish",
@@ -1312,7 +1363,21 @@
     "zoneSettings": "Zonani sozlash",
     "zoneStart": "Zonaning boshlanishi",
     "zoneUpdatedToast": "{name} zonasi yangilandi",
-    "zonesList": "Zonalar ro'yxati"
+    "zonesList": "Zonalar ro'yxati",
+    "zoneRemoveConfirm": "Amaldagi preset tanlangan \"{name}\" zonasini o‘z ichiga oladi. Uni o‘chirishni xohlaysizmi?",
+    "zoneRemovedToast": "Zona o‘chirildi. Sozlamalarni saqlash talab qilinadi",
+    "uniqueZoneNameError": "Bu parking zonasi nomi allaqachon band",
+    "afterDeleteZoneMessage": "Zona o‘chirildi. O‘zgarishlarni qo‘llash uchun sozlamalarni saqlang",
+    "presetTitle": "Preset sozlamasi",
+    "area": "Hudud",
+    "areaSettings": "Hudud sozlamalari",
+    "deleteArea": "Hududni o‘chirish",
+    "addPointToEnd": "Oxiriga nuqta qo‘shish",
+    "addPointAfterCurrent": "Joriy nuqtadan keyin nuqta qo‘shish",
+    "removePoint": "Nuqtani o‘chirish",
+    "removeLastPoint": "Oxirgi nuqtani o‘chirish",
+    "maxPoint": "Maksimal nuqtalar soni – {var}",
+    "minPoint": "Minimal nuqtalar soni – {var}"
   },
   "pedestriansPage": {
     "best": "Eng yaxshi",
@@ -1538,7 +1603,9 @@
     "uniqueScheduleName": "Бу жадвал номи аллақачон олинган",
     "dateTimeWithMilliseconds": "To'g'ri sana/vaqtni YYYY-MM-DD HH:mm.SSS formatida kiriting",
     "dateTime": "To'g'ri sana/vaqtni DD-MM-YYYY HH:mm:ss formatida kiriting",
-    "date": "To'g'ri sanani DD-MM-YYYY formatida kiriting"
+    "date": "To'g'ri sanani DD-MM-YYYY formatida kiriting",
+    "uniqueDuploConverterInstance": "Ushbu namunaviy nom allaqachon band",
+    "uniqueValue": "Qiymat yagona bo‘lishi kerak"
   },
   "videoArchivePage": {
     "addImage": "Rasmni qo'shish",
@@ -1555,7 +1622,10 @@
     "dateOfProduction": "Qo'yilish sanasi",
     "lpnFilter": "Davlat ro'yxatga olish belgilarini filtrlang",
     "amtsDeleteConfirm": "Siz haqiqatan ham transport vositasi ''{var}''ni qidiruvdan o'chirmoqchimisiz",
-    "pageTotalCount": "{page} sahifa {totalPages} dan"
+    "pageTotalCount": "{page} sahifa {totalPages} dan",
+    "renameSearch": "Qidiruv turini qayta nomlash",
+    "editVehicleList": "Transport vositalari ro‘yxatini tahrirlash",
+    "deleteVehicleList": "Transport vositalari ro‘yxatini o‘chirish"
   },
   "videoSourcePage": {
     "brightnessChangedToast": "Yorqinlik o'zgardi",
@@ -1595,7 +1665,18 @@
       "turnOffHoodHeater": "Blendani isitkichni o'chiring",
       "hoodHeaterIsTurnedOnForSec": "Blendani isitkich {timeout} soniya davomida yoqilgan",
       "hoodHeaterIsTurnedOff": "Blendani isitkich o'chirilgan",
-      "irIlluminator": "IK yoritgich"
+      "irIlluminator": "IK yoritgich",
+      "irCutFilterMode": "Infraqizil filtr ish rejimi",
+      "irFilterControlIsOff": "Infraqizil filtr boshqaruvi o‘chirib qo‘yilgan",
+      "dayMode": "\"Kun\" rejimi",
+      "nightMode": "\"Tun\" rejimi",
+      "automaticallyByIlluminationMode": "Yoritilishga qarab avtomatik",
+      "irCutFilterIlluminationThreshold": "O‘tish chegarasi",
+      "irCutFilterIlluminationHysteresis": "Gisterezis chegarasi",
+      "irCutFilterIlluminationTimeConstant": "O‘tish vaqti",
+      "automaticallyBySunriseAndSunsetTime": "Quyosh chiqishi/botishiga qarab avtomatik",
+      "offsetFromSunrise": "Quyosh chiqishidan siljish",
+      "offsetFromSunset": "Quyosh botishidan siljish"
     },
     "pulseDurationChangedToast": "{channel} kanali uchun puls davomiyligi oʻzgardi",
     "rtspCameraSavedToast": "RTSP serveri saqlandi",
@@ -2715,5 +2796,12 @@
   "radarPage": {
     "tracks": "Treklar",
     "scaleReset": "Masshtabni standart qiymatlarga qaytarish"
+  },
+  "settingsResetPage": {
+    "settingsReset": "Sozlamalarni tiklash",
+    "alert": "Ushbu sahifa Dasturiy-texnik o‘lchov majmuasi (KIPT) sozlamalarini tiklash uchun mo‘ljallangan. Sozlamalarni haqiqatan ham tiklamoqchimisiz? Bu jarayon orqaga qaytarilmaydi!",
+    "settingsHaveBeenReset": "Sozlamalar tiklandi. Dasturiy-texnik o‘lchov majmuasi (KIPT) qayta ishga tushirilishga yuborildi",
+    "resetNetwork": "Tarmoq sozlamalarini tiklash",
+    "enterFullSerialNumber": "Sozlamalarni tiklash uchun majmuaning to‘liq seriya raqamini kiriting ({serialNumber})"
   }
 }
