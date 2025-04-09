@@ -26,6 +26,7 @@
       "woodEmpty": "Бос ағаш таситын көлік"
     },
     "resultsView": {
+      "card": "Карталар",
       "table": "Кесте"
     },
     "searchAndSaveInFile": "Іздеу және файлға сақтау",
