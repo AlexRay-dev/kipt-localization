@@ -11,6 +11,7 @@
       "brand": "Brand",
       "model": "Model",
       "car_class": "Vehicle category",
+      "channel_id": "Line number",
       "additional_data": {
         "two_lines": "Строчность ГРЗ",
         "two_lines_": "Two lines"
@@ -51,11 +52,15 @@
       "outTime": "Date/Time, log out",
       "overlight": "Overexposure",
       "payload": "Cargo type",
-      "place": "Place of fixation"
+      "place": "Place of fixation",
+      "video": "Travel video"
     },
     "viewType": "Type of issue",
     "findAndSaveFile": "Find and save to file",
-    "recordsFound": "Records found"
+    "recordsFound": "Records found",
+    "dateTimeOfTravel": "Date, time of travel",
+    "secondsAfter": "Seconds after",
+    "secondsBefore": "Seconds before"
   },
   "amtsServerPage": {
     "addAdditionalPtServer": "Add an additional passed transport server",
@@ -163,6 +168,7 @@
       "chooseFile": "Select a file",
       "close": "Close",
       "confirm": "Confirm",
+      "remove": "Remove",
       "confirmItemRemoval": "Confirm deletion of the item | Confirm deletion of \"{name}\"",
       "createImage": "Create an image",
       "decrease": "Decrease",
@@ -377,6 +383,10 @@
     "surveyImage": "Overview image",
     "synchronization": "Synchronisation",
     "tableHeaderSettings": "Table column settings",
+    "asc": "Ascending",
+    "desc": "Descending",
+    "sortBy": "Sort by",
+    "sortOrder": "Sorting order",
     "tableHeaders": {
       "dateTime": "Date/Time",
       "direction": "Direction",
@@ -709,6 +719,7 @@
       "LPR": "Luhansk People's Republic"
     },
     "currentTime": "Current time",
+    "photo": "Photo",
     "warning": "Warning",
     "lane": "Traffic lane | Traffic lanes",
     "laneNumber": "Traffic lane number",
@@ -727,7 +738,6 @@
     "custom": "Custom",
     "dateTimePreset": "Date/time preset",
     "preset": "Preset",
-    "photo": "Photo",
     "addChannel": "Add channel",
     "additionalViolationTypes": "Additional types of violation",
     "dark": "Dark"
@@ -920,6 +930,7 @@
   },
   "convertersPage": {
     "addConverter": "Add a converter",
+    "converterRestarted": "Converter restarted",
     "commonSettings": "General settings",
     "converterInstanceHint": "Additional name for the converter instance \"duplo\"",
     "convertersList": "List of converters",
@@ -1047,7 +1058,9 @@
     "formError": "Some form fields are not filled out correctly. Please correct the errors.",
     "Данные отсутствуют": "No data available",
     "internalServerError": "Internal server error",
-    "errorReceivingGpsData": "Error receiving GPS data"
+    "errorReceivingGpsData": "Error receiving GPS data",
+    "Необходимо установить состав АПН": "It is necessary to establish the composition of Administrative offence",
+    "Отсутствуют данные о местоположении комплекса": "No data on the location of the complex"
   },
   "gpsPage": {
     "clearLog": "Clear the log",
@@ -1125,7 +1138,9 @@
       "chooseZoneConfigFile": "Choose zone config file",
       "currentAddress": "Current address",
       "currentViolation": "Current violation",
-      "complexIsNotOnRoute": "The complex is not on the route"
+      "complexIsNotOnRoute": "The complex is not on the route",
+      "fixationDisabled": "The fix has been automatically disabled due to a change or removal of the complex location. Please check the settings.",
+      "fixationDisabledIfNoViolations": "Attention! When the fixation is switched on, the composition of the Administrative offence must be set"
     }
   },
   "imagesPage": {
@@ -1328,6 +1343,7 @@
     }
   },
   "parkingPage": {
+    "applyPresetSettingsToast": "To apply the settings of preset #{var}, you must save the settings",
     "addArea": "Add area",
     "addPreset": "Add a preset",
     "addZone": "Add a zone",
@@ -1348,9 +1364,20 @@
     "zoneStart": "Beginning of zone",
     "zoneUpdatedToast": "Zone {name} has been updated",
     "zonesList": "List of zones",
+    "zoneRemoveConfirm": "The current preset contains the selected zone \"{name}\". Do you really want to delete it?",
+    "zoneRemovedToast": "Zone is deleted. The settings must be saved",
+    "uniqueZoneNameError": "This parking zone name is already occupied",
+    "afterDeleteZoneMessage": "The zone is deleted. To apply the changes, save the settings",
+    "presetTitle": "Preset setting",
     "area": "Area",
     "areaSettings": "Area settings",
-    "deleteArea": "Delete a area"
+    "deleteArea": "Delete a area",
+    "addPointToEnd": "Add point to the end",
+    "addPointAfterCurrent": "Add a point after the current one",
+    "removePoint": "Remove point",
+    "removeLastPoint": "Remove last point",
+    "maxPoint": "Maximum number of points - {var}",
+    "minPoint": "Minimum number of points - {var}"
   },
   "pedestriansPage": {
     "best": "best",
@@ -1577,7 +1604,8 @@
     "dateTimeWithMilliseconds": "Enter the correct date/time in the format YYYYY-MM-DD HH:mm:ss.SSS",
     "dateTime": "Enter the correct date/time in the format DD-MM-YYYYY HH:mm:ss",
     "date": "Enter the correct date in the format DD-MM-YYYYY ",
-    "uniqueDuploConverterInstance": "This instance name is already taken"
+    "uniqueDuploConverterInstance": "This instance name is already taken",
+    "uniqueValue": "Value must be unique"
   },
   "videoArchivePage": {
     "addImage": "Add an image",
@@ -1594,7 +1622,10 @@
     "dateOfProduction": "Date of production",
     "lpnFilter": "State registration number filter",
     "amtsDeleteConfirm": "You really want to remove Vehicle ‘’{var}‘’ from the search list?",
-    "pageTotalCount": "Page {page} of {totalPages}"
+    "pageTotalCount": "Page {page} of {totalPages}",
+    "renameSearch": "Rename the type of search",
+    "editVehicleList": "Edit the list of vehicles",
+    "deleteVehicleList": "Delete vehicle list"
   },
   "videoSourcePage": {
     "brightnessChangedToast": "Brightness has been changed",
@@ -2767,8 +2798,8 @@
     "scaleReset": "Reset scale to default values"
   },
   "settingsResetPage": {
-    "alert": "This page is intended for resetting the KIPT settings. Think again before resetting the settings. The process is irreversible!",
     "settingsReset": "Settings reset",
+    "alert": "This page is intended for resetting the KIPT settings. Think again before resetting the settings. The process is irreversible!",
     "settingsHaveBeenReset": "Settings have been reset. KIPT has been sent for reboot",
     "resetNetwork": "Reset network settings",
     "enterFullSerialNumber": "To reset the settings, enter the full serial number of the complex ({serialNumber})"
