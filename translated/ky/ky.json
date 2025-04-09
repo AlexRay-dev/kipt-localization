@@ -10,7 +10,12 @@
       "direction": "Кыймыл багыты",
       "brand": "Маркасы",
       "model": "Модели",
-      "car_class": "ТК категориясы"
+      "car_class": "ТК категориясы",
+      "channel_id": "Полосанын номери",
+      "additional_data": {
+        "two_lines": "ММБнын жазылышы",
+        "two_lines_": "Эки саптуу"
+      }
     },
     "downloadFormat": "Чыгаруунун форматы",
     "payloads": {
@@ -47,11 +52,15 @@
       "outTime": "Күнү/убактысы, чыгуу",
       "overlight": "Ашыкча жарык",
       "payload": "Жүктүн тиби",
-      "place": "Бекитүү орду"
+      "place": "Бекитүү орду",
+      "video": "Өтүү видеосу"
     },
     "viewType": "Берүү түрү",
     "findAndSaveFile": "Табуу жана файлга сактоо",
-    "recordsFound": "Жазуулар табылды"
+    "recordsFound": "Жазуулар табылды",
+    "dateTimeOfTravel": "Өтүү күнү, убактысы",
+    "secondsAfter": "Секунд өткөндөн кийин",
+    "secondsBefore": "Секунд чейин"
   },
   "amtsServerPage": {
     "addAdditionalPtServer": "Кошумча ПТ серверди кошуу",
@@ -159,6 +168,7 @@
       "chooseFile": "Файлды тандаңыз",
       "close": "Жабуу",
       "confirm": "Ырастоо",
+      "remove": "Өчүрүү",
       "confirmItemRemoval": "Элементти жок кылууну ырастаңыз | \"{name}\" жок кылууну ырастаңыз",
       "createImage": "Сүрөт түзүү",
       "decrease": "Азайтуу",
@@ -198,7 +208,8 @@
       "upload": "Жүктөө",
       "uploadImage": "Сүрөттү жүктөө",
       "useOldWebUI": "Эски версияга өтүү",
-      "watchVideo": "Видео көрүү"
+      "watchVideo": "Видео көрүү",
+      "setDefaultSettings": "Бишкке келтирүү (дефолт маанилерди коюу)"
     },
     "camera": "Камера",
     "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Камераны башкаруу функциялары видео бар болгондо гана активдүү болот",
@@ -309,7 +320,8 @@
       "static": "Статикалык",
       "subnetMask": "Тармак алдындагы маска",
       "url": "Маалыматтарды берүү үчун URL | URL",
-      "vlan": "VLAN"
+      "vlan": "VLAN",
+      "port": "Порт"
     },
     "no": "Жок",
     "noData": "Маалыматтар жок",
@@ -323,7 +335,8 @@
       "markersSaved": "Маркерлер сакталды",
       "saved": "Сакталган",
       "successfully": "Ийгиликтүү",
-      "title": "Билдирүүлөр"
+      "title": "Билдирүүлөр",
+      "changesApplied": "Өзгөртүүлөр колдонулду. Сактоону унутпаңыз"
     },
     "off": "Өчүр. | өчүрүлгөн",
     "offset": "Четтөө",
@@ -370,6 +383,10 @@
     "surveyImage": "Обзордук сүрөт",
     "synchronization": "Синхрондоштуруу",
     "tableHeaderSettings": "Таблица мамычаларынын жөндөөлөрү",
+    "asc": "Өсүү тартибинде",
+    "desc": "Азайуу тартибинде",
+    "sortBy": "Боюнча иргөө",
+    "sortOrder": "Иргөө тартиби",
     "tableHeaders": {
       "dateTime": "Күнү/убактысы",
       "direction": "Кыймылдын багыты",
@@ -696,9 +713,34 @@
       "VIR": "Америка Виргин аралдары",
       "YEM": "Йемен",
       "ZMB": "Замбия",
-      "ZWE": "Зимбабве"
+      "ZWE": "Зимбабве",
+      "ABH": "Абхазия",
+      "DPR": "ДНР Республикасы",
+      "LPR": "ЛНР Республикасы"
     },
-    "currentTime": "Учурдагы убакыт"
+    "currentTime": "Учурдагы убакыт",
+    "photo": "Сүрөт",
+    "warning": "Эскертүү",
+    "lane": "Полоса | Полосалар",
+    "laneNumber": "Полосанын №",
+    "confirmResetValues": "Чын эле маанилерди өчүргүңүз келип жатабы?",
+    "regular": "Кадимки",
+    "dateTimePresets": {
+      "currentDay": "Азыркы күн",
+      "currentHour": "Азыркы саат",
+      "lastHour": "Акыркы саат",
+      "last3Hours": "Акыркы 3 саат",
+      "lastDay": "Акыркы сутка",
+      "last7Days": "Акыркы 7 сутка",
+      "lastMonth": "Акыркы ай",
+      "byDay": "Күндөн күнгө"
+    },
+    "custom": "Колдонуучу тарабынан",
+    "dateTimePreset": "Күн/убакыт пресети",
+    "preset": "Пресет",
+    "addChannel": "Канал кошуу",
+    "additionalViolationTypes": "Кошумча бузуу түрлөрү",
+    "dark": "Караңгылык"
   },
   "configEditor": {
     "fileSaved": "Файл сакталган\n«Система» өтмөгүндө жөндөөлөрдү  сактоону унутпаңыз"
@@ -881,12 +923,14 @@
       "fixDriverBelt": "Айдоочунун курун бекитиңиз",
       "fixPassengerBelt": "Жүргүнчүнүн курун бекитиңиз",
       "passengerViolationsFormed": "Жүргүнчүгө карата эреже бузуу калыптанып жатат",
-      "withSimultaneousFixation": "Бир убакта бекитүүдө"
+      "withSimultaneousFixation": "Бир убакта бекитүүдө",
+      "enableQualificationsAtDifferentTimesOfTheDay": "Түнкү/күндүзгү убакытка жараша классификацияны кошуу"
     },
     "drivingTaxiBrick": "Таксинин кыймыл тилкеси боюнча \"кирпич\" алдында жүрүүсү"
   },
   "convertersPage": {
     "addConverter": "Конвертерди кошуу",
+    "converterRestarted": "Конвертер кайра иштетилди",
     "commonSettings": "Жалпы жөндөөлөр",
     "converterInstanceHint": "\"duplo\" конвертор инстансы учун кош. Аталыш",
     "convertersList": "Конвертерлердин тизмеси",
@@ -1012,7 +1056,11 @@
     "cleanerPathNotExists": "Жок {var} жолу көрсөтүлгөн. Анын бар экенин текшериңиз",
     "imageDisplayError": "Сүрөттү көрсөтүүдө ката кетти",
     "formError": "Кээ бир форма талаалары туура эмес толтурулган. Сураныч, катааларды оңдоп коюңуз",
-    "Данные отсутствуют": "Маалыматтар жок"
+    "Данные отсутствуют": "Маалыматтар жок",
+    "internalServerError": "Сервердин ички катасы",
+    "errorReceivingGpsData": "GPS маалыматтарын алуу ката болду. Тармакка туташуу текшериңиз",
+    "Необходимо установить состав АПН": "Административдик укук бузуулар курамын орнотуу талап кылынат",
+    "Отсутствуют данные о местоположении комплекса": "Комплекстин жайгашкан жери боюнча маалымат жок"
   },
   "gpsPage": {
     "clearLog": "Журналды тазалоо",
@@ -1090,7 +1138,9 @@
       "chooseZoneConfigFile": "Зоналардын конфигурация файлын тандаңыз",
       "currentAddress": "Учурдагы дарек",
       "currentViolation": "Учурдагы бузуу",
-      "complexIsNotOnRoute": "Комплекс маршрутта эмес"
+      "complexIsNotOnRoute": "Комплекс маршрутта эмес",
+      "fixationDisabled": "Жайгашкан жери өзгөртүлгөндүктөн же өчүрүлгөндүктөн, фиксация автоматтык түрдө өчүрүлдү. Орнотууларды текшериңиз.",
+      "fixationDisabledIfNoViolations": "Көңүл буруңуз! Фиксация иштетилгенде, административдик укук бузуулар курамын орнотуу зарыл"
     }
   },
   "imagesPage": {
@@ -1293,6 +1343,7 @@
     }
   },
   "parkingPage": {
+    "applyPresetSettingsToast": "Пресет №{var} орнотууларын колдонуу үчүн сактоо талап кылынат",
     "addArea": "Облусту кошуу",
     "addPreset": "Алдын ала орнотууну кошуу",
     "addZone": "Аймакты кошуу",
@@ -1312,7 +1363,21 @@
     "zoneSettings": "Аймакты жөндөө",
     "zoneStart": "Аймактын башы",
     "zoneUpdatedToast": "Аймак {name} жаңыртылды",
-    "zonesList": "Аймактардын тизмеси"
+    "zonesList": "Аймактардын тизмеси",
+    "zoneRemoveConfirm": "Иштеп жаткан пресет тандалган \"{name}\" зонасын камтыйт. Чын эле өчүргүңүз келип жатабы?",
+    "zoneRemovedToast": "Зона өчүрүлдү. Өзгөртүүлөрдү колдонуу үчүн орнотууларды сактаңыз",
+    "uniqueZoneNameError": "Бул токтотуу зонасынын аты буга чейин колдонулган",
+    "afterDeleteZoneMessage": "Зона өчүрүлдү. Өзгөртүүлөрдү колдонуу үчүн орнотууларды сактаңыз",
+    "presetTitle": "Пресет орнотуусу",
+    "area": "Аймак",
+    "areaSettings": "Аймак орнотуулары",
+    "deleteArea": "Аймакты өчүрүү",
+    "addPointToEnd": "Акыркы чекитке чекит кошуу",
+    "addPointAfterCurrent": "Азыркы чекиттен кийин чекит кошуу",
+    "removePoint": "Чекитти өчүрүү",
+    "removeLastPoint": "Акыркы чекитти өчүрүү",
+    "maxPoint": "Максималдуу чекит саны – {var}",
+    "minPoint": "Минималдуу чекит саны – {var}"
   },
   "pedestriansPage": {
     "best": "мыкты",
@@ -1538,7 +1603,9 @@
     "uniqueScheduleName": "Ырастаманын бул ысымы мурунтан эле ээленген",
     "dateTimeWithMilliseconds": "YYYY-MM-DD HH:mm\n.SSS форматында туура дата/времени киргизиңиз",
     "dateTime": "DD-MM-YYYY HH:mm\nформатында туура дата/времени киргизиңиз",
-    "date": "DD-MM-YYYY форматында туура датаны киргизиңиз"
+    "date": "DD-MM-YYYY форматында туура датаны киргизиңиз",
+    "uniqueDuploConverterInstance": "Бул инстанстын аты буга чейин колдонулган",
+    "uniqueValue": "Маани уникалдуу болушу керек"
   },
   "videoArchivePage": {
     "addImage": "Сүрөттү кошуу",
@@ -1555,7 +1622,10 @@
     "dateOfProduction": "Коюу датасы",
     "lpnFilter": "Мамлекеттик каттоонун номерлерин фильтридөө\n",
     "amtsDeleteConfirm": "Сиз чын эле ''{var}'' ТС'ны издөөнүн тизмесинен алып салууну каалайсызбы",
-    "pageTotalCount": "{page} бет {totalPages}"
+    "pageTotalCount": "{page} бет {totalPages}",
+    "renameSearch": "Издөө түрүн атын өзгөртүү",
+    "editVehicleList": "Транспорт каражаттар тизмесин түзөтүү",
+    "deleteVehicleList": "Транспорт каражаттар тизмесин өчүрүү"
   },
   "videoSourcePage": {
     "brightnessChangedToast": "Жарыктык өзгөрдү",
@@ -1595,7 +1665,18 @@
       "turnOffHoodHeater": "Бленддин жылыткычын өчүрүү",
       "hoodHeaterIsTurnedOnForSec": "Бленддин жылыткычы {timeout} секундага күйгүзүлгөн",
       "hoodHeaterIsTurnedOff": "Бленддин жылыткычы өчүрүлгөн",
-      "irIlluminator": "ИК жарык берүүчү"
+      "irIlluminator": "ИК жарык берүүчү",
+      "irCutFilterMode": "Инфракызыл фильтрдин иш режими",
+      "irFilterControlIsOff": "Инфракызыл фильтрди башкаруу өчүрүлгөн",
+      "dayMode": "\"Күн\" режими",
+      "nightMode": "\"Түн\" режими",
+      "automaticallyByIlluminationMode": "Жарыктуулукка жараша автоматтык",
+      "irCutFilterIlluminationThreshold": "Өтүү чеги",
+      "irCutFilterIlluminationHysteresis": "Гистерезис чеги",
+      "irCutFilterIlluminationTimeConstant": "Өтүү убактысы",
+      "automaticallyBySunriseAndSunsetTime": "Күндүн чыгышы/батышы боюнча автоматтык",
+      "offsetFromSunrise": "Күндүн чыгышынан жылдыруу",
+      "offsetFromSunset": "Күндүн батышынан жылдыруу"
     },
     "pulseDurationChangedToast": "Канал импульсунун узактыгы өзгөрдү {channel}",
     "rtspCameraSavedToast": "RTSP сервери сакталды",
@@ -2715,5 +2796,12 @@
   "radarPage": {
     "tracks": "Трэктер",
     "scaleReset": "Масштабды стандарттуу маанилерге кайра алып келүү"
+  },
+  "settingsResetPage": {
+    "settingsReset": "Орнотууларды баштапкы абалга келтирүү",
+    "alert": "Бул бет Программалык-техникалык өлчөө комплекси (КИПТ) орнотууларын баштапкы абалга келтирүү үчүн арналган. Сиз чындап эле орнотууларды өчүргүңүз келип жатабы? Бул жараян кайтарылгыс!",
+    "settingsHaveBeenReset": "Орнотуулар өчүрүлдү. Программалык-техникалык өлчөө комплекси (КИПТ) кайра жүктөөгө жөнөтүлдү",
+    "resetNetwork": "Тармак орнотууларын баштапкы абалга келтирүү",
+    "enterFullSerialNumber": "Орнотууларды өчүрүү үчүн комплекстин толук сериялык номерин киргизиңиз ({serialNumber})"
   }
 }
