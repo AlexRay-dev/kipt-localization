@@ -1,0 +1,2808 @@
+{
+  "amts": {
+    "additionalFilterOperations": {
+      "equal": "Тең",
+      "like": "Қалай",
+      "notEqual": "Тең емес"
+    },
+    "additionalFilters": {
+      "country": "Мемлекеттік тіркеу нөмірі елі",
+      "direction": "Қозғалыс бағыты",
+      "brand": "Маркасы",
+      "model": "Моделі",
+      "car_class": "Көлік құралының санаты",
+      "channel_id": "Жолақ №",
+      "additional_data": {
+        "two_lines": "Мемлекеттік тіркеу нөмірінің жазылу форматы",
+        "two_lines_": "Екі жолды"
+      }
+    },
+    "downloadFormat": "Экспорт форматы",
+    "payloads": {
+      "other": "Басқа",
+      "planks": "Тақталар",
+      "tanks": "Цистерна",
+      "wood": "Ағаш",
+      "woodEmpty": "Бос ағаш таситын көлік"
+    },
+    "resultsView": {
+      "table": "Кесте"
+    },
+    "searchAndSaveInFile": "Іздеу және файлға сақтау",
+    "speedDisplayPrecisions": "Жылдамдықты шығару дәлдігі",
+    "speedPrecisions": {
+      "integer": "Бүтін сан",
+      "oneDecimal": "Үтірден кейін 1 таңба",
+      "threeDecimal": "Үтірден кейін 3 таңба",
+      "twoDecimal": "Үтірден кейін 2 таңба"
+    },
+    "tableHeaders": {
+      "additionalImages": "Қосымша суреттер",
+      "cameraBrightness": "Камераның жарықтығы",
+      "cameraExposure": "Камераның экспозиция уақыты",
+      "cameraGain": "Камераның күшейту деңгейі",
+      "cameraIllumination": "Бақылау аймағындағы жарық деңгейі",
+      "confidence": "Танудың ықтималдығы",
+      "dark": "Қараңғы",
+      "inTime": "Күні/Уақыты, кіру",
+      "lowContrast": "Төмен контраст",
+      "lpImageSrc": "Мемлекеттік тіркеу нөмірінің бейнесі",
+      "numberOfRecognitions": "Танылғандар саны",
+      "outTime": "Күні/Уақыты, шығу",
+      "overlight": "Артық жарық",
+      "payload": "Жүк түрі",
+      "place": "Тіркеу орны",
+      "video": "Өту видеосы"
+    },
+    "viewType": "Шығару түрі",
+    "findAndSaveFile": "Іздеу және файлға сақтау",
+    "recordsFound": "Табылған жазбалар саны",
+    "dateTimeOfTravel": "Өту күні мен уақыты",
+    "secondsAfter": "Кейінгі секундтар",
+    "secondsBefore": "Алдыңғы секундтар"
+  },
+  "amtsServerPage": {
+    "addAdditionalPtServer": "Қосымша өткен көлік серверін қосу",
+    "additionalPtServersTitle": "Қосымша өткен көлік серверлері",
+    "additionalServersSaved": "Қосымша өткен көлік серверлері сақталды",
+    "deleteAdditionalPtServer": "Қосымша өткен көлік серверін жою",
+    "mainPtServerTitle": "Негізгі өткен көлік сервері",
+    "serverSaved": "Негізгі өткен көлік сервері сақталды",
+    "transferData": "Деректерді жіберу"
+  },
+  "channelAlignmentPage": {
+    "allFieldsMustBeFilledInAndNotEqual0": "Барлық өрістер толтырылуы және 0-ге тең болмауы тиіс",
+    "autoCalibration": "Автокалибровка",
+    "calculationError": "Есептеу кезінде қате. Енгізілген координаттарды тексеріңіз",
+    "compute": "Есептеу",
+    "computeDiscrepancyToastFirst": "Есеп сәтті өтті, ауытқу:",
+    "computeDiscrepancyToastSecond": "Есептелген фокус арақашықтығы:",
+    "doYouReallyWantToLeaveThePage": "Сіз бұл бетті жабуды расымен қалайсыз ба?",
+    "enterCoordinates": "Координаттарды енгізу",
+    "installationHeight": "Орнату биіктігі",
+    "lastStatus": "Соңғы күй",
+    "metrologistPassword": "Метрологтың құпия сөзі",
+    "noDataToast": "{name} арнасында тану аймағы туралы дерек жоқ!",
+    "oneOfPointsCanBeZero": "Нүктелердің бірі 0, 0, 0 болуы мүмкін",
+    "pointA": "A нүктесі",
+    "pointB": "B нүктесі",
+    "pointC": "C нүктесі",
+    "pointD": "D нүктесі",
+    "processStatus": "Үдерістің күйі",
+    "squareStep": "Шаршы қадамы",
+    "startAutoCalibration": "Автокалибровканы іске қосу",
+    "timeStatusChange": "Күй өзгеру уақыты",
+    "vehiclesCount": "Көлік құралдарының саны",
+    "deselectOneOfSquares": "Өрістерді құлыптан босату үшін шаршының белгісін алып тастаңыз",
+    "calculationOfFocalLength": "Фокус арақашықтығын есептеу",
+    "refreshLog": "Журналды жаңарту",
+    "clearLog": "Журналды тазарту"
+  },
+  "climateControlPage": {
+    "Toffmax": "Температура бойынша өшірудің жоғарғы шегі",
+    "Toffmin": "Температура бойынша өшірудің төменгі шегі",
+    "Tonmax": "Температура бойынша қосу жоғарғы шегі",
+    "Tonmin": "Температура бойынша қосу төменгі шегі",
+    "Ucontrol": "Кернеуді бақылау",
+    "Uoffmax": "Кернеу бойынша өшірудің жоғарғы шегі",
+    "Uoffmin": "Кернеу бойынша өшірудің төменгі шегі",
+    "Uonmax": "Кернеу бойынша қосу жоғарғы шегі",
+    "Uonmin": "Кернеу бойынша қосу төменгі шегі",
+    "climateLog": "Климат-бақылау журналы",
+    "climateSettings": "Климат-бақылау параметрлері",
+    "dateTimeTitle": "Климат-бақылау сағатындағы күн мен уақыт",
+    "fan": "Желдеткіш",
+    "fanControl": "Желдеткішті басқару",
+    "fanOnTemp": "Желдеткішті қосу температурасы",
+    "fanShutdownTemp": "Желдеткішті өшіру температурасы",
+    "heater": "Жылытқыш",
+    "heaterControl": "Жылытқышты басқару",
+    "heaterOnTemp": "Жылытқышты қосу температурасы",
+    "heaterShutdownTemp": "Жылытқышты өшіру температурасы",
+    "load": "Жүктеме",
+    "loadManagement": "Жүктемені басқару",
+    "loadOff": "ЖҮКТЕМЕНІ ӨШІРУ",
+    "loadOn": "ЖҮКТЕМЕНІ ҚОСУ",
+    "sensorReadings": "Датчик көрсеткіштері",
+    "showLog": "Журналды көрсету",
+    "startClimate": "БАСТАУ",
+    "supplyVoltage": "Қоректендіру кернеуі",
+    "tableHeaders": {
+      "flags": "Тулар"
+    },
+    "tempControl": "Температураны бақылау",
+    "temperatureFailure": "Температура",
+    "voltageFailure": "Кернеу",
+    "warningMessage": "Назар аударыңыз! Климат-бақылау параметрлерінің дұрыс орнатылмауы есептеу модулінің іске қосылмауына немесе зақымдануына әкелуі мүмкін. Параметрлерді өзгертер алдында Пайдалану нұсқаулығын мұқият оқып шығыңыз"
+  },
+  "common": {
+    "actions": "Әрекеттер",
+    "dateOfOperation": "Операция күні",
+    "selectFileToUpload": "Жүктеу үшін файлды таңдаңыз",
+    "adding": "Қосу",
+    "additionalFilters": "Қосымша сүзгілер",
+    "additionalInformation": "Қосымша ақпарат",
+    "additionalSettings": "Қосымша баптаулар",
+    "address": "Мекенжай",
+    "alias": "Лақап аты",
+    "amts": "Өтіп жатқан көлік",
+    "any": "Кез келген",
+    "available": "Қол жетімді",
+    "availablePages": "Қолжетімді беттер",
+    "averageSpeed": "Орташа жылдамдық",
+    "background": "Артқы фон",
+    "brand": "Маркасы",
+    "brightness": "Жарықтық",
+    "buttons": {
+      "add": "Қосу",
+      "statusReset": "Күйді қалпына келтіру",
+      "apply": "Қолдану",
+      "applyFormChanges": "Пішінге өзгерістерді қолдану",
+      "block": "Блоктау",
+      "calculate": "Есептеу",
+      "cancel": "Болдырмау",
+      "changePassword": "Құпия сөзді өзгерту",
+      "changesApplied": "Өзгерістер сәтті қолданылды",
+      "check": "Тексеру",
+      "chooseFile": "Файлды таңдаңыз",
+      "close": "Жабу",
+      "confirm": "Растау",
+      "remove": "Жою",
+      "confirmItemRemoval": "Элементті жоюды растаңыз | \"{name}\" жоюды растаңыз",
+      "createImage": "Сурет жасау",
+      "decrease": "Азайту",
+      "delete": "Жою",
+      "download": "Жүктеп алу | Жүктеу",
+      "edit": "Өңдеу",
+      "enableIlluminator": "Инфрақызыл жарық көзін қосу",
+      "exit": "Шығу",
+      "hide": "Жасыру",
+      "install": "Орнату",
+      "list": "Тізім",
+      "login": "Авторизациядан өту",
+      "measure": "Өлшеу",
+      "pause": "Үзіліс",
+      "permanentSaveSettings": "Параметрлерді тұрақты сақтау",
+      "play": "Ойнату",
+      "refresh": "Жаңарту",
+      "refreshImage": "Суретті жаңарту",
+      "resetValue": "Мәнді қалпына келтіру",
+      "save": "Сақтау",
+      "saveImage": "Суретті сақтау",
+      "saveSettings": "Параметрлерді сақтау",
+      "search": "Іздеу",
+      "setValue": "Мәнді орнату",
+      "settings": "Параметрлер",
+      "showComments": "Пікірлерді көрсету",
+      "showImage": "Суретті көрсету",
+      "showSnapshot": "Кадрды қарау",
+      "showXML": "XML көрсету",
+      "skipBackward": "Кадрды артқа",
+      "skipForward": "Алға бір кадр",
+      "statistics": "Статистика",
+      "stop": "Тоқтату",
+      "submit": "Сақтау",
+      "turnOffIlluminator": "Инфрақызыл жарық көзін өшіру",
+      "unblock": "Құлыптан босату",
+      "upload": "Жүктеу",
+      "uploadImage": "Суретті жүктеу",
+      "useOldWebUI": "Ескі нұсқаға ауысу",
+      "watchVideo": "Видеоны көру",
+      "setDefaultSettings": "Әдепкі мәндерді орнату"
+    },
+    "camera": "Камера",
+    "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Камераны басқару функциялары тек видео бар кезде белсенді",
+    "change": "Өзгерту",
+    "channel": "Арна | Арналар",
+    "channelsList": "Арналар тізімі",
+    "note": "Ескерту",
+    "color": "Түс",
+    "colors": {
+      "green": "Жасыл",
+      "grey": "Сұр",
+      "red": "Қызыл",
+      "yellow": "Сары"
+    },
+    "comment": "Пікір | Пікірлер",
+    "commonSettings": "Жалпы параметрлер",
+    "complex": "Кешен",
+    "coordinates": "Координаттар",
+    "copyToClipboard": "Алмасу буферіне көшіру",
+    "count": "дана",
+    "darkTheme": "Қараңғы тақырып",
+    "dataTypes": {
+      "array": "Тізім",
+      "boolean": "Логикалық",
+      "number": "Сан",
+      "rectangle": "Тікбұрыш",
+      "string": "Жол"
+    },
+    "date": "Күн",
+    "dateTimeUTC": "Күн, уақыт (UTC)",
+    "dateTime": "Күн, уақыт",
+    "numberOfRecords": "Жазбалар саны",
+    "record": "Жазба | Жазбалар",
+    "delay": "Кешігу",
+    "detailedInformation": "Толық ақпарат",
+    "deviceId": "Құрылғы идентификаторы",
+    "direction": "Бағыт",
+    "directions": {
+      "left": "Сол",
+      "right": "Оң",
+      "center": "Ортасы",
+      "top": "Жоғары",
+      "middle": "Орта",
+      "bottom": "Төмен"
+    },
+    "directly": "Тура",
+    "disableFixation": "Тіркеуді өшіру",
+    "doYouReallyWantToDelete": "Шынымен жойғыңыз келе ме",
+    "editing": "Өңдеу",
+    "enableFixation": "Тіркеуді қосу",
+    "endPeriod": "Мерзімнің соңы",
+    "endTime": "Аяқталу уақыты",
+    "enforcementTypes": "Бұзушылықтарды тіркеу",
+    "error": "Қате",
+    "errorCode": "Қате коды",
+    "field": "Өріс",
+    "filesHaveBeenUploadedSuccessfully": "Файлдар сәтті жүктелді",
+    "filters": {
+      "page": "Бет",
+      "perPage": "Бір беттегі жазбалар саны"
+    },
+    "fixationHasBeenDisabled": "Тіркеу өшірілген",
+    "fixationHasBeenEnabled": "Тіркеу қосылған",
+    "flow": "Ағын",
+    "focalLength": "Фокустық арақашықтық",
+    "focus": "Фокус",
+    "format": "Пішім",
+    "fps": "кадр/сек",
+    "freezeFrames": "Тоқтау кадрлары",
+    "full": " Толық",
+    "geolocation": "Геолокация",
+    "group": "Топ",
+    "height": "Биіктік",
+    "identifier": "Идентификатор",
+    "image": "Бейне",
+    "imageUpload": "Бейнені жүктеу",
+    "initialization": "Инициализация",
+    "key": "Кілт",
+    "latLon": "Ендік/Бойлық",
+    "latitude": "Ендік",
+    "left": "Солға",
+    "lightTheme": "Ашық тақырып",
+    "longitude": "Бойлық",
+    "lpn": "мемлекеттік тіркеу нөмірі",
+    "markup": "Белгілеу",
+    "measurer": "Өлшегіш",
+    "mode": "Режим",
+    "model": "Модель",
+    "moveByMouse": "Тінтуірмен жылжыту",
+    "moveSuffix": {
+      "pxFrame": "пиксель/кадр"
+    },
+    "name": "Аты",
+    "network": {
+      "address": "Желілік мекенжай",
+      "bridgeName": "Көпір атауы",
+      "deviceName": "Құрылғы атауы",
+      "dhcp": "DHCP",
+      "dnsServers": "DNS серверлері",
+      "gateway": "Шлюз",
+      "ipAddress": "IP мекенжайы",
+      "link": "Байланыс",
+      "mac": "MAC",
+      "netMask": "Маска",
+      "networkBridge": "Желілік көпір",
+      "ping": "Пинг",
+      "sourceUrl": "Дереккөз URL-мекенжайы",
+      "static": "Статикалық",
+      "subnetMask": "Торап маскасы",
+      "url": "Деректерді беру үшін URL | URL",
+      "vlan": "VLAN",
+      "port": "Порт"
+    },
+    "no": "Жоқ",
+    "noData": "Деректер жоқ",
+    "noSearchResults": "Іздеу нәтижесі жоқ",
+    "none": "жоқ",
+    "notAvailable": "Қолжетімсіз",
+    "notConfigured": "Бапталмаған",
+    "notifications": {
+      "changesSaved": "Өзгерістер сақталды",
+      "fileSaved": "{fileName} файлы сақталды",
+      "markersSaved": "Маркерлер сақталды",
+      "saved": "Сақталды",
+      "successfully": "Сәтті",
+      "title": "Хабарламалар",
+      "changesApplied": "Өзгерістер қолданылды. Сақтауды ұмытпаңыз"
+    },
+    "off": "Өшірулі",
+    "offset": "Ауытқу",
+    "on": "Қосулы",
+    "operation": "Операция",
+    "parameter": "Параметр | Параметрлер",
+    "password": "Құпиясөз",
+    "peer": "Байланысты кешен | Байланысты кешендер",
+    "quality": "Сапа",
+    "realLatitude": "Нақты ендік",
+    "realLongitude": "Нақты бойлық",
+    "resetAll": "Барлығын қалпына келтіру",
+    "right": "Оңға",
+    "rtspClients": "RTSP клиенттері",
+    "rules": "Ережелер",
+    "running": "Іске қосылған",
+    "schedule": "Кесте | Кестелер",
+    "selectAll": "Барлығын таңдау",
+    "serialNumber": "Сериялық нөмір",
+    "set": "Орнату",
+    "settingsSaved": "Баптаулар сақталды",
+    "sharpness": "Айқындық",
+    "shutter": "Диафрагма",
+    "size": "Өлшемі",
+    "sizeSuffix": {
+      "Gb": "Гб",
+      "Kb": "КБ",
+      "Mb": "МБ"
+    },
+    "snapshot": "Сурет",
+    "source": "Дереккөз | дереккөзі",
+    "specificDate": "Нақты күн",
+    "speed": "Жылдамдық",
+    "speedLimit": "Жылдамдық шектеуі",
+    "speedSuffix": {
+      "kmh": "км/сағ"
+    },
+    "start": "Іске қосу",
+    "startPeriod": "Мерзімнің басы",
+    "startTime": "Басталу уақыты",
+    "status": "Статус",
+    "stop": "тоқтату",
+    "stopped": "Тоқтатылған",
+    "surveyImage": "Жалпы көрініс",
+    "synchronization": "Синхрондау",
+    "tableHeaderSettings": "Кесте бағандарының баптаулары",
+    "asc": "Өсу ретімен",
+    "desc": "Кему ретімен",
+    "sortBy": "Бойынша сұрыптау",
+    "sortOrder": "Сұрыптау реті",
+    "tableHeaders": {
+      "dateTime": "Күн/уақыт",
+      "direction": "Қозғалыс бағыты",
+      "event": "Оқиға",
+      "imageName": "Бейне атауы",
+      "laneType": "Жолақ түрі",
+      "active": "Белсенді",
+      "miniature": "Нобай",
+      "name": "Атауы | Аты",
+      "numberInOrder": "р/с нөмірі",
+      "sourceName": "Дереккөз атауы",
+      "time": "Уақыт",
+      "violationTypes": "Бұзушылық түрлері"
+    },
+    "temperature": "Температура",
+    "thickness": "Қалыңдық",
+    "tilt": "Қисайу",
+    "time": "Уақыт",
+    "timeSuffix": {
+      "hours": "сағ",
+      "minutes": "мин",
+      "microSec": "мкс",
+      "ms": "мс",
+      "sec": "сек"
+    },
+    "timeout": "Қосылу уақытының асуы",
+    "title": "Атауы",
+    "turn": "Айналдыру",
+    "type": "Түрі",
+    "uTurn": "Бұру",
+    "undefined": "Анықталмаған",
+    "units": {
+      "millimeters": "миллиметр | мм"
+    },
+    "unsavedChangesAlert": "НАЗАР АУДАРЫҢЫЗ! Сақталмаған баптау өзгерістері бар",
+    "useConfirmation": "Растау қолдану",
+    "userName": "Пайдаланушы аты",
+    "value": "Мәні",
+    "valueType": "Мән түрі",
+    "video": "Бейне",
+    "videoInput": "Бейне кіріс",
+    "view": "Қарау",
+    "viewImage": "Бейнені қарау",
+    "violationType": "Бұзушылық түрі",
+    "violations": "Бұзушылықтар",
+    "violationsTypes": "Бұзушылық түрі",
+    "wXh": "ЕхБ (Ені мен Биіктігі)",
+    "weekDays": {
+      "friday": "Жұма",
+      "monday": "Дүйсенбі",
+      "saturday": "Сенбі",
+      "sunday": "Жексенбі",
+      "thursday": "Бейсенбі",
+      "tuesday": "Сейсенбі",
+      "wednesday": "Сәрсенбі"
+    },
+    "width": "Ені",
+    "yes": "Иә",
+    "showRecognizer": "Тануды көрсету",
+    "step": "Қадам",
+    "select": "Таңдау",
+    "fixationSettings": "Тіркеу баптаулары",
+    "alwaysOn": "Үнемі қосулы",
+    "dataFromDevice": "Құрылғы деректері",
+    "dataFromComplex": "Кешен деректері",
+    "device": "Құрылғы",
+    "zoom": "Үлкейту",
+    "detailCamera": "Толықтай көрсететін камера",
+    "surveyCamera": "Жалпы көрініс камерасы",
+    "dawn": "Таң",
+    "sunrise": "Күн шығуы",
+    "sunset": "Күн бату",
+    "dusk": "Ымырт",
+    "fix": "Түзету",
+    "state": "Күйі",
+    "user": "Пайдаланушы",
+    "in": "в",
+    "templates": "Үлгі | Үлгілер",
+    "uploadedFiles": "Жүктелген файлдар",
+    "confirmRemove": "Сіз {entity} жойғыңыз келетініне сенімдісіз бе?",
+    "fileDeleted": "{filename} файлы жойылды",
+    "fileUploaded": "Файл сәтті жүктелді",
+    "text": "Мәтін",
+    "font": "Қаріп",
+    "bold": "Қалың",
+    "italic": "Курсив",
+    "underline": "Астын сызылған",
+    "textColor": "Мәтін түсі",
+    "backgroundColor": "Артқы фон түсі",
+    "clock": "Сағат",
+    "visibility": "Көріну",
+    "dateFormat": "Күн форматы",
+    "timeFormat": "Уақыт форматы",
+    "preview": "Алдын ала қарау",
+    "rotation": "Бұрылыстың бұрышы",
+    "listUpdated": "Тізім жаңартылды",
+    "total": "Барлығы",
+    "request": "Сұрату",
+    "developerMode": "Әзірлеуші құралдары",
+    "turnOn": "Қосу",
+    "turnOff": "Өшіру",
+    "section": "Бөлім",
+    "bus": "Автобус | Автобустар",
+    "car": "Жеңіл көлік | Жеңіл көліктер",
+    "truck": "Жүк көлігі | Жүк көліктері",
+    "notComplyWithGost": "Назар аударыңыз, бұл баптау ГОСТ талаптарына сәйкес келмейді",
+    "auto": "Авто",
+    "manually": "Қолмен",
+    "lengthSuffix": {
+      "mm": "мм"
+    },
+    "distance": "Қашықтық",
+    "confirmClear": "Сіз шынымен {entity} тазартқыңыз келе ме?",
+    "log": "журнал",
+    "unknown": "Белгісіз",
+    "countries": {
+      "AFG": "Ауғанстан",
+      "ALB": "Албания",
+      "DZA": "Алжир",
+      "ASM": "Америкалық Самоа",
+      "AND": "Андорра",
+      "AGO": "Ангола",
+      "AIA": "Ангилья",
+      "ATG": "Антигуа мен Барбуда",
+      "ARG": "Аргентина",
+      "ARM": "Армения",
+      "ABW": "Аруба",
+      "AUS": "Аустралия",
+      "AUT": "Аустрия",
+      "AZE": "Әзербайжан",
+      "BHS": "Багам аралдары",
+      "BHR": "Бахрейн",
+      "BGD": "Бангладеш",
+      "BRB": "Барбадос",
+      "BLR": "Беларусь",
+      "BEL": "Бельгия",
+      "BLZ": "Белиз",
+      "BEN": "Бенин",
+      "BMU": "Бермуд аралдары",
+      "BTN": "Бутан",
+      "BOL": "Боливия",
+      "BIH": "Босния және Герцеговина",
+      "BWA": "Ботсвана",
+      "BRA": "Бразилия",
+      "VGB": "Виргин аралдары (Ұлыбритания)",
+      "BRN": "Бруней",
+      "BGR": "Болгария",
+      "BFA": "Буркина-Фасо",
+      "BDI": "Бурунди",
+      "KHM": "Камбоджа",
+      "CMR": "Камерун",
+      "CAN": "Канада",
+      "CPV": "Кабо-Верде",
+      "CAF": "Орталық Африка Республикасы",
+      "TCD": "Чад",
+      "CHL": "Чили",
+      "CHN": "Қытай",
+      "HKG": "Гонконг",
+      "MAC": "Макао",
+      "COL": "Колумбия",
+      "COM": "Комор аралдары",
+      "COG": "Конго Республикасы",
+      "CRI": "Коста-Рика",
+      "CIV": "Кот-д’Ивуар",
+      "HRV": "Хорватия",
+      "CUB": "Куба",
+      "CYP": "Кипр",
+      "CZE": "Чехия",
+      "DNK": "Дания",
+      "DJI": "Джибути",
+      "DMA": "Доминика",
+      "DOM": "Доминикан Республикасы",
+      "ECU": "Эквадор",
+      "EGY": "Мысыр",
+      "SLV": "Сальвадор",
+      "GNQ": "Экваторлық Гвинея",
+      "ERI": "Эритрея",
+      "EST": "Эстония",
+      "ETH": "Эфиопия",
+      "EUR": "Еуропалық Одақ",
+      "FRO": "Фарер аралдары",
+      "FJI": "Фиджи",
+      "FIN": "Финляндия",
+      "FRA": "Франция",
+      "GUF": "Гвиана",
+      "PYF": "Француз Полинезиясы",
+      "GAB": "Габон",
+      "GMB": "Гамбия",
+      "GEO": "Грузия",
+      "DEU": "Германия",
+      "GHA": "Гана",
+      "GRC": "Грекия",
+      "GRL": "Гренландия",
+      "GRD": "Гренада",
+      "GLP": "Гваделупа",
+      "GUM": "Гуам",
+      "GTM": "Гватемала",
+      "GNB": "Гвинея-Бисау",
+      "HTI": "Гаити",
+      "HND": "Гондурас",
+      "HUN": "Венгрия",
+      "ISL": "Исландия",
+      "IND": "Үндістан",
+      "IDN": "Индонезия",
+      "IRN": "Иран",
+      "IRQ": "Ирак",
+      "IRL": "Ирландия",
+      "ISR": "Израиль",
+      "ITA": "Италия",
+      "JPN": "Жапония",
+      "JOR": "Иордания",
+      "KAZ": "Қазақстан",
+      "KEN": "Кения",
+      "KIR": "Кирибати",
+      "PRK": "КХДР",
+      "KOR": "Корея Республикасы",
+      "KWT": "Кувейт",
+      "KGZ": "Қырғызстан",
+      "LAO": "Лаос",
+      "LVA": "Латвия",
+      "LBN": "Ливан",
+      "LSO": "Лесото",
+      "LBR": "Либерия",
+      "LBY": "Ливия",
+      "LIE": "Лихтенштейн",
+      "LTU": "Литва",
+      "LUX": "Люксембург",
+      "MDG": "Мадагаскар",
+      "MWI": "Малави",
+      "MYS": "Малайзия",
+      "MDV": "Мальдив аралдары",
+      "MLI": "Мали",
+      "MLT": "Мальта",
+      "MHL": "Маршалл аралдары",
+      "MTQ": "Мартиника",
+      "MRT": "Мавритания",
+      "MUS": "Маврикий",
+      "MEX": "Мексика",
+      "FSM": "Микронезия",
+      "MDA": "Молдова",
+      "MCO": "Монако",
+      "MNG": "Моңғолия",
+      "MNE": "Черногория",
+      "MSR": "Монтсеррат",
+      "MAR": "Марокко",
+      "MOZ": "Мозамбик",
+      "MMR": "Мьянма",
+      "NAM": "Намибия",
+      "NRU": "Науру",
+      "NPL": "Непал",
+      "NLD": "Нидерланды",
+      "NCL": "Жаңа Каледония",
+      "NZL": "Жаңа Зеландия",
+      "NIC": "Никарагуа",
+      "NER": "Нигер",
+      "NGA": "Нигерия",
+      "MNP": "Солтүстік Мариан аралдары",
+      "NOR": "Норвегия",
+      "OMN": "Оман",
+      "PAK": "Пәкістан",
+      "PLW": "Палау",
+      "PSE": "Палестина",
+      "PAN": "Панама",
+      "PNG": "Папуа — Жаңа Гвинея",
+      "PRY": "Парагвай",
+      "PER": "Перу",
+      "PHL": "Филиппин аралдары",
+      "PCN": "Питкэрн аралдары",
+      "POL": "Польша",
+      "PRT": "Португалия",
+      "PRI": "Пуэрто-Рико",
+      "QAT": "Қатар",
+      "REU": "Реюньон",
+      "ROU": "Румыния",
+      "RUS": "Ресей",
+      "RWA": "Руанда",
+      "KNA": "Сент-Китс және Невис",
+      "LCA": "Сент-Люсия",
+      "VCT": "Сент-Винсент және Гренадиндер",
+      "WSM": "Самоа",
+      "SMR": "Сан-Марино",
+      "STP": "Сан-Томе және Принсипи",
+      "SAU": "Сауд Арабиясы",
+      "SEN": "Сенегал",
+      "SRB": "Сербия",
+      "SYC": "Сейшел аралдары",
+      "SLE": "Сьерра-Леоне",
+      "SGP": "Сингапур",
+      "SVK": "Словакия",
+      "SVN": "Словения",
+      "SLB": "Соломон аралдары",
+      "SOM": "Сомали",
+      "ZAF": "ОАР",
+      "ESP": "Испания",
+      "LKA": "Шри-Ланка",
+      "SDN": "Судан",
+      "SUR": "Суринам",
+      "SWZ": "Эсватини",
+      "SWE": "Швеция",
+      "CHE": "Швейцария",
+      "SYR": "Сирия",
+      "TWN": "Тайвань",
+      "TJK": "Тәжікстан",
+      "TZA": "Танзания",
+      "THA": "Таиланд",
+      "TLS": "Шығыс Тимор",
+      "TGO": "Того",
+      "TON": "Тонга",
+      "TTO": "Тринидад және Тобаго",
+      "TUN": "Тунис",
+      "TUR": "Түркия",
+      "TKM": "Түркменстан",
+      "TUV": "Тувалу",
+      "UGA": "Уганда",
+      "UKR": "Украина",
+      "ARE": "БАӘ",
+      "GBR": "Ұлыбритания",
+      "USA": "АҚШ",
+      "URY": "Уругвай",
+      "UZB": "Өзбекстан",
+      "VUT": "Вануату",
+      "VEN": "Венесуэла",
+      "VNM": "Вьетнам",
+      "VIR": "Виргин аралдары (АҚШ)",
+      "YEM": "Йемен",
+      "ZMB": "Замбия",
+      "ZWE": "Зимбабве",
+      "ABH": "Абхазия",
+      "DPR": "ДНР Республикасы",
+      "LPR": "ЛНР Республикасы"
+    },
+    "currentTime": "Ағымдағы уақыт",
+    "photo": "Сурет",
+    "warning": "Ескерту",
+    "lane": "Полоса | Полосалар",
+    "laneNumber": "Полоса №",
+    "confirmResetValues": "Шығаруды қалайсыз ба?",
+    "regular": "Әдеттегі",
+    "dateTimePresets": {
+      "currentDay": "Қазіргі күн",
+      "currentHour": "Қазіргі сағат",
+      "lastHour": "Соңғы сағат",
+      "last3Hours": "Соңғы 3 сағат",
+      "lastDay": "Соңғы 24 сағат",
+      "last7Days": "Соңғы 7 күн",
+      "lastMonth": "Соңғы ай",
+      "byDay": "Күн сайын"
+    },
+    "custom": "Пайдаланушы",
+    "dateTimePreset": "Күні/уақыты бойынша алдын ала орнату",
+    "preset": "Алдын ала орнату",
+    "addChannel": "Канал қосу",
+    "additionalViolationTypes": "Қосымша бұзушылық түрлері",
+    "dark": "Қараңғылық"
+  },
+  "configEditor": {
+    "fileSaved": "Файл сақталды\n\"Жүйе\" қойындысындағы параметрлерді сақтауды ұмытпаңыз"
+  },
+  "controlZonesPage": {
+    "GRZrecognition": "ЖСЖ тану",
+    "MaximumNumberOfLanes": "Полосалардың ең көп саны",
+    "additionalChannelSettings": "Каналдың қосымша параметрлері",
+    "additionalData": "Қосымша деректер",
+    "aliasRemovingConfirm": "Псевдонимді жоюды растайсыз ба: \"{name}\"",
+    "area": "Аудан",
+    "bottomBorderFixation": "Тіркеу төменгі шегі",
+    "channelName": "Канал атауы",
+    "channelSettings": "Канал параметрлері",
+    "defaultVehicleDirection": "Әдепкі көлік бағыты",
+    "doNotFixRouteVehicles": "Маршрутты көліктерді тіркемеңіз",
+    "doNotFixTheSpeedAfter": "Жылдамдықты тіркемеңіз",
+    "drivingDesignated": "МТС үшін арналған жолақта қозғалыс (3.1 белгі)",
+    "endPhaseTimeLag": "Фаза аяқталғанға дейін тіркелмейтін бұзушылық уақыты",
+    "entryLine": "Кіру сызығы",
+    "fixationDisabled": "Тіркеу өшірілді",
+    "generalStop": "Жалпы тоқтау",
+    "globalSettings": {
+      "additionalGlobalSettings": "Қосымша жаһандық параметрлер",
+      "globalSettings": "Жаһандық параметрлер",
+      "oncomingDirection": "Кері (камераға қарай)",
+      "relatedDirection": "Жолдас (камерадан)"
+    },
+    "grzRecognition": {
+      "asyddIntegration": "АСУДД жүйесімен интеграция",
+      "detectionWithoutGuardrail": "ЖСЖ жоқ көліктерді анықтау",
+      "dynamicSizeGrz": "ЖСЖ динамикалық өлшемі",
+      "firstPassingPassengers": "Жолдас үшін бірінші, қарсы үшін соңғы",
+      "firstRecognized": "Алғашқы тану",
+      "frameRate": "Тану кадр жиілігі",
+      "grzForMaterial": "Материалға арналған ЖСЖ",
+      "largestGrz": "Ең үлкен ЖСЖ",
+      "lastRecognized": "Соңғы тану",
+      "maxGrzWidth": "ЖСЖ ең үлкен ені",
+      "minGrzReliability": "ЖСЖ тану сенімділігінің ең төменгі деңгейі",
+      "minGrzWidth": "ЖСЖ ең төменгі ені",
+      "minNumberOfRecognitions": "Танудың ең төменгі саны",
+      "numberOfFramesForLeaving": "Қозғалмайтын нөмір үшін кадрлар саны",
+      "numberOfFramesForRoomCare": "Нөмір үшін кадрлар саны",
+      "recognize2ndFrame": "Әр 2-ші кадрды тану",
+      "recognize3ndFrame": "Әр 3-ші кадрды тану",
+      "recognizeAllFrames": "Барлық кадрларды тану",
+      "useNeuralNetworkDetector": "ЖСЖ нейрожелілік детекторын пайдалану",
+      "useNeuralNetworkRecognitionGrz": "ЖСЖ нейрожелілік тануын пайдалану",
+      "vehicleDetectorThreshold": "Көлік детекторының шегі"
+    },
+    "identifiers": "Идентификаторлар",
+    "ignoreRepeats": "Қайталауларды елемеу",
+    "ignoreZeroSpeed": "Нөлдік жылдамдықтағы бұзушылықтарды елемеу",
+    "imageAliases": "Суреттердің псевдонимдері",
+    "laneSettings": {
+      "addLane": "Жолақты қосу",
+      "deleteLane": "Жолақты жою",
+      "deleteLaneConfirm": "Жолақ қозғалысын жоюды растайсыз ба: №{name}",
+      "disablePt": "ПТ өшірілді",
+      "settingsTitle": "Жолақ қозғалысының параметрлері",
+      "trafficLanes": "Қозғалыс жолақтары"
+    },
+    "location": "Орын",
+    "lowerFixationLimit": "Тіркеу төменгі шегі",
+    "lpnSimilarity": "ЖСЖ ұқсастығы*",
+    "maxPhaseLength": "Тыйым салушы фазаның ең ұзын ұзындығы",
+    "minConfidence": "Ең төменгі сенімділік",
+    "minDistance": "Жолдың ең төменгі ұзындығы",
+    "minSpeedLimit": "Ең төменгі жылдамдық шегі",
+    "minStoppingTime": "Ең төменгі тоқтау уақыты",
+    "mskso": {
+      "arrowInput": "Қосымша бөлімнің кіруі",
+      "recordViolation": "Бұзушылықты тек қызыл және өшпейтін белгімен тіркеу",
+      "redInput": "Қызылға кіру",
+      "yellowInput": "Сарыға кіру",
+      "arrowLeftInput": "Қосымша бөлімге солға кіру",
+      "arrowRightInput": "Қосымша бөлімге оңға кіру"
+    },
+    "networkDetermination": "Нейрожелілік көлік сыныбының анықтамасы",
+    "noConfiguredChannels": "Байланысқан кешенде орнатылған арналар жоқ",
+    "notEnoughSpaceForLane": "Жаңа қозғалыс жолағын қосуға орын жеткіліксіз",
+    "okato": "ОКАТО",
+    "oncoming": "Қарсы",
+    "oncomingBuses": "Қарсы автобустар",
+    "oncomingTrucks": "Қарсы жүк көліктері",
+    "onlyStoplineTime": "Бұзушылық тек тоқтау сызығы ретінде қарастырылатын фаза аяқталғанға дейінгі уақыт",
+    "outputLine": "Шығу сызығы",
+    "overSpeed": "Жылдамдықты асу",
+    "parking328": "3.28 тұру",
+    "parkingAtIntersection": "Айрықта тұру",
+    "parkingOnSiteForCrippled": "Мүгедектерге арналған орынға тұру",
+    "passing": "Жолдас",
+    "passingBuses": "Жолдас автобустар",
+    "passingTrucks": "Жолдас жүк көліктері",
+    "plotForTheResolution": "Қаулы үшін фабула",
+    "prohibitedChannels": "Тыйым салынған арналар",
+    "recognitionArea": "Танудың аймағы",
+    "recognitionChannelSettings": "Танудың арна параметрлері",
+    "repeatsTimeout": "Қайталау уақыт шегі",
+    "roadwayCrossingLine": "Жолдың өтпелі бөлігінің қиылысу сызығы",
+    "savePhotos": "ЖСЖ бар көліктердің шолу суреттерін сақтау",
+    "speedLimitOnDistance": "Қашықтық бойынша жылдамдық шегі",
+    "speedThreshold": "Жылдамдық шегі",
+    "speedingAtADistance": "Қашықтық бойынша жылдамдықты асыру",
+    "stop327": "3.27 тоқтау",
+    "stopAtPublicTransportStop": "Қоғамдық көлік аялдамасында тұру",
+    "stopAtRailwayCrossing": "Теміржол өткелінде тұру",
+    "stopInSecondRow": "2-ші қатарда тұру",
+    "stopOnLaneForFixedRouteVehicles": "Маршруттық көлік жолақта тұру",
+    "stopOnSidewalk": "Жаяу жүргіншілер жолында тұру",
+    "stopOnTramTracks": "Трамвай жолында тұру",
+    "stopPedestrianCrossing": "Жаяу жүргіншілер өтпесінде тұру",
+    "tenzoM": "Тензо-М",
+    "timeLag": "Тіркеу кідірісі",
+    "topBorderFixation": "Тіркеудің жоғарғы шегі",
+    "upperFixationLimit": "Тіркеудің жоғарғы шегі",
+    "useCarClass": "Көлік классын пайдалану",
+    "usePeer": "Байланысқан кешенді пайдалану",
+    "vehicleDetectorMarkings": "Көлік детекторының белгіленуі",
+    "videoSourceAliases": "Бейнемазмұн көздерінің псевдонимдері",
+    "violationClassifyAlgorithm": "Біліктілік алгоритмі",
+    "violationTypeSettings": "Бұзушылық түрінің параметрлері",
+    "violations": {
+      "allowedDirectionMovement": "Қозғалыстың рұқсат етілген бағыты",
+      "atRailway": "Теміржол өткелінде",
+      "bandSelectionAlgorithm": "Жолақ таңдау алгоритмі",
+      "bicyclePathMovement": "Веложолда қозғалыс",
+      "bothDirections": "Екі бағыт",
+      "byMotionSpeed": "Қозғалыс жылдамдығына байланысты, пиксель/кадр",
+      "crossingStopLine": "Тоқтау сызығын кесу",
+      "forbiddenDirection": "Тыйым салынған қозғалыс бағыты",
+      "fromTVSensorParallel": "ТВ сенсорынан (жолдас)",
+      "goStraight": "Тікелей қозғалыс",
+      "intersectionOrControlled": "Айрықта немесе реттелетін ПП",
+      "lastRecognizedGrz": "Соңғы танылған ЖСЖ",
+      "leftCameraView": "Камерадан көрінетін сол жағында",
+      "lineOfIntersection": "ПЧ қиылысу сызығы бойынша",
+      "maneuverTime": "Маневр уақыты",
+      "maxManeuverTime": "Маневрдың максималды уақыты",
+      "maxPermissibleWeightRestrictions": "Максималды рұқсат етілген салмақ шектеулері (3.1 белгі)",
+      "minDistance": "Ең аз қашықтық",
+      "minManeuverTime": "Маневрдың ең аз уақыты",
+      "minSpeed": " Ең аз жылдамдық",
+      "movingCargoBeyondSecondLane": "Екінші жолақтан кейін жүк көлігінің қозғалысы",
+      "movingCargoExceeding2": {
+        "5TonsLeftLane": "Сол жақ жолақта МРМ 2,5 т-тан асатын жүк көлігінің қозғалысы"
+      },
+      "noPassingZone": "\"Өтуге тыйым салынған\" белгісінің аймағында",
+      "oneWayTraffic": "Біржақты қозғалыс",
+      "outsideNoPassingZone": "\"Өтуге тыйым салынған\" белгісінің аймағынан тыс",
+      "pedestrianPathwayMovement": "Жаяу жүргіншілер жолымен қозғалыс",
+      "pedestrianZoneMovement": "Жаяу жүргіншілер аймағында қозғалыс",
+      "positionNoLeftSign": "Солға бұрылу белгісі жоқ ПЧ жағдайы",
+      "positionNoRightSign": "Оңға бұрылу белгісі жоқ ПЧ жағдайы",
+      "positionNoUTurnSign": "Қайту белгісі жоқ ПЧ жағдайы",
+      "prohibitedDirections": "Тыйым салынған бағыттар | Тыйым салынған бағыт",
+      "railwayCrossing": "Теміржол өткелі",
+      "rightCameraView": "Камерадан көрінетін оң жағында",
+      "rightProhibited": "Оңға бұрылу тыйым салынған",
+      "safetyIsland": "Қауіпсіздік аралы",
+      "sameDirectionMovement": "\"Кирпич\" белгісімен жолдас бағытта қозғалыс",
+      "sameDirectionMovementNoTaxis": "\"Кирпич\" белгісімен жолдас бағытта қозғалыс (таксиден басқа)",
+      "settingsTitle": "Настройка бұзушылықтары",
+      "sidewalkMovement": "Тротуар бойынша қозғалыс",
+      "signLeftProhibited": "\"Солға бұрылуға тыйым салынған\" белгісі",
+      "signRightProhibited": "\"Оңға бұрылуға тыйым салынған\" белгісі",
+      "solidMarkingsLeft": "Сол жағында үздіксіз белгілер",
+      "solidMarkingsRight": "Оң жағында үздіксіз белгілер",
+      "toTVSensorOncoming": "ТВ сенсорыға (қарсы бағыт)",
+      "tramTracksDirection": "Трамвай жолындағы қозғалыс бағыты",
+      "truckMovementProhibited": "Жүк көліктеріне қозғалысқа тыйым салынған (3.4 белгі)",
+      "turningLeftProhibited": "Солға бұрылуға тыйым салынған",
+      "uTurnNoGoStraight": "Тікелей қозғалыс белгісі бойынша қайту",
+      "uTurnProhibited": "Қайтуға тыйым салынған",
+      "useRelatedComplexes": "Байланысқан кешендерді пайдалану",
+      "withoutMarkings": "Айрықта немесе реттелетін ПП белгіленбеген жағдайда",
+      "allViolationsFormed": "Екі бұзушылық қалыптасады",
+      "driverViolationsFormed": "Жүргізушіге бұзушылық қалыптасады",
+      "fixDriverBelt": "Жүргізуші белбеуін тіркеу",
+      "fixPassengerBelt": "Пассажир белбеуін тіркеу",
+      "passengerViolationsFormed": "Пассажирге бұзушылық қалыптасады",
+      "withSimultaneousFixation": "Бір уақытта тіркеу кезінде",
+      "enableQualificationsAtDifferentTimesOfTheDay": "Квалификацияны тәуліктің әртүрлі уақытында қосу"
+    },
+    "drivingTaxiBrick": "Таксидің \"кирпич\" белгісімен жолақта қозғалысы"
+  },
+  "convertersPage": {
+    "addConverter": "Конвертерді қосу",
+    "converterRestarted": "Конвертер қайта іске қосылды",
+    "commonSettings": "Жалпы параметрлер",
+    "converterInstanceHint": "«duplo» конвертерінің экземпляры үшін қосымша атау",
+    "convertersList": "Конвертерлер тізімі",
+    "deleteCurrentConverter": "Ағымдағы конвертерді жою",
+    "digitalPatrolForm": {
+      "addResolution": "Бейнемазмұнның рұқсатын қосу",
+      "cipherKey": "Кілт коды",
+      "cipherKeyInputTitle": "Хабарламаларды шифрлау үшін кездейсоқ жол, DigitalPatrol Central-да тіркеледі және кешенге беріледі",
+      "deviceId": "Құрылғы идентификаторы",
+      "deviceIdInputTitle": "Кешен идентификаторы, DigitalPatrol Central-да тіркеледі және кешенге беріледі",
+      "formatInputTitle": "Бұзушылықтарды қандай форматқа түрлендіру қажет. «digital-patrol-center» мәні орнатылуы тиіс",
+      "pathToCSV": "Маршруттық көліктердің CSV жолы",
+      "rsaKey": "Жеке RSA кілті",
+      "urlInputTitle": "Бұзушылықтар пакеттері жіберілетін қашықтағы мекенжай"
+    },
+    "duploForm": {
+      "amtsDisabled": "Өткен ТС туралы деректерді жіберуді өшіру",
+      "amtsTimeout": "Өткізілетін ПТ уақыт шегі",
+      "debugSettings": "Нұсқалар параметрлері",
+      "keepErrorAmts": "ТС жеткізу қателері туралы деректерді сақтау",
+      "keepErrorViolations": "Бұзушылықтарды жеткізу қателері туралы деректерді сақтау",
+      "keepSentAmts": "Жіберілген ТС туралы деректерді сақтау",
+      "keepSentViolations": "Жіберілген бұзушылықтар туралы деректерді сақтау",
+      "sendAmtsWithViolations": "Өткен ТС ағынында бұзушылықтары бар ТС-ті жіберу",
+      "violationsDisabled": "Бұзушылықтарды жіберуді өшіру",
+      "violationsTimeout": "Бұзушылықтарды жеткізу уақыт шегі"
+    },
+    "duploServicesStatusRefreshed": "Қызметтердің күйі жаңартылды",
+    "formatInputHint": "Бұзушылықтарды қандай форматқа түрлендіру қажет. «duplo» мәні орнатылуы тиіс",
+    "instance": "Экземплярдың атауы",
+    "isActive": "Белсенді",
+    "isLoaded": "Жүктелген",
+    "krisForm": {
+      "amts": "Өткен транспорт",
+      "amtsDisabled": "Өткен ТС туралы деректерді жіберуді өшіру",
+      "amtsSaveLargeImage": "ЖСЖ бар ТС шолу суретін жіберу",
+      "amtsSaveLicensePlateImage": "ЖСЖ суретін жіберу",
+      "copyDir": "Көшіру директориясы",
+      "destFmt": "Файл атауларының үлгісі",
+      "destinationFolder": "Сақтау директориясы",
+      "disableViolationTypes": "Бұзушылықтарды қалыптастыруды өшіру",
+      "permissions": "Қолжетімділік маскасы",
+      "signMechanism": "Қолтаңба механизмдері",
+      "violations": "Бұзушылықтар",
+      "violationsDisabled": "Бұзушылықтарды жіберуді өшіру"
+    },
+    "refreshDuploServiceStatus": "Қызметтер күйін жаңарту",
+    "restartDuploServices": "Duplo қызметін қайта іске қосу",
+    "saveConverterSettings": "Конвертер параметрлерін сақтау",
+    "serviceName": "Қызмет атауы",
+    "serviceStatus": "Қызметтер күйі",
+    "thereMustBeAtLeastOneValue": "Кемінде 1 мән болуы тиіс",
+    "transferSettings": "Деректерді жіберу параметрлері",
+    "doYouReallyWantToDeleteSelectedConverter": "Шынымен таңдаған конвертерді жойғыңыз келе ме?"
+  },
+  "datePage": {
+    "dateTimeErrorToast": "Қазіргі күнді алу қателігі",
+    "dateTimeTitle": "Күні/уақыты",
+    "dateTimeZoneSuccessToast": "Уақыт белдеуі жаңартылды",
+    "deviation": "Көтерілу, мс",
+    "fetchError": "Күн мен уақытты көрсету қателігі!",
+    "getCurrentDateError": "Қазіргі күнді алу қателігі",
+    "gpsTitle": "GPS синхронизациясы",
+    "instability": "Тұрақсыздық, мс",
+    "lastSync": "Соңғы синхрондау, с",
+    "syncSource": "Синхронизация көзі",
+    "timeZone": "Уақыт белдеуі"
+  },
+  "errorPages": {
+    "forbidden": {
+      "exit": "Аккаунттан шығу",
+      "title": "Бұл бетті көруге сіздің құқығыңыз жоқ"
+    },
+    "login": {
+      "title": "Сіз авторизацияланбағансыз! 🔐"
+    },
+    "notFound": {
+      "backHome": "Басты бетке",
+      "subtitle": "Упс! 😖 Сұралған URL-адрес осы серверде табылған жоқ.",
+      "title": "Бет табылған жоқ"
+    }
+  },
+  "errors": {
+    "errorCode": "Қате коды",
+    "errorReceivingDataFromServer": "Серверден деректер алу қателігі",
+    "errorText": "Қате мәтіні",
+    "Вы не можете вносить изменения для системного пользователя": "Жүйелік пайдаланушы үшін өзгерістер енгізе алмайсыз",
+    "Дата должна быть в формате ДД.ММ.ГГГГ": "Күні ДД.ММ.ГГГГ форматында болуы тиіс",
+    "За указанную дату нарушения не найдены": "Көрсетілген күнге қатысты бұзушылықтар табылмады",
+    "Изменять настройки может только администратор": "Параметрлерді өзгерту тек әкімшіге ғана рұқсат етілген",
+    "Изображение не найдено": "Сурет табылмады",
+    "Изображение не передано": "Сурет жіберілмеді",
+    "Имя пользователя не может быть пустым": "Пайдаланушы аты бос бола алмайды",
+    "Канал с таким именем уже существует": "Мұндай атаумен арна already бар",
+    "Канал успешно добавлен": "Арна сәтті қосылды",
+    "Место не указано": "Орны көрсетілмеген",
+    "Неверный пароль метролога": "Метрологтың құпия сөзі қате",
+    "Некорректный JSON": "Қате JSON форматы",
+    "Некорректный или пустой JSON": "Қате немесе бос JSON",
+    "Необходимо имя для нового соединения. Отсутствует параметр 'name'": "Жаңа қосылым үшін атау қажет. 'name' параметрі жоқ",
+    "Необходимо как минимум три основных файла: client certificate, client key, openvpn config": "Кемінде үш негізгі файл қажет: клиент сертификаты, клиент кілті, openvpn конфигурациясы",
+    "Необходимы права администратора": "Әкімші құқықтары қажет",
+    "Отсутствует config": "config жоқ",
+    "Отсутствует datetime": "datetime жоқ",
+    "Отсутствует timetable_name": "timetable_name жоқ",
+    "Ошибка": "Қате",
+    "Пользователь не может заблокировать собственную учетную запись": "Пайдаланушы өз есептік жазбасын бұғаттай алмайды",
+    "Пользователь не может разблокировать собственную учетную запись": "Пайдаланушы өз есептік жазбасын ашып ала алмайды",
+    "Файл конфигурации отсутствует или пустой": "Конфигурация файлы жоқ немесе бос",
+    "Файл с правами не найден": "Құқықтары бар файл табылмады",
+    "Файл успешно сохранён": "Файл сәтті сақталды",
+    "Файлы успешно загружены": "Файлдар сәтті жүктелді",
+    "channelNotFound": "{var} арнасы табылмады",
+    "Некорректные параметры JSON": "Қате JSON параметрлері",
+    "Нет данных": "Мәліметтер жоқ",
+    "directoryAlreadyExists": "\"{var}\" қалтасы already бар. Файлдар сәтті жүктелді",
+    "unknownUser": "\"{var}\" белгісіз пайдаланушы",
+    "userAlreadyExists": "\"{var}\" пайдаланушысы already бар",
+    "climatConnectionError": "Климат-контроль модулімен қосылым қатесі: {var}",
+    "peripheryNotFound": "\"{var}\" перифериясы табылмады",
+    "dynemicError": "Қате: {var}",
+    "incorrectCleanerPathStart": "Қалтаның жолы '/mnt/azimuth-data/' арқылы басталуы тиіс. Сіз \"{var}\" енгіздіңіз",
+    "cleanerPathNotExists": "\"{var}\" деген жоқ жол көрсетілді. Оның бар-жоғын тексеріңіз",
+    "imageDisplayError": "Суретті көрсету кезінде қате",
+    "formError": "Кейбір форма өрістері дұрыс толтырылмаған. Қателерді түзетіңіз",
+    "Данные отсутствуют": "Мәліметтер жоқ",
+    "internalServerError": "Сервердің ішкі қатесі",
+    "errorReceivingGpsData": "GPS мәліметтерін алу кезінде қате. Желі қосылымын тексеріңіз",
+    "Необходимо установить состав АПН": "Әкімшілік құқықбұзушылықтар (АПН) құрамын орнату қажет.",
+    "Отсутствуют данные о местоположении комплекса": "Комплекстің орналасқан жері туралы мәлімет"
+  },
+  "gpsPage": {
+    "clearLog": "Логты тазарту",
+    "deviance": "Орналасу қателігі, м",
+    "factoryReset": "Қабылдағышты зауыттық баптауларға қалпына келтіру",
+    "gpsLog": "GPS деректерінің журналы",
+    "logEnable": "GPS деректерін журналға жазу",
+    "numberOfMeasurements": "Өлшеулер саны",
+    "receiverResetToast": "Қабылдағыш қалпына келтірілді",
+    "satelliteID": "Спутник ID",
+    "snr": "Орташа с/ш, дБ",
+    "trackingSatellites": "Қадағаланатын спутниктер",
+    "usedSatellites": "Шешімдегі спутниктер",
+    "coordinatesCopied": "Координаттар буферге көшірілді",
+    "coordinatesNotAvailable": "Координаттар қол жетімді емес",
+    "differentialGps": "Дифференциалды GPS",
+    "extrapolationOfCoordinates": "Координаттарды экстраполяциялау",
+    "manualInputMode": "Қолмен енгізу режимі",
+    "simulatorMode": "Симулятор режимі"
+  },
+  "homePage": {
+    "duploDialog": {
+      "amtTotalFailed": "Қателіктермен өткен көлік құралдары жалпы саны",
+      "amtTotalQueued": "Кезекте тұрған көлік құралдары жалпы саны",
+      "amtTotalSuccess": "Сәтті жіберілген көлік құралдары жалпы саны",
+      "date": "Күні",
+      "duplo": "Дупло 2",
+      "errors": "Қателіктер",
+      "inQueue": "Кезекте",
+      "successful": "Сәтті",
+      "title": "''Дупло 2'' қызметіне материалдарды жіберудің егжей-тегжейлі статистикасы",
+      "violationTotalFailed": "Қателіктермен бұзушылықтар жалпы саны",
+      "violationTotalQueued": "Кезекте тұрған бұзушылықтар жалпы саны",
+      "violationTotalSuccess": "Сәтті жіберілген бұзушылықтар жалпы саны",
+      "mainTabTitle": "Негізгі"
+    },
+    "information": {
+      "allSpace": "SSD дискісіндегі жалпы орын",
+      "duploStatistics": "''Дупло 2'' қызметіне материалдарды жіберу статистикасы",
+      "freeSpace": "бос",
+      "gigabyte": "Гб",
+      "maxChannels": "Тану арналарын максималды саны",
+      "mod": "Жабдықтау",
+      "title": "Жалпы ақпарат"
+    },
+    "lanesDialog": {
+      "lane": "Жолақ",
+      "roadSide": "Жол жиегі",
+      "selectNumberOfLanes": "Жолақтардың санын таңдаңыз"
+    },
+    "settings": {
+      "directionForOncoming": "Кері бағыт үшін бағыт",
+      "directionForPassing": "Кездейсоқ бағыт үшін бағыт"
+    },
+    "trafficLanes": {
+      "cameraId": "Камера ID",
+      "direction": "Бағыт",
+      "indexNumber": "р/н нөмірі",
+      "installationPlace": "Орнату орны",
+      "kiptId": "Бағдарламалық-техникалық өлшеу кешені ID",
+      "objectId": "Нысан ID",
+      "oppositeDirection": "Қарсы бағыт",
+      "recognitionChannel": "Тануға арналған арна",
+      "sameDirection": "Бір бағыттағы",
+      "tcToday": "Бүгінгі көлік құралдары",
+      "tcYesterday": "Кешегі көлік құралдары",
+      "title": "Қозғалыс жолақтары",
+      "violationsToday": "Бүгінгі бұзушылықтар",
+      "violationsYesterday": "Кешегі бұзушылықтар",
+      "warnings": "Ескертулер",
+      "anyDirection": "Кез келген",
+      "allCurrentLaneSettingsWillBeDeleted": "Назар аударыңыз! Ағымдағы жолақтардың барлық баптаулары өшіріледі. Сіз сенімдісіз бе?"
+    },
+    "mobile": {
+      "chooseZoneConfigFile": "Аймақ конфигурациясының файлын таңдаңыз",
+      "currentAddress": "Ағымдағы мекенжай",
+      "currentViolation": "Ағымдағы әкімшілік құқық бұзушылық",
+      "complexIsNotOnRoute": "Кешен маршрутта емес",
+      "fixationDisabled": "Кешеннің орналасуы өзгертілген немесе жойылған себепті тіркеу автоматты түрде сөндірілді. Баптауларды тексеріңіз.",
+      "fixationDisabledIfNoViolations": "Назар аударыңыз! Фиксация қосылған кезде әкімшілік құқық бұзушылық құрамын көрсету қажет"
+    }
+  },
+  "imagesPage": {
+    "fillColor": "Толтыру түсі",
+    "imageAddedToast": "Сурет қосылды",
+    "imageCreate": "Сурет жасау",
+    "imageDeletedToast": "Сурет өшірілді",
+    "imageUploadedToast": "Сурет жүктелді",
+    "line": "Сызық",
+    "lineThickness": "Сызықтардың қалыңдығы",
+    "polygon": "Көпбұрыш",
+    "rectangle": "Тікбұрыш",
+    "selectBackground": "Фон таңдаңыз",
+    "strokeColor": "Шекара түсі",
+    "title": "Суреттер"
+  },
+  "menu": {
+    "amts": "Өткен көлік құралдары",
+    "amtsServer": "Өткен көлік құралдарының сервері",
+    "channelsAlignment": "Арналарды юстировкалау",
+    "climate": "Климат-бақылау",
+    "controlZones": "Бақылау аймақтары",
+    "converters": "Конвертерлер",
+    "dateTime": "Күні/Уақыты",
+    "eds": "ЭЦҚ (электрондық цифрлық қолтаңба)",
+    "gps": "ГЛОНАСС/GPS",
+    "groups": {
+      "azimuthSettings": "Азимут бағдарламалық қамтуының баптаулары",
+      "exportData": "Деректерді экспорттау",
+      "systemSettings": "Жүйе баптаулары",
+      "view": "Қарау"
+    },
+    "home": "Басты бет",
+    "images": "Суреттер",
+    "metrology": "Метрология",
+    "monitoring": "Мониторинг",
+    "mskso": "МСКСО",
+    "networks": "Желілік баптаулар",
+    "parking": "Тұрақ",
+    "pedestrians": "Жаяу жүргіншілерді тіркеу",
+    "peers": "Байланысты кешендер",
+    "schedules": "Кестелер",
+    "system": "Жүйе",
+    "search": "Іздеу",
+    "users": "Тіркелгілер",
+    "videoArchive": "Бейне мұрағат",
+    "videoSources": "Бейне дереккөздері",
+    "violations": "Бұзушылықтар",
+    "zonesConnect": "Бақылау аймақтарын түйістіру",
+    "garbageMO": "қатты тұрмыстық қалдықтар МО",
+    "roadScreen": "Ақпараттық табло",
+    "radar": "Радар",
+    "configEditor": "Конфигурация редакторы"
+  },
+  "metrologyPage": {
+    "certificateSaved": "Куәлік сақталды",
+    "metrologistPasswordSavedToast": "Метрологтың құпиясөзі сәтті өзгертілді",
+    "recognitionChannelSaved": "Тану арнасы сәтті сақталды",
+    "recognitionChannels": {
+      "distanceMeasurementSettings": "Қашықтық бойынша өлшеу баптауы",
+      "table": {
+        "avgSpeedMeasurement": "Орташа жылдамдықты өлшеу",
+        "calibrationDone": "Юстировка орындалды",
+        "channelId": "Арна ID",
+        "distance": "Қашықтық",
+        "inputChannelDirection": "Кіріс арнасының бағыты",
+        "linkedComplex": "Байланысты кешен",
+        "oppositeDirection": "Қарсы бағыт",
+        "outputChannelDirection": "Шығыс арнасының бағыты",
+        "sameDirection": "Бір бағыттағы",
+        "sectionLength": "Учаскенің ұзындығы",
+        "verification": "Тексеру"
+      },
+      "title": "Тануға арналған арналар",
+      "verificationRecognitionChannel": {
+        "absImmersion": "Абс. қателік, км/сағ",
+        "cameraVerification": "Камераны тексеру",
+        "deleteLine": "Жолды өшіру",
+        "distanceControlAlert": "Бақылау аймағындағы қашықтықты және L1 арақашықтығын өлшеу үшін «Мемлекеттік тіркеу нөмірі» өрісін толтыру қажет",
+        "distanceControlTitle": "Бақылау аймағындағы қашықтықты өлшеу",
+        "endInterval": "Интервалды аяқтау",
+        "lastMeasurement": "Соңғы өлшеу",
+        "measureL1": "L1 өлшеу",
+        "measuredLength": "Өлшенген кесінді ұзындығы, мм",
+        "measuredSpeed": "Өлшенген жылдамдық",
+        "measurementL1Title": "L1 арақашықтығын өлшеу",
+        "measurementType": "Өлшеу түрі",
+        "noData": "Деректер жоқ",
+        "radarVerification": "Радарды тексеру",
+        "relError": "Салыстырмалы қателік, %",
+        "speedonSimulator": "Имитация құрылғысындағы жылдамдық",
+        "startInterval": "Интервалды бастау",
+        "startMeasurement": "Өлшеуді бастау",
+        "stopMeasurement": "Өлшеуді тоқтату",
+        "title": "Тікелей бейне",
+        "verificationMode": "Тексеру режимі",
+        "resetInterval": "Интервалды қалпына келтіру"
+      }
+    },
+    "speedMeasurementError": {
+      "absoluteError": "Абсолюттік қателік",
+      "gpsSpeed": "GPS жылдамдығы",
+      "kiptSpeed": "Бағдарламалық-техникалық өлшеу кешенінің жылдамдығы",
+      "relativeError": "Салыстырмалы қателік",
+      "speedMeasurementVerificationReport": "Жылдамдықты өлшеу дұрыстығын тексеру туралы есеп",
+      "InformationAboutInstallation": "Орнату орны мен қозғалыс бағыты туралы ақпарат",
+      "speedTestResults": "Жылдамдықты сынамалы өлшеу нәтижелері",
+      "passageNumber": "Өту нөмірі",
+      "dieIndication": "Қалыпша көрсеткіші",
+      "graphicalRepresentation": "Графикалық көрініс",
+      "laneNumber": "Жолақ нөмірі"
+    },
+    "startMeasurementsConfirm": "Алдымен \"өлшеуді бастау\" түймесін басыңыз",
+    "tools": {
+      "calculateError": "Есептеуге жарамсыз деректер",
+      "calculationOfSpeedMeasurementErrorButton": "Жылдамдықты өлшеу қателігін есептеу",
+      "changeMetrologyPasswordTitle": "Метрологтың құпиясөзін өзгерту",
+      "confirmPassword": "Метрологтың құпиясөзін өзгерту",
+      "currentPassword": "Қолданыстағы метролог құпиясөзі",
+      "deCalculationButton": "DE калькуляторы",
+      "deCalculationTitle": "DE есептеу",
+      "fileInputLabel": ".nme файлдарын таңдаңыз",
+      "hideReport": "Есепті жасыру",
+      "inaccuracyCalculationTitle": "Қателікті есептеу",
+      "metrologyPasswordButton": "Метролог құпиясөзін өзгерту",
+      "newPassword": "Жаңа метролог құпиясөзі",
+      "roundToInputLabel": "Үтірден кейінгі таңбалар саны",
+      "showMap": "Картаны көрсету",
+      "showReport": "Есепті көрсету",
+      "title": "Құралдар"
+    },
+    "verification": {
+      "certificateNumberInputLabel": "Куәлік нөмірі",
+      "validUntilDateInputLabel": "Жарамдылық мерзімі",
+      "verificationCertificateTitle": "Тексеру туралы куәлік"
+    },
+    "verticalMovementConfirmToast": "Мемлекеттік тіркеу нөмірінің тігінен жылжуы 100px-ден аз. Өлшеуді жалғастыру үшін OK, болдырмау үшін Бас тарту батырмасын басыңыз"
+  },
+  "mobileRoutePage": {
+    "routeSettings": "Маршрут баптаулары"
+  },
+  "monitoringPage": {
+    "counterDirection": "Бір бағыттағы қозғалыс бағыты",
+    "favorableDirection": "Бір бағыттағы бағыт",
+    "speedOnControlZone": "Бақылау аймағындағы жылдамдық",
+    "speedOnSite": "Учаскедегі жылдамдық",
+    "title": "Өткен көлік құралдарын бақылау"
+  },
+  "msksoPage": {
+    "communicationInterface": "Байланыс интерфейсі",
+    "msksoConfigList": {
+      "confirmDeletionMSKSO": "МСКСО-ны өшіруді растаңыз",
+      "editConfig": "Конфигурацияны өңдеу",
+      "greenSection": "Жасыл (бөлім)",
+      "removeConfig": "Конфигурацияны өшіру",
+      "settingUpChannels": "Арналарды баптау",
+      "settingUpMsksoChannels": "МСКСО арналарын баптау",
+      "addMskso": "МСКСО қосу"
+    },
+    "serialPort": "Ретті порт",
+    "msksoRemoveConfirm": "МСКСО-ны өшіруді растаңыз: \"{name}\""
+  },
+  "networksPage": {
+    "adapter": "Желі адаптері",
+    "addDnsServer": "DNS серверін қосу",
+    "addressType": "Мекенжай түрі",
+    "bridgesList": {
+      "editNetworkBridge": "Желі көпірін өңдеу"
+    },
+    "canselDnsServerAdding": "DNS серверін қосуды болдырмау",
+    "diagnosticForm": {
+      "hostNameOrIP": "Хост (атауы немесе IP)",
+      "repeatsForPing": "Қайталау саны (ping үшін)",
+      "responseTitle": "Жауап",
+      "title": "Желі диагностикасы",
+      "tracepath": "Tracepath"
+    },
+    "dnsServers": "DNS серверлері",
+    "networkSettingsAreSaved": "Желі баптаулары сақталды",
+    "networkSettingsHaveBeenApplied": "Желі баптаулары қолданылды, оларды сақтауды ұмытпаңыз!",
+    "openVpn": {
+      "certificate": "Сертификат",
+      "configFile": "Конфигурация файлы",
+      "connectionName": "Қосылым атауы",
+      "keyFile": "Кілт файлы",
+      "title": "OpenVPN баптаулары"
+    },
+    "tabs": {
+      "networkBridges": "Желі көпірлері",
+      "networkDiagnostics": "Желі диагностикасы",
+      "openVpn": "OpenVPN",
+      "vlan": "VLAN"
+    },
+    "unusedNetworkAdapters": "Қолданылмайтын желі адаптерлері",
+    "vlan": {
+      "dhcp": "DHCP",
+      "static": "Статикалық",
+      "title": "VLAN тізімі",
+      "vidVlanId": "VID (VLAN ID)"
+    }
+  },
+  "parkingPage": {
+    "applyPresetSettingsToast": "№{var} пресетінің баптауларын қолдану үшін оларды сақтау қажет",
+    "addArea": "Аумақ қосу",
+    "addPreset": "Пресет қосу",
+    "addZone": "Аймақ қосу",
+    "channelAddedToast": "{channel} арнасы қосылды",
+    "deletePreset": "Пресетті өшіру",
+    "deleteZone": "Аймақты өшіру",
+    "doSurveyPhoto": "Жалпы көрініс суреттерін түсіру",
+    "editZone": "Аймақты өңдеу",
+    "getCameraPosition": "Камераның ағымдағы орнын алу",
+    "presetSettings": "Пресет баптаулары",
+    "presetsList": "Пресеттер тізімі",
+    "setPreset": "Пресетке өту",
+    "startPan": "Камераны бұру",
+    "surveyZoom": "Жалпы суретті үлкейту",
+    "zoneAddedToast": "{name} аймағы қосылды",
+    "zoneEnd": "Аймақтың соңы",
+    "zoneSettings": "Аймақты баптау",
+    "zoneStart": "Аймақтың басы",
+    "zoneUpdatedToast": "{name} аймағы жаңартылды",
+    "zonesList": "Аймақтар тізімі",
+    "zoneRemoveConfirm": "Қолданыстағы пресет таңдалған «{name}» аймағын қамтиды. Сіз оны өшіргіңіз келетініне сенімдісіз бе?",
+    "channelItemRemoveConfirm": "Сіз шынымен \"{name}\" арнасын жойғыңыз келе ме?",
+    "channelItemRemovedToast": "Арна өшірілді. Баптауларды сақтау қажет",
+    "zoneRemovedToast": "Аймақ өшірілді. Баптауларды сақтау қажет",
+    "uniqueZoneNameError": "Бұл тұрақ аймағының атауы allerede алынған",
+    "afterDeleteZoneMessage": "Аймақ өшірілді. Өзгерістерді қолдану үшін баптауларды сақтаңыз",
+    "presetTitle": "Пресетті баптау",
+    "area": "Аумақ",
+    "areaSettings": "Аумақ баптаулары",
+    "deleteArea": "Аумақты өшіру",
+    "addPointToEnd": "Соңына нүкте қосу",
+    "addPointAfterCurrent": "Ағымдағыдан кейін нүкте қосу",
+    "removePoint": "Нүктені өшіру",
+    "removeLastPoint": "Соңғы нүктені өшіру",
+    "maxPoint": "Нүктелердің максималды саны - {var}",
+    "minPoint": "Нүктелердің минималды саны - {var}"
+  },
+  "pedestriansPage": {
+    "best": "ең жақсы",
+    "borderOfRoadway": "Жолдың шекарасы",
+    "channelSelection": "Арнаны таңдау",
+    "crosswalkBottom": "Төменгі шекара",
+    "crosswalkTop": "Жоғарғы шекара",
+    "detectVerbosity": {
+      "maximum": "Максималды",
+      "middle": "Орташа",
+      "minimum": "Минималды",
+      "off": "Өшірілген",
+      "upperMiddle": "Ортадан жоғары"
+    },
+    "detectVerbosityText": "Детектордың бейнеде көрсетілу егжей-тегжейі",
+    "detectionZone": "Детекция аймағы",
+    "developerSettings": "Дамушы баптаулары",
+    "fixDetectionZone": "Детекция аймағын бекіту",
+    "leftBottom": "Сол жақ шекарасы (төмен)",
+    "leftIndentation": "Сол жақтан шегініс",
+    "leftTop": "Сол жақ шекарасы (жоғары)",
+    "maxPedAngle": "Жаяу жүргіншінің қозғалыс векторының горизонтальге максималды бұрышы",
+    "maxPedestrianHeight": "Жаяу жүргіншінің максималды биіктігі",
+    "moveMaxThreshold": "Қозғалыстың максималды шегі",
+    "moveMinThreshold": "Қозғалыстың минималды шегі",
+    "opticalFlowLevels": "Оптикалық ағынды есептеу кезінде деңгейлердің саны",
+    "opticalFlowResizeFactor": "Оптикалық ағынды есептеу үшін масштабтау коэффициенті",
+    "opticalFlowWinSize": "Оптикалық ағынды есептеу үшін терезе өлшемі",
+    "pathToSavedFiles": "Файлдарды сақтау жолы",
+    "pedestrianCrossingBorder": "Жаяу жүргіншілер өтетін жолдың шекарасы",
+    "pedestrianDetection": "Жаяу жүргіншіні анықтау",
+    "pedestriansDetectorChannelSettings": "Жаяу жүргіншіні анықтаушы арнаның баптаулары",
+    "pedestriansThreshold": "Жаяу жүргіншіні анықтау шегі",
+    "restrictedZoneHeight": "Тыйым салынған аймақтың биіктігі",
+    "restrictedZoneLength": "Тыйым салынған аймақтың ұзындығы",
+    "restrictedZoneOffset": "Тыйым салынған аймақтың ығысуы",
+    "restrictedZoneStart": "Тыйым салынған аймақтың басы",
+    "rightBottom": "Оң жақ шекарасы (төмен)",
+    "rightTop": "Оң жақ шекарасы (жоғары)",
+    "saveOthers": "Жалған анықтауларды сақтау",
+    "savePedestrians": "Жаяу жүргіншілердің анықтауларын сақтау",
+    "showDetection": "Анықтауларды көрсету",
+    "showMotion": "Қозғалыс анықтауларының нәтижелерін көрсету",
+    "topIndentation": "Жоғарыдан шегініс",
+    "verticalDetectorFactor": "Тік бағытта масштабтау коэффициенті",
+    "videoInputNumber": "Бейне кіріс нөмірі",
+    "worst": "ең нашар\n\n",
+    "zoneHeight": "Аймақтың биіктігі",
+    "zoneWidth": "Аймақтың ені",
+    "removeConfirm": "Сіз шынымен \"{channel}\" арнасын жойғыңыз келе ме?"
+  },
+  "peersPage": {
+    "addPeer": "Байланысты кешен қосу",
+    "checkTime": "Соңғы тексеру уақыты",
+    "complexDeleted": "Кешен өшірілді",
+    "complexSaved": "Кешен сақталды",
+    "connectProxy": "Proxy қосу",
+    "connectVideoArchive": "Бейнеархив қосу",
+    "peerListRefreshed": "Байланысты кешендердің тізімі жаңартылды",
+    "peerName": "Байланысты кешеннің атауы",
+    "peerRemoveConfirm": "Байланысты кешенді өшіруді растайсыз ба?",
+    "recognitionChannelsCount": "Анықтау арналарының саны",
+    "synchronized": "Синхрондалды",
+    "uniquePeerName": "Атау осы Комплексінің өлшемдер мен бағдарламалық-техникалық жүйесінде (КИПТ) бірегей болуы керек"
+  },
+  "schedulesPage": {
+    "addRule": "Ереже қосу",
+    "addSchedule": "Кесте қосу",
+    "dayTypes": {
+      "always": "Әрқашан",
+      "even": "Жұп",
+      "everyday": "Кез келген күн",
+      "holiday": "Демалыс күндер тізімінде",
+      "notHoliday": "Демалыс күндер тізімінде емес",
+      "odd": "Тақ",
+      "weekday": "Жұмыс күні",
+      "weekend": "Демалыс күні"
+    },
+    "holidaysWeekends": "Мереке/демалыс күндері",
+    "ignoreRule": "Ережені елемеу",
+    "rule": "Ереже | Ережелер",
+    "scheduleAddedSaveSettings": "Кесте қосылды. Баптауларды сақтаңыз",
+    "scheduleCheck": "Кестені тексеру",
+    "schedulesSavedSaveSettings": "Кестелер сақталды. \"Жүйе\" қойындысындағы баптауларды сақтауды ұмытпаңыз",
+    "violationsWillBeRecordedAtTheSelectedTime": "Таңдалған уақытта құқық бұзушылықтар тіркеледі",
+    "violationsWillNotBeRecordedAtTheSelectedTime": "Таңдалған уақытта құқық бұзушылықтар тіркелмейді",
+    "scheduleRuleRemoveConfirm": "№{name} ережесін жоюды растайсыз ба?",
+    "removeScheduleConfirm": "\"{name}\" кестесін жоюды растайсыз ба?",
+    "viewSchedule": "Кестені қарау"
+  },
+  "signPage": {
+    "certificateRequest": "Сертификат алу сұранысы",
+    "country": "Ел",
+    "createCertificateRequest": "Сертификат алу сұранысын жасау",
+    "dataForCreatingCertificateRequest": "Сертификат алу сұранысын жасау үшін деректер",
+    "downloadCertificateRequest": "Сертификат алу сұранысын жүктеу",
+    "inn": "ЖСН",
+    "installCertificate": "Сертификатты орнату",
+    "installationAddress": "Орнату мекенжайы",
+    "locality": "Ауыл/қала",
+    "noCertificateRequest": "Сертификат алу сұранысы жоқ",
+    "ogrn": "ҚРН",
+    "organization": "Ұйым",
+    "region": "Өңір",
+    "subjectsName": "Субъектінің атауы",
+    "theCertificateIsInstalled": "Сертификат орнатылды",
+    "theRequestWasSuccessfullyCreated": "Сұраныс сәтті жасалды"
+  },
+  "systemPage": {
+    "cleanerTab": {
+      "absolutePath": "Абсолютті жол",
+      "actions": "Әрекеттер",
+      "addNewDirectory": "Жаңа директория қосу",
+      "clearingPriority": "Жою басымдығы",
+      "confirmRemoval": "\"{name}\" директориясын жоюды растайсыз ба?",
+      "deleteDirectory": "Директорияны жою",
+      "displayName": "Көрсетілетін атау",
+      "editDirectory": "\"{name}\" директориясын өңдеу | Директорияны өңдеу",
+      "hoursShort": "с",
+      "maxSizeDirectory": "Директорияның ең үлкен көлемі",
+      "maxTotalSizeFolders": "Директориялардың ең үлкен жалпы көлемі",
+      "minSizeDirectory": "Директорияның ең кіші көлемі",
+      "save": "Сақтау",
+      "saveCleanerSettings": "Cleaner баптауларын сақтау",
+      "storagePeriod": "Сақтау мерзімі",
+      "totalSizeDirectories": "Жалпы саны",
+      "maxSizeError": "Қосылған директориялардың жалпы саны директориялардың ең үлкен жалпы көлемін асып кетті"
+    },
+    "systemTab": {
+      "archiveWithModulesIsUploaded": "Модульдермен архив жүктелді. Өзгерістерді сақтап, кешенді қайта жүктеңіз",
+      "availableRAM": "Қол жетімді оперативті жад",
+      "computingModuleHasBeenSentForReboot": "Есептеу модулі қайта жүктеуге жіберілді",
+      "configuration": "Жабдықтау",
+      "created": "Жасалған",
+      "dataPartition": "Деректер бөлімі",
+      "fileName": "Файл атауы",
+      "freeDiskSpace": "Еркін",
+      "identificationData": "Метрологиялық маңызы бар бағдарламалық қамтамасыздандырудың сәйкестендіру деректері",
+      "locationComputingModule": "Есептеу модулінің орналасқан жері",
+      "locationComputingModuleSaved": "Есептеу модулінің орналасқан жері сақталды",
+      "maxRecognitionChannels": "Анықтау арналарының ең үлкен саны",
+      "mounted": "Орнатылған",
+      "notExist": "ЖОҚ",
+      "notMounted": "ОРНАТЫЛМАҒАН",
+      "numberOfChannelsUsedHasBeenChanged": "Қолданылатын арналар саны өзгертілді",
+      "numberOfRecognitionChannelsUsed": "Қолданылатын анықтау арналарының саны",
+      "protectionKeySerial": "Қорғау кілтінің сериялық нөмірі",
+      "rebootComputingModule": "Есептеу модулін қайта жүктеу",
+      "saveLocationComputingModule": "Есептеу модулінің орналасқан жерін сақтау",
+      "saveNumberOfRecognitionChannels": "Қолданылатын анықтау арналарының санын сақтау",
+      "serial": "Сериялық нөмір",
+      "systemInfo": "Жүйе туралы ақпарат",
+      "systemManagement": "Жүйені басқару",
+      "totalDiskSpace": "Дисктің жалпы көлемі",
+      "totalRAM": "Жалпы оперативті жад",
+      "version": "Нұсқасы",
+      "usageModes": {
+        "mobile": "Мобильді",
+        "static": "Стационарлық",
+        "moved": "Көші-қонды"
+      },
+      "usageMode": "Қолдану режимі",
+      "mountedPoint": "Орнату нүктесі",
+      "allPartitionsAreMounted": "Барлық бөлімдер орнатылған",
+      "mobilePositions": {
+        "backward": "Артқа",
+        "forward": "Алға"
+      },
+      "mobilePosition": "Камераны шолу"
+    },
+    "tabs": {
+      "cleanerSettings": "Cleaner баптаулары",
+      "system": "Жүйе",
+      "updateSoftware": "СПО жаңартуы"
+    },
+    "updateTab": {
+      "architecture": "Архитектура",
+      "chooseModuleArchive": "Модульдермен архивті таңдаңыз",
+      "installedModules": "Орнатылған модульдер",
+      "moduleArchiveUpload": "Модульдермен архивті жүктеу",
+      "moduleVersion": "Модуль нұсқасы",
+      "osVersion": "ОЖ нұсқасы",
+      "serialNumber": "№ п/п"
+    }
+  },
+  "usersPage": {
+    "addUser": "Пайдаланушыны қосу",
+    "addingNewUser": "Жаңа пайдаланушыны қосу",
+    "availablePagesList": "Қол жетімді беттердің тізімі",
+    "changingListOfAvailableUserPages": "Пайдаланушының қол жетімді беттер тізімін өзгерту",
+    "changingUserPassword": "Пайдаланушының құпия сөзін өзгерту",
+    "confirmDeleteUser": "Пайдаланушыны жоюды растайсыз ба?",
+    "confirmPassword": "Растау*",
+    "locked": "Блокталған",
+    "newPassword": "Жаңа құпия сөз*",
+    "permissionsSaved": "Пайдаланушының қол жетімді беттер тізімі сақталды",
+    "userAdded": "Пайдаланушы {userLogin} сәтті қосылды",
+    "userDeleted": "Пайдаланушы {username} жойылды",
+    "userIsLocked": "Пайдаланушы {username} блокталды",
+    "userIsUnlocked": "Пайдаланушы {username} блоктан шығарылды",
+    "userPasswordChanged": "Пайдаланушы {userLogin} құпия сөзі өзгертілді",
+    "userSaved": "Пайдаланушы {userLogin} сақталды",
+    "usersList": "Пайдаланушылар тізімі",
+    "usersSaved": "Пайдаланушылар сақталды"
+  },
+  "validations": {
+    "confirmPassword": "Құпия сөздер сәйкес келмейді",
+    "integer": "Өңдеу өрісі тек бүтін сандардан тұруы тиіс",
+    "ipAddress": "Дұрыс IP-мекенжайын енгізіңіз",
+    "maxLength": "Өріс {max} таңбадан аспауы тиіс",
+    "maxValue": "Сан {max}-тан үлкен болмауы тиіс",
+    "minLength": "Өріс {min} таңбадан аз болмауы тиіс",
+    "minSizeOfDirectory": "Директорияның ең кіші өлшемі максималды өлшемнен үлкен болмауы тиіс",
+    "minValue": "Сан {min}-тан кіші болмауы тиіс",
+    "numeric": "Өріс тек сандардан тұруы тиіс",
+    "required": "Өріс міндетті түрде толтырылуы тиіс",
+    "uniqueHost": "Host бірегей болуы тиіс",
+    "uniqueLogin": "Осы логин қолданыста",
+    "alphaNum": "Мағынасы тек әріптерден (латын әліпбиі) және сандардан тұруы мүмкін",
+    "imageFileName": "Файл аты тек латын таңбаларынан немесе сандардан тұруы мүмкін",
+    "uniqueFileName": "Бұл файл аты бұрыннан қолданылуда",
+    "scheduleTime": "Дұрыс уақытты енгізіңіз (ЧЧ:ММ:СС)",
+    "uniqueScheduleName": "Бұл кесте аты бұрыннан қолданылуда",
+    "dateTimeWithMilliseconds": "Дұрыс күн/уақытты енгізіңіз форматында YYYY-MM-DD HH:mm:ss.SSS",
+    "dateTime": "Дұрыс күн/уақытты енгізіңіз форматында DD-MM-YYYY HH:mm:ss",
+    "date": "Дұрыс күнді енгізіңіз форматында DD-MM-YYYY",
+    "uniqueDuploConverterInstance": "Бұл нұсқаның аты бұрыннан қолданылуда",
+    "uniqueValue": "Мағына бірегей болуы тиіс"
+  },
+  "videoArchivePage": {
+    "addImage": "Сурет қосу",
+    "downloadStillFrame": "Стоп-кадрды жүктеу",
+    "noImageSelected": "Сурет таңдалмаған",
+    "overlayImage": "Суретті қою",
+    "videoSource": "Бейнемазмұн көзі"
+  },
+  "searchPage": {
+    "edit": "Басқару",
+    "monitor": "Бақылау",
+    "searchType": "Іздестіру түрі",
+    "downloadLog": "Жүктеу журналының файлды жүктеу",
+    "dateOfProduction": "Орнатылған күні",
+    "lpnFilter": "Мемлекеттік тіркеу нөмірі сүзгісі",
+    "amtsDeleteConfirm": "Сіз шын мәнінде ''{var}'' транспорт құралын іздестіруден жойғыңыз келе ме?",
+    "pageTotalCount": "{page} беті, барлығы {totalPages} бет",
+    "renameSearch": "Іздестіру түрін қайта атау",
+    "editVehicleList": "Транспорт құралдары тізімін өңдеу",
+    "deleteVehicleList": "Транспорт құралдары тізімін жою"
+  },
+  "videoSourcePage": {
+    "brightnessChangedToast": "Жарқырауы өзгертілді",
+    "cameraAddedToast": "Камера қосылды",
+    "cameraRemovedToast": "Камера жойылды",
+    "cameraSavedToast": "Камера сақталды",
+    "genicamCameras": {
+      "addGenicam": "Genicam көзін қосу",
+      "brightness": "Жарықтық",
+      "brightnessControl": "Жарықтықты реттеу",
+      "cameraOptions": "Камера параметрлері",
+      "editGenicam": "Genicam көзін өңдеу",
+      "excerpt": "Экспозиция",
+      "fromLastFrame": "Соңғы кадрдан бастап, сек",
+      "gain": "Күшейту",
+      "heaterError": "Жылытқыш қателігі",
+      "heaterOn": "Жылытқыш қосылды",
+      "horizontalOffset": "Горизонталды ауысу",
+      "hysteresis": "Гистерезис",
+      "irBpParameters": "Инфрақызыл қоректендіру блогының параметрлері",
+      "irIlluminatorOn": "Инфрақызыл жарықтандырғыш қосулы",
+      "leftOffset": "Сол жақтан ығысу",
+      "lensId": "Объектив ID",
+      "maxGain": "Максималды күшейту",
+      "maxHoldingTime": "Максималды экспозиция уақыты",
+      "powerSupply": "Инфрақызыл жарықтандырғыштың қоректендіру блогы",
+      "pulseDuration": "Импульс ұзақтығы",
+      "removeConfirm": "Камераны жоюды растаңыз: \"{name}\"",
+      "sensorSerialNumber": "Бейнеқабылдағыштың сериялық нөмірі",
+      "timeStampCorrection": "Уақыт белгісін түзету",
+      "title": "Genicam бейнеқабылдағыштар",
+      "topOffset": "Жоғарғы ығысу",
+      "verticalOffset": "Вертикаль бойынша ығысу",
+      "videoInput": "Бейне кіріс",
+      "lens": "Объектив",
+      "turnOnHoodHeater": "Бленданың жылытқышын қосу",
+      "turnOffHoodHeater": "Бленданың жылытқышын өшіру",
+      "hoodHeaterIsTurnedOnForSec": "Бленданың жылытқышы {timeout} секундқа қосылды",
+      "hoodHeaterIsTurnedOff": "Бленданың жылытқышы өшірілді",
+      "irIlluminator": "Инфрақызыл жарықтандырғыш",
+      "irCutFilterMode": "Инфрақызыл сүзгінің жұмыс режимі",
+      "irFilterControlIsOff": "Инфрақызыл сүзгіні басқару өшірілген",
+      "dayMode": "«Күндіз» режимі",
+      "nightMode": "«Түн» режимі",
+      "automaticallyByIlluminationMode": "Жарық деңгейі бойынша автоматты",
+      "irCutFilterIlluminationThreshold": "Ауыстыру шегі",
+      "irCutFilterIlluminationHysteresis": "Ауыстыру гистерезисі",
+      "irCutFilterIlluminationTimeConstant": "Ауыстыру уақыты",
+      "automaticallyBySunriseAndSunsetTime": "Күн шығу мен бату уақыты бойынша автоматты",
+      "offsetFromSunrise": "Күн шыққаннан кейінгі ығысу",
+      "offsetFromSunset": "Күн батқаннан кейінгі ығысу"
+    },
+    "pulseDurationChangedToast": "{channel} арнасына арналған импульс ұзақтығы өзгертілді",
+    "rtspCameraSavedToast": "RTSP сервері сақталды",
+    "rtspClientAddedToast": "RTSP клиенті қосылды",
+    "rtspClientDeletedToast": "RTSP клиенті {name} жойылды",
+    "rtspClientSavedToast": "RTSP клиенті сақталды",
+    "rtspClients": {
+      "cameraButtonTitle": "Барлық стоп-кадрларды көрсету",
+      "fromLastUpdate": "Соңғы жаңартудан бері, сек",
+      "packagesAccepted": "Пакеттер қабылданды",
+      "portOfUnpacker": "Шешуші үшін UDP порты",
+      "ptzProtocol": "PTZ протоколы",
+      "removeConfirm": "RTSP клиентін жоюды растаңыз: \"{name}\"",
+      "rtspClientAdd": "Жаңа RTSP клиентін қосу",
+      "rtspClientEdit": "RTSP клиентін өңдеу: \"{name}\"",
+      "sourceTemplate": "Көз үлгісі",
+      "synchronizeStream": "Ағынды есептеу модулінің сағаты бойынша синхрондау",
+      "timeDeviation": "Уақыт ауытқуы, сек",
+      "title": "RTSP клиенттері | RTSP клиенті",
+      "unpackStream": "Өңдеу үшін ағынды шешу",
+      "videoInputNumber": "Шешуге арналған бос бейне кіріс №",
+      "viewStillImage": "Стоп-кадрды қарау | Барлық стоп-кадрларды қарау"
+    },
+    "rtspOverWebsocket": "Websocket арқылы RTSP",
+    "rtspServerAddedToast": "RTSP сервері қосылды",
+    "rtspServerDeletedToast": "RTSP сервері {name} жойылды",
+    "rtspServers": {
+      "addServer": "Жаңа RTSP серверін қосу",
+      "editServer": "RTSP серверін өңдеу: \"{name}\"",
+      "gamma": "Гамма",
+      "maxGamma": "Максималды гамма",
+      "minGamma": "Минималды гамма",
+      "pedestrianDetector": "Жаяу жүргіншілер детекторы",
+      "removeConfirm": "RTSP серверін жоюды растаңыз: \"{name}\"",
+      "sample": "Үлгі",
+      "streamName": "Ағын атауы",
+      "title": "RTSP серверлері"
+    },
+    "synchronizationChangedToast": "Синхрондау өзгертілді",
+    "rise": "Алдыңғы фронт",
+    "fall": "Артқы фронт"
+  },
+  "violationTypes": {
+    "all": "Барлық түрлері",
+    "enforcementTypes": {
+      "inAPopulatedAreaOutsideTheSignsCoverageArea": "Елді мекенде, белгі әсер етпейтін аймақта",
+      "inAPopulatedAreaWithinTheSignsCoverageArea": "Елді мекенде, белгі әсер ететін аймақта",
+      "inAResidentialArea": "Тұрғын аймақта",
+      "outsideThePopulatedAreaOutsideTheSignsCoverageArea": "Елді мекеннен тыс, белгі әсер етпейтін аймақта",
+      "outsideThePopulatedAreaWithinTheSignsCoverageArea": "Елді мекеннен тыс, белгі әсер ететін аймақта",
+      "routeVehicleLane": "Маршруттық көлік жолағы"
+    },
+    "list": {
+      "0": {
+        "article": "12.12-бап, 1-бөлім",
+        "display_name": "Қызыл",
+        "gost_name": "C12 Бағдаршамның тыйым салатын сигналына өтіп кету"
+      },
+      "1": {
+        "article": "12.9-бап, 1-бөлім",
+        "display_name": "Жылдамдықты арттыру",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "2": {
+        "article": "12.9-бап, 2-бөлім",
+        "display_name": "Жылдамдық 21-40",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "3": {
+        "article": "12.9-бап, 3-бөлім",
+        "display_name": "Жылдамдық 41-60",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "4": {
+        "article": "12.9-бап, 4-бөлім",
+        "display_name": "Жылдамдық 61-80",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "5": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "Тұрақ уақыты",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "6": {
+        "display_name": "Трамвай жолдары",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "7": {
+        "article": "12.17-бап, 1.1-бөлім",
+        "display_name": "Автобус жолағы",
+        "gost_name": "C6 Маршруттық көлік жолағымен жүру"
+      },
+      "9": {
+        "article": "12.16-бап, 4-бөлім",
+        "display_name": "Тоқтау",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "10": {
+        "article": "12.12-бап, 2-бөлім",
+        "display_name": "Тоқтау сызығы",
+        "gost_name": "C13 Бағдаршамның тыйым салатын сигналына тоқтау сызығынан асып шығу"
+      },
+      "11": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "Жолақтар бойынша қозғалыс (5.15.2 белгісі)",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "12": {
+        "article": "12.14-бап, 1.1-бөлім",
+        "display_name": "Жол жүру бөлігіндегі орналасу",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "13": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "Жолақтар бойынша қозғалыс (5.15.1 белгісі)",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "14": {
+        "article": "12.19-бап, 1-бөлім",
+        "display_name": "Жалпы тоқтау",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "15": {
+        "article": "12.19-бап, 2-бөлім",
+        "display_name": "Мүгедектерге арналған тұрақ",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "16": {
+        "article": "12.19-бап, 3-бөлім",
+        "display_name": "Жаяу жүргіншілер өткелінде тоқтау",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "17": {
+        "article": "12.19-бап, 3-бөлім",
+        "display_name": "Тротуарда тоқтау",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "18": {
+        "article": "12.19-бап, 3.1-бөлім",
+        "display_name": "Автобус аялдамасында тоқтау",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "19": {
+        "article": "12.19-бап, 3.2-бөлім",
+        "display_name": "Трамвай жолында тоқтау",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "20": {
+        "article": "12.19-бап, 3.2-бөлім",
+        "display_name": "Екінші қатарда тоқтау",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "21": {
+        "article": "12.19-бап, 1-бөлім",
+        "display_name": "Тоқтау",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "22": {
+        "article": "12.18",
+        "display_name": "Жаяу жүргіншіге жол бермеу",
+        "gost_name": "C15 Жол жүрісі қағидаларына сәйкес жаяу жүргіншіге жол бермеу"
+      },
+      "23": {
+        "article": "12.16-бап, 2-бөлім",
+        "display_name": "Солға бұрылу",
+        "gost_name": "C10 Белгілер мен таңбалар талаптарын бұзып солға бұрылу"
+      },
+      "24": {
+        "article": "12.10-бап, 1-бөлім",
+        "display_name": "Теміржол өткелінен тыйым салатын сигналға қарамастан өту",
+        "gost_name": "C12 Бағдаршамның тыйым салатын сигналына өтіп кету"
+      },
+      "25": {
+        "article": "12.10-бап, 2-бөлім",
+        "display_name": "Теміржол өткеліндегі тоқтау сызығы",
+        "gost_name": "C13 Бағдаршамның тыйым салатын сигналына тоқтау сызығынан асып шығу"
+      },
+      "26": {
+        "article": "12.15-бап, 4-бөлім",
+        "display_name": "Теміржол өткелінде айналып өту",
+        "gost_name": "C7 Жол жүрісі қағидаларын бұза отырып, қарсы бағыттағы жолаққа шығу"
+      },
+      "27": {
+        "article": "12.10-бап, 1-бөлім",
+        "display_name": "Теміржол өткелінде тоқтау",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "28": {
+        "article": "12.17-бап, 1.1-бөлім",
+        "display_name": "Маршруттық көлік жолағында тоқтау",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "29": {
+        "article": "12.16-бап, 4-бөлім",
+        "display_name": "«3.28» белгісін бұзып тұрақтау",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "30": {
+        "display_name": "Кесіліс орнында тұрақтау",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "31": {
+        "display_name": "Тротуар бойымен",
+        "gost_name": "C4 Тротуарлармен, жаяу жүргіншілер, велосипед жолағымен және велосипед-қосымша жолақтарымен жүру"
+      },
+      "32": {
+        "display_name": "Жол жүру бөлігінен параллель емес тұрақ",
+        "gost_name": "C2 Көлік құралдарының тұрақтау немесе тоқтау қағидаларын бұзу"
+      },
+      "33": {
+        "display_name": "Бір жақты жол",
+        "gost_name": "C9 Бір жақты жолда қарсы бағытта жүру"
+      },
+      "34": {
+        "article": "12.15-бап, 4-бөлім",
+        "display_name": "Қарсы бағыт (Әр бағытта екі жолақ)",
+        "gost_name": "C7 Жол жүрісі қағидаларын бұза отырып, қарсы бағыттағы жолаққа шығу"
+      },
+      "35": {
+        "display_name": "Алға бұрыштап жүру",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "36": {
+        "article": "12.16-бап, 3-бөлім",
+        "display_name": "Қарсы бағыт, бір жақты қозғалыс",
+        "gost_name": "C9 Бір жақты жолда қарсы бағытта жүру"
+      },
+      "37": {
+        "article": "12.15-бап, 4-бөлім",
+        "display_name": "Қарсы бағыт (Қырқу тыйым салынған белгі)",
+        "gost_name": "C7 Жол жүрісі қағидаларын бұза отырып, қарсы бағыттағы жолаққа шығу"
+      },
+      "38": {
+        "display_name": "Қосымша кірумен бойлай жүру",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "39": {
+        "display_name": "Тротуар бойымен жүру",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "40": {
+        "display_name": "Артқа бұрыштап жүру",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "41": {
+        "display_name": "Қосымша артқа жүру",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "42": {
+        "display_name": "Қосымша алға жүру",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "43": {
+        "display_name": "Тротуар бойымен алға бұрыштап жүру",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "44": {
+        "display_name": "Тротуар бойымен артқа бұрыштап жүру",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "45": {
+        "display_name": "Қозғалысқа тыйым салынған",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "46": {
+        "article": "12.12-бап, 1-бөлім",
+        "display_name": "Реверсивті жолақта тыйым салынған бағытта қозғалу",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "47": {
+        "article": "12.15-бап, 1-бөлім",
+        "display_name": "Трамвай жолдары бойынша бір бағытта қозғалу",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "48": {
+        "article": "12.15-бап, 1-бөлім",
+        "display_name": "Трамвай жолдарынан солға бұрылу",
+        "gost_name": "C10 Белгілер мен таңбалар талаптарын бұзып солға бұрылу"
+      },
+      "49": {
+        "article": "12.15-бап, 4-бөлім",
+        "display_name": "Қарсы бағыттағы трамвай жолдарымен қозғалу",
+        "gost_name": "C8 Қарсы бағыттағы трамвай жолақтарына шығу"
+      },
+      "51": {
+        "article": "12.9-бап, 1-бөлім",
+        "display_name": "Тұрғын ауданында жылдамдық 11-20",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "52": {
+        "article": "12.9-бап, 2-бөлім",
+        "display_name": "Тұрғын ауданында жылдамдық 21-40",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "53": {
+        "article": "12.9-бап, 3-бөлім",
+        "display_name": "Тұрғын ауданында жылдамдық 41-60",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "54": {
+        "article": "12.9-бап, 4-бөлім",
+        "display_name": "Тұрғын ауданында жылдамдық 61-80",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "55": {
+        "article": "12.9-бап, 5-бөлім",
+        "display_name": "Тұрғын ауданында жылдамдық 61-80",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "56": {
+        "article": "12.9-бап, 6-бөлім",
+        "display_name": "Тұрғын ауданында 3-бөлім қайталау жылдамдығы",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "57": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "Тұрғын ауданында 4-бөлім қайталау жылдамдығы",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "58": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "Тұрғын ауданында 5-бөлім қайталау жылдамдығы",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "61": {
+        "article": "12.10-бап, 1-бөлім",
+        "display_name": "Қызыл теміржол (қайталау)",
+        "gost_name": "C12 Бағдаршамның тыйым салатын сигналына өтіп кету"
+      },
+      "62": {
+        "article": "12.15-бап, 4-бөлім",
+        "display_name": "Теміржолдан қарсы бағытқа шығу",
+        "gost_name": "C7 Жол жүрісі қағидаларын бұза отырып, қарсы бағыттағы жолаққа шығу"
+      },
+      "63": {
+        "article": "12.15-бап, 1-бөлім",
+        "display_name": "Жол жиегінен жүру",
+        "gost_name": "C3 Жол жиегінен жүру"
+      },
+      "64": {
+        "article": "12.20",
+        "display_name": "Сыртқы жарық құрылғыларын, дыбыстық сигналдарды, авариялық сигнализацияны немесе авариялық тоқтату белгілерін пайдалану ережелерін бұзу",
+        "gost_name": "C5 Сыртқы жарық құрылғыларын пайдалану ережелерін бұзу"
+      },
+      "65": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "Оңға бұрылу",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "66": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "Тікелей қозғалу",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "67": {
+        "article": "12.16-бап, 2-бөлім",
+        "display_name": "Бүгілуге тыйым салынған",
+        "gost_name": "C10 Бүгілу, солға бұрылу, артқа жүру, мұндай маневрлерге тыйым салынған жерлерде"
+      },
+      "68": {
+        "article": "12.16-бап, 2-бөлім",
+        "display_name": "Тікелей қозғалу белгісі 5.15 астында бүгілу",
+        "gost_name": "C10 Бүгілу, солға бұрылу, артқа жүру, мұндай маневрлерге тыйым салынған жерлерде"
+      },
+      "69": {
+        "article": "12.14-бап, 1.1-бөлім",
+        "display_name": "Жол бөлігінде орналасу (оңға бұрылу)",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "70": {
+        "article": "12.14-бап, 1.1-бөлім",
+        "display_name": "Жол бөлігінде орналасу (бүгілу)",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "71": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "1.1 таңбасын бұзып орын ауыстыру",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "72": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "3.18.1 белгісін бұзып \"Оңға бұрылуға тыйым салынған\"",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "73": {
+        "article": "12.16-бап, 2-бөлім",
+        "display_name": "3.18.2 белгісін бұзып \"Солға бұрылуға тыйым салынған\"",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "74": {
+        "article": "12.16-бап, 6-бөлім",
+        "display_name": "Жүк көліктеріне қозғалу тыйым салынған",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "75": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "Тікелей жүріс белгісі 5.15.1",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "76": {
+        "article": "12.19-бап, 1-бөлім",
+        "display_name": "Тұраққа қою әдісін бұзу (6.4 белгісі, 8.6.1-8.6.9 кестесі)",
+        "gost_name": "C2. Көлік құралдарының тұраққа қою немесе тоқтау ережелерін бұзу"
+      },
+      "87": {
+        "article": "12.15-бап, 2-бөлім",
+        "display_name": "Тротуармен жүру",
+        "gost_name": "С4 ГОСТ Р57144-2016 Тротуарлармен, жаяу жүргіншілер, велосипед жолдары және велосипед-жаяу жолдарымен жүру, велосипед жолағы"
+      },
+      "88": {
+        "article": "12.37-бап, 2-бөлім",
+        "display_name": "Жаяу жүргіншілер аймағымен жүру",
+        "gost_name": "С4 ГОСТ Р57144-2016 Тротуарлармен, жаяу жүргіншілер, велосипед жолдары және велосипед-жаяу жолдарымен жүру, велосипед жолағы"
+      },
+      "89": {
+        "article": "12.15-бап, 2-бөлім",
+        "display_name": "Велосипед жолымен жүру",
+        "gost_name": "С4 ГОСТ Р57144-2016 Тротуарлармен, жаяу жүргіншілер, велосипед жолдары және велосипед-жаяу жолдарымен жүру, велосипед жолағы"
+      },
+      "90": {
+        "article": "12.15-бап, 2-бөлім",
+        "display_name": "Жаяу жүргінші жолымен жүру",
+        "gost_name": "С4 ГОСТ Р57144-2016 Тротуарлармен, жаяу жүргіншілер, велосипед жолдары және велосипед-жаяу жолдарымен жүру, велосипед жолағы"
+      },
+      "91": {
+        "article": "12.37-бап, 2-бөлім",
+        "display_name": "ОСАГО полисінің болмауы",
+        "gost_name": "C16 Ауыр жүк көлігінің жүру ережелерін бұзу, көлік құралын иесінің ОСАГО туралы заңды орындамауы"
+      },
+      "92": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "Минималды жылдамдық",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "93": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "2.5 белгісінің талаптарын бұзу",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "94": {
+        "article": "12.11-бап, 2-бөлім",
+        "display_name": "Жолдағы жағдай, 3,5 т-дан жоғары",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "95": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "3.16 белгісінің талаптарын бұзу",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "96": {
+        "display_name": "ТС қозғалысы 2,5 т-дан артық, сол жақ жолақта",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "97": {
+        "article": "12.12-бап, 2-бөлім",
+        "display_name": "Стоп-сызық (6.16 белгісі)",
+        "gost_name": "C13 Бағдаршамның тыйым салатын сигналына тоқтау сызығынан асып шығу"
+      },
+      "98": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "1.16.1 – 1.16.3 жол таңбаларына сәйкес келмей ауысу",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "99": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "Солға бұрылу жол таңбаларының талаптарына сәйкес келмей",
+        "gost_name": "C11 Жол белгілері мен жол таңбаларын сақтау талаптарының бұзылуы"
+      },
+      "101": {
+        "article": "12.9-бап, 1-бөлім",
+        "display_name": "Жылдамдықты арттыру",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "102": {
+        "article": "12.9-бап, 2-бөлім",
+        "display_name": "21-40 трасса жылдамдығы",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "103": {
+        "article": "12.9-бап, 3-бөлім",
+        "display_name": "41-60 трасса жылдамдығы",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "104": {
+        "article": "12.9-бап, 4-бөлім",
+        "display_name": "61-80 трасса жылдамдығы",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "105": {
+        "article": "12.9-бап, 1-бөлім",
+        "display_name": "11-20 жылдамдық белгісі",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "106": {
+        "article": "12.9-бап, 2-бөлім",
+        "display_name": "21-40 жылдамдық белгісі",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "107": {
+        "article": "12.9-бап, 3-бөлім",
+        "display_name": "41-60 жылдамдық белгісі",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "108": {
+        "article": "12.9-бап, 4-бөлім",
+        "display_name": "61-80 жылдамдық белгісі",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "109": {
+        "article": "12.9-бап, 1-бөлім",
+        "display_name": "11-20 жылдамдық белгісі ауылдық жерден тыс",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "110": {
+        "article": "12.9-бап, 2-бөлім",
+        "display_name": "21-40 жылдамдық белгісі ауылдық жерден тыс",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "111": {
+        "article": "12.9-бап, 3-бөлім",
+        "display_name": "41-60 жылдамдық белгісі ауылдық жерден тыс",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "112": {
+        "article": "12.9-бап, 4-бөлім",
+        "display_name": "61-80 жылдамдық белгісі ауылдық жерден тыс",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "113": {
+        "article": "12.9-бап, 5-бөлім",
+        "display_name": "80-нен жоғары жылдамдық",
+        "gost_name": "C1.1 Орнатылған жылдамдық режимін бұзу"
+      },
+      "114": {
+        "article": "12.9-бап, 5-бөлім",
+        "display_name": "80-нен жоғары трасса жылдамдығы",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "115": {
+        "article": "12.9-бап, 5-бөлім",
+        "display_name": "80-нен жоғары жылдамдық белгісі",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "116": {
+        "article": "12.9-бап, 5-бөлім",
+        "display_name": "80-нен жоғары жылдамдық белгісі ауылдық жерден тыс",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "117": {
+        "article": "12.9-бап, 6-бөлім",
+        "display_name": "3-бөлімге сәйкес жылдамдықты қайталау",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "118": {
+        "article": "12.9-бап, 6-бөлім",
+        "display_name": "3-бөлімге сәйкес трасса жылдамдығын қайталау",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "119": {
+        "article": "12.9-бап, 6-бөлім",
+        "display_name": "3-бөлімге сәйкес жылдамдық белгісін қайталау",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "120": {
+        "article": "12.9-бап, 6-бөлім",
+        "display_name": "3-бөлімге сәйкес жылдамдық белгісін ауылдық жерден тыс қайталау",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "121": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "4-бөлімге сәйкес жылдамдықты қайталау",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "122": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "4-бөлімге сәйкес трасса жылдамдығын қайталау",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "123": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "4-бөлімге сәйкес жылдамдық белгісін қайталау",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "124": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "4-бөлімге сәйкес жылдамдық белгісін ауылдық жерден тыс қайталау",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "125": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "5-бөлімге сәйкес жылдамдықты қайталау",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "126": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "5-бөлімге сәйкес трасса жылдамдығын қайталау",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "127": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "5-бөлімге сәйкес жылдамдық белгісін қайталау",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "128": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "5-бөлімге сәйкес жылдамдық белгісін ауылдық жерден тыс қайталау",
+        "gost_name": "C1.1 Белгіленген жылдамдық режимін бұзу"
+      },
+      "130": {
+        "article": "12.12-бап, 3-бөлім",
+        "display_name": "Қызыл жарықта қайталау",
+        "gost_name": "C12 Бағдаршамның тыйым салатын сигналына өтіп кету"
+      },
+      "131": {
+        "article": "12.13-бап, 1-бөлім",
+        "display_name": "Кедергі болу салдарынан қиылыстың иеленуі",
+        "gost_name": "C14 Кедергі туындаған жағдайда қиылыста немесе жолдың жүріс бөлігінде жүріп өту"
+      },
+      "132": {
+        "article": "12.28-бап, 1-бөлім",
+        "display_name": "Тұрғын аймақта бұзу (жылдамдықты қоспағанда)",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "194": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "Такси қозғалысы \"кирпич\" белгісімен жол жолағында жүру",
+        "gost_name": "C11 Такси жол жолағында, маршрутты көлік құралдары үшін арналмаған, 3.1 белгісімен жүру"
+      },
+      "195": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "\"Кирпич\" белгісімен жол жолағында жүру",
+        "gost_name": "Жол жолағында маршрутты көлік құралдары үшін арналған және 3.1 белгісімен жүру"
+      },
+      "196": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "Максималды рұқсат етілген масса бар жүк көліктеріне \"кирпич\" белгісімен жүру",
+        "gost_name": "C11 Ең жоғары рұқсат етілген салмақ шектеулері (3.1 белгісі)"
+      },
+      "197": {
+        "article": "12.20",
+        "display_name": "Сыртқы жарық құрылғыларын, дыбыстық сигналдарды, апаттық сигнализацияны немесе апаттық тоқтау белгісін пайдалану ережелерін бұзу",
+        "gost_name": "C5 Сыртқы жарық құрылғыларын пайдалану ережелерін бұзу"
+      },
+      "198": {
+        "article": "12.28-бап, 1-бөлім",
+        "display_name": "\"Кирпич\" белгісімен бара жатқан бағытта жүру",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "199": {
+        "article": "12.16-бап, 1-бөлім",
+        "display_name": "\"Кирпич\" белгісімен бара жатқан бағытта жүру (таксиге қатысты емес)",
+        "gost_name": "C11 Жол белгілері мен жол таңбалары талаптарын бұзу"
+      },
+      "201": {
+        "article": "12.9-бап, 1-бөлім",
+        "display_name": "Жылдамдықты арттыру",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "202": {
+        "article": "12.9-бап, 2-бөлім",
+        "display_name": "Қала аймағындағы белгісіз учаскеде жылдамдық 21-40",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "203": {
+        "article": "12.9-бап, 3-бөлім",
+        "display_name": "Қала аймағындағы белгісіз учаскеде жылдамдық 41-60",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "204": {
+        "article": "12.9-бап, 4-бөлім",
+        "display_name": "Қала аймағындағы белгісіз учаскеде жылдамдық 61-80",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "205": {
+        "article": "12.9-бап, 5-бөлім",
+        "display_name": "Қала аймағындағы белгісіз учаскеде жылдамдық 80 және одан жоғары",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "211": {
+        "article": "12.9-бап, 1-бөлім",
+        "display_name": "Қала сыртындағы белгісіз учаскеде жылдамдық 11-20",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "212": {
+        "article": "12.9-бап, 2-бөлім",
+        "display_name": "Қала сыртындағы белгісіз учаскеде жылдамдық 21-40",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "213": {
+        "article": "12.9-бап, 3-бөлім",
+        "display_name": "Қала сыртындағы белгісіз учаскеде жылдамдық 41-60",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "214": {
+        "article": "12.9-бап, 4-бөлім",
+        "display_name": "Қала сыртындағы белгісіз учаскеде жылдамдық 61-80",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "215": {
+        "article": "12.9-бап, 5-бөлім",
+        "display_name": "Қала сыртындағы белгісіз учаскеде жылдамдық 80 және одан жоғары",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "221": {
+        "article": "12.9-бап, 1-бөлім",
+        "display_name": "Қала ішіндегі белгі орнатылған учаскеде жылдамдық 11-20",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "222": {
+        "article": "12.9-бап, 2-бөлім",
+        "display_name": "Қала ішіндегі белгі орнатылған учаскеде жылдамдық 21-40",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "223": {
+        "article": "12.9-бап, 3-бөлім",
+        "display_name": "Қала ішіндегі белгі орнатылған учаскеде жылдамдық 41-60",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "224": {
+        "article": "12.9-бап, 4-бөлім",
+        "display_name": "Қала ішіндегі белгі орнатылған учаскеде жылдамдық 61-80",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "225": {
+        "article": "12.9-бап, 5-бөлім",
+        "display_name": "Қала ішіндегі белгі орнатылған учаскеде жылдамдық 80 және одан жоғары",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "231": {
+        "article": "12.9-бап, 1-бөлім",
+        "display_name": "Қала сыртында белгі орнатылған учаскеде жылдамдық 11-20",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "232": {
+        "article": "12.9-бап, 2-бөлім",
+        "display_name": "Қала сыртында белгі орнатылған учаскеде жылдамдық 21-40",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "233": {
+        "article": "12.9-бап, 3-бөлім",
+        "display_name": "Қала сыртында белгі орнатылған учаскеде жылдамдық 41-60",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "234": {
+        "article": "12.9-бап, 4-бөлім",
+        "display_name": "Қала сыртында белгі орнатылған учаскеде жылдамдық 61-80",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "235": {
+        "article": "12.9-бап, 5-бөлім",
+        "display_name": "Қала сыртында белгі орнатылған учаскеде жылдамдық 80-…",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "236": {
+        "article": "12.9-бап, 6-бөлім",
+        "display_name": "Қала ішінде белгісіз учаскеде жылдамдық бұзушылығы (қайталама, 3-бөлім)",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "237": {
+        "article": "12.9-бап, 6-бөлім",
+        "display_name": "Қала сыртында белгісіз учаскеде жылдамдық бұзушылығы (қайталама, 3-бөлім)",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "238": {
+        "article": "12.9-бап, 6-бөлім",
+        "display_name": "Қала сыртында белгісіз учаскеде жылдамдық бұзушылығы (қайталама, 3-бөлім)",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "239": {
+        "article": "12.9-бап, 6-бөлім",
+        "display_name": "Қала ішінде белгі орнатылған учаскеде жылдамдық бұзушылығы (қайталама, 3-бөлім)",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "240": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "Қала ішінде белгісіз учаскеде жылдамдық бұзушылығы (қайталама, 4-бөлім)",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "241": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "Қала ішінде белгісіз учаскеде жылдамдық бұзушылығы (қайталама, 4-бөлім)",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "242": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "Қала ішінде белгі орнатылған учаскеде жылдамдық бұзушылығы (қайталама, 4-бөлім)",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "243": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "Қала сыртында белгі орнатылған учаскеде жылдамдық бұзушылығы (қайталама, 4-бөлім)",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "244": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "Қала ішінде белгісіз учаскеде жылдамдық бұзушылығы (қайталама, 5-бөлім)",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "245": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "Қала сыртында белгісіз учаскеде жылдамдық бұзушылығы (қайталама, 5-бөлім)",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "246": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "Қала ішінде белгі орнатылған учаскеде жылдамдық бұзушылығы (қайталама, 5-бөлім)",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "247": {
+        "article": "12.9-бап, 7-бөлім",
+        "display_name": "Қала сыртында белгі орнатылған учаскеде жылдамдық бұзушылығы (қайталама, 5-бөлім)",
+        "gost_name": "C1.2 Орнатылған жылдамдық режимін бұзу"
+      },
+      "301": {
+        "article": "12.21.1-бап, 1-бөлім",
+        "display_name": "Оське түсетін жүктеменің 2%-дан астам, бірақ 10%-дан аспауы (рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "302": {
+        "article": "12.21.1-бап, 1-бөлім",
+        "display_name": "Оське түсетін жүктеменің 2%-дан астам, бірақ 10%-дан аспауы (рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "303": {
+        "article": "12.21.1-бап, 2-бөлім",
+        "display_name": "Оське түсетін жүктеменің 20%-дан аспауы (рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "304": {
+        "article": "12.21.1-бап, 4-бөлім",
+        "display_name": "Оське түсетін жүктеменің 20%-дан аспауы (рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "305": {
+        "article": "12.21.1-бап, 3-бөлім",
+        "display_name": "Оське түсетін жүктеменің 50%-дан аспауы (рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "306": {
+        "article": "12.21.1-бап, 5-бөлім",
+        "display_name": "Оське түсетін жүктеменің 50%-дан аспауы (рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "307": {
+        "article": "12.21.1-бап, 6-бөлім",
+        "display_name": "Оське түсетін жүктеменің 50%-дан артуы (рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "308": {
+        "article": "12.21.1-бап, 6-бөлім",
+        "display_name": "Оське түсетін жүктеменің 50%-дан артуы (рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "309": {
+        "article": "12.21.1-бап, 1-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген массасынан 2%-дан артық, бірақ 10%-дан аспауы (рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "310": {
+        "article": "12.21.1-бап, 1-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген массасынан 2%-дан артық, бірақ 10%-дан аспауы (рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "311": {
+        "article": "12.21.1-бап, 2-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген массасынан 20%-дан аспауы (рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "312": {
+        "article": "12.21.1-бап, 4-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген массасынан 20%-дан аспауы (рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "313": {
+        "article": "12.21.1-бап, 3-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген массасынан 50%-дан аспауы (рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "314": {
+        "article": "12.21.1-бап, 5-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген массасынан 50%-дан аспауы (рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "315": {
+        "article": "12.21.1-бап, 6-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген массасынан 50%-дан артуы (рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "316": {
+        "article": "12.21.1-бап, 6-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген массасынан 50%-дан артуы (рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "317": {
+        "article": "12.21.1-бап, 1-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген габариттерінен 10 см-ге дейінгі асуы (рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "318": {
+        "article": "12.21.1-бап, 1-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген габариттерінен 10 см-ге дейінгі асуы (рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "319": {
+        "article": "12.21.1-бап, 2-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген габариттерінен 20 см-ге дейінгі асуы (рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "320": {
+        "article": "12.21.1-бап, 4-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген габариттерінен 20 см-ге дейінгі асуы (рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "321": {
+        "article": "12.21.1-бап, 3-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген габариттерінен 50 см-ге дейінгі асуы (рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "322": {
+        "article": "12.21.1-бап, 5-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген габариттерінен 50 см-ге дейінгі асуы (рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "323": {
+        "article": "12.21.1-бап, 6-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген габариттерінен 50 см-ден артуы (рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "324": {
+        "article": "12.21.1-бап, 6-бөлім",
+        "display_name": "Көлік құралының рұқсат етілген габариттерінен 50 см-ден артуы (рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "325": {
+        "article": "12.21.1-бап, 1-бөлім",
+        "display_name": "Осьтер тобы бойынша артық жүк (1-бөлім, рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "326": {
+        "article": "12.21.1-бап, 1-бөлім",
+        "display_name": "Осьтер тобы бойынша артық жүк (1-бөлім, рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "327": {
+        "article": "12.21.1-бап, 2-бөлім",
+        "display_name": "Осьтер тобы бойынша артық жүк (2-бөлім, рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "328": {
+        "article": "12.21.1-бап, 4-бөлім",
+        "display_name": "Осьтер тобы бойынша артық жүк (4-бөлім, рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "329": {
+        "article": "12.21.1-бап, 3-бөлім",
+        "display_name": "Осьтер тобы бойынша артық жүк (3-бөлім, рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "330": {
+        "article": "12.21.1-бап, 5-бөлім",
+        "display_name": "Осьтер тобы бойынша артық жүк (5-бөлім, рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "331": {
+        "article": "12.21.1-бап, 6-бөлім",
+        "display_name": "Осьтер тобы бойынша артық жүк (6-бөлім, рұқсатсыз)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "332": {
+        "article": "12.21.1-бап, 6-бөлім",
+        "display_name": "Осьтер тобы бойынша артық жүк (6-бөлім, рұқсаты бар)",
+        "gost_name": "C16 Ауыр салмақты көлік құралының қозғалыс ережесін бұзу"
+      },
+      "333": {
+        "display_name": "Аумақты ластау",
+        "gost_name": "C16 Аумақты ластау"
+      },
+      "996": {
+        "article": "12.6",
+        "display_name": "Мотошлемді пайдалану ережесін бұзу",
+        "gost_name": "C16 Мотошлемді пайдалану ережесін бұзу"
+      },
+      "997": {
+        "article": "12.36.1",
+        "display_name": "Көлік жүргізушісінің телефон пайдалану ережесін бұзуы",
+        "gost_name": "C16 Көлік жүргізушісінің телефон пайдалану ережесін бұзуы"
+      },
+      "998": {
+        "article": "12.6",
+        "display_name": "Жолаушының қауіпсіздік белдігін немесе мотошлемді пайдалану ережесін бұзуы",
+        "gost_name": "C16 Жолаушының қауіпсіздік белдігін немесе мотошлемді пайдалану ережесін бұзуы"
+      },
+      "999": {
+        "article": "12.6",
+        "display_name": "Қауіпсіздік белдігін немесе мотошлемді пайдалану ережесін бұзу",
+        "gost_name": "C16 Қауіпсіздік белдігін пайдалану ережесін бұзу"
+      }
+    },
+    "stope_line": "Тоқтау сызығы",
+    "unknown": "Белгісіз бұзушылық түрі",
+    "Встречная": "Қарсы бағыт",
+    "Движение грузовикам запрещено": "Жүк көліктеріне жүруге тыйым салынған",
+    "Движение запрещено": "Жүруге тыйым салынған",
+    "Загрязнение территории": "Аумақты ластау",
+    "Занятый перекрёсток": "Бос емес қиылыс",
+    "Знак STOP": "«STOP» белгісі",
+    "Красный": "Қызыл түс",
+    "Манёвр": "Маневр",
+    "Минимальная дистанция": "Ең аз қашықтық",
+    "Минимальная скорость": "Ең аз жылдамдық",
+    "Обочина": "Жиекжол",
+    "Остановка": "Тоқтау",
+    "Пешеходы": "Жаяу жүргіншілер",
+    "Положение на ПЧ, свыше 3,5 т": "Жол жабынындағы орналасуы, 3,5 т-дан жоғары",
+    "Полоса МТС": "Белдік",
+    "Ремень": "Белдік",
+    "Скорость": "Жылдамдық",
+    "Сплошная разметка 1,1": "Үздіксіз сызық 1.1",
+    "Средняя скорость": "Орташа жылдамдық",
+    "Телефон": "Телефон",
+    "Трамвайные пути": "Трамвай жолдары",
+    "Фары": "Шамдар"
+  },
+  "violationsPage": {
+    "downloadMaterial": "Материалды жүктеу",
+    "imgxFileNames": {
+      "Видеоролик нарушения": "Бұзушылықтың бейнемазмұны",
+      "Детальное фото въезд в зону контроля": "Бақылау аймағына кірудің егжей-тегжейлі фотосуреті",
+      "Детальное фото выезд из зоны контроля": "Бақылау аймағынан шығудың егжей-тегжейлі фотосуреті",
+      "Детальное фото движение в зоне контроля": "Бақылау аймағындағы қозғалыстың егжей-тегжейлі фотосуреті",
+      "Изображение лобового стекла ТС": "Көлік құралының алдыңғы әйнегінің суреті",
+      "Нарушение": "Бұзушылық",
+      "Нарушение (коллаж)": "Бұзушылық (коллаж)",
+      "Нарушение коллаж для постановления": "Бұзушылық, шешім үшін коллаж",
+      "Обзорное фото Въезд в зону фиксации": "Фиксация аймағына кірудің шолу фотосуреті",
+      "Обзорное фото Выезд из зоны фиксации": "Фиксация аймағынан шығудың шолу фотосуреті",
+      "Пластина ГРЗ": "Мемлекеттік тіркеу белгісінің тақтасы",
+      "Проезд": "Өту",
+      "Проезд с нарушением": "Бұзушылықпен өту",
+      "Просто картинка": "Тек сурет",
+      "Фото лобового стекла крупным планом (с демаскированным лицом)": "Алдыңғы әйнектің жақыннан түсірілген фотосуреті (бет-әлпеті жасырылған)",
+      "В населённом пункте, вне зоны действий знака": "Елді мекенде, белгінің әсер ету аймағында емес"
+    },
+    "photoVideoViolationMaterials": "Бұзушылықтың фото/бейнемазмұны",
+    "unknownArticle": "Белгісіз бап",
+    "violationPlace": "Бұзушылық орны",
+    "violationStatuses": {
+      "all": "Барлық статустар",
+      "fixed": "Тіркелді",
+      "materialIsFormed": "Материал дайындалды"
+    },
+    "showTraceback": "Қателік жолын көрсету (traceback)",
+    "violationTime": "Бұзушылық уақыты",
+    "numberOfViolationsByFilter": "Фильтр бойынша бұзушылықтар саны"
+  },
+  "zonesConnect": {
+    "checkImage": "Суретті тексеру",
+    "lane": "Қозғалыс жолағы",
+    "getImage": "Суретті алу"
+  },
+  "garbage": {
+    "lpnFileUrl": "Мемлекеттік тіркеу нөмірлерінің тізімі бар файлдың URL мекенжайы",
+    "checkPeriod": "Сұрау мерзімі"
+  },
+  "roadScreen": {
+    "currentState": "Ағымдағы жағдай",
+    "lastInvokedTemplate": "Соңғы шақырылған шаблон",
+    "actionLog": "Әрекеттер журналы",
+    "templateParameters": "Шаблон параметрлері",
+    "controller": "Контроллер | Контроллерлер",
+    "horizontalAlignment": "Горизонтальді туралау",
+    "verticalAlignment": "Вертикальді туралау",
+    "digital": "Сандық",
+    "dial": "Сағат беті",
+    "clockType": "Сағат түрі",
+    "titleAndVisibility": "Атауы/көрінісі",
+    "weekDayType": "Апта күндерінің түрі",
+    "program": "Бағдарлама | Бағдарламалар",
+    "playDuration": "Ойнату уақыты",
+    "templateSaved": "{templateName} шаблоны сақталды",
+    "currentTemplate": "Ағымдағы шаблон",
+    "templateInvoke": "Шаблонды шақыру",
+    "runOnScreen": "Панельде іске қосу",
+    "templateIsRunning": "{templateName} шаблоны іске қосылды",
+    "newTemplate": "Жаңа шабло",
+    "templateDeleted": "{templateName} шаблоны жойылды",
+    "screenWidth": "Экранның ені",
+    "screenHeight": "Экранның биіктігі",
+    "appVersion": "Қолданбаның нұсқасы",
+    "fpgaVersion": "FPGA нұсқасы",
+    "kernelVersion": "Ядро нұсқасы",
+    "selfTest": "Өзін-өзі тексеру",
+    "controllerSaved": "{controllerName} контроллері сақталды",
+    "selfTestCompleted": "Өзін-өзі тексеру аяқталды",
+    "newController": "Жаңа контроллер",
+    "defaultTemplate": "Әдепкі шаблон",
+    "timeout": "Әдепкі шаблонды іске қосу уақытының шегі",
+    "recordId": "Жазба ID",
+    "changingControllerIDSettings": "Контроллердің ID параметрлерін өзгерту",
+    "changingTemplate": "Шаблонды өзгерту",
+    "changingSettings": "Параметрлерді өзгерту",
+    "launchSelfTest": "Өзін-өзі тексеруді бастау",
+    "photoFromLastCall": "Соңғы шаблонды шақырудан алынған сурет",
+    "newText": "Жаңа мәтін",
+    "newImage": "Жаңа сурет"
+  },
+  "bugReport": {
+    "triggerLabel": "Қате туралы хабарлау",
+    "formTitle": "Хабарлама нысаны",
+    "addScreenshot": "Скриншот қосу",
+    "removeScreenshot": "Скриншотты алып тастау",
+    "submit": "Жіберу",
+    "messageLabel": "Сипаттама",
+    "messagePlaceholder": "Қатені мүмкіндігінше толық сипаттаңыз",
+    "successMessageText": "Қате туралы есеп жібергеніңіз үшін рахмет!"
+  },
+  "radarPage": {
+    "tracks": "Жолдар",
+    "scaleReset": "Масштабты әдепкі мәндерге қайта орнату"
+  },
+  "settingsResetPage": {
+    "settingsReset": "Параметрлерді қалпына келтіру",
+    "alert": "Бұл бет КИПТ параметрлерін қалпына келтіруге арналған. Параметрлерді қалпына келтірмес бұрын тағы да ойланыңыз. Процесс қайтарымсыз!",
+    "settingsHaveBeenReset": "Параметрлер қалпына келтірілді. КИПТ қайта жүктелуге жіберілді",
+    "resetNetwork": "Желі параметрлерін қалпына келтіру",
+    "enterFullSerialNumber": "Параметрлерді қалпына келтіру үшін кешеннің толық сериялық нөмірін енгізіңіз ({serialNumber})"
+  }
+}
