@@ -1363,7 +1363,6 @@
     "zoneSettings": "Zonani sozlash",
     "zoneStart": "Zonaning boshlanishi",
     "zoneUpdatedToast": "{name} zonasi yangilandi",
-    "zonesList": "Zonalar ro'yxati",
     "zoneRemoveConfirm": "Amaldagi preset tanlangan \"{name}\" zonasini o‘z ichiga oladi. Uni o‘chirishni xohlaysizmi?",
     "zoneRemovedToast": "Zona o‘chirildi. Sozlamalarni saqlash talab qilinadi",
     "uniqueZoneNameError": "Bu parking zonasi nomi allaqachon band",
@@ -1490,7 +1489,6 @@
     "cleanerTab": {
       "absolutePath": "Mutlaq yo'l",
       "actions": "Amallar",
-      "addNewDirectory": "Yangi direktoriya qo'shish",
       "clearingPriority": "Tozalash ustuvorligi",
       "confirmRemoval": "\"{name}\" bo'limini o'chirishni tasdiqlang",
       "deleteDirectory": "Direktoriyani o'chirish",
