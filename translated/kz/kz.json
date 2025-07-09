@@ -1363,7 +1363,6 @@
     "zoneSettings": "Аймақты баптау",
     "zoneStart": "Аймақтың басы",
     "zoneUpdatedToast": "{name} аймағы жаңартылды",
-    "zonesList": "Аймақтар тізімі",
     "zoneRemoveConfirm": "Қолданыстағы пресет таңдалған «{name}» аймағын қамтиды. Сіз оны өшіргіңіз келетініне сенімдісіз бе?",
     "channelItemRemoveConfirm": "Сіз шынымен \"{name}\" арнасын жойғыңыз келе ме?",
     "channelItemRemovedToast": "Арна өшірілді. Баптауларды сақтау қажет",
@@ -1492,7 +1491,6 @@
     "cleanerTab": {
       "absolutePath": "Абсолютті жол",
       "actions": "Әрекеттер",
-      "addNewDirectory": "Жаңа директория қосу",
       "clearingPriority": "Жою басымдығы",
       "confirmRemoval": "\"{name}\" директориясын жоюды растайсыз ба?",
       "deleteDirectory": "Директорияны жою",
