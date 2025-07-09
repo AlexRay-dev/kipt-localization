@@ -138,6 +138,7 @@
   },
   "common": {
     "actions": "Действия",
+    "zone": "Зона",
     "dateOfOperation": "Дата операции",
     "selectFileToUpload": "Выберите файл для загрузки",
     "adding": "Добавление",
@@ -209,7 +210,9 @@
       "uploadImage": "Загрузить изображение",
       "useOldWebUI": "Перейти на старую версию",
       "watchVideo": "Просмотр видео",
-      "setDefaultSettings": "Установить значения по умолчанию"
+      "setDefaultSettings": "Установить значения по умолчанию",
+      "showLanes": "Показать полосы движения",
+      "hideLanes": "Скрыть полосы движения"
     },
     "camera": "Камера",
     "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Функции управления камерой активны только при наличии видео",
@@ -366,6 +369,7 @@
       "Kb": "КБ",
       "Mb": "МБ"
     },
+    "settingsApplied": "Применённые изменения не сохранятся автоматически. После кнопки «Применить» обязательно нажмите «Сохранить»",
     "snapshot": "Снимок",
     "source": "Источник | источника",
     "specificDate": "Конкретная дата",
@@ -410,7 +414,8 @@
       "minutes": "мин",
       "microSec": "мкс",
       "ms": "мс",
-      "sec": "сек"
+      "sec": "сек",
+      "days": "дней"
     },
     "timeout": "Таймаут подключения",
     "title": "Название",
@@ -445,7 +450,7 @@
     },
     "width": "Ширина",
     "yes": "Да",
-    "showRecognizer": "Показать распознование",
+    "showRecognizer": "Показать распознавание",
     "step": "Шаг",
     "select": "Выбрать",
     "fixationSettings": "Настройки фиксации",
@@ -740,7 +745,12 @@
     "preset": "Пресет",
     "addChannel": "Добавить канал",
     "additionalViolationTypes": "Дополнительные типы нарушений",
-    "dark": "Темнота"
+    "dark": "Темнота",
+    "deletionIsNotPossible": "Удаление невозможно",
+    "number": "Номер",
+    "angle": "Угол",
+    "typeIdentifier": "Введите идентификатор",
+    "egoSpeed": "Скорость ПА"
   },
   "configEditor": {
     "fileSaved": "Файл сохранён\nНе забудьте сохранить настройки во вкладке \"Система\""
@@ -956,7 +966,16 @@
       "keepSentViolations": "Сохранять данные о переданных нарушениях",
       "sendAmtsWithViolations": "Передавать ТС с нарушениями в потоке проходящих ТС",
       "violationsDisabled": "Отключить передачу нарушений",
-      "violationsTimeout": "Таймаут выгрузки нарушений"
+      "violationsTimeout": "Таймаут выгрузки нарушений",
+      "amtsQueueType": "Тип очереди",
+      "maxAmtsAge": "Время хранения в очереди",
+      "fifo": "Первыми отправляются старые",
+      "lifo": "Первыми отправляются новые",
+      "maxAmtsAgeHelp": "При значении -1 проезды удаляться не будут",
+      "enableAmtsLogging": "Включить логирование запросов и ответов при отправке проходящих ТС",
+      "enableViolationsLogging": "Включить логирование запросов и ответов при отправке нарушений",
+      "saveAmtsLogImages": "Сохранять изображения внутри лога при отправке проходящих ТС",
+      "saveViolationsLogImages": "Сохранять изображения внутри лога при отправке нарушений"
     },
     "duploServicesStatusRefreshed": "Статус служб обновлён",
     "formatInputHint": "Формат в который необходимо конвертировать нарушения. Должно быть выставлено значение «duplo»",
@@ -984,7 +1003,10 @@
     "serviceStatus": "Статус служб",
     "thereMustBeAtLeastOneValue": "Должно быть хотя бы 1 значение",
     "transferSettings": "Настройки передачи",
-    "doYouReallyWantToDeleteSelectedConverter": "Вы действительно хотите удалить выбранный конвертер?"
+    "doYouReallyWantToDeleteSelectedConverter": "Вы действительно хотите удалить выбранный конвертер?",
+    "converterDeleted": "Конвертер {name} удалён. Не забудьте сохранить настройки",
+    "needToRestartDuploServices": "Для применения изменений необходимо перезапустить службу Duplo",
+    "queueSettings": "Настройки очереди"
   },
   "datePage": {
     "dateTimeErrorToast": "Ошибка при получении текущей даты",
@@ -1060,7 +1082,8 @@
     "internalServerError": "Внутреняя ошибка сервера",
     "errorReceivingGpsData": "Ошибка при получении данных GPS. Проверьте подключение к сети",
     "Необходимо установить состав АПН": "Необходимо установить состав АПН",
-    "Отсутствуют данные о местоположении комплекса": "Отсутствуют данные о месторасположении комплекса"
+    "Отсутствуют данные о местоположении комплекса": "Отсутствуют данные о месторасположении комплекса",
+    "moduleIsNeeded": "Необходим модуль {moduleName}"
   },
   "gpsPage": {
     "clearLog": "Очистить лог",
@@ -1079,7 +1102,10 @@
     "differentialGps": "Дифференциальный GPS",
     "extrapolationOfCoordinates": "Экстраполяция координат",
     "manualInputMode": "Режим ручного ввода",
-    "simulatorMode": "Режим симулятора"
+    "simulatorMode": "Режим симулятора",
+    "innerGnss": "Внутренний ГНСС",
+    "outerGnss": "Внешний ГНСС",
+    "receiver": "Приёмник"
   },
   "homePage": {
     "duploDialog": {
@@ -1350,6 +1376,7 @@
     "channelAddedToast": "Канал {channel} добавлен",
     "deletePreset": "Удалить пресет",
     "deleteZone": "Удалить зону",
+    "cycleTime": "Время цикла",
     "doSurveyPhoto": "Делать обзорные фото",
     "editZone": "Редактировать зону",
     "getCameraPosition": "Получить текущую позицию камеры",
@@ -1358,17 +1385,20 @@
     "setPreset": "Перейти в пресет",
     "startPan": "Поворот камеры",
     "surveyZoom": "Зум обзорного фото",
+    "channelAlert": "Доступные для использования каналы отсутствуют, добавьте новый",
     "zoneAddedToast": "Зона {name} добавлена",
     "zoneEnd": "Конец зоны",
     "zoneSettings": "Настройка зоны",
     "zoneStart": "Начало зоны",
     "zoneUpdatedToast": "Зона {name} обновлена",
-    "zonesList": "Список зон",
+    "zonesList": "Зоны парковки | Зона парковки",
     "zoneRemoveConfirm": "Действующий пресет содержит выбранную зону \"{name}\". Вы действительно хотите её удалить?",
     "channelItemRemoveConfirm": "Вы действительно хотите удалить канал \"{name}\"?",
     "channelItemRemovedToast": "Канал удалён. Необходимо сохранить настройки",
     "zoneRemovedToast": "Зона удалена. Необходимо сохранить настройки",
     "uniqueZoneNameError": "Данное имя зоны парковки уже занято",
+    "uniqueZoneDuplo2IdError": "Данный идентификатор Дупло 2 уже занят",
+    "uniqueZoneNumberError": "Данный номер зоны парковки уже занят",
     "afterDeleteZoneMessage": "Зона удалена. Для применения изменений сохраните настройки",
     "presetTitle": "Настройка пресета",
     "area": "Область",
@@ -1379,7 +1409,13 @@
     "removePoint": "Удалить точку",
     "removeLastPoint": "Удалить последнюю точку",
     "maxPoint": "Максимальное кол-во точек - {var}",
-    "minPoint": "Минимальное кол-во точек - {var}"
+    "minPoint": "Минимальное кол-во точек - {var}",
+    "parkingNumber": "Номер парковки",
+    "zoneNumber": "Номер зоны",
+    "duplo2Id": "Дупло 2 идентификатор",
+    "zoneTitle": "Название зоны",
+    "cameraCoordinates": "Координаты камеры",
+    "typeParkingNumber": "Введите номер парковки"
   },
   "pedestriansPage": {
     "best": "лучшее",
@@ -1492,7 +1528,7 @@
     "cleanerTab": {
       "absolutePath": "Абсолютный путь",
       "actions": "Действия",
-      "addNewDirectory": "Добавить новую директорию",
+      "addNewDirectory": "Добавить директорию",
       "clearingPriority": "Приоритет очистки",
       "confirmRemoval": "Подтвердите удаление \"{name}\" директории",
       "deleteDirectory": "Удалить директорию",
@@ -2716,7 +2752,8 @@
     "Средняя скорость": "Средняя скорость",
     "Телефон": "Телефон",
     "Трамвайные пути": "Трамвайные пути",
-    "Фары": "Фары"
+    "Фары": "Фары",
+    "Шлем": "Шлем"
   },
   "violationsPage": {
     "downloadMaterial": "Скачать материал",
@@ -2748,7 +2785,10 @@
     },
     "showTraceback": "Показать traceback",
     "violationTime": "Время нарушения",
-    "numberOfViolationsByFilter": "Количество нарушений по фильтру"
+    "numberOfViolationsByFilter": "Количество нарушений по фильтру",
+    "isLastViolation": "Это последнее нарушение",
+    "nextViolation": "Следующее нарушение",
+    "prevViolation": "Предыдущее нарушение"
   },
   "zonesConnect": {
     "checkImage": "Проверка изображения",
@@ -2813,7 +2853,10 @@
   },
   "radarPage": {
     "tracks": "Треки",
-    "scaleReset": "Сбросить масштаб к стандартным значениям"
+    "scaleReset": "Сбросить масштаб к стандартным значениям",
+    "informationAboutSensor": "Информация о радаре",
+    "sensorSerialNumber": "Серийный номер радара",
+    "sensorFirmwareVersion": "Версия прошивки радара"
   },
   "settingsResetPage": {
     "settingsReset": "Сброс настроек",
