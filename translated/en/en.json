@@ -209,7 +209,9 @@
       "uploadImage": "Upload image",
       "useOldWebUI": "Switch to the old version",
       "watchVideo": "Watch the video | View video",
-      "setDefaultSettings": "Set default values"
+      "setDefaultSettings": "Set default values",
+      "showLanes": "Show lanes",
+      "hideLanes": "Hide lanes"
     },
     "camera": "Camera",
     "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Camera control functions are active only if there is a video",
@@ -410,7 +412,8 @@
       "minutes": "min",
       "microSec": "μs",
       "ms": "ms",
-      "sec": "sec"
+      "sec": "sec",
+      "days": "days"
     },
     "timeout": "Connection timeout",
     "title": "Name",
@@ -740,7 +743,12 @@
     "preset": "Preset",
     "addChannel": "Add channel",
     "additionalViolationTypes": "Additional types of violation",
-    "dark": "Dark"
+    "dark": "Dark",
+    "deletionIsNotPossible": "Deletion is not possible",
+    "number": "Number",
+    "angle": "Angle",
+    "typeIdentifier": "Type identifier",
+    "egoSpeed": "Patrol car speed"
   },
   "configEditor": {
     "fileSaved": "File saved\nDon't forget to save your settings in the System tab"
@@ -956,7 +964,12 @@
       "keepSentViolations": "Save data on reported violations",
       "sendAmtsWithViolations": "Report vehicles and violations in the flow of passing vehicles",
       "violationsDisabled": "Disable the transfer of violations",
-      "violationsTimeout": "Violations unloading timeout"
+      "violationsTimeout": "Violations unloading timeout",
+      "amtsQueueType": "Queue type",
+      "maxAmtsAge": "Queue storage time",
+      "fifo": "First in, first out",
+      "lifo": "Last in, first out",
+      "maxAmtsAgeHelp": "If the value is -1, the passages will not be deleted."
     },
     "duploServicesStatusRefreshed": "Status of services has been updated",
     "formatInputHint": "Format to which you want to convert violations. Value \"duplo\" must be set ",
@@ -984,7 +997,10 @@
     "serviceStatus": "Transfer settings",
     "thereMustBeAtLeastOneValue": "There must be at least 1 value",
     "transferSettings": "Transmission settings",
-    "doYouReallyWantToDeleteSelectedConverter": "Do you really want to delete the selected converter?"
+    "doYouReallyWantToDeleteSelectedConverter": "Do you really want to delete the selected converter?",
+    "converterDeleted": "The converter {name} has been removed. Dont forget save settings",
+    "needToRestartDuploServices": "Don't forget to restart the Duplo service",
+    "queueSettings": "Queue settings"
   },
   "datePage": {
     "dateTimeErrorToast": "Error when retrieving the current date",
@@ -1060,7 +1076,8 @@
     "internalServerError": "Internal server error",
     "errorReceivingGpsData": "Error receiving GPS data",
     "Необходимо установить состав АПН": "It is necessary to establish the composition of Administrative offence",
-    "Отсутствуют данные о местоположении комплекса": "No data on the location of the complex"
+    "Отсутствуют данные о местоположении комплекса": "No data on the location of the complex",
+    "moduleIsNeeded": "The {moduleName} module is needed"
   },
   "gpsPage": {
     "clearLog": "Clear the log",
@@ -1079,7 +1096,10 @@
     "differentialGps": "Differential GPS",
     "extrapolationOfCoordinates": "Extrapolation of coordinates",
     "manualInputMode": "Manual input mode",
-    "simulatorMode": "Simulator mode"
+    "simulatorMode": "Simulator mode",
+    "innerGnss": "Inner GNSS",
+    "outerGnss": "Outer GNSS",
+    "receiver": "Receiver"
   },
   "homePage": {
     "duploDialog": {
@@ -1363,7 +1383,6 @@
     "zoneSettings": "Zone setting",
     "zoneStart": "Beginning of zone",
     "zoneUpdatedToast": "Zone {name} has been updated",
-    "zonesList": "List of zones",
     "zoneRemoveConfirm": "The current preset contains the selected zone \"{name}\". Do you really want to delete it?",
     "zoneRemovedToast": "Zone is deleted. The settings must be saved",
     "uniqueZoneNameError": "This parking zone name is already occupied",
@@ -1377,7 +1396,11 @@
     "removePoint": "Remove point",
     "removeLastPoint": "Remove last point",
     "maxPoint": "Maximum number of points - {var}",
-    "minPoint": "Minimum number of points - {var}"
+    "minPoint": "Minimum number of points - {var}",
+    "parkingNumber": "Parking number",
+    "zoneTitle": "Zone title",
+    "cameraCoordinates": "Camera coordinates",
+    "typeParkingNumber": "Type parking number"
   },
   "pedestriansPage": {
     "best": "best",
@@ -1490,7 +1513,6 @@
     "cleanerTab": {
       "absolutePath": "The Absolute Path",
       "actions": "Actions",
-      "addNewDirectory": "Add a new directory",
       "clearingPriority": "Cleaning priority",
       "confirmRemoval": "Confirm deletion of the \"{name}\" directory",
       "deleteDirectory": "Delete the directory",
@@ -2698,7 +2720,8 @@
     "Средняя скорость": "Average speed",
     "Телефон": "Phone",
     "Трамвайные пути": "Tram tracks",
-    "Фары": "Headlights"
+    "Фары": "Headlights",
+    "Шлем": "Helmet"
   },
   "violationsPage": {
     "downloadMaterial": "Download the material",
@@ -2730,7 +2753,10 @@
     },
     "showTraceback": "Show traceback",
     "violationTime": "Time of violation",
-    "numberOfViolationsByFilter": "The number of violations by filter"
+    "numberOfViolationsByFilter": "The number of violations by filter",
+    "isLastViolation": "This is last violation",
+    "nextViolation": "Next violation",
+    "prevViolation": "Prevoius violation"
   },
   "zonesConnect": {
     "checkImage": "Check image",
@@ -2795,7 +2821,10 @@
   },
   "radarPage": {
     "tracks": "Tracks",
-    "scaleReset": "Reset scale to default values"
+    "scaleReset": "Reset scale to default values",
+    "informationAboutSensor": "Information about sensor",
+    "sensorSerialNumber": "Sensor serial number",
+    "sensorFirmwareVersion": "Sensor firmware version"
   },
   "settingsResetPage": {
     "settingsReset": "Settings reset",
