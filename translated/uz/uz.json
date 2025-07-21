@@ -138,6 +138,7 @@
   },
   "common": {
     "actions": "Amallar",
+    "zone": "Zona",
     "dateOfOperation": "Operatsiya sanasi",
     "selectFileToUpload": "Yuklash uchun faylni tanlang",
     "adding": "Qo'shish",
@@ -209,7 +210,9 @@
       "uploadImage": "Rasmni yuklash",
       "useOldWebUI": "Eski versiyaga o'tish",
       "watchVideo": "Videoni ko'rish",
-      "setDefaultSettings": "Standart qiymatlarni o‘rnatish"
+      "setDefaultSettings": "Standart qiymatlarni o‘rnatish",
+      "showLanes": "Harakat yo‘laklarini ko‘rsatish",
+      "hideLanes": "Harakat yo‘laklarini yashirish"
     },
     "camera": "Kamera",
     "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Kamerani boshqarish funksiyalari faqat video mavjud bo'lgandagina faol",
@@ -366,6 +369,7 @@
       "Kb": "KB",
       "Mb": "MB"
     },
+    "settingsApplied": "Kiritilgan o‘zgartirishlar avtomatik saqlanmaydi. «Qo‘llash» tugmasidan keyin albatta «Saqlash» tugmasini bosing",
     "snapshot": "Surat",
     "source": "Manba | manbaning",
     "specificDate": "Aniq sana",
@@ -410,7 +414,8 @@
       "minutes": "min",
       "microSec": "mks",
       "ms": "ms",
-      "sec": "sek"
+      "sec": "sek",
+      "days": "kun"
     },
     "timeout": "Ulanish taymauti",
     "title": "Nomi",
@@ -740,7 +745,12 @@
     "preset": "Preset",
     "addChannel": "Kanal qo‘shish",
     "additionalViolationTypes": "Qo‘shimcha huquqbuzarlik turlari",
-    "dark": "Qorong‘ulik"
+    "dark": "Qorong‘ulik",
+    "deletionIsNotPossible": "O‘chirish imkonsiz",
+    "number": "Raqam",
+    "angle": "Burchak",
+    "typeIdentifier": "Identifikatorni kiriting",
+    "egoSpeed": "PA tezligi"
   },
   "configEditor": {
     "fileSaved": "Fayl saqlandi\nSozlamalarni \"Tizim\" ilovasida saqlashni unutmang"
@@ -956,7 +966,16 @@
       "keepSentViolations": "Uzatilgan qoidabuzarliklar to'g'risidagi ma'lumotlarni saqlash",
       "sendAmtsWithViolations": "O'tayotgan transport vositalari oqimida qoidabuzarliklarga uchragan transport vositalarini o'tkazish",
       "violationsDisabled": "Qoidabuzarliklarni uzatishni o'chirib qo'yish",
-      "violationsTimeout": "Qoidabuzarliklarni yuklash taymauti"
+      "violationsTimeout": "Qoidabuzarliklarni yuklash taymauti",
+      "amtsQueueType": "Navbat turi",
+      "maxAmtsAge": "Navbatda saqlash vaqti",
+      "fifo": "Avval eski ma’lumotlar yuboriladi",
+      "lifo": "Avval yangi ma’lumotlar yuboriladi",
+      "maxAmtsAgeHelp": "Agar qiymat -1 bo‘lsa, o‘tishlar o‘chirilmaydi",
+      "enableAmtsLogging": "O‘tayotgan TX yuborishda so‘rovlar va javoblarni logga yozishni yoqish",
+      "enableViolationsLogging": "Qoidabuzarliklarni yuborishda so‘rovlar va javoblarni logga yozishni yoqish",
+      "saveAmtsLogImages": "O‘tayotgan TX yuborishda tasvirlarni log ichida saqlash",
+      "saveViolationsLogImages": "Qoidabuzarliklarni yuborishda tasvirlarni log ichida saqlash"
     },
     "duploServicesStatusRefreshed": "Xizmatlar holati yangilandi",
     "formatInputHint": "Buzilishlar o'zgartirilishi kerak bo'lgan format. Qiymat \"duplo\" bo'lishi kerak",
@@ -984,7 +1003,10 @@
     "serviceStatus": "Xizmat holati",
     "thereMustBeAtLeastOneValue": "Kamida 1 qiymat bo'lishi kerak",
     "transferSettings": "Uzatish sozlamalari",
-    "doYouReallyWantToDeleteSelectedConverter": "Ҳақиқатан ҳам танланган конверторни олиб ташламоқчимисиз?"
+    "doYouReallyWantToDeleteSelectedConverter": "Ҳақиқатан ҳам танланган конверторни олиб ташламоқчимисиз?",
+    "converterDeleted": "{name} konvertori o‘chirib tashlandi. Sozlamalarni saqlashni unutmang",
+    "needToRestartDuploServices": "O‘zgarishlarni qo‘llash uchun Duplo xizmatini qayta ishga tushiring",
+    "queueSettings": "Navbat sozlamalari"
   },
   "datePage": {
     "dateTimeErrorToast": "Joriy sanani olishda xatolik yuz berdi",
@@ -1060,7 +1082,8 @@
     "internalServerError": "Serverning ichki xatosi",
     "errorReceivingGpsData": "GPS ma’lumotlarini olishda xato. Tarmoq ulanishini tekshiring",
     "Необходимо установить состав АПН": "Ma’muriy huquqbuzarliklar tarkibini o‘rnatish talab qilinadi",
-    "Отсутствуют данные о местоположении комплекса": "Majmuaning joylashuvi haqida ma’lumot mavjud emas"
+    "Отсутствуют данные о местоположении комплекса": "Majmuaning joylashuvi haqida ma’lumot mavjud emas",
+    "moduleIsNeeded": "{moduleName} moduli talab qilinadi"
   },
   "gpsPage": {
     "clearLog": "Logni tozalash",
@@ -1079,7 +1102,10 @@
     "differentialGps": "Дифференциал  GPS",
     "extrapolationOfCoordinates": "Координаталарнинг 'кстраполяцияси",
     "manualInputMode": "Қўлда киритиш тариби",
-    "simulatorMode": "Симулятор тариби"
+    "simulatorMode": "Симулятор тариби",
+    "innerGnss": "Ichki GNSS",
+    "outerGnss": "Tashqi GNSS",
+    "receiver": "Qabul qiluvchi qurilma"
   },
   "homePage": {
     "duploDialog": {
@@ -1350,6 +1376,7 @@
     "channelAddedToast": "{channel} qo‘shildi",
     "deletePreset": "Presetni o'chirish",
     "deleteZone": "Zonani o'chirish",
+    "cycleTime": "Tsikl vaqti",
     "doSurveyPhoto": "Sharhlovchi fotosuratlarini olish",
     "editZone": "Zonani tahrirlash",
     "getCameraPosition": "Kameraning joriy pozitsiyasini olish",
@@ -1358,14 +1385,20 @@
     "setPreset": "Presetga o'tish",
     "startPan": "Kamerani burish",
     "surveyZoom": "Sharhlovchi fotosuratni kattalashtirish",
+    "channelAlert": "Foydalanish uchun mavjud kanallar yo‘q, yangi qo‘shing",
     "zoneAddedToast": "{name} zonasi qoʻshildi",
     "zoneEnd": "Zonaning oxiri",
     "zoneSettings": "Zonani sozlash",
     "zoneStart": "Zonaning boshlanishi",
     "zoneUpdatedToast": "{name} zonasi yangilandi",
+    "zonesList": "Parkovka zonalari | Parkovka zonasi",
     "zoneRemoveConfirm": "Amaldagi preset tanlangan \"{name}\" zonasini o‘z ichiga oladi. Uni o‘chirishni xohlaysizmi?",
+    "channelItemRemoveConfirm": "Haqiqatan ham \"{name}\" kanalini o‘chirib tashlamoqchimisiz?",
+    "channelItemRemovedToast": "Kanal o‘chirib tashlandi. Sozlamalarni saqlash kerak",
     "zoneRemovedToast": "Zona o‘chirildi. Sozlamalarni saqlash talab qilinadi",
     "uniqueZoneNameError": "Bu parking zonasi nomi allaqachon band",
+    "uniqueZoneDuplo2IdError": "Ushbu Duplo 2 identifikatori allaqachon band",
+    "uniqueZoneNumberError": "Ushbu parkovka zonasi raqami allaqachon band",
     "afterDeleteZoneMessage": "Zona o‘chirildi. O‘zgarishlarni qo‘llash uchun sozlamalarni saqlang",
     "presetTitle": "Preset sozlamasi",
     "area": "Hudud",
@@ -1376,7 +1409,13 @@
     "removePoint": "Nuqtani o‘chirish",
     "removeLastPoint": "Oxirgi nuqtani o‘chirish",
     "maxPoint": "Maksimal nuqtalar soni – {var}",
-    "minPoint": "Minimal nuqtalar soni – {var}"
+    "minPoint": "Minimal nuqtalar soni – {var}",
+    "parkingNumber": "Parkovka raqami",
+    "zoneNumber": "Zona raqami",
+    "duplo2Id": "Duplo 2 identifikatori",
+    "zoneTitle": "Zona nomi",
+    "cameraCoordinates": "Kamera koordinatalari",
+    "typeParkingNumber": "Parkovka raqamini kiriting"
   },
   "pedestriansPage": {
     "best": "Eng yaxshi",
@@ -1489,6 +1528,7 @@
     "cleanerTab": {
       "absolutePath": "Mutlaq yo'l",
       "actions": "Amallar",
+      "addNewDirectory": "Katalog qo‘shish",
       "clearingPriority": "Tozalash ustuvorligi",
       "confirmRemoval": "\"{name}\" bo'limini o'chirishni tasdiqlang",
       "deleteDirectory": "Direktoriyani o'chirish",
@@ -2696,7 +2736,8 @@
     "Средняя скорость": "O'rtacha tezlik",
     "Телефон": "Telefon",
     "Трамвайные пути": "Tramvay yo'llari",
-    "Фары": "Faralar"
+    "Фары": "Faralar",
+    "Шлем": "Shlem"
   },
   "violationsPage": {
     "downloadMaterial": "Materialni yuklab olish",
@@ -2728,7 +2769,10 @@
     },
     "showTraceback": "Traceback'ni ko'rsatish",
     "violationTime": "Qoidabuzarlik vaqti",
-    "numberOfViolationsByFilter": "Filtr bo'yicha buzilishlar soni"
+    "numberOfViolationsByFilter": "Filtr bo'yicha buzilishlar soni",
+    "isLastViolation": "Bu oxirgi qoidabuzarlik",
+    "nextViolation": "Keyingi qoidabuzarlik",
+    "prevViolation": "Oldingi qoidabuzarlik"
   },
   "zonesConnect": {
     "checkImage": "Тасвирни текшириш",
@@ -2793,7 +2837,10 @@
   },
   "radarPage": {
     "tracks": "Treklar",
-    "scaleReset": "Masshtabni standart qiymatlarga qaytarish"
+    "scaleReset": "Masshtabni standart qiymatlarga qaytarish",
+    "informationAboutSensor": "Radar haqida ma’lumot",
+    "sensorSerialNumber": "Radar seriya raqami",
+    "sensorFirmwareVersion": "Radar dasturiy ta’minoti versiyasi"
   },
   "settingsResetPage": {
     "settingsReset": "Sozlamalarni tiklash",
