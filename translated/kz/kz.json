@@ -138,6 +138,7 @@
   },
   "common": {
     "actions": "Әрекеттер",
+    "zone": "Аймақ",
     "dateOfOperation": "Операция күні",
     "selectFileToUpload": "Жүктеу үшін файлды таңдаңыз",
     "adding": "Қосу",
@@ -209,7 +210,9 @@
       "uploadImage": "Суретті жүктеу",
       "useOldWebUI": "Ескі нұсқаға ауысу",
       "watchVideo": "Видеоны көру",
-      "setDefaultSettings": "Әдепкі мәндерді орнату"
+      "setDefaultSettings": "Әдепкі мәндерді орнату",
+      "showLanes": "Жолақтарды көрсету",
+      "hideLanes": "Жолақтарды жасыру"
     },
     "camera": "Камера",
     "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Камераны басқару функциялары тек видео бар кезде белсенді",
@@ -366,6 +369,7 @@
       "Kb": "КБ",
       "Mb": "МБ"
     },
+    "settingsApplied": "Қолданылған өзгерістер автоматты түрде сақталмайды. «Қолдану» түймесінен кейін міндетті түрде «Сақтау» түймесін басыңыз",
     "snapshot": "Сурет",
     "source": "Дереккөз | дереккөзі",
     "specificDate": "Нақты күн",
@@ -410,7 +414,8 @@
       "minutes": "мин",
       "microSec": "мкс",
       "ms": "мс",
-      "sec": "сек"
+      "sec": "сек",
+      "days": "күндер"
     },
     "timeout": "Қосылу уақытының асуы",
     "title": "Атауы",
@@ -740,7 +745,12 @@
     "preset": "Алдын ала орнату",
     "addChannel": "Канал қосу",
     "additionalViolationTypes": "Қосымша бұзушылық түрлері",
-    "dark": "Қараңғылық"
+    "dark": "Қараңғылық",
+    "deletionIsNotPossible": "Жою мүмкін емес",
+    "number": "Нөмір",
+    "angle": "Бұрыш",
+    "typeIdentifier": "Идентификатор енгізіңіз",
+    "egoSpeed": "ПА жылдамдығы"
   },
   "configEditor": {
     "fileSaved": "Файл сақталды\n\"Жүйе\" қойындысындағы параметрлерді сақтауды ұмытпаңыз"
@@ -956,7 +966,16 @@
       "keepSentViolations": "Жіберілген бұзушылықтар туралы деректерді сақтау",
       "sendAmtsWithViolations": "Өткен ТС ағынында бұзушылықтары бар ТС-ті жіберу",
       "violationsDisabled": "Бұзушылықтарды жіберуді өшіру",
-      "violationsTimeout": "Бұзушылықтарды жеткізу уақыт шегі"
+      "violationsTimeout": "Бұзушылықтарды жеткізу уақыт шегі",
+      "amtsQueueType": "Кезек түрі",
+      "maxAmtsAge": "Кезекте сақтау уақыты",
+      "fifo": "Алдымен ескілері жіберіледі",
+      "lifo": "Алдымен жаңалары жіберіледі",
+      "maxAmtsAgeHelp": "-1 мәнінде өтулер жойылмайды",
+      "enableAmtsLogging": "Өтіп жатқан КҚ жіберген кезде сұраныстар мен жауаптардың логын қосу",
+      "enableViolationsLogging": "Бұзушылықтарды жіберген кезде сұраныстар мен жауаптардың логын қосу",
+      "saveAmtsLogImages": "Өтіп жатқан КҚ жіберген кезде лог ішінде суреттерді сақтау",
+      "saveViolationsLogImages": "Бұзушылықтарды жіберген кезде лог ішінде суреттерді сақтау"
     },
     "duploServicesStatusRefreshed": "Қызметтердің күйі жаңартылды",
     "formatInputHint": "Бұзушылықтарды қандай форматқа түрлендіру қажет. «duplo» мәні орнатылуы тиіс",
@@ -984,7 +1003,10 @@
     "serviceStatus": "Қызметтер күйі",
     "thereMustBeAtLeastOneValue": "Кемінде 1 мән болуы тиіс",
     "transferSettings": "Деректерді жіберу параметрлері",
-    "doYouReallyWantToDeleteSelectedConverter": "Шынымен таңдаған конвертерді жойғыңыз келе ме?"
+    "doYouReallyWantToDeleteSelectedConverter": "Шынымен таңдаған конвертерді жойғыңыз келе ме?",
+    "converterDeleted": "{name} конвертері жойылды. Баптауларды сақтауды ұмытпаңыз",
+    "needToRestartDuploServices": "Өзгерістерді қолдану үшін Duplo қызметін қайта іске қосу қажет",
+    "queueSettings": "Кезек баптаулары"
   },
   "datePage": {
     "dateTimeErrorToast": "Қазіргі күнді алу қателігі",
@@ -1060,7 +1082,8 @@
     "internalServerError": "Сервердің ішкі қатесі",
     "errorReceivingGpsData": "GPS мәліметтерін алу кезінде қате. Желі қосылымын тексеріңіз",
     "Необходимо установить состав АПН": "Әкімшілік құқықбұзушылықтар (АПН) құрамын орнату қажет.",
-    "Отсутствуют данные о местоположении комплекса": "Комплекстің орналасқан жері туралы мәлімет"
+    "Отсутствуют данные о местоположении комплекса": "Комплекстің орналасқан жері туралы мәлімет",
+    "moduleIsNeeded": "{moduleName} модулі қажет"
   },
   "gpsPage": {
     "clearLog": "Логты тазарту",
@@ -1079,7 +1102,10 @@
     "differentialGps": "Дифференциалды GPS",
     "extrapolationOfCoordinates": "Координаттарды экстраполяциялау",
     "manualInputMode": "Қолмен енгізу режимі",
-    "simulatorMode": "Симулятор режимі"
+    "simulatorMode": "Симулятор режимі",
+    "innerGnss": "Ішкі ГНСС",
+    "outerGnss": "Сыртқы ГНСС",
+    "receiver": "Қабылдағыш"
   },
   "homePage": {
     "duploDialog": {
@@ -1350,6 +1376,7 @@
     "channelAddedToast": "{channel} арнасы қосылды",
     "deletePreset": "Пресетті өшіру",
     "deleteZone": "Аймақты өшіру",
+    "cycleTime": "Цикл уақыты",
     "doSurveyPhoto": "Жалпы көрініс суреттерін түсіру",
     "editZone": "Аймақты өңдеу",
     "getCameraPosition": "Камераның ағымдағы орнын алу",
@@ -1358,16 +1385,20 @@
     "setPreset": "Пресетке өту",
     "startPan": "Камераны бұру",
     "surveyZoom": "Жалпы суретті үлкейту",
+    "channelAlert": "Қолдануға қолжетімді арналары жоқ, жаңасын қосыңыз",
     "zoneAddedToast": "{name} аймағы қосылды",
     "zoneEnd": "Аймақтың соңы",
     "zoneSettings": "Аймақты баптау",
     "zoneStart": "Аймақтың басы",
     "zoneUpdatedToast": "{name} аймағы жаңартылды",
+    "zonesList": "Тұрақ аймақтары | Тұрақ аймағы",
     "zoneRemoveConfirm": "Қолданыстағы пресет таңдалған «{name}» аймағын қамтиды. Сіз оны өшіргіңіз келетініне сенімдісіз бе?",
     "channelItemRemoveConfirm": "Сіз шынымен \"{name}\" арнасын жойғыңыз келе ме?",
     "channelItemRemovedToast": "Арна өшірілді. Баптауларды сақтау қажет",
     "zoneRemovedToast": "Аймақ өшірілді. Баптауларды сақтау қажет",
     "uniqueZoneNameError": "Бұл тұрақ аймағының атауы allerede алынған",
+    "uniqueZoneDuplo2IdError": "Бұл Duplo 2 идентификаторы қазірдің өзінде пайдаланылуда",
+    "uniqueZoneNumberError": "Бұл тұрақ аймағының нөмірі қазірдің өзінде пайдаланылуда",
     "afterDeleteZoneMessage": "Аймақ өшірілді. Өзгерістерді қолдану үшін баптауларды сақтаңыз",
     "presetTitle": "Пресетті баптау",
     "area": "Аумақ",
@@ -1378,7 +1409,13 @@
     "removePoint": "Нүктені өшіру",
     "removeLastPoint": "Соңғы нүктені өшіру",
     "maxPoint": "Нүктелердің максималды саны - {var}",
-    "minPoint": "Нүктелердің минималды саны - {var}"
+    "minPoint": "Нүктелердің минималды саны - {var}",
+    "parkingNumber": "Тұрақ нөмірі",
+    "zoneNumber": "Аймақ нөмірі",
+    "duplo2Id": "Duplo 2 идентификаторы",
+    "zoneTitle": "Аймақ атауы",
+    "cameraCoordinates": "Камера координаттары",
+    "typeParkingNumber": "Тұрақ нөмірін енгізіңіз"
   },
   "pedestriansPage": {
     "best": "ең жақсы",
@@ -1491,6 +1528,7 @@
     "cleanerTab": {
       "absolutePath": "Абсолютті жол",
       "actions": "Әрекеттер",
+      "addNewDirectory": "Каталог қосу",
       "clearingPriority": "Жою басымдығы",
       "confirmRemoval": "\"{name}\" директориясын жоюды растайсыз ба?",
       "deleteDirectory": "Директорияны жою",
@@ -2698,7 +2736,8 @@
     "Средняя скорость": "Орташа жылдамдық",
     "Телефон": "Телефон",
     "Трамвайные пути": "Трамвай жолдары",
-    "Фары": "Шамдар"
+    "Фары": "Шамдар",
+    "Шлем": "Дулыға"
   },
   "violationsPage": {
     "downloadMaterial": "Материалды жүктеу",
@@ -2730,7 +2769,10 @@
     },
     "showTraceback": "Қателік жолын көрсету (traceback)",
     "violationTime": "Бұзушылық уақыты",
-    "numberOfViolationsByFilter": "Фильтр бойынша бұзушылықтар саны"
+    "numberOfViolationsByFilter": "Фильтр бойынша бұзушылықтар саны",
+    "isLastViolation": "Бұл соңғы бұзушылық",
+    "nextViolation": "Келесі бұзушылық",
+    "prevViolation": "Алдыңғы бұзушылық"
   },
   "zonesConnect": {
     "checkImage": "Суретті тексеру",
@@ -2795,7 +2837,10 @@
   },
   "radarPage": {
     "tracks": "Жолдар",
-    "scaleReset": "Масштабты әдепкі мәндерге қайта орнату"
+    "scaleReset": "Масштабты әдепкі мәндерге қайта орнату",
+    "informationAboutSensor": "Радар туралы ақпарат",
+    "sensorSerialNumber": "Радардың сериялық нөмірі",
+    "sensorFirmwareVersion": "Радардың микробағдарлама нұсқасы"
   },
   "settingsResetPage": {
     "settingsReset": "Параметрлерді қалпына келтіру",
