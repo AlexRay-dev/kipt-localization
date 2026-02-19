@@ -464,7 +464,6 @@
     "dawn": "Таң",
     "sunrise": "Күн чыгышы",
     "sunset": "Күн батуусу",
-    "dusk": "Караңгылык",
     "fix": "Дурустоо",
     "state": "Абал",
     "user": "Колдонуучу",
@@ -1138,8 +1137,7 @@
       "selectNumberOfLanes": "Тилкелердин санын тандаңыз"
     },
     "settings": {
-      "directionForOncoming": "Каршы тилкеде келе жаткандар үчүн багыт",
-      "directionForPassing": "Катар келе жаткандар үчүн багыт"
+      "directionForOncoming": "Каршы тилкеде келе жаткандар үчүн багыт"
     },
     "trafficLanes": {
       "cameraId": "ID камералары",
@@ -1358,7 +1356,8 @@
       "networkBridges": "Тармактык көпүрөлөр",
       "networkDiagnostics": "Тармакты диагноздоо",
       "openVpn": "OpenVPN",
-      "vlan": "VLAN"
+      "vlan": "VLAN",
+      "poe": "POE"
     },
     "unusedNetworkAdapters": "Колдонулган тармактык адаптерлер",
     "vlan": {
@@ -1775,7 +1774,7 @@
       },
       "1": {
         "article": "12.9 1-бөлүк",
-        "display_name": "Жылдамдыкты ашырып кетүү",
+        "display_name": "11-20 Ылдамдык",
         "gost_name": "С1.1 Белгиленген ылдамдык режимин бузуу"
       },
       "2": {
