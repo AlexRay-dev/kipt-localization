@@ -53,14 +53,23 @@
       "overlight": "Overexposure",
       "payload": "Cargo type",
       "place": "Place of fixation",
-      "video": "Travel video"
+      "video": "Travel video",
+      "coordinates": "Coordinates",
+      "correctedLPN": "Corrected LPN"
     },
     "viewType": "Type of issue",
     "findAndSaveFile": "Find and save to file",
     "recordsFound": "Records found",
     "dateTimeOfTravel": "Date, time of travel",
     "secondsAfter": "Seconds after",
-    "secondsBefore": "Seconds before"
+    "secondsBefore": "Seconds before",
+    "totalVerified": "Total verified",
+    "totalCorrectRecognized": "Total correct recognized",
+    "percentageOfCorrectlyRecognized": "Percentage of correctly recognized",
+    "verified": "Verified",
+    "downloadZip": "Download ZIP",
+    "noVideoArchive": "There is no video archive for the specified time period.",
+    "downloadInfo": "Download info"
   },
   "amtsServerPage": {
     "addAdditionalPtServer": "Add an additional passed transport server",
@@ -212,7 +221,9 @@
       "watchVideo": "Watch the video | View video",
       "setDefaultSettings": "Set default values",
       "showLanes": "Show lanes",
-      "hideLanes": "Hide lanes"
+      "hideLanes": "Hide lanes",
+      "usbUpload": "Upload from USB",
+      "refreshStatus": "Update status"
     },
     "camera": "Camera",
     "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Camera control functions are active only if there is a video",
@@ -341,9 +352,9 @@
       "title": "Notifications",
       "changesApplied": "The changes have been applied"
     },
-    "off": "Off | switched off",
+    "off": "Off | Switched off",
     "offset": "Deviation",
-    "on": "On | switched on",
+    "on": "On | Switched on",
     "operation": "Operation",
     "parameter": "Parameter | Parameters",
     "password": "Password",
@@ -403,7 +414,8 @@
       "numberInOrder": "№",
       "sourceName": "Source Name",
       "time": "Time",
-      "violationTypes": "Violation types"
+      "violationTypes": "Violation types",
+      "serverAddress": "Server address"
     },
     "temperature": "Temperature",
     "thickness": "Thickness",
@@ -424,7 +436,10 @@
     "uTurn": "U-turn",
     "undefined": "Undefined",
     "units": {
-      "millimeters": "millimetres | mm"
+      "millimeters": "millimetres | mm",
+      "v": "V",
+      "p": "P",
+      "ma": "mA"
     },
     "unsavedChangesAlert": "WARNING! There are unsaved changes in the settings",
     "useConfirmation": "Use Confirmation",
@@ -464,7 +479,6 @@
     "dawn": "Dawn",
     "sunrise": "Sunrise",
     "sunset": "Sunset",
-    "dusk": "Dusk",
     "fix": "Fix",
     "state": "State",
     "user": "User",
@@ -750,7 +764,24 @@
     "number": "Number",
     "angle": "Angle",
     "typeIdentifier": "Type identifier",
-    "egoSpeed": "Patrol car speed"
+    "egoSpeed": "Patrol car speed",
+    "firmwareVersion": "Firmware version",
+    "pressOrDragAndDropFile": "Press or drag and drop file here",
+    "channelUsed": "Channel used",
+    "power": "Power",
+    "voltage": "Voltage",
+    "current": "Current | Current",
+    "geometryZones": "Geom. zones",
+    "chooseColor": "Choose colour",
+    "others": "others",
+    "filter": "Filter | Filters",
+    "selected": "selected",
+    "of": "of",
+    "ntpServer": "NTP server | NTP servers",
+    "host": "Host",
+    "saveSettingsAfterApply": "After applying the settings, do not forget to save the changes",
+    "noiseReduction": "Noise reduction",
+    "noiseReductionStrength": "Noise reduction strength"
   },
   "configEditor": {
     "fileSaved": "File saved\nDon't forget to save your settings in the System tab"
@@ -800,7 +831,9 @@
       "recognizeAllFrames": "Recognise all frames",
       "useNeuralNetworkDetector": "Use a neural network-based vehicle registration plate detector",
       "useNeuralNetworkRecognitionGrz": "Use neural network-based vehicle registration plate recognition",
-      "vehicleDetectorThreshold": "Vehicle detector threshold"
+      "vehicleDetectorThreshold": "Vehicle detector threshold",
+      "dropMovingVehicles": "Drop moving vehicles",
+      "dropStandingVehicles": "Drop standing vehicles"
     },
     "identifiers": "Identifiers",
     "ignoreRepeats": "Ignore repeats",
@@ -934,9 +967,18 @@
       "fixPassengerBelt": "Fix the passenger seatbelt",
       "passengerViolationsFormed": "Passenger violations are formed",
       "withSimultaneousFixation": "With simultaneous fixation",
-      "enableQualificationsAtDifferentTimesOfTheDay": "Enable qualifications at different times of the day"
+      "enableQualificationsAtDifferentTimesOfTheDay": "Enable qualifications at different times of the day",
+      "movementAlongDividingLine": "Movement along the dividing line",
+      "turnLeftMarking": "Turn left (marking)"
     },
-    "drivingTaxiBrick": "The movement of a taxi under the \"brick\" in the lane"
+    "drivingTaxiBrick": "The movement of a taxi under the \"brick\" in the lane",
+    "confirmationRequired": "Confirmation of the violation is required",
+    "standingAtIsland": "Standing at island (1.16.1 – 1.16.3)",
+    "addGeometryZonesGroup": "Add groups of geometry zones",
+    "geometryZoneExistInChannelViolationType": "This geometry zone is used on the current channel, with the violation type {vType}",
+    "geometryZoneExistInLanesViolationType": "This geometry zone is used on the current channel, with the violation type {vType}",
+    "violationOfParkingMethodSign": "Violation of the parking method (with a sign)",
+    "tramTracksOfOppositeDirection": "Tram tracks of the opposite direction"
   },
   "convertersPage": {
     "addConverter": "Add a converter",
@@ -1019,7 +1061,13 @@
     "instability": "Instability, ms",
     "lastSync": "Last synchronisation, sec",
     "syncSource": "Synchronisation source",
-    "timeZone": "Time zone"
+    "timeZone": "Time zone",
+    "editNtpServer": "Edit NTP server",
+    "addNtpServer": "Adding NTP server",
+    "confirmRemovingNtpServer": "Confirm the deletion of the NTP server: \"{host}\"",
+    "ntpServersSaved": "NTP server settings saved",
+    "azimuth5GpsTitle": "UTC synchronization status (SU)",
+    "synchronizationAccordingGpsdData": "Synchronization based on GNSS data"
   },
   "errorPages": {
     "forbidden": {
@@ -1138,8 +1186,7 @@
       "selectNumberOfLanes": "Select the number of lanes"
     },
     "settings": {
-      "directionForOncoming": "Direction for oncoming",
-      "directionForPassing": "Directions for passing"
+      "directionForOncoming": "Direction for oncoming"
     },
     "trafficLanes": {
       "cameraId": "Camera ID",
@@ -1219,7 +1266,8 @@
     "garbageMO": "Garbage MO",
     "roadScreen": "Road screen",
     "radar": "Radar",
-    "configEditor": "Config editor"
+    "configEditor": "Config editor",
+    "routes": "Routes settings"
   },
   "metrologyPage": {
     "certificateSaved": "Certificate has been saved",
@@ -1263,7 +1311,8 @@
         "stopMeasurement": "Stop measurement",
         "title": "Live video",
         "verificationMode": "Verification mode",
-        "resetInterval": "Reset interval"
+        "resetInterval": "Reset interval",
+        "measureL": "Measure distance"
       }
     },
     "speedMeasurementError": {
@@ -1358,7 +1407,8 @@
       "networkBridges": "Network bridges",
       "networkDiagnostics": "Network diagnostics",
       "openVpn": "OpenVPN",
-      "vlan": "VLAN"
+      "vlan": "VLAN",
+      "poe": "POE"
     },
     "unusedNetworkAdapters": "Unused network adapters",
     "vlan": {
@@ -1366,7 +1416,24 @@
       "static": "Static",
       "title": "VLAN List",
       "vidVlanId": "VID (VLAN ID)"
-    }
+    },
+    "poeForm": {
+      "title": "POE settings",
+      "port": "Port № {portNumber}",
+      "2pair15w": "2 pairs/15 w",
+      "2pair30w": "2 pairs/30 w",
+      "4pair15w": "4 pairs/15 w",
+      "4pair30w": "4 pairs/30 w",
+      "4pair45w": "4 pairs/45 w",
+      "4pair60w": "4 pairs/60 w",
+      "4pair75w": "4 pairs/75 w",
+      "4pair90w": "4 pairs/90 w",
+      "powerModes": "Power modes",
+      "powerClasses": "Power class",
+      "inputVoltage": "Input voltage",
+      "payload": "Payload"
+    },
+    "poeConfigAreSaved": "POE settings saved"
   },
   "parkingPage": {
     "applyPresetSettingsToast": "To apply the settings of preset #{var}, you must save the settings",
@@ -1643,7 +1710,8 @@
     "dateTime": "Enter the correct date/time in the format DD-MM-YYYYY HH:mm:ss",
     "date": "Enter the correct date in the format DD-MM-YYYYY ",
     "uniqueDuploConverterInstance": "This instance name is already taken",
-    "uniqueValue": "Value must be unique"
+    "uniqueValue": "Value must be unique",
+    "uniqueNtpServer": "This schedule name is already taken"
   },
   "videoArchivePage": {
     "addImage": "Add an image",
@@ -1663,7 +1731,12 @@
     "pageTotalCount": "Page {page} of {totalPages}",
     "renameSearch": "Rename the type of search",
     "editVehicleList": "Edit the list of vehicles",
-    "deleteVehicleList": "Delete vehicle list"
+    "deleteVehicleList": "Delete vehicle list",
+    "uploadActualSearch": "Upload actual searches list",
+    "fileIsUploadedFromUsb": "The file is uploaded from USB",
+    "uploadActualSearchConfirm": "ATTENTION! When uploading file, the existing database will be deleted and a new database will be uploaded.",
+    "uploadedFileHistory": "Uploaded file history",
+    "uploadedFilesHistory": "Uploaded gile history"
   },
   "videoSourcePage": {
     "brightnessChangedToast": "Brightness has been changed",
@@ -1775,7 +1848,7 @@
       },
       "1": {
         "article": "12.9 p. 1",
-        "display_name": "Exceeding the speed limit",
+        "display_name": "Speed 11-20",
         "gost_name": "C1.1 Violation of the established speed limit"
       },
       "2": {
@@ -2118,6 +2191,11 @@
         "article": "12.19 p.1",
         "display_name": "Parking violation (sign 6.4 with Tables 8.6.1-8.6.9)",
         "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "86": {
+        "article": " 12.19 p.1",
+        "display_name": "Standing at island",
+        "gost_name": "C4 GOST R57144-2016 Moving on pavements, pedestrian, bicycle and cycle-pedestrian paths, cycle lanes"
       },
       "87": {
         "article": " 12.15 p.2",
@@ -2772,7 +2850,8 @@
     "numberOfViolationsByFilter": "The number of violations by filter",
     "isLastViolation": "This is last violation",
     "nextViolation": "Next violation",
-    "prevViolation": "Prevoius violation"
+    "prevViolation": "Prevoius violation",
+    "downloadImgx": "Download IMGX"
   },
   "zonesConnect": {
     "checkImage": "Check image",
