@@ -53,14 +53,23 @@
       "overlight": "Пересвет",
       "payload": "Тип груза",
       "place": "Место фиксации",
-      "video": "Видео проезда"
+      "video": "Видео проезда",
+      "coordinates": "Координаты",
+      "correctedLPN": "Исправленный ГРЗ"
     },
     "viewType": "Вид выдачи",
     "findAndSaveFile": "Найти и сохранить в файл",
     "recordsFound": "Записей найдено",
     "dateTimeOfTravel": "Дата, время проезда",
     "secondsAfter": "Секунд после",
-    "secondsBefore": "Секунд до"
+    "secondsBefore": "Секунд до",
+    "totalVerified": "Всего проверено",
+    "totalCorrectRecognized": "Всего верно распознанно",
+    "percentageOfCorrectlyRecognized": "Процент верно распознанных",
+    "verified": "Проверено",
+    "downloadZip": "Скачать ZIP",
+    "noVideoArchive": "За указанный период времени видеоархив отсутствует",
+    "downloadInfo": "Скачать информацию"
   },
   "amtsServerPage": {
     "addAdditionalPtServer": "Добавить дополнительный сервер ПТ",
@@ -138,6 +147,7 @@
   },
   "common": {
     "actions": "Действия",
+    "fullMode": "Полноэкранный режим",
     "zone": "Зона",
     "dateOfOperation": "Дата операции",
     "selectFileToUpload": "Выберите файл для загрузки",
@@ -163,17 +173,21 @@
       "block": "Заблокировать",
       "calculate": "Рассчитать",
       "cancel": "Отменить",
+      "cancelUploading": "Отменить загрузку",
+      "cancelingUpload": "Отмена загрузки",
       "changePassword": "Сменить пароль",
       "changesApplied": "Изменения были успешно применены",
       "check": "Проверить",
       "chooseFile": "Выберите файл",
       "close": "Закрыть",
-      "confirm": "Подтверждение",
+      "confirm": "Подтверждение | Подтвердить",
+      "notifConfirm": "Разрешить уведомления",
       "remove": "Удаление",
       "confirmItemRemoval": "Подтвердите удаление элемента | Подтвердите удаление \"{name}\"",
       "createImage": "Создать изображение",
       "decrease": "Убавить",
       "delete": "Удалить",
+      "clear": "Очистить",
       "download": "Скачать | Загрузить",
       "edit": "Редактировать",
       "enableIlluminator": "Включить ИК осветитель",
@@ -191,6 +205,8 @@
       "resetValue": "Сбросить значение",
       "save": "Сохранить",
       "saveImage": "Сохранить изображение",
+      "enlargeImage": "Увеличить изображение",
+      "reduceImage": "Уменьшить изображение",
       "saveSettings": "Сохранить настройки",
       "search": "Найти",
       "setValue": "Установить значение",
@@ -212,7 +228,9 @@
       "watchVideo": "Просмотр видео",
       "setDefaultSettings": "Установить значения по умолчанию",
       "showLanes": "Показать полосы движения",
-      "hideLanes": "Скрыть полосы движения"
+      "hideLanes": "Скрыть полосы движения",
+      "usbUpload": "Загрузить с USB",
+      "refreshStatus": "Обновить статус"
     },
     "camera": "Камера",
     "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Функции управления камерой активны только при наличии видео",
@@ -278,6 +296,8 @@
     "fixationHasBeenEnabled": "Фиксация включена",
     "flow": "Поток",
     "focalLength": "Фокусное расстояние",
+    "road": "Дорога",
+    "segment": "Участок",
     "focus": "Фокус",
     "format": "Формат",
     "fps": "к/с",
@@ -289,6 +309,12 @@
     "identifier": "Идентификатор",
     "image": "Изображение",
     "imageUpload": "Загрузка изображения",
+    "serverDataLoading": "Загрузка данных с сервера",
+    "uploading": "Загрузка",
+    "connecting": "Подключение",
+    "complete": "Завершено",
+    "updateComplete": "Обновление прошло успешно",
+    "processing": "Обработка данных",
     "initialization": "Инициализация",
     "key": "Ключ",
     "latLon": "Широта/Долгота",
@@ -341,9 +367,9 @@
       "title": "Уведомления",
       "changesApplied": "Изменения применены. Не забудьте сохранить"
     },
-    "off": "Выкл | выключен",
+    "off": "Выкл | Выключен | Выключено",
     "offset": "Отклонение",
-    "on": "Вкл | включен",
+    "on": "Вкл | Включен | Включено",
     "operation": "Операция",
     "parameter": "Параметр | Параметры",
     "password": "Пароль",
@@ -403,7 +429,8 @@
       "numberInOrder": "№ п/п",
       "sourceName": "Имя источника",
       "time": "Время",
-      "violationTypes": "Типы нарушений"
+      "violationTypes": "Типы нарушений",
+      "serverAddress": "Адрес сервера"
     },
     "temperature": "Температура",
     "thickness": "Толщина",
@@ -424,7 +451,10 @@
     "uTurn": "Разворот",
     "undefined": "Не определено",
     "units": {
-      "millimeters": "миллиметры | мм"
+      "millimeters": "миллиметры | мм",
+      "v": "В",
+      "p": "Вт",
+      "ma": "мА"
     },
     "unsavedChangesAlert": "ВНИМАНИЕ! Есть несохранённые изменения настроек",
     "useConfirmation": "Использовать подтверждение",
@@ -464,7 +494,6 @@
     "dawn": "Рассвет",
     "sunrise": "Восход",
     "sunset": "Закат",
-    "dusk": "Сумерки",
     "fix": "Исправить",
     "state": "Состояние",
     "user": "Пользователь",
@@ -750,7 +779,24 @@
     "number": "Номер",
     "angle": "Угол",
     "typeIdentifier": "Введите идентификатор",
-    "egoSpeed": "Скорость ПА"
+    "egoSpeed": "Скорость ПА",
+    "firmwareVersion": "Версия прошивки",
+    "pressOrDragAndDropFile": "Нажмите или перетащите файл сюда",
+    "channelUsed": "Используемый канал",
+    "power": "Мощность",
+    "voltage": "Напряжение",
+    "current": "Текущий | Ток",
+    "geometryZones": "Зоны геометрии",
+    "chooseColor": "Выбрать цвет",
+    "others": "других",
+    "filter": "Фильтр | Фильтры",
+    "selected": "выбрано",
+    "of": "из",
+    "ntpServer": "NTP сервер | NTP серверы",
+    "host": "Хост",
+    "saveSettingsAfterApply": "После применения настроек не забудьте сохранить изменения",
+    "noiseReduction": "Шумоподавление",
+    "noiseReductionStrength": "Уровень шумоподавления"
   },
   "configEditor": {
     "fileSaved": "Файл сохранён\nНе забудьте сохранить настройки во вкладке \"Система\""
@@ -800,7 +846,9 @@
       "recognizeAllFrames": "Распознавать все кадры",
       "useNeuralNetworkDetector": "Использовать нейросетевой детектор ГРЗ",
       "useNeuralNetworkRecognitionGrz": "Использовать нейросетевое распознавание ГРЗ",
-      "vehicleDetectorThreshold": "Порог детектора ТС"
+      "vehicleDetectorThreshold": "Порог детектора ТС",
+      "dropMovingVehicles": "Игнорировать движущиеся ТС",
+      "dropStandingVehicles": "Игнорировать неподвижные ТС"
     },
     "identifiers": "Идентификаторы",
     "ignoreRepeats": "Игнорировать повторы",
@@ -874,19 +922,22 @@
     "videoSourceAliases": "Псевдонимы источников видео | псевдонима источника видео",
     "violationClassifyAlgorithm": "Алгоритм квалификации",
     "violationTypeSettings": "Настройки типа нарушения",
+    "transitByMSD": "Транзит по МСД",
+    "paidSection": "Платный участок",
     "violations": {
       "allowedDirectionMovement": "Разрешенное направление движения",
       "atRailway": "На ЖД переезде",
       "bandSelectionAlgorithm": "Алгоритм выбора полосы",
       "bicyclePathMovement": "Движение по велосипедной дорожке",
-      "bothDirections": "Оба направления",
       "byMotionSpeed": "По скорости движения, пикс/кадр",
       "crossingStopLine": "Пересечение стоп-линии",
       "forbiddenDirection": "Запрещённое направление движения",
+      "bothDirections": "Оба направления",
       "fromTVSensorParallel": "от ТВ датчика (попутное)",
+      "toTVSensorOncoming": "к ТВ датчику (встречное)",
       "goStraight": "Движение прямо",
       "intersectionOrControlled": "На перекрёстке или регулируемом ПП",
-      "lastRecognizedGrz": "Последний распознаный ГРЗ",
+      "lastRecognizedGrz": "Последний распознанный ГРЗ",
       "leftCameraView": "Слева при виде с камеры",
       "lineOfIntersection": "По линии пересечения ПЧ",
       "maneuverTime": "Время манёвра",
@@ -920,7 +971,6 @@
       "signRightProhibited": "Знак \"Поворот направо запрещен\"",
       "solidMarkingsLeft": "Сплошная разметка слева",
       "solidMarkingsRight": "Сплошная разметка справа",
-      "toTVSensorOncoming": "к ТВ датчику (встречное)",
       "tramTracksDirection": "Направление движения по трамвайным путям",
       "truckMovementProhibited": "Движение грузовикам запрещено (знак 3.4)",
       "turningLeftProhibited": "Поворот налево запрещён",
@@ -934,9 +984,18 @@
       "fixPassengerBelt": "Фиксировать ремень пассажира",
       "passengerViolationsFormed": "Формируется нарушения на пассажира",
       "withSimultaneousFixation": "При одновременной фиксации",
-      "enableQualificationsAtDifferentTimesOfTheDay": "Включить квалификацию в разное время суток"
+      "enableQualificationsAtDifferentTimesOfTheDay": "Включить квалификацию в разное время суток",
+      "movementAlongDividingLine": "Движение по разделительной полосе",
+      "turnLeftMarking": "Поворот налево (разметка)"
     },
-    "drivingTaxiBrick": "Движение такси под \"кирпич\" по полосе движения"
+    "drivingTaxiBrick": "Движение такси под \"кирпич\" по полосе движения",
+    "confirmationRequired": "Подтверждение нарушения обязательно",
+    "standingAtIsland": "Остановка на островке (разметка 1.16.1 – 1.16.3)",
+    "addGeometryZonesGroup": "Добавить группу зон геометрий",
+    "geometryZoneExistInChannelViolationType": "Данная зона геометрии используется на текущем канале, типом нарушения {vType}",
+    "geometryZoneExistInLanesViolationType": "Данная зона геометрии используется на {laneNumber} полосе, типом нарушения {vType}",
+    "violationOfParkingMethodSign": "Нарушение способа постановки на стоянку (с табличкой)",
+    "tramTracksOfOppositeDirection": "Трамвайные пути встречного направления"
   },
   "convertersPage": {
     "addConverter": "Добавить конвертер",
@@ -969,8 +1028,8 @@
       "violationsTimeout": "Таймаут выгрузки нарушений",
       "amtsQueueType": "Тип очереди",
       "maxAmtsAge": "Время хранения в очереди",
-      "fifo": "Первыми отправляются старые",
-      "lifo": "Первыми отправляются новые",
+      "fifo": "Сначала старые",
+      "lifo": "Сначала новые",
       "maxAmtsAgeHelp": "При значении -1 проезды удаляться не будут",
       "enableAmtsLogging": "Включить логирование запросов и ответов при отправке проходящих ТС",
       "enableViolationsLogging": "Включить логирование запросов и ответов при отправке нарушений",
@@ -1019,7 +1078,13 @@
     "instability": "Нестабильность, мс",
     "lastSync": "Посл. синхр, с",
     "syncSource": "Источник синхронизации",
-    "timeZone": "Часовой пояс"
+    "timeZone": "Часовой пояс",
+    "editNtpServer": "Редактирование NTP сервера",
+    "addNtpServer": "Добавление NTP сервера",
+    "confirmRemovingNtpServer": "Подтвердите удаление NTP сервера: \"{host}\"",
+    "ntpServersSaved": "Настройки NTP серверов сохранены",
+    "azimuth5GpsTitle": "Статус синхронизации со шкалой UTC (SU)",
+    "synchronizationAccordingGpsdData": "Синхронизация по данным ГНСС"
   },
   "errorPages": {
     "forbidden": {
@@ -1036,6 +1101,7 @@
     }
   },
   "errors": {
+    "cancelError": "Ошибка при отмене загрузки",
     "errorCode": "Код ошибки",
     "errorReceivingDataFromServer": "Ошибка при получении данных с сервера",
     "errorText": "Текст ошибки",
@@ -1065,6 +1131,7 @@
     "Файл с правами не найден": "Файл с правами не найден",
     "Файл успешно сохранён": "Файл успешно сохранён",
     "Файлы успешно загружены": "Файлы успешно загружены",
+    "fileRemoveConfirm": "Вы действительно хотите удалить файл ''{var}''",
     "channelNotFound": "Канал {var} не найден",
     "Некорректные параметры JSON": "Некорректные параметры JSON",
     "Нет данных": "Нет данных",
@@ -1105,7 +1172,11 @@
     "simulatorMode": "Режим симулятора",
     "innerGnss": "Внутренний ГНСС",
     "outerGnss": "Внешний ГНСС",
-    "receiver": "Приёмник"
+    "receiver": "Приёмник",
+    "glonass": "ГЛОНАСС",
+    "gps": "GPS",
+    "glonassAndGps": "ГЛОНАСС и GPS",
+    "gnssSystem": "Система ГНСС"
   },
   "homePage": {
     "duploDialog": {
@@ -1138,8 +1209,7 @@
       "selectNumberOfLanes": "Выберите количество полос"
     },
     "settings": {
-      "directionForOncoming": "Направление для встречных",
-      "directionForPassing": "Направление для попутных"
+      "directionForOncoming": "Направление для встречных"
     },
     "trafficLanes": {
       "cameraId": "ID камеры",
@@ -1161,12 +1231,15 @@
       "allCurrentLaneSettingsWillBeDeleted": "Внимание! Все текущие настройки полос удалятся. Вы уверены?"
     },
     "mobile": {
+      "mapTilesUpload": "Загрузка тайлов карт и баз данных для геокодинга",
       "chooseZoneConfigFile": "Выберите файл конфигурации зон",
       "currentAddress": "Текущий адрес",
       "currentViolation": "Текущее нарушение",
       "complexIsNotOnRoute": "Комплекс не на маршруте",
       "fixationDisabled": "Фиксация была автоматически отключена в связи с изменением или удалением месторасположения комплекса. Пожалуйста, проверьте настройки.",
-      "fixationDisabledIfNoViolations": "Внимание! При включенной фиксации необходимо установить состав АПН"
+      "fileSending": "Отправка файла",
+      "fixationDisabledIfNoViolations": "Внимание! При включенной фиксации необходимо установить состав АПН",
+      "browserConfirm": "Браузер блокирует автоматическое воспроизведение звука. Требуется ваше подтверждение"
     }
   },
   "imagesPage": {
@@ -1219,7 +1292,8 @@
     "garbageMO": "Мусор МО",
     "roadScreen": "Информационное табло",
     "radar": "Радар",
-    "configEditor": "Редактор конфигураций"
+    "configEditor": "Редактор конфигураций",
+    "routes": "Настройка маршрутов"
   },
   "metrologyPage": {
     "certificateSaved": "Свидетельство сохранено",
@@ -1263,7 +1337,8 @@
         "stopMeasurement": "Стоп измерений",
         "title": "Живое видео",
         "verificationMode": "Режим поверки",
-        "resetInterval": "Сбросить интервал"
+        "resetInterval": "Сбросить интервал",
+        "measureL": "Измерить расстояние"
       }
     },
     "speedMeasurementError": {
@@ -1336,7 +1411,7 @@
     "bridgesList": {
       "editNetworkBridge": "Редактирование сетевого моста"
     },
-    "canselDnsServerAdding": "Отменить добавление ДНС сервера",
+    "canselDnsServerAdding": "Отменить добавление DNS сервера",
     "diagnosticForm": {
       "hostNameOrIP": "Хост (имя или IP)",
       "repeatsForPing": "Кол-во повторов (для ping)",
@@ -1344,7 +1419,7 @@
       "title": "Диагностика сети",
       "tracepath": "Tracepath"
     },
-    "dnsServers": "ДНС серверы",
+    "dnsServers": "DNS серверы",
     "networkSettingsAreSaved": "Сетевые настройки сохранены",
     "networkSettingsHaveBeenApplied": "Сетевые настройки применены, не забудьте их сохранить! ",
     "openVpn": {
@@ -1358,7 +1433,8 @@
       "networkBridges": "Сетевые мосты",
       "networkDiagnostics": "Диагностика сети",
       "openVpn": "OpenVPN",
-      "vlan": "VLAN"
+      "vlan": "VLAN",
+      "poe": "POE"
     },
     "unusedNetworkAdapters": "Неиспользуемые сетевые адаптеры",
     "vlan": {
@@ -1366,9 +1442,27 @@
       "static": "Статический",
       "title": "Список VLAN",
       "vidVlanId": "VID (VLAN ID)"
-    }
+    },
+    "poeForm": {
+      "title": "Настройки POE",
+      "port": "Порт № {portNumber}",
+      "2pair15w": "2 пары/15 вт",
+      "2pair30w": "2 пары/30 вт",
+      "4pair15w": "4 пары/15 вт",
+      "4pair30w": "4 пары/30 вт",
+      "4pair45w": "4 пары/45 вт",
+      "4pair60w": "4 пары/60 вт",
+      "4pair75w": "4 пары/75 вт",
+      "4pair90w": "4 пары/90 вт",
+      "powerModes": "Режим питания",
+      "powerClasses": "Макс. выдаваемая мощность",
+      "inputVoltage": "Входное напряжение",
+      "payload": "Нагрузка"
+    },
+    "poeConfigAreSaved": "Настройки POE сохранены"
   },
   "parkingPage": {
+    "zoneAdded": "Зона ''{var}'' добавлена",
     "applyPresetSettingsToast": "Для применения настроек пресета №{var} необходимо сохранить настройки",
     "addArea": "Добавить область",
     "addPreset": "Добавить пресет",
@@ -1643,7 +1737,8 @@
     "dateTime": "Введите корректную дату/время в формате DD-MM-YYYY HH:mm:ss",
     "date": "Введите корректную дату в формате DD-MM-YYYY",
     "uniqueDuploConverterInstance": "Данное имя экземпляра уже занято",
-    "uniqueValue": "Значение должно быть уникальным"
+    "uniqueValue": "Значение должно быть уникальным",
+    "uniqueNtpServer": "Такой NTP сервер уже добавлен"
   },
   "videoArchivePage": {
     "addImage": "Добавить изображение",
@@ -1654,6 +1749,7 @@
   },
   "searchPage": {
     "edit": "Управление",
+    "searchHistory": "История розыска",
     "monitor": "Отслеживание",
     "searchType": "Тип розыска",
     "downloadLog": "Скачать лог загрузки",
@@ -1663,7 +1759,13 @@
     "pageTotalCount": "Страница {page} из {totalPages}",
     "renameSearch": "Переименовать тип розыска",
     "editVehicleList": "Редактировать список ТС",
-    "deleteVehicleList": "Удалить список ТС"
+    "deleteVehicleList": "Удалить список ТС",
+    "uploadActualSearch": "Загрузить актуальный список розыска",
+    "clearSearchHistory": "Очистить историю розыска",
+    "fileIsUploadedFromUsb": "Файл с USB загружен",
+    "uploadActualSearchConfirm": "Внимание! При загрузке файла существующая база данных будет удалена и будет загружена новая база данных",
+    "uploadedFileHistory": "История загруженных файлов",
+    "uploadedFilesHistory": "История загруженных файлов"
   },
   "videoSourcePage": {
     "brightnessChangedToast": "Яркость изменена",
@@ -1775,7 +1877,7 @@
       },
       "1": {
         "article": "12.9 ч. 1",
-        "display_name": "Превышение скорости",
+        "display_name": "Скорость 11-20",
         "gost_name": "C1.1 Нарушение установленного скоростного режима"
       },
       "2": {
@@ -2132,6 +2234,16 @@
         "article": "12.19 ч.1",
         "display_name": "Нарушение способа постановки на стоянку (знак 6,4 с табл. 8.6.1-8.6.9)",
         "gost_name": "C2. Нарушение установленных правил стоянки или остановки транспортных средств"
+      },
+      "85": {
+        "display_name": "Движение по разделительной полосе",
+        "article": "12.15 ч.1",
+        "gost_name": "С16 Движение по разделительной полосе"
+      },
+      "86": {
+        "article": "12.19 ч.1",
+        "display_name": "Остановка на островке",
+        "gost_name": "С4 ГОСТ Р57144-2016 Движение по тротуарам, пешеходным, велосипедным и велопешеходным дорожкам, полосам для велосипедистов"
       },
       "87": {
         "article": "12.15 ч.2",
@@ -2708,6 +2820,21 @@
         "display_name": "Загрязнение территории",
         "gost_name": "C16. Загрязнение территории"
       },
+      "993": {
+        "article": " ",
+        "display_name": "Транзит по МСД",
+        "gost_name": "Транзит по МСД"
+      },
+      "994": {
+        "article": " ",
+        "display_name": "Платный участок дороги",
+        "gost_name": "Платный участок дороги"
+      },
+      "995": {
+        "article": " ",
+        "display_name": "Нарушение правил перевозки сыпучих грузов",
+        "gost_name": "Нарушение правил перевозки сыпучих грузов"
+      },
       "996": {
         "article": "12.6",
         "display_name": "Нарушение правил применения мотошлемов",
@@ -2753,7 +2880,9 @@
     "Телефон": "Телефон",
     "Трамвайные пути": "Трамвайные пути",
     "Фары": "Фары",
-    "Шлем": "Шлем"
+    "Шлем": "Шлем",
+    "Платный участок МСК": "Платный участок МСК",
+    "Транзит по МСД": "Транзит по МСД"
   },
   "violationsPage": {
     "downloadMaterial": "Скачать материал",
@@ -2788,7 +2917,8 @@
     "numberOfViolationsByFilter": "Количество нарушений по фильтру",
     "isLastViolation": "Это последнее нарушение",
     "nextViolation": "Следующее нарушение",
-    "prevViolation": "Предыдущее нарушение"
+    "prevViolation": "Предыдущее нарушение",
+    "downloadImgx": "Скачать IMGX"
   },
   "zonesConnect": {
     "checkImage": "Проверка изображения",
