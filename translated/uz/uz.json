@@ -464,7 +464,6 @@
     "dawn": "Tong",
     "sunrise": "Quyoshning chiqishi",
     "sunset": "Quyosh botishi",
-    "dusk": "Shom",
     "fix": "Toʻgʻrilash",
     "state": "Holat",
     "user": "Foydalanuvchi",
@@ -1138,8 +1137,7 @@
       "selectNumberOfLanes": "Чизиқлар сонини танланг"
     },
     "settings": {
-      "directionForOncoming": "Келаётганлар учун кўрсатмалар",
-      "directionForPassing": "Ўтиш учун кўрсатмалар"
+      "directionForOncoming": "Келаётганлар учун кўрсатмалар"
     },
     "trafficLanes": {
       "cameraId": "Kamera identifikatori",
@@ -1358,7 +1356,8 @@
       "networkBridges": "Tarmoq ko'priklari",
       "networkDiagnostics": "Tarmoq diagnostikasi",
       "openVpn": "OpenVPN",
-      "vlan": "VLAN"
+      "vlan": "VLAN",
+      "poe": "POE"
     },
     "unusedNetworkAdapters": "Foydalanilmaydigan tarmoq adaO'Terlari",
     "vlan": {
@@ -1775,7 +1774,7 @@
       },
       "1": {
         "article": "12.9 1-қ",
-        "display_name": "Tezlikni oshirish",
+        "display_name": "Tezlik 11-20",
         "gost_name": "C1.1 Белгиланган тезлик чегарасини бузиш"
       },
       "2": {
