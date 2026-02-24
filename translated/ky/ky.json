@@ -53,14 +53,23 @@
       "overlight": "Ашыкча жарык",
       "payload": "Жүктүн тиби",
       "place": "Бекитүү орду",
-      "video": "Өтүү видеосу"
+      "video": "Өтүү видеосу",
+      "coordinates": "Координаттар",
+      "correctedLPN": "Оңдолгон МКБ"
     },
     "viewType": "Берүү түрү",
     "findAndSaveFile": "Табуу жана файлга сактоо",
     "recordsFound": "Жазуулар табылды",
     "dateTimeOfTravel": "Өтүү күнү, убактысы",
     "secondsAfter": "Секунд өткөндөн кийин",
-    "secondsBefore": "Секунд чейин"
+    "secondsBefore": "Секунд чейин",
+    "totalVerified": "Бардыгы текшерилди",
+    "totalCorrectRecognized": "Бардыгы туура таанылды",
+    "percentageOfCorrectlyRecognized": "Туура таанылгандардын пайызы",
+    "verified": "Текшерилди",
+    "downloadZip": "ZIP жүктөө",
+    "noVideoArchive": "Көрсөтүлгөн убакыт аралыгында видеоархив жок",
+    "downloadInfo": "Маалыматты жүктөө"
   },
   "amtsServerPage": {
     "addAdditionalPtServer": "Кошумча ПТ серверди кошуу",
@@ -138,6 +147,7 @@
   },
   "common": {
     "actions": "Аракет",
+    "fullMode": "Толук экран режими",
     "zone": "Зона",
     "dateOfOperation": "Операциянын датасы",
     "selectFileToUpload": "Жүктөө үчүн файлды тандаңыз",
@@ -163,17 +173,21 @@
       "block": "Бөгөттөө",
       "calculate": "Эсептөө",
       "cancel": "жокко чыгаруу",
+      "cancelUploading": "Жүктөөнү токтотуу",
+      "cancelingUpload": "Жүктөө токтотулду",
       "changePassword": "Сырсөздү алмаштыруу",
       "changesApplied": "Өзгөртүүлөр ийгиликтүү колдонулду",
       "check": "Текшерүү",
       "chooseFile": "Файлды тандаңыз",
       "close": "Жабуу",
       "confirm": "Ырастоо",
+      "notifConfirm": "Билдирмелерге уруксат берүү",
       "remove": "Өчүрүү",
       "confirmItemRemoval": "Элементти жок кылууну ырастаңыз | \"{name}\" жок кылууну ырастаңыз",
       "createImage": "Сүрөт түзүү",
       "decrease": "Азайтуу",
       "delete": "Жок кылуу",
+      "clear": "Тазалоо",
       "download": "Жүктөө",
       "edit": "Оңдоо",
       "enableIlluminator": "ИК жарык берүүчүнү иштетүү",
@@ -191,6 +205,8 @@
       "resetValue": "Маанини таштоо",
       "save": "Сактоо",
       "saveImage": "Сүрөттү сактоо",
+      "enlargeImage": "Сүрөттү чоңойтуу",
+      "reduceImage": "Сүрөттү кичирейтүү",
       "saveSettings": "Жөндөөлөрдү сактоо",
       "search": "Табуу",
       "setValue": "Маанини орнотуу",
@@ -212,7 +228,9 @@
       "watchVideo": "Видео көрүү",
       "setDefaultSettings": "Бишкке келтирүү (дефолт маанилерди коюу)",
       "showLanes": "Жолго жолдорун көрсөтүү",
-      "hideLanes": "Жолго жолдорун жашыруу"
+      "hideLanes": "Жолго жолдорун жашыруу",
+      "usbUpload": "USBден жүктөө",
+      "refreshStatus": "Абалды жаңыртуу"
     },
     "camera": "Камера",
     "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Камераны башкаруу функциялары видео бар болгондо гана активдүү болот",
@@ -278,6 +296,8 @@
     "fixationHasBeenEnabled": "Каттоо күйгүзүлгөн",
     "flow": "Агым",
     "focalLength": "Фокустук аралык",
+    "road": "Жол",
+    "segment": "Тилке",
     "focus": "Фокус",
     "format": "Формат",
     "fps": "к/с",
@@ -289,6 +309,12 @@
     "identifier": "Идентификатор",
     "image": "Сүрөт",
     "imageUpload": "Сүрөттү жүктөө",
+    "serverDataLoading": "Серверден маалыматтарды жүктөө",
+    "uploading": "Жүктөө",
+    "connecting": "Туташуу",
+    "complete": "Аяктады",
+    "updateComplete": "Жаңыртуу ийгиликтүү аяктады",
+    "processing": "Маалыматтарды иштетүү",
     "initialization": "Инициализация",
     "key": "Ачкыч",
     "latLon": "Туурасы/Узундугу",
@@ -403,7 +429,8 @@
       "numberInOrder": "№ и/б",
       "sourceName": "Булактын аты",
       "time": "Убакыт",
-      "violationTypes": "Бузуулардын түрлөрү"
+      "violationTypes": "Бузуулардын түрлөрү",
+      "serverAddress": "Сервер дареги"
     },
     "temperature": "Температура",
     "thickness": "Калыңдыгы",
@@ -424,7 +451,10 @@
     "uTurn": "Артка бурулуу",
     "undefined": "Аныкталган эмес",
     "units": {
-      "millimeters": "миллиметрлер | мм"
+      "millimeters": "миллиметрлер | мм",
+      "v": "В",
+      "p": "Вт",
+      "ma": "мА"
     },
     "unsavedChangesAlert": "КӨҢҮЛ БУРГУЛА! Жөндөөлөрдүн сакталбаган өзгөрүүлөрү бар",
     "useConfirmation": "Ырастоону колдонуу",
@@ -749,7 +779,24 @@
     "number": "Номер",
     "angle": "Бурч",
     "typeIdentifier": "Идентификатор киргизиңиз",
-    "egoSpeed": "ПА ылдамдыгы"
+    "egoSpeed": "ПА ылдамдыгы",
+    "firmwareVersion": "Прошивканын версиясы",
+    "pressOrDragAndDropFile": "Файлды басыңыз же бул жерге сүйрөп коюңуз",
+    "channelUsed": "Колдонулган канал",
+    "power": "Кубат",
+    "voltage": "Чыңалуу",
+    "current": "Учурдагы | Ток",
+    "geometryZones": "Геометрия аймактары",
+    "chooseColor": "Түс тандоо",
+    "others": "башкалар",
+    "filter": "Чыпка | Чыпкалар",
+    "selected": "тандалды",
+    "of": "ичинен",
+    "ntpServer": "NTP сервер | NTP серверлер",
+    "host": "Хост",
+    "saveSettingsAfterApply": "Жөндөөлөрдү колдонгондон кийин өзгөртүүлөрдү сактоону унутпаңыз",
+    "noiseReduction": "Шууну басуу",
+    "noiseReductionStrength": "Шууну басуу деңгээли"
   },
   "configEditor": {
     "fileSaved": "Файл сакталган\n«Система» өтмөгүндө жөндөөлөрдү  сактоону унутпаңыз"
@@ -799,7 +846,9 @@
       "recognizeAllFrames": "Бардык кадрларды таануу",
       "useNeuralNetworkDetector": "МКБ нин нейротармактык детекторун колдонуу",
       "useNeuralNetworkRecognitionGrz": "МКБ нин нейротармактык таанууну колдонуу",
-      "vehicleDetectorThreshold": "ТК детекторунун босогосу"
+      "vehicleDetectorThreshold": "ТК детекторунун босогосу",
+      "dropMovingVehicles": "Кыймылдагы ТКларды эске албоо",
+      "dropStandingVehicles": "Кыймылдабаган ТКларды эске албоо"
     },
     "identifiers": "Идентификаторлор",
     "ignoreRepeats": "Кайталоону этибар албоо",
@@ -873,16 +922,19 @@
     "videoSourceAliases": "Видео булагынын лакап аттары | \nвидео булагынын лакап атынын",
     "violationClassifyAlgorithm": "Классификация алгоритми",
     "violationTypeSettings": "Бузуу тибинин жөндөөлөрү",
+    "transitByMSD": "Москва жогорку ылдамдыктагы диаметри аркылуу транзит",
+    "paidSection": "Акы төлөнүүчү участок",
     "violations": {
       "allowedDirectionMovement": "Уруксат берилген кыймыл багыты",
       "atRailway": "Темир жол кесилишинде",
       "bandSelectionAlgorithm": "Тилке тандоо алгоритми",
       "bicyclePathMovement": "Велосипед жолундагы кыймыл",
-      "bothDirections": "Эки багыт тең",
       "byMotionSpeed": "Кыймыл ылдамдыгы боюнча, пикс/кадр",
       "crossingStopLine": "Стоп-сызыгынын кесилиши",
       "forbiddenDirection": "Кыймылдын тыюу салынган багыты",
+      "bothDirections": "Эки багыт тең",
       "fromTVSensorParallel": "ТВ сенсорунан (бир тарапка)",
+      "toTVSensorOncoming": "ТВ сенсоруна (каршы келе жаткан)",
       "goStraight": "Түз айдоо",
       "intersectionOrControlled": "Кесилиште же ПП көзөмөлдөнүүчү",
       "lastRecognizedGrz": "Акыркы таанылган МКБ",
@@ -919,7 +971,6 @@
       "signRightProhibited": "“Оңго бурулуу тыюу салынат” белгиси",
       "solidMarkingsLeft": "Сол тараптан үзгүлтүксүз белгилөө",
       "solidMarkingsRight": "Оң тараптан үзгүлтүксүз белгилөө",
-      "toTVSensorOncoming": "ТВ сенсоруна (каршы келе жаткан)",
       "tramTracksDirection": "Трамвай жолундагы кыймылдын багыты",
       "truckMovementProhibited": "Жүк ташуучу унаалардын кыймылына тыюу салынат (3.4 белгиси)",
       "turningLeftProhibited": "Солго бурулууга тыюу салынат",
@@ -933,9 +984,18 @@
       "fixPassengerBelt": "Жүргүнчүнүн курун бекитиңиз",
       "passengerViolationsFormed": "Жүргүнчүгө карата эреже бузуу калыптанып жатат",
       "withSimultaneousFixation": "Бир убакта бекитүүдө",
-      "enableQualificationsAtDifferentTimesOfTheDay": "Түнкү/күндүзгү убакытка жараша классификацияны кошуу"
+      "enableQualificationsAtDifferentTimesOfTheDay": "Түнкү/күндүзгү убакытка жараша классификацияны кошуу",
+      "movementAlongDividingLine": "Бөлүү тилкеси менен жүрүү",
+      "turnLeftMarking": "Солго бурулуш (белгилөө)"
     },
-    "drivingTaxiBrick": "Таксинин кыймыл тилкеси боюнча \"кирпич\" алдында жүрүүсү"
+    "drivingTaxiBrick": "Таксинин кыймыл тилкеси боюнча \"кирпич\" алдында жүрүүсү",
+    "confirmationRequired": "Эреже бузуу тастыкталышы милдеттүү",
+    "standingAtIsland": "Аралчада токтоо (белгилөө 1.16.1–1.16.3)",
+    "addGeometryZonesGroup": "Геометрия аймактарынын тобун кошуу",
+    "geometryZoneExistInChannelViolationType": "Бул геометрия аймагы учурдагы каналда {vType} бузуу түрү менен колдонулат",
+    "geometryZoneExistInLanesViolationType": "Бул геометрия аймагы {laneNumber} тилкеде {vType} бузуу түрү менен колдонулат",
+    "violationOfParkingMethodSign": "Токтотууга коюу ыкмасын бузуу (белги менен)",
+    "tramTracksOfOppositeDirection": "Каршы багыттагы трамвай жолдору"
   },
   "convertersPage": {
     "addConverter": "Конвертерди кошуу",
@@ -1018,7 +1078,13 @@
     "instability": "Туруксуздук, мс",
     "lastSync": "Акыркы синхрондоштуруу, с",
     "syncSource": "Синхрондоштуруунун булагы",
-    "timeZone": "Саат алкагы"
+    "timeZone": "Саат алкагы",
+    "editNtpServer": "NTP серверди түзөтүү",
+    "addNtpServer": "NTP серверди кошуу",
+    "confirmRemovingNtpServer": "NTP серверди өчүрүүнү ырастаңыз: \"{host}\"",
+    "ntpServersSaved": "NTP серверлеринин жөндөөлөрү сакталды",
+    "azimuth5GpsTitle": "UTC (SU) шкаласы менен синхрондоштуруу абалы",
+    "synchronizationAccordingGpsdData": "GNSS маалыматтары боюнча синхрондоштуруу"
   },
   "errorPages": {
     "forbidden": {
@@ -1035,6 +1101,7 @@
     }
   },
   "errors": {
+    "cancelError": "Жүктөөнү токтотууда ката кетти",
     "errorCode": "Катанын коду",
     "errorReceivingDataFromServer": "Серверден маалыматтарды алууда ката кетти",
     "errorText": "Катанын тексти",
@@ -1064,6 +1131,7 @@
     "Файл с правами не найден": "Укугу менен файл табылган жок",
     "Файл успешно сохранён": "Файл ийгиликтүү сакталды",
     "Файлы успешно загружены": "Файлдар ийгиликтүү жүктөлдү",
+    "fileRemoveConfirm": "Сиз чын эле ''{var}'' файлын өчүргүңүз келеби",
     "channelNotFound": "{var} каналы табылган жок",
     "Некорректные параметры JSON": "JSON параметрлери туура эмес",
     "Нет данных": "Маалыматтар жок",
@@ -1104,7 +1172,11 @@
     "simulatorMode": "Симулятор режими",
     "innerGnss": "Ички ГНСС",
     "outerGnss": "Тышкы ГНСС",
-    "receiver": "Кабыл алгыч"
+    "receiver": "Кабыл алгыч",
+    "glonass": "GLONASS",
+    "gps": "GPS",
+    "glonassAndGps": "GLONASS жана GPS",
+    "gnssSystem": "GNSS системасы"
   },
   "homePage": {
     "duploDialog": {
@@ -1159,12 +1231,15 @@
       "allCurrentLaneSettingsWillBeDeleted": "Көңүл буруңуз! Тилкелердин бардык учурдагы ырастамалары өчүрүлөт. Сиз чындыгында өчүрүүнү каалайсызбы?"
     },
     "mobile": {
+      "mapTilesUpload": "Карта тайлдарын жана геокоддоо маалымат базаларын жүктөө",
       "chooseZoneConfigFile": "Зоналардын конфигурация файлын тандаңыз",
       "currentAddress": "Учурдагы дарек",
       "currentViolation": "Учурдагы бузуу",
       "complexIsNotOnRoute": "Комплекс маршрутта эмес",
       "fixationDisabled": "Жайгашкан жери өзгөртүлгөндүктөн же өчүрүлгөндүктөн, фиксация автоматтык түрдө өчүрүлдү. Орнотууларды текшериңиз.",
-      "fixationDisabledIfNoViolations": "Көңүл буруңуз! Фиксация иштетилгенде, административдик укук бузуулар курамын орнотуу зарыл"
+      "fileSending": "Файлды жөнөтүү",
+      "fixationDisabledIfNoViolations": "Көңүл буруңуз! Фиксация иштетилгенде, административдик укук бузуулар курамын орнотуу зарыл",
+      "browserConfirm": "Браузер үндүн автоматтык ойнотулушун бөгөттөдү. Ырастооңуз талап кылынат"
     }
   },
   "imagesPage": {
@@ -1217,7 +1292,8 @@
     "garbageMO": "Чүп МО",
     "roadScreen": "Маалымат таблосу",
     "radar": "Радар",
-    "configEditor": "Конфигурация редактору"
+    "configEditor": "Конфигурация редактору",
+    "routes": "Маршруттарды жөндөө"
   },
   "metrologyPage": {
     "certificateSaved": "Сертификат сакталды",
@@ -1261,7 +1337,8 @@
         "stopMeasurement": "Өлчөөлөрдү токтотуу",
         "title": "Тирүү ыидео",
         "verificationMode": "Текшерүу режими",
-        "resetInterval": "Интервалды кайрадан орнотуу"
+        "resetInterval": "Интервалды кайрадан орнотуу",
+        "measureL": "Аралыкты өлчөө"
       }
     },
     "speedMeasurementError": {
@@ -1365,9 +1442,27 @@
       "static": "Статикалык",
       "title": "VLAN тизмеси",
       "vidVlanId": "VID (VLAN ID)"
-    }
+    },
+    "poeForm": {
+      "title": "POE жөндөөлөрү",
+      "port": "Порт № {portNumber}",
+      "2pair15w": "2 жуп/15 Вт",
+      "2pair30w": "2 жуп/30 Вт",
+      "4pair15w": "4 жуп/15 Вт",
+      "4pair30w": "4 жуп/30 Вт",
+      "4pair45w": "4 жуп/45 Вт",
+      "4pair60w": "4 жуп/60 Вт",
+      "4pair75w": "4 жуп/75 Вт",
+      "4pair90w": "4 жуп/90 Вт",
+      "powerModes": "Кубат режими",
+      "powerClasses": "Макс. берилүүчү кубат",
+      "inputVoltage": "Кирүү чыңалуусу",
+      "payload": "Жүктөм"
+    },
+    "poeConfigAreSaved": "POE жөндөөлөрү сакталды"
   },
   "parkingPage": {
+    "zoneAdded": "\"{var}'' аймагы кошулду",
     "applyPresetSettingsToast": "Пресет №{var} орнотууларын колдонуу үчүн сактоо талап кылынат",
     "addArea": "Облусту кошуу",
     "addPreset": "Алдын ала орнотууну кошуу",
@@ -1642,7 +1737,8 @@
     "dateTime": "DD-MM-YYYY HH:mm\nформатында туура дата/времени киргизиңиз",
     "date": "DD-MM-YYYY форматында туура датаны киргизиңиз",
     "uniqueDuploConverterInstance": "Бул инстанстын аты буга чейин колдонулган",
-    "uniqueValue": "Маани уникалдуу болушу керек"
+    "uniqueValue": "Маани уникалдуу болушу керек",
+    "uniqueNtpServer": "Мындай NTP сервер мурунтан кошулган"
   },
   "videoArchivePage": {
     "addImage": "Сүрөттү кошуу",
@@ -1653,6 +1749,7 @@
   },
   "searchPage": {
     "edit": "Башкаруу",
+    "searchHistory": "Издөө тарыхы",
     "monitor": "Кызматты көзөмөлдөө",
     "searchType": "Издөө түрү",
     "downloadLog": "Жүктөө логин жүктөп алуу",
@@ -1662,7 +1759,13 @@
     "pageTotalCount": "{page} бет {totalPages}",
     "renameSearch": "Издөө түрүн атын өзгөртүү",
     "editVehicleList": "Транспорт каражаттар тизмесин түзөтүү",
-    "deleteVehicleList": "Транспорт каражаттар тизмесин өчүрүү"
+    "deleteVehicleList": "Транспорт каражаттар тизмесин өчүрүү",
+    "uploadActualSearch": "Издөөнүн актуалдуу тизмесин жүктөө",
+    "clearSearchHistory": "Издөө тарыхын тазалоо",
+    "fileIsUploadedFromUsb": "USBден файл жүктөлдү",
+    "uploadActualSearchConfirm": "Көңүл буруңуз! Файл жүктөлгөндө учурдагы маалымат базасы өчүрүлүп, жаңысы жүктөлөт",
+    "uploadedFileHistory": "Жүктөлгөн файлдар тарыхы",
+    "uploadedFilesHistory": "Жүктөлгөн файлдар тарыхы"
   },
   "videoSourcePage": {
     "brightnessChangedToast": "Жарыктык өзгөрдү",
@@ -2117,6 +2220,16 @@
         "article": "12.19 1-бөлүк",
         "display_name": "Унаа токтотуучу жайга токтотуу ыкмасын бузуу (8.6.1-8.6.9-таблицадагы 6.4 белгиси)",
         "gost_name": "C2. Транспорт каражаттарын токтотуунун белгиленген эрежелерин бузуу"
+      },
+      "85": {
+        "display_name": "Бөлүү тилкеси менен жүрүү",
+        "article": "12.15 б.1",
+        "gost_name": "С16 Бөлүү тилкеси менен жүрүү"
+      },
+      "86": {
+        "article": "12.19 б.1",
+        "display_name": "Аралчада токтоо",
+        "gost_name": "С4 ГОСТ Р57144-2016 Тротуарлар, жөө жүргүнчү, велосипед жана аралаш жолдор менен жүрүү"
       },
       "87": {
         "article": "12.15 2-б.",
@@ -2691,6 +2804,18 @@
         "display_name": "Аймактын булганышы",
         "gost_name": "C16. Аймактын булганышы"
       },
+      "993": {
+        "display_name": "Москва жогорку ылдамдыктагы диаметри аркылуу транзит",
+        "gost_name": "Москва жогорку ылдамдыктагы диаметри аркылуу транзит"
+      },
+      "994": {
+        "display_name": "Акы төлөнүүчү жол участогу",
+        "gost_name": "Акы төлөнүүчү жол участогу"
+      },
+      "995": {
+        "display_name": "Үймө жүктөрдү ташуу эрежелерин бузуу",
+        "gost_name": "Үймө жүктөрдү ташуу эрежелерин бузуу"
+      },
       "996": {
         "article": "12.6",
         "display_name": "Мотошлемдерди колдонуу эрежелерин бузуу",
@@ -2736,7 +2861,9 @@
     "Телефон": "Телефон",
     "Трамвайные пути": "Трамвай жолдору",
     "Фары": "Фаралар",
-    "Шлем": "Шлем"
+    "Шлем": "Шлем",
+    "Платный участок МСК": "Москва акы төлөнүүчү участогу",
+    "Транзит по МСД": "Москва жогорку ылдамдыктагы диаметри аркылуу транзит"
   },
   "violationsPage": {
     "downloadMaterial": "Материалды жүктөө",
@@ -2771,7 +2898,8 @@
     "numberOfViolationsByFilter": "Фильтр боюнча бузуу саны",
     "isLastViolation": "Бул акыркы бузуу",
     "nextViolation": "Кийинки бузуу",
-    "prevViolation": "Мурунку бузуу"
+    "prevViolation": "Мурунку бузуу",
+    "downloadImgx": "IMGX жүктөө"
   },
   "zonesConnect": {
     "checkImage": "Сүрөттү текшерүү",
