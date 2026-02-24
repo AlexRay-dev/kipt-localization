@@ -53,14 +53,23 @@
       "overlight": "Yuqori yoriqlik",
       "payload": "Yuk turi",
       "place": "Qotirish joyi",
-      "video": "Harakat videosi"
+      "video": "Harakat videosi",
+      "coordinates": "Koordinatalar",
+      "correctedLPN": "DRB tuzatilgan"
     },
     "viewType": "Berish turi",
     "findAndSaveFile": "Topish va faylga saqlash",
     "recordsFound": "Ёзувлар топилди",
     "dateTimeOfTravel": "Harakat sanasi va vaqti",
     "secondsAfter": "Sekunddan keyin",
-    "secondsBefore": "Sekundgacha"
+    "secondsBefore": "Sekundgacha",
+    "totalVerified": "Jami tekshirildi",
+    "totalCorrectRecognized": "Jami to'g'ri aniqlandi",
+    "percentageOfCorrectlyRecognized": "To'g'ri aniqlanganlar foizi",
+    "verified": "Tekshirildi",
+    "downloadZip": "ZIP yuklab olish",
+    "noVideoArchive": "Ko'rsatilgan vaqt oralig'ida videoarxiv mavjud emas",
+    "downloadInfo": "Ma'lumotni yuklab olish"
   },
   "amtsServerPage": {
     "addAdditionalPtServer": "O'T qo'shimcha serverini qo'shish",
@@ -138,6 +147,7 @@
   },
   "common": {
     "actions": "Amallar",
+    "fullMode": "To'liq ekran rejimi",
     "zone": "Zona",
     "dateOfOperation": "Operatsiya sanasi",
     "selectFileToUpload": "Yuklash uchun faylni tanlang",
@@ -163,17 +173,21 @@
       "block": "Bloklash",
       "calculate": "Hisoblash",
       "cancel": "bekor qilish",
+      "cancelUploading": "Yuklashni bekor qilish",
+      "cancelingUpload": "Yuklashni bekor qilish",
       "changePassword": "Parolni o'zgartirish",
       "changesApplied": "O'zgarishlar muvaffaqiyatli qo'llanildi",
       "check": "Tekshirish",
       "chooseFile": "Faylni tanlang",
       "close": "Yopish",
       "confirm": "Tasdiqlash",
+      "notifConfirm": "Bildirishnomalarga ruxsat berish",
       "remove": "O‘chirish",
       "confirmItemRemoval": "Elementni o'chirishni tasdiqlang | O'chirishni tasdiqlang \"{name}\"",
       "createImage": "Rasm yaratish",
       "decrease": "Kamaytirish",
       "delete": "O'chirish",
+      "clear": "Tozalash",
       "download": "Yuklab olish",
       "edit": "Tahrirlash",
       "enableIlluminator": "IQ yoritgichni yoqish",
@@ -191,6 +205,8 @@
       "resetValue": "Qiymatni tiklash",
       "save": "Saqlash",
       "saveImage": "Rasmni saqlash",
+      "enlargeImage": "Rasmni kattalashtirish",
+      "reduceImage": "Rasmni kichraytirish",
       "saveSettings": "Sozlamalarni saqlash",
       "search": "Izlash",
       "setValue": "Qiymatni o'rnatish",
@@ -212,7 +228,9 @@
       "watchVideo": "Videoni ko'rish",
       "setDefaultSettings": "Standart qiymatlarni o‘rnatish",
       "showLanes": "Harakat yo‘laklarini ko‘rsatish",
-      "hideLanes": "Harakat yo‘laklarini yashirish"
+      "hideLanes": "Harakat yo‘laklarini yashirish",
+      "usbUpload": "USB dan yuklash",
+      "refreshStatus": "Holatni yangilash"
     },
     "camera": "Kamera",
     "cameraControlFunctionsActiveOnlyIfThereIsVideo": "Kamerani boshqarish funksiyalari faqat video mavjud bo'lgandagina faol",
@@ -278,6 +296,8 @@
     "fixationHasBeenEnabled": "Qayd etish yoqilgan",
     "flow": "Oqim",
     "focalLength": "Fokus masofasi",
+    "road": "Yo'l",
+    "segment": "Uchastka",
     "focus": "Фокус",
     "format": "Format",
     "fps": "k/s",
@@ -289,6 +309,12 @@
     "identifier": "Identifikator",
     "image": "Rasm",
     "imageUpload": "Rasmni yuklash",
+    "serverDataLoading": "Serverdan ma'lumotlarni yuklash",
+    "uploading": "Yuklash",
+    "connecting": "Ulanish",
+    "complete": "Yakunlandi",
+    "updateComplete": "Yangilash muvaffaqiyatli o'tdi",
+    "processing": "Ma'lumotlarni qayta ishlash",
     "initialization": "Initializatsiya",
     "key": "Kalit",
     "latLon": "Kenglik/Uzunlik",
@@ -403,7 +429,8 @@
       "numberInOrder": "№ тартиб буйича ",
       "sourceName": "Manba nomi",
       "time": "Vaqt bo'ldi",
-      "violationTypes": "Ҳуқуқбузарликлар турлари"
+      "violationTypes": "Ҳуқуқбузарликлар турлари",
+      "serverAddress": "Server manzili"
     },
     "temperature": "Harorat",
     "thickness": "Qalinligi",
@@ -424,7 +451,10 @@
     "uTurn": "Aylanib olish",
     "undefined": "Aniqlanmagan",
     "units": {
-      "millimeters": "millimetr / mm"
+      "millimeters": "millimetr / mm",
+      "v": "V",
+      "p": "Vt",
+      "ma": "mA"
     },
     "unsavedChangesAlert": "DIQQAT! Sozlamalarda saqlanmagan o'zgarishlar mavjud",
     "useConfirmation": "Tasdiqlashni qo'llash",
@@ -749,7 +779,24 @@
     "number": "Raqam",
     "angle": "Burchak",
     "typeIdentifier": "Identifikatorni kiriting",
-    "egoSpeed": "PA tezligi"
+    "egoSpeed": "PA tezligi",
+    "firmwareVersion": "Firmware versiyasi",
+    "pressOrDragAndDropFile": "Faylni bosing yoki shu yerga sudrab tashlang",
+    "channelUsed": "Foydalanilayotgan kanal",
+    "power": "Quvvat",
+    "voltage": "Kuchlanish",
+    "current": "Joriy | Tok",
+    "geometryZones": "Geometriya zonalari",
+    "chooseColor": "Rangni tanlash",
+    "others": "boshqa",
+    "filter": "Filtr | Filtrlar",
+    "selected": "tanlangan",
+    "of": "dan",
+    "ntpServer": "NTP server | NTP serverlar",
+    "host": "Host",
+    "saveSettingsAfterApply": "Sozlamalarni qo'llagandan so'ng o'zgarishlarni saqlashni unutmang",
+    "noiseReduction": "Shovqinni kamaytirish",
+    "noiseReductionStrength": "Shovqinni kamaytirish darajasi"
   },
   "configEditor": {
     "fileSaved": "Fayl saqlandi\nSozlamalarni \"Tizim\" ilovasida saqlashni unutmang"
@@ -799,7 +846,9 @@
       "recognizeAllFrames": "Barcha kadrlarni aniqlash",
       "useNeuralNetworkDetector": "DRB neyrotarmoq detektoridan foydalanish",
       "useNeuralNetworkRecognitionGrz": "DRB neyrotarmoqli aniqlashdan foydalanish",
-      "vehicleDetectorThreshold": "TV detektori chegarasi"
+      "vehicleDetectorThreshold": "TV detektori chegarasi",
+      "dropMovingVehicles": "Harakatlanayotgan TV ni rad etish",
+      "dropStandingVehicles": "Harakatsiz TV ni rad etish"
     },
     "identifiers": "Identifikatorlar",
     "ignoreRepeats": "Takrorlashni rad etish",
@@ -873,16 +922,19 @@
     "videoSourceAliases": "Video manbalarining taxalluslari | video manbasining taxalluslari",
     "violationClassifyAlgorithm": "Kvalifikatsiya algoritmi",
     "violationTypeSettings": "Qoidabuzarlik turi sozlamalari",
+    "transitByMSD": "Moskva tezkor diametri bo'ylab tranzit",
+    "paidSection": "Pullik uchastka",
     "violations": {
       "allowedDirectionMovement": "Ruxsat etilgan harakat yo'nalishi",
       "atRailway": "Temir yo'l kesishmasida",
       "bandSelectionAlgorithm": "Chiziq tanlash algoritmi",
       "bicyclePathMovement": "Velosiped yo'lagi bo'ylab harakatlanish",
-      "bothDirections": "Ikkala yo'nalish",
       "byMotionSpeed": "Harakat tezligi bo'yicha, piks/kadr",
       "crossingStopLine": "To'xtash chizig'ini kesib o'tish",
       "forbiddenDirection": "Taqiqlangan harakat yo'nalishi",
+      "bothDirections": "Ikkala yo'nalish",
       "fromTVSensorParallel": "TV datchigidan (hamroh)",
+      "toTVSensorOncoming": "TV datchikga (qarama-qarshi)",
       "goStraight": "To'g'ri harakat",
       "intersectionOrControlled": "Chorrahada yoki boshqariluvchi PY",
       "lastRecognizedGrz": "Oxirgi aniqlangan DRB",
@@ -919,7 +971,6 @@
       "signRightProhibited": "\"O'ngga burilish taqiqlangan\" belgisi",
       "solidMarkingsLeft": "Tutash belgi chap tomonda",
       "solidMarkingsRight": "Tutash belgi o'ng tomonda",
-      "toTVSensorOncoming": "TV datchikga (qarama-qarshi)",
       "tramTracksDirection": "Tramvay yo'llari bo'ylab harakatlanish yo'nalishi",
       "truckMovementProhibited": "Yuk mashinalarida harakatlanish taqiqlanadi (3.4 belgi)",
       "turningLeftProhibited": "Chapga burilish taqiqlanadi",
@@ -933,9 +984,18 @@
       "fixPassengerBelt": "Йўловчининг камарини маҳкамлаш",
       "passengerViolationsFormed": "Йўловчига нисбатан қоидабузарлик юзага келади",
       "withSimultaneousFixation": "Бир вақтнинг ўзида маҳкамлаш билан",
-      "enableQualificationsAtDifferentTimesOfTheDay": "Kun vaqtiga qarab malakani yoqish"
+      "enableQualificationsAtDifferentTimesOfTheDay": "Kun vaqtiga qarab malakani yoqish",
+      "movementAlongDividingLine": "Ayirgich tasma bo'ylab harakatlanish",
+      "turnLeftMarking": "Chapga burilish (belgilash)"
     },
-    "drivingTaxiBrick": "\"Ғишт\" йўлак остида такси ҳаракати"
+    "drivingTaxiBrick": "\"Ғишт\" йўлак остида такси ҳаракати",
+    "confirmationRequired": "Qoidabuzarlikni tasdiqlash majburiy",
+    "standingAtIsland": "Orolchada to'xtash (1.16.1 – 1.16.3 belgilash)",
+    "addGeometryZonesGroup": "Geometriya zonalari guruhini qo'shish",
+    "geometryZoneExistInChannelViolationType": "Ushbu geometriya zonasi joriy kanalda {vType} turidagi qoidabuzarlik uchun ishlatiladi",
+    "geometryZoneExistInLanesViolationType": "{vType} Ushbu geometriya zonasi {laneNumber}-chiziqda {vType} turidagi qoidabuzarlik uchun ishlatiladi",
+    "violationOfParkingMethodSign": "To'xtash joyiga qo'yish usulini buzish (qo'shimcha belgi bilan)",
+    "tramTracksOfOppositeDirection": "Qarama-qarshi yo'nalishdagi tramvay yo'llari"
   },
   "convertersPage": {
     "addConverter": "Konverterni qo'shish",
@@ -1018,7 +1078,13 @@
     "instability": "Beqarorlik, ms",
     "lastSync": "Dan beri so'nggi sinxron. ",
     "syncSource": "Sinxronizatsiyalash manbasi",
-    "timeZone": "Vaqt zonasi"
+    "timeZone": "Vaqt zonasi",
+    "editNtpServer": "NTP serverini tahrirlash",
+    "addNtpServer": "NTP serverini qo'shish",
+    "confirmRemovingNtpServer": "NTP serverini o'chirishni tasdiqlang: \"{host}\"",
+    "ntpServersSaved": "NTP serverlar sozlamalari saqlandi",
+    "azimuth5GpsTitle": "UTC (SU) shkalasi bilan sinxronizatsiya holati",
+    "synchronizationAccordingGpsdData": "GNSS ma'lumotlari bo'yicha sinxronizatsiya"
   },
   "errorPages": {
     "forbidden": {
@@ -1035,6 +1101,7 @@
     }
   },
   "errors": {
+    "cancelError": "Yuklashni bekor qilishda xatolik",
     "errorCode": "Xato kodi",
     "errorReceivingDataFromServer": "Serverdan ma'lumotlarni qabul qilishda xatolik yuz berdi",
     "errorText": "Xato matni",
@@ -1064,6 +1131,7 @@
     "Файл с правами не найден": "Ruxsatli fayl topilmadi",
     "Файл успешно сохранён": "Fayl muvaffaqiyatli saqlandi",
     "Файлы успешно загружены": "Fayllar muvaffaqiyatli yuklandi",
+    "fileRemoveConfirm": "Siz rostdan ham ''{var}'' faylini o'chirmoqchimisiz",
     "channelNotFound": "{var} канали топилмади",
     "Некорректные параметры JSON": "JSON параметрлари ҳақида маълумот",
     "Нет данных": "Маълумот йўқ",
@@ -1104,7 +1172,11 @@
     "simulatorMode": "Симулятор тариби",
     "innerGnss": "Ichki GNSS",
     "outerGnss": "Tashqi GNSS",
-    "receiver": "Qabul qiluvchi qurilma"
+    "receiver": "Qabul qiluvchi qurilma",
+    "glonass": "GLONASS",
+    "gps": "GPS",
+    "glonassAndGps": "GLONASS va GPS",
+    "gnssSystem": "GNSS tizimi"
   },
   "homePage": {
     "duploDialog": {
@@ -1159,12 +1231,15 @@
       "allCurrentLaneSettingsWillBeDeleted": "Диққат! Барча жорий чизиқ созламалари ўчирилади. Ишончингиз комилми?"
     },
     "mobile": {
+      "mapTilesUpload": "Geokodlash uchun xarita tayllari va ma'lumotlar bazalarini yuklash",
       "chooseZoneConfigFile": "Zona konfiguratsiya faylini tanlang",
       "currentAddress": "Hozirgi manzil",
       "currentViolation": "Hozirgi buzilish",
       "complexIsNotOnRoute": "Kompleks marshrutda emas",
       "fixationDisabled": "Majmuaning joylashuvi o‘zgargani yoki o‘chirilgani tufayli qayd avtomatik ravishda o‘chirildi. Iltimos, sozlamalarni tekshiring.",
-      "fixationDisabledIfNoViolations": "Diqqat! Qayd yoqilgan bo‘lsa, ma’muriy huquqbuzarliklar tarkibini o‘rnatish shart"
+      "fileSending": "Faylni yuborish",
+      "fixationDisabledIfNoViolations": "Diqqat! Qayd yoqilgan bo‘lsa, ma’muriy huquqbuzarliklar tarkibini o‘rnatish shart",
+      "browserConfirm": "Brauzer tovushni avtomatik ijro etishni bloklaydi. Tasdiqlashingiz talab qilinadi"
     }
   },
   "imagesPage": {
@@ -1217,7 +1292,8 @@
     "garbageMO": "Chiqindi МО",
     "roadScreen": "Ma'lumot taxtasi",
     "radar": "Radar",
-    "configEditor": "Konfiguratsiya tahrirlovchisi"
+    "configEditor": "Konfiguratsiya tahrirlovchisi",
+    "routes": "Marshrutlarni sozlash"
   },
   "metrologyPage": {
     "certificateSaved": "Sertifikat saqlandi",
@@ -1261,7 +1337,8 @@
         "stopMeasurement": "O'lchovlarni to'xtatish",
         "title": "Jonli video",
         "verificationMode": "Tekshirish rejimi",
-        "resetInterval": "Intervalni qayta tiklash"
+        "resetInterval": "Intervalni qayta tiklash",
+        "measureL": "Masofani o'lchash"
       }
     },
     "speedMeasurementError": {
@@ -1365,9 +1442,27 @@
       "static": "Statik",
       "title": "VLAN ro'yxati",
       "vidVlanId": "VID (VLAN ID)"
-    }
+    },
+    "poeForm": {
+      "title": "POE sozlamalari",
+      "port": "Port № {portNumber}",
+      "2pair15w": "2 juft/15 vt",
+      "2pair30w": "2 juft/30 vt",
+      "4pair15w": "4 juft/15 vt",
+      "4pair30w": "4 juft/30 vt",
+      "4pair45w": "4 juft/45 vt",
+      "4pair60w": "4 juft/60 vt",
+      "4pair75w": "4 juft/75 vt",
+      "4pair90w": "4 juft/90 vt",
+      "powerModes": "Quvvat rejimi",
+      "powerClasses": "Maks. beriladigan quvvat",
+      "inputVoltage": "Kirish kuchlanishi",
+      "payload": "Yuklama"
+    },
+    "poeConfigAreSaved": "POE sozlamalari saqlandi"
   },
   "parkingPage": {
+    "zoneAdded": "zonasi ",
     "applyPresetSettingsToast": "Preset №{var} sozlamalarini qo‘llash uchun sozlamalarni saqlang",
     "addArea": "Maydon qo'shish",
     "addPreset": "Preset qo'shish",
@@ -1642,7 +1737,8 @@
     "dateTime": "To'g'ri sana/vaqtni DD-MM-YYYY HH:mm:ss formatida kiriting",
     "date": "To'g'ri sanani DD-MM-YYYY formatida kiriting",
     "uniqueDuploConverterInstance": "Ushbu namunaviy nom allaqachon band",
-    "uniqueValue": "Qiymat yagona bo‘lishi kerak"
+    "uniqueValue": "Qiymat yagona bo‘lishi kerak",
+    "uniqueNtpServer": "Bunday NTP server allaqachon qo'shilgan"
   },
   "videoArchivePage": {
     "addImage": "Rasmni qo'shish",
@@ -1653,6 +1749,7 @@
   },
   "searchPage": {
     "edit": "Boshqaruv",
+    "searchHistory": "Qidiruv tarixi",
     "monitor": "Kuzatish",
     "searchType": "Qidiruv turi",
     "downloadLog": "Yuklash jurnalini yuklab olish",
@@ -1662,7 +1759,13 @@
     "pageTotalCount": "{page} sahifa {totalPages} dan",
     "renameSearch": "Qidiruv turini qayta nomlash",
     "editVehicleList": "Transport vositalari ro‘yxatini tahrirlash",
-    "deleteVehicleList": "Transport vositalari ro‘yxatini o‘chirish"
+    "deleteVehicleList": "Transport vositalari ro‘yxatini o‘chirish",
+    "uploadActualSearch": "Amaldagi qidiruv ro'yxatini yuklash",
+    "clearSearchHistory": "Qidiruv tarixini tozalash",
+    "fileIsUploadedFromUsb": "USB dan fayl yuklandi",
+    "uploadActualSearchConfirm": "DIQQAT! Fayl yuklanganda mavjud ma'lumotlar bazasi o'chiriladi va yangi ma'lumotlar bazasi yuklanadi",
+    "uploadedFileHistory": "Yuklangan fayllar tarixi",
+    "uploadedFilesHistory": "Yuklangan fayllar tarixi"
   },
   "videoSourcePage": {
     "brightnessChangedToast": "Yorqinlik o'zgardi",
@@ -2117,6 +2220,16 @@
         "article": "12.19 1-қ",
         "display_name": "Тўхташ усулини бузиш (8.6.1-8.6.9-жадвалдаги 6.4 белгиси)",
         "gost_name": "C2. Автотранспорт воситаларини тўхташ ёки тўхтатиш учун белгиланган қоидаларни бузиш"
+      },
+      "85": {
+        "display_name": "Ayirgich tasma bo'ylab harakatlanish",
+        "article": "12.15 1-b.",
+        "gost_name": "C16 Ayirgich tasma bo'ylab harakatlanish"
+      },
+      "86": {
+        "article": "12.19 1-b",
+        "display_name": "Orolchada to'xtash",
+        "gost_name": "С4 DST Р57144-2016 Yo'laklar, piyodalar yo'lagi, velosiped hama velopiyodalar yo'laklari bo'ylab harakatlanish"
       },
       "87": {
         "article": " 12.15 b-2",
@@ -2691,6 +2804,18 @@
         "display_name": "Hududning ifloslanishi",
         "gost_name": "C16. Hududning ifloslanishi"
       },
+      "993": {
+        "display_name": "Moskva tezkor diametri bo'ylab tranzit",
+        "gost_name": "Moskva tezkor diametri bo'ylab tranzit"
+      },
+      "994": {
+        "display_name": "Pullik yo'l uchastkasi",
+        "gost_name": "Pullik yo'l uchastkasi"
+      },
+      "995": {
+        "display_name": "Sochiluvchan yuklarni tashish qoidalarini buzish",
+        "gost_name": "Sochiluvchan yuklarni tashish qoidalarini buzish"
+      },
       "996": {
         "article": "12.6",
         "display_name": "Мотоцикл дубулғаларидан фойдаланиш қоидаларини бузиш",
@@ -2736,7 +2861,9 @@
     "Телефон": "Telefon",
     "Трамвайные пути": "Tramvay yo'llari",
     "Фары": "Faralar",
-    "Шлем": "Shlem"
+    "Шлем": "Shlem",
+    "Платный участок МСК": "Moskva pullik uchastkasi",
+    "Транзит по МСД": "Moskva tezkor diametri bo'ylab tranzit"
   },
   "violationsPage": {
     "downloadMaterial": "Materialni yuklab olish",
@@ -2771,7 +2898,8 @@
     "numberOfViolationsByFilter": "Filtr bo'yicha buzilishlar soni",
     "isLastViolation": "Bu oxirgi qoidabuzarlik",
     "nextViolation": "Keyingi qoidabuzarlik",
-    "prevViolation": "Oldingi qoidabuzarlik"
+    "prevViolation": "Oldingi qoidabuzarlik",
+    "downloadImgx": "IMGX ni yuklab olish"
   },
   "zonesConnect": {
     "checkImage": "Тасвирни текшириш",
