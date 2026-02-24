@@ -147,6 +147,7 @@
   },
   "common": {
     "actions": "Actions",
+    "fullMode": "Full-screen mode",
     "zone": "Zone",
     "dateOfOperation": "Date of operation",
     "selectFileToUpload": "Select file to upload",
@@ -172,17 +173,21 @@
       "block": "Lock",
       "calculate": "Calculate",
       "cancel": "Cancel",
+      "cancelUploading": "Cancel upload",
+      "cancelingUpload": "Upload cancellation",
       "changePassword": "Change password",
       "changesApplied": "The changes have been successfully applied",
       "check": "Check",
       "chooseFile": "Select a file",
       "close": "Close",
       "confirm": "Confirm",
+      "notifConfirm": "Allow notifications",
       "remove": "Remove",
       "confirmItemRemoval": "Confirm deletion of the item | Confirm deletion of \"{name}\"",
       "createImage": "Create an image",
       "decrease": "Decrease",
       "delete": "Delete",
+      "clear": "Clear",
       "download": "Download",
       "edit": "Edit",
       "enableIlluminator": "Switch on the IR illuminator",
@@ -200,6 +205,8 @@
       "resetValue": "Reset value",
       "save": "Save",
       "saveImage": "Save image",
+      "enlargeImage": "Zoom in",
+      "reduceImage": "Zoom out",
       "saveSettings": "Save settings",
       "search": "Find",
       "setValue": "Set value",
@@ -289,6 +296,8 @@
     "fixationHasBeenEnabled": "Fixation enabled",
     "flow": "Flow",
     "focalLength": "Focal length",
+    "road": "Road",
+    "segment": "Section",
     "focus": "Focus",
     "format": "Format",
     "fps": "FPS",
@@ -300,6 +309,12 @@
     "identifier": "Identifier",
     "image": "Image",
     "imageUpload": "Upload an image",
+    "serverDataLoading": "Downloading data from the server",
+    "uploading": "Downloading",
+    "connecting": "Connecting",
+    "complete": "Completed",
+    "updateComplete": "Update completed successfully",
+    "processing": "Data processing",
     "initialization": "Initialisation",
     "key": "Key",
     "latLon": "Latitude/Longitude",
@@ -907,16 +922,19 @@
     "videoSourceAliases": "Video source aliases | of video source alias",
     "violationClassifyAlgorithm": "Qualification algorithm",
     "violationTypeSettings": "Violation type settings",
+    "transitByMSD": "Transit via the Moscow High-Speed Diameter",
+    "paidSection": "Toll section",
     "violations": {
       "allowedDirectionMovement": "Permitted direction of travel",
       "atRailway": "At a railway crossing",
       "bandSelectionAlgorithm": "Band selection algorithm",
       "bicyclePathMovement": "Traffic on a cycle lane",
-      "bothDirections": "Both directions",
       "byMotionSpeed": "By speed of movement, pixels/frame",
       "crossingStopLine": "Crossing the stop line",
       "forbiddenDirection": "Prohibited direction of travel",
+      "bothDirections": "Both directions",
       "fromTVSensorParallel": "from TV sensor (Passing traffic)",
+      "toTVSensorOncoming": "to the TV sensor (opposite-direction)",
       "goStraight": "Moving straight",
       "intersectionOrControlled": "At an intersection or controlled pedestrian crossing",
       "lastRecognizedGrz": "Last recognised vehicle registration plate",
@@ -953,7 +971,6 @@
       "signRightProhibited": "\"No Right Turn\" sign",
       "solidMarkingsLeft": "Solid markings on the left",
       "solidMarkingsRight": "Solid markings on the right",
-      "toTVSensorOncoming": "to the TV sensor (opposite-direction)",
       "tramTracksDirection": "Direction of traffic on tram tracks",
       "truckMovementProhibited": "No lorry traffic (sign 3.4)",
       "turningLeftProhibited": "Turning left is prohibited",
@@ -1084,6 +1101,7 @@
     }
   },
   "errors": {
+    "cancelError": "Error cancelling upload",
     "errorCode": "Error code",
     "errorReceivingDataFromServer": "Error when receiving data from the server",
     "errorText": "Error text",
@@ -1113,6 +1131,7 @@
     "Файл с правами не найден": "Rights file not found",
     "Файл успешно сохранён": "The file has been successfully saved",
     "Файлы успешно загружены": "The files have been successfully uploaded",
+    "fileRemoveConfirm": "Are you sure you want to delete the file “{var}”?",
     "channelNotFound": "Channel {var} not found",
     "Некорректные параметры JSON": "Incorrect JSON parameters",
     "Нет данных": "No data",
@@ -1153,7 +1172,11 @@
     "simulatorMode": "Simulator mode",
     "innerGnss": "Inner GNSS",
     "outerGnss": "Outer GNSS",
-    "receiver": "Receiver"
+    "receiver": "Receiver",
+    "glonass": "GLONASS",
+    "gps": "GPS",
+    "glonassAndGps": "GLONASS and GPS",
+    "gnssSystem": "GNSS system"
   },
   "homePage": {
     "duploDialog": {
@@ -1208,12 +1231,15 @@
       "allCurrentLaneSettingsWillBeDeleted": "Attention! All current lane settings will be deleted. Are you sure?"
     },
     "mobile": {
+      "mapTilesUpload": "Downloading map tiles and geocoding databases",
       "chooseZoneConfigFile": "Choose zone config file",
       "currentAddress": "Current address",
       "currentViolation": "Current violation",
       "complexIsNotOnRoute": "The complex is not on the route",
       "fixationDisabled": "The fix has been automatically disabled due to a change or removal of the complex location. Please check the settings.",
-      "fixationDisabledIfNoViolations": "Attention! When the fixation is switched on, the composition of the Administrative offence must be set"
+      "fileSending": "Uploading file",
+      "fixationDisabledIfNoViolations": "Attention! When the fixation is switched on, the composition of the Administrative offence must be set",
+      "browserConfirm": "Your browser is blocking automatic audio playback. Your confirmation is required."
     }
   },
   "imagesPage": {
@@ -1436,6 +1462,7 @@
     "poeConfigAreSaved": "POE settings saved"
   },
   "parkingPage": {
+    "zoneAdded": "Zone “{var}” added",
     "applyPresetSettingsToast": "To apply the settings of preset #{var}, you must save the settings",
     "addArea": "Add area",
     "addPreset": "Add a preset",
@@ -1722,6 +1749,7 @@
   },
   "searchPage": {
     "edit": "Manage",
+    "searchHistory": "Search history",
     "monitor": "Tracking",
     "searchType": "Type of search",
     "downloadLog": "Download the download log",
@@ -1733,6 +1761,7 @@
     "editVehicleList": "Edit the list of vehicles",
     "deleteVehicleList": "Delete vehicle list",
     "uploadActualSearch": "Upload actual searches list",
+    "clearSearchHistory": "Clear search history",
     "fileIsUploadedFromUsb": "The file is uploaded from USB",
     "uploadActualSearchConfirm": "ATTENTION! When uploading file, the existing database will be deleted and a new database will be uploaded.",
     "uploadedFileHistory": "Uploaded file history",
@@ -2191,6 +2220,11 @@
         "article": "12.19 p.1",
         "display_name": "Parking violation (sign 6.4 with Tables 8.6.1-8.6.9)",
         "gost_name": "C2. Violation of the established rules of parking or stopping of vehicles"
+      },
+      "85": {
+        "display_name": "Movement along the dividing line",
+        "article": "12.15 pt. 1",
+        "gost_name": "C16 Movement along the dividing line"
       },
       "86": {
         "article": " 12.19 p.1",
@@ -2770,6 +2804,18 @@
         "display_name": "Pollution of the area",
         "gost_name": "C16. Contamination of the territory"
       },
+      "993": {
+        "display_name": "Transit via the Moscow High-Speed Diameter",
+        "gost_name": "Transit via the Moscow High-Speed Diameter"
+      },
+      "994": {
+        "display_name": "Toll road section",
+        "gost_name": "Toll road section"
+      },
+      "995": {
+        "display_name": "Violation of bulk cargo transportation rules",
+        "gost_name": "Violation of bulk cargo transportation rules"
+      },
       "996": {
         "article": "12.6",
         "display_name": "Violation of motorbike helmet regulations",
@@ -2815,7 +2861,9 @@
     "Телефон": "Phone",
     "Трамвайные пути": "Tram tracks",
     "Фары": "Headlights",
-    "Шлем": "Helmet"
+    "Шлем": "Helmet",
+    "Платный участок МСК": "Moscow toll section",
+    "Транзит по МСД": "Transit via the Moscow High-Speed Diameter"
   },
   "violationsPage": {
     "downloadMaterial": "Download the material",
